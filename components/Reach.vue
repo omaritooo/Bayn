@@ -1,7 +1,8 @@
 <template>
-    <div class="px-80 pt-[130px]">
+    <div class="px-80 pt-[130px] relative overflow-x-hidden">
+        <div class="grad"></div>
         <div class="flex gap-x-[160px]">
-            <div class="py-40">
+            <div class="relative z-30 py-40">
                 <h1 class="font-semibold text-[#2C3A4B] text-[55px] leading-[73px] max-w-[600px]">
                     Do more to reach
                     higher engagement
@@ -384,4 +385,17 @@ export default {
 
 
 <style>
+.grad {
+    position: absolute;
+    width: 99.1vw;
+    height: 901.87px;
+    left: 0px;
+    top: 2321.18px;
+
+    background: radial-gradient(
+        21.55% 45.87% at 65.87% 50%,
+        #d5e6ff 0%,
+        #ffffff 100%
+    );
+}
 </style>

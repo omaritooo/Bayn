@@ -1,7 +1,7 @@
 <template>
   <div class="!overflow-x-hidden font-semibold bg-[#E5E5E5] px-80">
     <div class="relative py-16">
-      <div class="bg-[#FFFAFF] relative px-24 py-[5.75rem] rounded-xl flex justify-between">
+      <div class="bg-[#FFFAFF] z-50 relative px-24 py-[5.75rem] rounded-xl flex justify-between">
         <div class="text-[24px] my-auto gap-y-4 text-[#394452] z-50">
           <h3 class="text-[58px] text-[#0A2533] font-bold">It is free</h3>
           <div class="font-semibold">Can’t wait to start join us as a merchant</div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="py-[178px] bg-white px-80">
+    <div class="py-[178px] px-80">
         <h1
             class="font-semibold leading-[53px] text-[55px] text-center text-[#0A2533]"
         >Million Businesses in 1 Platform</h1>
