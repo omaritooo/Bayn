@@ -1,17 +1,6 @@
 <template>
   <div class="!overflow-x-hidden font-semibold bg-white px-80">
-    <div class="relative py-16">
-      <div class="bg-[#FFFAFF] z-50 relative px-24 py-[5.75rem] rounded-xl flex justify-between">
-        <div class="text-[24px] my-auto gap-y-4 text-[#394452] z-50">
-          <h3 class="text-[58px] text-[#0A2533] font-bold">It is free</h3>
-          <div class="font-semibold">Can’t wait to start join us as a merchant</div>
-        </div>
-        <div class="z-50 my-auto">
-          <button class="px-10 text-white bg-black rounded-lg text-[24px] py-4">Start your campaign</button>
-        </div>
-      </div>
-      <div class="absolute !z-[1] overflow-x-hidden w-screen h-[2px] bg-[#EBEEF2] top-1/2 -left-80"></div>
-    </div>
+  
 
     <div class="flex justify-between py-16">
       <div class="flex flex-col gap-y-5 text-[16px] text-[#2C3A4B] font-semibold">

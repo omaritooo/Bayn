@@ -1,6 +1,6 @@
 <template>
-  <div class="overflox-x-hidden bg-[#E5E5E5]">
-    <div class="relative overflow-x-hidden overflow-y-hidden">
+  <div class="bg-white overflox-x-hidden">
+    <div class="relative ">
       <div class="z-10 gradient"></div>
       <Navbar class="relative z-30" />
       <Header class="relative z-30" />
@@ -24,7 +24,7 @@ html {
 }
 .gradient {
   position: absolute;
-  width: 1910px;
+  width: 100%;
   height: 887.07px;
   left: 0px;
   top: 0px;

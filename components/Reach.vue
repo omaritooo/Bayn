@@ -384,13 +384,13 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
 .grad {
     position: absolute;
-    width: 99.1vw;
+    width: 100%;
     height: 901.87px;
     left: 0px;
-    top: 2321.18px;
+    top: 0;
 
     background: radial-gradient(
         21.55% 45.87% at 65.87% 50%,

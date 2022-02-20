@@ -2,14 +2,14 @@
     <div class="flex justify-between px-80">
         <div class="relative my-auto">
             <h1
-                class="text-[48px] leading-[73px] font-semibold text-[#2C3A4B] max-w-[610px]"
+                class="text-[48px] leading-[73px] font-[500] text-[#2C3A4B] max-w-[660px]"
             >A livestreaming commerce Platform that transforms your business</h1>
             <p
                 class="text-[18px] leading-[30px] font-[500] my-5 max-h-[151.89px] text-[#394452] max-w-[342.38px]"
             >Bayn connects people to their needs for saving time & effort to reach maximum entertainment</p>
             <div class="flex gap-x-[12px]">
                 <button
-                    class="bg-black font-[500] max-w-[195px] leading-[18.78px] rounded-[8px] text-[16px] px-[20px] py-[15px] text-white w-fit"
+                    class="bg-black font-[500]  leading-[18.78px] rounded-[8px] text-[16px] px-[20px] py-[15px] text-white w-fit"
                 >I’m a business owner</button>
                 <button
                     class="bg-transparent font-[500] leading-[16.44px] rounded-[8px] text-[16px] px-[20px] py-[15px] text-black border-[1px] border-black w-fit"
@@ -31,7 +31,7 @@
                 />
             </svg>
             <svg
-                class="absolute top-[38.5%] -right-10"
+                class="absolute top-[38.5%] -right-6"
                 width="29"
                 height="8"
                 viewBox="0 0 29 8"
@@ -46,7 +46,7 @@
                 />
             </svg>
             <svg
-                class="absolute top-[39.5%] -right-10"
+                class="absolute top-[39.5%] -right-6"
                 width="20"
                 height="25"
                 viewBox="0 0 20 25"
@@ -62,7 +62,7 @@
             </svg>
 
             <svg
-                class="absolute -right-7 -top-2"
+                class="absolute right-4 -top-2"
                 width="40"
                 height="31"
                 viewBox="0 0 40 31"
