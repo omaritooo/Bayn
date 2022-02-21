@@ -1,5 +1,6 @@
 <template>
   <div>
+      <Success/>
       <Shoppable/>
       <Commerce/>
       <Paid/>
