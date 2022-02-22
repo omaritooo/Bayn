@@ -6,7 +6,7 @@
         </div>-->
         <Marquee
             class="absolute z-10 top-[10%] max-w-[1920px] text-[160px] h-[279.81px]"
-            :duration="15"
+            :duration="25"
             :repeat="3"
         >
             <span
