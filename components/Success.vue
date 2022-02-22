@@ -1,30 +1,22 @@
 <template>
-  <div class="pt-[180px] pb-[93.16px] px-[350px] relative">
-    <div class="flex flex-col">
+  <div class>
+    <div class="relative flex flex-col w-[100%] pt-[180px] pb-[93.16px] px-[350px]">
       <h1
         class="text-[48px] leading-[73px] font-[600] text-center text-[#0A2533]"
-      >
-        We’re here for you
-      </h1>
+      >We’re here for you</h1>
       <p
-        class="
-          text-[24px]
-          leading-[32px]
-          max-w-[497.85px]
-          mx-auto
-          font-[500]
-          mt-[11.79px]
-          text-center text-[#394452]
-        "
-      >
-        it is designed to give you all the support to achieve success.
-      </p>
+        class="text-[24px] leading-[32px] max-w-[497.85px] mx-auto font-[500] mt-[11.79px] text-center text-[#394452]"
+      >it is designed to give you all the support to achieve success.</p>
       <div>
         <div class="absolute top-[16%] right-80">
           <img src="/Ellipse 1.png" />
+          <img class="absolute top-2 right-2" src="/Frame 18.png" />
+        </div>
+        <div class="absolute bottom-[7%] left-[25%]">
+          <img src="/Ellipse 2.png" alt />
+          <img class="absolute -left-4 bottom-3" src="/Frame 19.png" />
         </div>
         <svg
-          class="absolute right-1/3 top-[15px]"
           width="240"
           height="87"
           viewBox="0 0 240 87"
@@ -77,6 +69,7 @@
             fill="black"
           />
         </svg>
+
         <svg
           class="absolute top-[45%] right-80"
           width="42"
@@ -163,18 +156,84 @@
             stroke-linejoin="round"
           />
         </svg>
+        <svg
+          class="absolute bottom-[35%] right-[28%]"
+          width="47"
+          height="67"
+          viewBox="0 0 47 67"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M44.8066 64.6842C39.5733 56.3558 33.9066 47.8227 27.8066 39.0847C19.4866 27.215 11.1066 16.1219 2.80664 5.8053"
+            stroke="black"
+            stroke-width="3"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+          />
+          <path
+            d="M7.80664 37.3781C7.41208 25.5563 5.3984 13.8145 1.80664 2.39197C10.9256 8.23064 21.0443 12.8357 31.8066 16.0451"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <svg
+          class="absolute bottom-[26%] right-[23%]"
+          width="62"
+          height="33"
+          viewBox="0 0 62 33"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M59.3066 2.35071C59.8277 7.48523 59.491 12.6569 58.3066 17.7106"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M2.30664 10.0306C19.1342 19.1289 37.2895 26.3012 56.3066 31.3636"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <svg
+          class="absolute left-[20%] bottom-[19%]"
+          width="68"
+          height="41"
+          viewBox="0 0 68 41"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M52.3066 9.2578C35.1466 10.3553 17.9412 7.71254 2.30664 1.57776"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M53.3066 17.7909C43.9566 18.6442 33.9366 19.25 23.3066 19.4975C16.3666 19.6511 9.69997 19.6511 3.30664 19.4975"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M66.3066 28.0306C58.8041 29.5355 51.4489 31.5325 44.3066 34.0038C39.5666 35.6336 35.2366 37.417 31.3066 39.1237"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
       </div>
-      <div
-        class="
-          flex flex-col
-          mx-auto
-          mt-[25px]
-          text-center
-          w-fit
-          justify-center
-          gap-y-[18px]
-        "
-      >
+      <div class="flex flex-col mx-auto mt-[25px] text-center w-fit justify-center gap-y-[18px]">
         <div class="flex gap-x-[15px]">
           <div class="flex gap-x-[6.8px]">
             <svg
@@ -196,18 +255,11 @@
               </g>
               <defs>
                 <clipPath id="clip0_1_1371">
-                  <rect
-                    width="18"
-                    height="18"
-                    fill="white"
-                    transform="translate(0 0.244629)"
-                  />
+                  <rect width="18" height="18" fill="white" transform="translate(0 0.244629)" />
                 </clipPath>
               </defs>
             </svg>
-            <span class="text-[18px] text-[#394452] leading-[24px] font-[500]">
-              Time Management
-            </span>
+            <span class="text-[18px] text-[#394452] leading-[24px] font-[500]">Time Management</span>
           </div>
           <div class="flex gap-x-[6.8px]">
             <svg
@@ -226,9 +278,9 @@
                 fill="#394452"
               />
             </svg>
-            <span class="text-[18px] text-[#394452] leading-[24px] font-[500]">
-              Direct connection with store owners
-            </span>
+            <span
+              class="text-[18px] text-[#394452] leading-[24px] font-[500]"
+            >Direct connection with store owners</span>
           </div>
         </div>
         <div class="flex gap-x-[15px]">
@@ -248,19 +300,14 @@
               </g>
               <defs>
                 <clipPath id="clip0_1_1382">
-                  <rect
-                    width="18.6"
-                    height="16"
-                    fill="white"
-                    transform="translate(0 0.244629)"
-                  />
+                  <rect width="18.6" height="16" fill="white" transform="translate(0 0.244629)" />
                 </clipPath>
               </defs>
             </svg>
 
-            <span class="text-[18px] text-[#394452] leading-[24px] font-[500]">
-              Documented requirements
-            </span>
+            <span
+              class="text-[18px] text-[#394452] leading-[24px] font-[500]"
+            >Documented requirements</span>
           </div>
           <div class="flex gap-x-[6.8px]">
             <svg
@@ -276,13 +323,13 @@
               />
             </svg>
 
-            <span class="text-[18px] text-[#394452] leading-[24px] font-[500]">
-              Long term relationships
-            </span>
+            <span
+              class="text-[18px] text-[#394452] leading-[24px] font-[500]"
+            >Long term relationships</span>
           </div>
         </div>
         <svg
-          class="mx-auto mt-[96px]"
+          class="mx-auto mt-[14px]"
           width="284"
           height="78"
           viewBox="0 0 284 78"
@@ -304,6 +351,141 @@
             stroke-linejoin="round"
           />
         </svg>
+      </div>
+    </div>
+    <div class="flex mt-12 px-[350px] justify-between">
+      <div class="flex relative flex-col gap-y-[24px]">
+        <img class="max-w-[124px]" src="/handup.png" alt />
+        <h1 class="font-[600] text-[48px] leading-[73px] text-[#0A2533]">Flow of success</h1>
+        <div
+          class="flex flex-col text-[#0A2533] font-[500] leading-[58px] max-w-[632px] text-[24px]"
+        >
+          <span>Setup your profile and cusomize your categories</span>
+          <span>Get Hired by hundreads of stroes</span>
+          <span>Go live with clear content and Instrcutions</span>
+          <span>Manage your schedule and campaigns with ease</span>
+          <span>Provide shoppable videos that can be accessed anytime</span>
+        </div>
+        <!-- arrow one -->
+        <svg
+          class="absolute top-[53%] left-[82%]"
+          width="69"
+          height="59"
+          viewBox="0 0 69 59"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M34.1333 43.3765C27.1475 41.8268 12.1721 39.1245 8.15627 40.7126"
+            stroke="#1E1E27"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+          <path
+            d="M8.06097 40.696C15.7521 35.3624 20.7719 30.8435 24.1118 20.9278"
+            stroke="#1E1E27"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+          <path
+            d="M57.078 2.98195C57.4538 2.24366 57.1599 1.34052 56.4216 0.964722C55.6834 0.58893 54.7802 0.882791 54.4044 1.62108L57.078 2.98195ZM13.2886 36.8407C12.5019 37.1002 12.0745 37.9483 12.334 38.7351C12.5935 39.5218 13.4416 39.9492 14.2283 39.6897L13.2886 36.8407ZM54.4044 1.62108C50.0045 10.2653 35.5515 29.4976 13.2886 36.8407L14.2283 39.6897C37.4921 32.0165 52.4589 12.0568 57.078 2.98195L54.4044 1.62108Z"
+            fill="#1E1E27"
+          />
+        </svg>
+        <!-- arrow two -->
+        <svg
+          class="absolute top-[59%] left-[63%]"
+          width="69"
+          height="71"
+          viewBox="0 0 69 71"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M47.567 31.5983C48.324 38.7137 50.5344 53.7696 53.3194 57.07"
+            stroke="#1E1E27"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+          <path
+            d="M53.3339 57.1657C45.8276 51.5749 39.9448 48.2567 29.4817 48.2504"
+            stroke="#1E1E27"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+          <path
+            d="M1.96693 22.7209C1.14738 22.6 0.384953 23.1663 0.263999 23.9858C0.143045 24.8054 0.709368 25.5678 1.52892 25.6888L1.96693 22.7209ZM48.014 53.4389C48.5106 54.102 49.4507 54.2369 50.1138 53.7402C50.7768 53.2436 50.9117 52.3034 50.415 51.6404L48.014 53.4389ZM1.52892 25.6888C11.1245 27.1049 33.9598 34.6764 48.014 53.4389L50.415 51.6404C35.729 32.0342 12.0406 24.2076 1.96693 22.7209L1.52892 25.6888Z"
+            fill="#1E1E27"
+          />
+        </svg>
+        <!-- arrow three -->
+        <svg
+          class="absolute top-[70%] left-[78%]"
+          width="70"
+          height="72"
+          viewBox="0 0 70 72"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M48.1592 31.8556C48.9162 38.971 51.1266 54.0269 53.9116 57.3273"
+            stroke="#1E1E27"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+          <path
+            d="M53.9261 57.423C46.4198 51.8322 40.537 48.514 30.0739 48.5078"
+            stroke="#1E1E27"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+          <path
+            d="M2.55913 22.9782C1.73958 22.8573 0.977147 23.4236 0.856193 24.2432C0.735238 25.0627 1.30156 25.8251 2.12111 25.9461L2.55913 22.9782ZM48.6061 53.6963C49.1028 54.3593 50.0429 54.4942 50.706 53.9975C51.369 53.5009 51.5039 52.5608 51.0072 51.8977L48.6061 53.6963ZM2.12111 25.9461C11.7167 27.3623 34.5519 34.9337 48.6061 53.6963L51.0072 51.8977C36.3212 32.2916 12.6328 24.465 2.55913 22.9782L2.12111 25.9461Z"
+            fill="#1E1E27"
+          />
+        </svg>
+        <!-- arrow four  -->
+        <svg
+          class="absolute top-[81%] left-[92%]"
+          width="70"
+          height="71"
+          viewBox="0 0 70 71"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M48.1394 31.5536C48.8964 38.669 51.1068 53.7249 53.8918 57.0253"
+            stroke="#1E1E27"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+          <path
+            d="M53.9063 57.121C46.4 51.5302 40.5172 48.212 30.0541 48.2058"
+            stroke="#1E1E27"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+          <path
+            d="M2.53932 22.6762C1.71977 22.5553 0.957341 23.1216 0.836387 23.9411C0.715432 24.7607 1.28176 25.5231 2.10131 25.6441L2.53932 22.6762ZM48.5863 53.3943C49.083 54.0573 50.0231 54.1922 50.6862 53.6955C51.3492 53.1989 51.4841 52.2588 50.9874 51.5957L48.5863 53.3943ZM2.10131 25.6441C11.6969 27.0603 34.5321 34.6317 48.5863 53.3943L50.9874 51.5957C36.3014 31.9896 12.613 24.163 2.53932 22.6762L2.10131 25.6441Z"
+            fill="#1E1E27"
+          />
+        </svg>
+      </div>
+      <div class="flex flex-col mt-auto gap-y-[74px]">
+        <div class="flex gap-x-[44px]">
+          <div class="translate-y-[103px]">
+            <img width="150.86px" height="150.86px" src="/woman.png" />
+          </div>
+          <div>
+            <img width="150.86px" height="150.86px" src="/woman.png" />
+          </div>
+          <div class="translate-y-[200px]">
+            <img width="150.86px" height="150.86px" src="/woman.png" />
+          </div>
+        </div>
+        <div>
+          <img class="mx-auto" src="/trophy.png" alt />
+        </div>
       </div>
     </div>
   </div>

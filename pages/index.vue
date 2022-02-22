@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white overflox-x-hidden">
-    <div class="relative ">
+    <div class="relative">
       <div class="z-10 gradient"></div>
       <Navbar class="relative z-30" />
       <Header class="relative z-30" />
@@ -18,7 +18,7 @@
 <script>
 export default {}
 </script>
-<style scoped>
+<style >
 html {
   font-family: "Raleway", sans-serif;
 }
