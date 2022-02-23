@@ -1,33 +1,108 @@
 <template>
   <div
-    class="!overflow-x-hidden font-semibold bg-white px-[19px] md:px-[36px] xl:px-[108px] 2xl:px-80"
+    class="
+      !overflow-x-hidden
+      font-semibold
+      bg-white
+      px-[19px]
+      md:px-[36px]
+      xl:px-[108px]
+      2xl:px-80
+    "
   >
     <div class="relative py-16">
       <div
-        class="bg-[#FFFAFF] z-50 relative px-[16px] xl:px-[105px] pt-[30px] xl:pt-[5.75rem] rounded-xl xl:flex-row flex-col flex justify-between"
+        class="
+          bg-[#FFFAFF]
+          z-50
+          relative
+          px-[16px]
+          xl:px-[105px]
+          py-[30px]
+          xl:pt-[5.75rem]
+          rounded-xl
+          xl:flex-row
+          flex-col flex
+          justify-between
+        "
       >
-        <div class="my-auto gap-y-[25px] xl:gap-y-4 text-[#394452] z-50">
+        <div class="gap-y-[25px] xl:gap-y-4 text-[#394452] z-50">
           <h3
-            class="xl:text-left text-[38px] text-center xl:text-[58px] xl:leading-[45px] text-[#0A2533] font-[600]"
-          >It is free</h3>
+            class="
+              xl:text-left
+              text-[38px] text-center
+              xl:text-[58px] xl:leading-[45px]
+              text-[#0A2533]
+              font-[600]
+            "
+          >
+            It is free
+          </h3>
           <div
-            class="font-[500] text-center xl:text-left xl:text-[24px] text-[18px]"
-          >Can’t wait to start join us as a merchant</div>
+            class="
+              font-[500]
+              text-center
+              xl:text-left xl:text-[24px]
+              text-[18px]
+            "
+          >
+            Can’t wait to start join us as a merchant
+          </div>
         </div>
         <div class="z-50 mx-auto xl:mt-0 mt-[20px] xl:mx-0 xl:my-auto">
           <button
-            class="px-[40px] xl:mx-0 mx-auto text-white bg-black rounded-lg text-[13px] xl:text-[24px] py-[12px] xl:py-[16px]"
-          >Start your campaign</button>
+            class="
+              px-[40px]
+              xl:mx-0
+              mx-auto
+              text-white
+              bg-black
+              rounded-lg
+              text-[13px]
+              xl:text-[24px]
+              py-[12px]
+              xl:py-[16px]
+            "
+          >
+            Start your campaign
+          </button>
         </div>
       </div>
-      <div class="absolute !z-[1] overflow-x-hidden w-screen h-[2px] bg-[#EBEEF2] top-1/2 -left-80"></div>
+      <div
+        class="
+          absolute
+          !z-[1]
+          overflow-x-hidden
+          w-screen
+          h-[2px]
+          bg-[#EBEEF2]
+          top-1/2
+          -left-80
+        "
+      ></div>
     </div>
 
     <div
-      class="xl:flex flex xl:flex-row flex-col md:hidden justify-between md:py-[79px] xl:py-[142px]"
+      class="
+        xl:flex
+        flex
+        xl:flex-row
+        flex-col
+        md:hidden
+        justify-between
+        md:py-[79px]
+        xl:py-[142px]
+      "
     >
       <div
-        class="flex flex-col mb-[72px] gap-y-[24px] md:gap-y-[42px] text-[16px] text-[#2C3A4B] font-semibold"
+        class="
+          flex flex-col
+          mb-[72px]
+          gap-y-[24px]
+          md:gap-y-[42px]
+          text-[16px] text-[#2C3A4B]
+          font-semibold
+        "
       >
         <svg
           width="69"
@@ -58,9 +133,16 @@
           />
         </svg>
         <div>
-          <p class="max-w-[209px] font-[600] text-[16px] leading-[25px] text-[#2C3A4B]">
-            Empower People, Empower
-            Community.
+          <p
+            class="
+              max-w-[209px]
+              font-[600]
+              text-[16px]
+              leading-[25px]
+              text-[#2C3A4B]
+            "
+          >
+            Empower People, Empower Community.
           </p>
         </div>
       </div>
@@ -93,7 +175,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1332">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -112,7 +199,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1334">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -135,7 +227,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1336">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -168,7 +265,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1340">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -190,7 +292,12 @@
           </g>
           <defs>
             <clipPath id="clip0_70_1332">
-              <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+              <rect
+                width="24"
+                height="24"
+                fill="white"
+                transform="translate(0.0917969)"
+              />
             </clipPath>
           </defs>
         </svg>
@@ -209,7 +316,12 @@
           </g>
           <defs>
             <clipPath id="clip0_70_1334">
-              <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+              <rect
+                width="24"
+                height="24"
+                fill="white"
+                transform="translate(0.0917969)"
+              />
             </clipPath>
           </defs>
         </svg>
@@ -232,7 +344,12 @@
           </g>
           <defs>
             <clipPath id="clip0_70_1336">
-              <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+              <rect
+                width="24"
+                height="24"
+                fill="white"
+                transform="translate(0.0917969)"
+              />
             </clipPath>
           </defs>
         </svg>
@@ -263,14 +380,26 @@
           </g>
           <defs>
             <clipPath id="clip0_70_1340">
-              <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+              <rect
+                width="24"
+                height="24"
+                fill="white"
+                transform="translate(0.0917969)"
+              />
             </clipPath>
           </defs>
         </svg>
       </div>
     </div>
     <div class="py-[79px] hidden lg:hidden md:flex gap-x-[106px]">
-      <div class="flex flex-col gap-y-[42px] text-[16px] text-[#2C3A4B] font-semibold">
+      <div
+        class="
+          flex flex-col
+          gap-y-[42px]
+          text-[16px] text-[#2C3A4B]
+          font-semibold
+        "
+      >
         <svg
           width="69"
           height="26"
@@ -300,9 +429,16 @@
           />
         </svg>
         <div>
-          <p class="max-w-[209px] font-[600] text-[16px] leading-[25px] text-[#2C3A4B]">
-            Empower People, Empower
-            Community.
+          <p
+            class="
+              max-w-[209px]
+              font-[600]
+              text-[16px]
+              leading-[25px]
+              text-[#2C3A4B]
+            "
+          >
+            Empower People, Empower Community.
           </p>
         </div>
 
@@ -322,7 +458,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1332">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -341,7 +482,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1334">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -364,7 +510,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1336">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -395,7 +546,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1340">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -415,14 +571,29 @@
       </div>
     </div>
     <div
-      class="pb-[47px] mt-[63px] md:mt-0 md:pb-[35px] xl:pb-[80px] flex md:flex-row gap-y-[20px] flex-col text-center md:text-left justify-between font-[600] leading-[32px] text-[14px] text-[#2C3A4B]"
+      class="
+        pb-[47px]
+        mt-[63px]
+        md:mt-0 md:pb-[35px]
+        xl:pb-[80px]
+        flex
+        md:flex-row
+        gap-y-[20px]
+        flex-col
+        text-center
+        md:text-left
+        justify-between
+        font-[600]
+        leading-[32px]
+        text-[14px] text-[#2C3A4B]
+      "
     >
-      <div
-        class="order-last md:order-first"
-      >{{ new Date().getFullYear() }} Bayn Limited. All Rights Reserved</div>
+      <div class="order-last md:order-first">
+        {{ new Date().getFullYear() }} Bayn Limited. All Rights Reserved
+      </div>
       <div>
         <div
-          class="flex justify-center order-first mx-auto md:order-last md:justify-end md:mx-0 gap-x-4"
+          class="flex justify-center order-first mx-auto  md:order-last md:justify-end md:mx-0 gap-x-4"
         >
           <nuxt-link to>Terms and Conditions</nuxt-link>
           <nuxt-link to>Privacy Policy</nuxt-link>
@@ -433,9 +604,7 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style scoped>
