@@ -1,5 +1,5 @@
 <template>
-    <nav class="flex justify-between px-80 py-[78px]">
+    <nav class="flex justify-between xl:px-[108px] 2xl:px-80 2xl:py-[78px]">
         <nuxt-link class="my-auto" to="/">
             <svg
                 width="69"
