@@ -3,7 +3,7 @@
     <div class="gradi"></div>
     <div class="relative z-30">
       <img src="/Rectangle 21.png" />
-      <img class="absolute left-0 top-[44%]" src="/Rectangle 1281.png" alt="" />
+      <img class="absolute left-0 top-[44%]" src="/Rectangle 1281.png" alt />
       <svg
         class="absolute top-[66%] -left-[3%]"
         width="122"
@@ -53,61 +53,19 @@
       </svg>
 
       <h1
-        class="
-          mt-[14px]
-          max-w-[473px]
-          text-[55px]
-          leading-[73px]
-          font-[600]
-          text-[#0A2533]
-        "
-      >
-        Shoppable Stories
-      </h1>
-      <p
-        class="
-          text-[24px]
-          leading-[32px]
-          font-[500]
-          max-w-[497.85px]
-          text-[#394452]
-          mt-[36px]
-        "
-      >
+        class="mt-[14px] max-w-[284px] text-[55px] leading-[73px] font-[600] text-[#0A2533]"
+      >Shoppable Stories</h1>
+      <p class="text-[24px] leading-[32px] font-[500] max-w-[497.85px] text-[#394452] mt-[36px]">
         Keep attached to your clients through unlimited number of shoppable
         stories per day
       </p>
       <div class="flex gap-x-[15px] mt-[45px]">
         <div
-          class="
-            px-[20px]
-            py-[10px]
-            bg-transparent
-            rounded-[8px]
-            text-[#56545D] text-[14px]
-            leading-[16.44px]
-            font-[600]
-            border-[1px] border-[#F1F1F1]
-            w-fit
-          "
-        >
-          Live stream
-        </div>
+          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+        >Live stream</div>
         <div
-          class="
-            px-[20px]
-            py-[10px]
-            bg-transparent
-            rounded-[8px]
-            text-[#56545D] text-[14px]
-            leading-[16.44px]
-            font-[600]
-            border-[1px] border-[#F1F1F1]
-            w-fit
-          "
-        >
-          Live shopping
-        </div>
+          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+        >Live shopping</div>
       </div>
     </div>
   </div>

@@ -6,8 +6,8 @@
         <h2
             class="font-[500] mt-[29px] leading-[40px] text-[24px] text-center text-[#394452]"
         >You will be able to market your businesses through the different solutions</h2>
-        <div class="flex justify-around mt-[59px]">
-            <div class="flex flex-col gap-y-[23px]">
+        <div class="flex justify-center gap-x-[222.5px] mt-[59px] ml-20">
+            <div class="flex flex-col gap-y-[22.6px]">
                 <svg
                     class="mx-auto"
                     width="90"
@@ -38,6 +38,9 @@
                 <!-- <p
                     class="mx-auto text-[#0A2533] text-[22px] leading-[40px] font-bold text-center"
                 >Live Commerce</p>-->
+                <p
+                    class="text-[#0A2533] text-[22px] leading-[40px] font-semibold text-center"
+                >Live Commerce</p>
             </div>
             <div class="flex flex-col my-auto gap-y-[23px]">
                 <svg
@@ -84,11 +87,14 @@
                         stroke-linejoin="round"
                     />
                 </svg>
+                <p
+                    class="text-[#0A2533] text-[22px] leading-[40px] font-semibold text-center"
+                >Shoppable Videos</p>
                 <!-- <p
                     class="mx-auto text-[#0A2533] text-[22px] leading-[40px] font-bold text-center"
                 >Live Commerce</p>-->
             </div>
-            <div class="flex flex-col gap-y-[23px]">
+            <div class="flex flex-col gap-y-[15.6px]">
                 <svg
                     class="mx-auto"
                     width="88"
@@ -119,12 +125,12 @@
                         stroke-linejoin="round"
                     />
                 </svg>
-                <!-- <p
-                    class="mx-auto text-[#0A2533] text-[22px] leading-[40px] font-bold text-center"
-                >Live Commerce</p>-->
+                <p
+                    class="mx-auto text-[#0A2533] text-[22px] leading-[40px] font-semibold text-center"
+                >Live Commerce</p>
             </div>
         </div>
-        <div class="flex justify-around mt-[22px] pl-[20px]">
+        <!-- <div class="flex justify-around mt-[22px] pl-[20px] ml-16">
             <p
                 class="text-[#0A2533] text-[22px] leading-[40px] font-semibold text-center"
             >Live Commerce</p>
@@ -134,7 +140,7 @@
             <p
                 class="text-[#0A2533] text-[22px] leading-[40px] font-semibold text-center"
             >Shoppable Stories</p>
-        </div>
+        </div>-->
         <div class="flex flex-col gap-y-[42px] mt-[77px]">
             <div class="flex justify-evenly">
                 <div class="flex gap-x-[10px]">

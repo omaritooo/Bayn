@@ -9,6 +9,17 @@ module.exports = {
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
+    textFillColor: theme => theme('borderColor'),
+    textStrokeColor: theme => theme('borderColor'),
+    textStrokeWidth: theme => theme('borderWidth'),
+    paintOrder: {
+      'fsm': { paintOrder: 'fill stroke markers' },
+      'fms': { paintOrder: 'fill markers stroke' },
+      'sfm': { paintOrder: 'stroke fill markers' },
+      'smf': { paintOrder: 'stroke markers fill' },
+      'mfs': { paintOrder: 'markers fill stroke' },
+      'msf': { paintOrder: 'markers stroke fill' },
+    },
     screens: {
       sm: '640px',
       md: '768px',
@@ -934,6 +945,12 @@ module.exports = {
       50: '50',
     },
   },
+  variants: { // all the following default to ['responsive']
+    textFillColor: ['responsive'],
+    textStrokeColor: ['responsive'],
+    textStrokeWidth: ['responsive'],
+    paintOrder: ['responsive'],
+  },
   variantOrder: [
     'first',
     'last',
@@ -952,5 +969,7 @@ module.exports = {
     'active',
     'disabled',
   ],
-  plugins: [],
+  plugins: [
+    require('tailwindcss-text-fill-stroke')(), // no options to configure
+  ],
 }

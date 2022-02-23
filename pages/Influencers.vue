@@ -10,7 +10,7 @@
         <Commerce />
         <Paid />
         <Design />
-        <div class="flex justify-center py-[7.75rem] relative px-80">
+        <div class="flex justify-center py-[7.75rem] gap-x-[92.7px] relative px-80">
             <div class="grad"></div>
             <div class="flex relative my-auto z-50 flex-col gap-y-[50px] w-fit">
                 <!-- <h1 v-if="inf" class="font-[600] w-fit text-[28px] text-[#D8315B]">FOR INFLUENCER</h1> -->

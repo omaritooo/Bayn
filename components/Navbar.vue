@@ -1,8 +1,7 @@
 <template>
     <nav class="flex justify-between px-80 py-[78px]">
-        <nuxt-link to="/">
+        <nuxt-link class="my-auto" to="/">
             <svg
-                class="my-auto"
                 width="69"
                 height="26"
                 viewBox="0 0 69 26"
