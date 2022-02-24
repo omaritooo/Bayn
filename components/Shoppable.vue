@@ -1,9 +1,16 @@
 <template>
-      <div class="relative pt-[89px] pb-[160px] flex gap-x-[114px] justify-center">
+      <div
+            class="relative pt-[89px] pb-[160px] px-[39px] md:px-4 lg:px-0 flex flex-col md:flex-row md:gap-x-[82px] lg:gap-x-[114px] justify-center"
+      >
             <div class="gradi"></div>
-            <img class="relative z-30 order-last rotate-[20deg]" src="/Rectangle 14.png" />
+            <div
+                  class="max-w-[277px] mt-[30px] md:mt-0 order-last md:order-first relative z-30 lg:w-full max-h-[460.35px] lg:h-full"
+            >
+                  <img class="relative z-30 object-cover rotate-[20deg]" src="/Rectangle 14.png" />
+            </div>
             <div class="relative z-30 my-auto">
                   <svg
+                        class="mx-auto md:mx-0"
                         width="113"
                         height="112"
                         viewBox="0 0 113 112"
@@ -48,25 +55,27 @@
                   </svg>
 
                   <h1
-                        class="mt-[36px] max-w-[464px] text-[90px] leading-[103px] font-[600] text-[#0A2533]"
+                        class="mt-[36px] max-w-[315px] text-center md:text-left md:max-w-[473px] text-[60px] lg:text-[90px] leading-[80px] lg:leading-[103px] font-[600] text-[#0A2533]"
                   >
-                        Live
-                        Commerces
+                        Shoppable
+                        Videos
                   </h1>
-                  <div class="flex gap-x-[15px] mt-[40px]">
+                  <div
+                        class="flex gap-x-[15px] gap-y-[5px] flex-wrap md:max-w-[300px] lg:max-w-full"
+                  >
                         <div
                               class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-                        >Shoppable videos</div>
+                        >Video shopping</div>
                         <div
                               class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
                         >Unboxing</div>
                         <div
                               class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+                        >Reviews</div>
+                        <div
+                              class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
                         >Shoppable videos</div>
                   </div>
-                  <div
-                        class="px-[20px] mt-[15px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-                  >Reviews</div>
             </div>
       </div>
 </template>
@@ -82,7 +91,7 @@ export default {
       position: absolute;
       width: 100%;
       z-index: 20;
-      height: 901.87px;
+      height: 100%;
       left: 0px;
       top: 0;
 
@@ -91,5 +100,10 @@ export default {
             #d5e6ff 0%,
             #ffffff 100%
       );
+}
+@media screen and (max-width: 1366px) {
+      .gradi {
+            display: none;
+      }
 }
 </style>

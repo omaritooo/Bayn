@@ -1,8 +1,8 @@
 <template>
   <div class="bg-white overflox-x-hidden">
     <div class="relative">
-      <div class="z-10 gradient"></div>
-      <Navbar class="relative z-30" />
+      <!-- <div class="z-10 gradient"></div> -->
+      <!-- <Navbar class="relative z-30" /> -->
       <Header class="relative z-30" />
     </div>
     <Live />

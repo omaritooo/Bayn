@@ -1,6 +1,8 @@
 <template>
   <div class>
-    <div class="relative flex flex-col w-[100%] pt-[180px] pb-[93.16px] px-[350px]">
+    <div
+      class="relative flex flex-col overflow-hidden lg:w-[100%] pt-[180px] pb-[93.16px] xl:px-[110px] 2xl:px-[350px]"
+    >
       <h1
         class="text-[48px] leading-[73px] font-[600] text-center text-[#0A2533]"
       >We’re here for you</h1>
@@ -8,15 +10,16 @@
         class="text-[24px] leading-[32px] max-w-[497.85px] mx-auto font-[500] mt-[11.79px] text-center text-[#394452]"
       >it is designed to give you all the support to achieve success.</p>
       <div>
-        <div class="absolute top-[16%] right-80">
-          <img src="/Ellipse 1.png" />
-          <img class="absolute top-2 right-2" src="/Frame 18.png" />
+        <div class="absolute md:top-[18%] md:-right-32 lg:top-[16%] lg:right-80">
+          <img class="md:w-3/4 lg:w-full" src="/Ellipse 1.png" />
+          <img class="absolute md:w-1/2 lg:w-full top-2 right-2" src="/Frame 18.png" />
         </div>
-        <div class="absolute bottom-[7%] left-[25%]">
-          <img src="/Ellipse 2.png" alt />
-          <img class="absolute -left-4 bottom-3" src="/Frame 19.png" />
+        <div class="absolute md:bottom-[10%] md:-left-[1%] lg:bottom-[7%] lg:left-[25%]">
+          <img class="md:w-3/4 lg:w-full" src="/Ellipse 2.png" alt />
+          <img class="absolute md:w-1/2 lg:w-full -left-4 bottom-3" src="/Frame 19.png" />
         </div>
         <svg
+          class="hidden lg:flex"
           width="240"
           height="87"
           viewBox="0 0 240 87"
@@ -33,7 +36,7 @@
         </svg>
 
         <svg
-          class="absolute top-12 left-1/4"
+          class="absolute md:top-16 md:left-[5%] lg:top-12 lg:left-1/4"
           width="224"
           height="236"
           viewBox="0 0 224 236"
@@ -49,7 +52,7 @@
           />
         </svg>
         <svg
-          class="absolute top-[6%] right-1/4"
+          class="absolute md:top-[8%] md:right-10 lg:top-[6%] lg:right-1/4"
           width="58"
           height="59"
           viewBox="0 0 58 59"
@@ -71,7 +74,7 @@
         </svg>
 
         <svg
-          class="absolute top-[45%] right-80"
+          class="absolute md:hidden lg:flex top-[45%] right-80"
           width="42"
           height="68"
           viewBox="0 0 42 68"
@@ -92,7 +95,7 @@
           />
         </svg>
         <svg
-          class="absolute top-[27%] right-[30%]"
+          class="absolute lg:top-[27%] md:top-[30%] md:right-[11%] lg:right-[30%]"
           width="68"
           height="55"
           viewBox="0 0 68 55"
@@ -106,7 +109,7 @@
         </svg>
 
         <svg
-          class="absolute top-20 left-[16%]"
+          class="absolute hidden lg:flex top-20 left-[16%]"
           width="82"
           height="58"
           viewBox="0 0 82 58"
@@ -157,7 +160,7 @@
           />
         </svg>
         <svg
-          class="absolute bottom-[35%] right-[28%]"
+          class="absolute lg:bottom-[35%] md:bottom-[30%] md:right-[8%] lg:right-[28%]"
           width="47"
           height="67"
           viewBox="0 0 47 67"
@@ -180,7 +183,7 @@
           />
         </svg>
         <svg
-          class="absolute bottom-[26%] right-[23%]"
+          class="absolute md:bottom-[22%] md:right-[9%] lg:bottom-[26%] lg:right-[23%]"
           width="62"
           height="33"
           viewBox="0 0 62 33"
@@ -203,7 +206,7 @@
           />
         </svg>
         <svg
-          class="absolute left-[20%] bottom-[19%]"
+          class="absolute hidden lg:flex left-[20%] bottom-[19%]"
           width="68"
           height="41"
           viewBox="0 0 68 41"
@@ -353,7 +356,7 @@
         </svg>
       </div>
     </div>
-    <div class="flex mt-12 px-[350px] justify-between">
+    <div class="flex mt-12 xl:px-[110px] 2xl:px-[350px] justify-between">
       <div class="flex relative flex-col gap-y-[24px]">
         <img class="max-w-[124px]" src="/handup.png" alt />
         <h1 class="font-[600] text-[48px] leading-[73px] text-[#0A2533]">Flow of success</h1>
@@ -368,7 +371,7 @@
         </div>
         <!-- arrow one -->
         <svg
-          class="absolute top-[53%] left-[82%]"
+          class="absolute xl:top-1/2 2xl:top-[53%] xl:left-[82%]"
           width="69"
           height="59"
           viewBox="0 0 69 59"
@@ -394,7 +397,7 @@
         </svg>
         <!-- arrow two -->
         <svg
-          class="absolute top-[59%] left-[63%]"
+          class="absolute xl:top-[54%] 2xl:top-[59%] xl:left-[63%]"
           width="69"
           height="71"
           viewBox="0 0 69 71"
@@ -420,7 +423,7 @@
         </svg>
         <!-- arrow three -->
         <svg
-          class="absolute top-[70%] left-[78%]"
+          class="absolute xl:top-[65%] 2xl:top-[70%] xl:left-[78%]"
           width="70"
           height="72"
           viewBox="0 0 70 72"
@@ -446,7 +449,7 @@
         </svg>
         <!-- arrow four  -->
         <svg
-          class="absolute top-[81%] left-[92%]"
+          class="absolute xl:top-[75%] 2xl:top-[81%] xl:left-[92%]"
           width="70"
           height="71"
           viewBox="0 0 70 71"
@@ -494,6 +497,7 @@
 <script>
 export default {}
 </script>
+
 
 <style>
 </style>

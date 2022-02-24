@@ -2,27 +2,27 @@
   <div class="py-[113px] text-center">
     <div class="mx-auto text-center">
       <h1
-        class="text-[90px] mx-auto leading-[120px] font-[700] max-w-[527px] text-center text-[#0A2533]"
+        class="text-[60px] leading-[80px] lg:text-[90px] mx-auto lg:leading-[120px] font-[700] max-w-[527px] text-center text-[#0A2533]"
       >
         Can’t wait to
         get paid?
       </h1>
 
       <p
-        class="text-[90px] mx-auto mt-[108px] leading-[120px] font-[700] max-w-[456px] text-center text-[#0A2533]"
+        class="text-[60px] leading-[80px] lg:text-[90px] mx-auto lg:leading-[120px] mt-[74px] md:mt-[108px] font-[700] max-w-[456px] text-center text-[#0A2533]"
       >we gotchu</p>
-      <div class="mx-auto text-center flex gap-x-[21.71px] max-w-[947.71px]">
+      <div
+        class="mx-auto md:justify-center flex-col md:flex-row text-center flex md:gap-x-[12px] lg:gap-x-[21.71px] max-w-[947.71px]"
+      >
         <div
-          class="text-[90px] flex leading-[120px] font-[700] text-center text-[#0A2533]"
+          class="text-[60px] mx-auto md:mx-0 leading-[80px] lg:text-[90px] lg:leading-[120px] flex font-[700] text-center text-[#0A2533]"
         >Let’s see</div>
         <div
-          class="text-center text-[90px] leading-[120px] font-[700] text-white text-shadow"
+          class="text-center text-[60px] leading-[80px] lg:text-[90px] lg:leading-[120px] font-[700] text-white text-shadow"
         >how it works</div>
       </div>
       <svg
-        class="mx-auto mt-[26px]"
-        width="716"
-        height="41"
+        class="mx-auto w-[330.48px] h-[17.43px] md:w-[573.48px] md:h-[30.24px] lg:w-[716px] lg:h-[41px] mt-[26px]"
         viewBox="0 0 716 41"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

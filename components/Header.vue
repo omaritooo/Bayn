@@ -1,69 +1,23 @@
 <template>
-  <div class="md:px-[34px] 2xl:px-80 xl:px-[112px]">
+  <div class="px-[14px] md:px-[34px] 2xl:px-80 xl:px-[112px]">
     <div class="flex flex-col md:flex-row xl:gap-x-[120px] 2xl:gap-x-[219px]">
       <div class="relative flex flex-col my-auto">
         <h1
-          class="
-            xl:text-[48px]
-            md:text-[30px]
-            xl:leading-[73px]
-            md:leading-[45px]
-            font-[600]
-            text-[#2C3A4B]
-            2xl:max-w-[660px]
-            xl:max-w-[660px] xl:w-[660px]
-            md:max-w-[451px]
-          "
-        >
-          A livestreaming commerce Platform that transforms your business
-        </h1>
+          class="xl:text-[48px] text-[30px] xl:leading-[73px] leading-[45px] font-[600] text-[#2C3A4B] 2xl:max-w-[660px] xl:max-w-[660px] xl:w-[660px] md:max-w-[451px]"
+        >A livestreaming commerce Platform that transforms your business</h1>
         <p
-          class="
-            text-[18px]
-            leading-[30px]
-            font-[500]
-            my-2
-            xl:max-h-[151.89px]
-            text-[#394452]
-            xl:max-w-[342.38px]
-            md:max-w-[392.38px]
-          "
+          class="text-[18px] leading-[30px] font-[500] my-2 xl:max-h-[151.89px] text-[#394452] xl:max-w-[342.38px] max-w-[360.37px] md:max-w-[392.38px]"
         >
           Bayn connects people to their needs for saving time & effort to reach
           maximum entertainment
         </p>
         <div class="flex md:mt-[15px] gap-x-[12px]">
           <button
-            class="
-              bg-black
-              font-[500]
-              leading-[18.78px]
-              rounded-[8px]
-              text-[16px]
-              px-[20px]
-              py-[15px]
-              text-white
-              w-fit
-            "
-          >
-            I’m a business owner
-          </button>
+            class="bg-black font-[500] leading-[18.78px] rounded-[8px] text-[16px] px-[20px] py-[15px] text-white w-fit"
+          >I’m a business owner</button>
           <button
-            class="
-              bg-transparent
-              font-[500]
-              leading-[16.44px]
-              rounded-[8px]
-              text-[16px]
-              px-[20px]
-              py-[15px]
-              text-black
-              border-[1px] border-black
-              w-fit
-            "
-          >
-            I’m an influencer
-          </button>
+            class="bg-transparent font-[500] leading-[16.44px] rounded-[8px] text-[16px] px-[20px] py-[15px] text-black border-[1px] border-black w-fit"
+          >I’m an influencer</button>
         </div>
         <svg
           class="absolute hidden xl:flex top-[39%] left-[65%]"
@@ -111,7 +65,7 @@
           />
         </svg>
         <svg
-          class="absolute xl:right-4 md:right-6 -top-2"
+          class="absolute hidden md:flex xl:right-4 md:right-6 -top-2"
           width="40"
           height="31"
           viewBox="0 0 40 31"
@@ -130,9 +84,7 @@
           />
         </svg>
       </div>
-      <div
-        class="xl:h-[613.15px] xl:w-[333.31px] md:w-[267.04px] md:h-[443.36px]"
-      >
+      <div class="xl:h-[613.15px] xl:w-[333.31px] mx-auto lg:mx-0 w-[267.04px] h-[443.36px]">
         <img class="object-cover" src="/phoneright.png" alt />
       </div>
     </div>

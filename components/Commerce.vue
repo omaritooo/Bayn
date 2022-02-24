@@ -1,9 +1,16 @@
 <template>
-  <div class="pt-[89px] pb-[160px] relative flex gap-x-[114px] justify-center">
+  <div
+    class="pt-[89px] pb-[160px] relative flex flex-col md:flex-row md:gap-x-[59px] px-[37px] xl:gap-x-[114px] justify-center md:px-[69px] 2xl:px-[460px]"
+  >
     <div class="gradi"></div>
-    <img class="relative z-30" src="/phone.png" />
-    <div class="relative z-30">
+    <div
+      class="max-w-[277px] mt-[30px] md:mt-0 order-last md:order-first relative z-30 lg:w-full max-h-[460.35px] lg:h-full"
+    >
+      <img class="relative z-30" src="/phone.png" />
+    </div>
+    <div class="relative z-30 xl:my-auto">
       <svg
+        class="mx-auto md:mx-0"
         width="107"
         height="107"
         viewBox="0 0 107 107"
@@ -29,11 +36,13 @@
           fill="#1E1E27"
         />
       </svg>
-      <h1 class="mt-[36px] max-w-[473px] text-[90px] leading-[103px] font-[600] text-[#0A2533]">
+      <h1
+        class="mt-[36px] max-w-[315px] text-center md:text-left md:max-w-[473px] text-[60px] lg:text-[90px] leading-[80px] lg:leading-[103px] font-[600] text-[#0A2533]"
+      >
         Live
-        Commerces
+        Commerce
       </h1>
-      <div class="flex gap-x-[15px]">
+      <div class="flex gap-x-[15px] gap-y-[5px] flex-wrap md:max-w-[300px] lg:max-w-full">
         <div
           class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
         >Live stream</div>
@@ -43,10 +52,10 @@
         <div
           class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
         >live commerce</div>
+        <div
+          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+        >Live products</div>
       </div>
-      <div
-        class="px-[20px] mt-[15px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-      >Live products</div>
     </div>
   </div>
 </template>
@@ -62,7 +71,7 @@ export default {
   position: absolute;
   width: 100%;
   z-index: 20;
-  height: 901.87px;
+  height: 100%;
   left: 0px;
   top: 0;
 
@@ -72,5 +81,40 @@ export default {
     #ffffff 100%
   );
   transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+@media screen and (max-width: 1366px) {
+  .gradi {
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+    height: 100%;
+    left: 0px;
+    top: 0;
+
+    background: radial-gradient(
+      21.55% 45.87% at 65.87% 50%,
+      #d5e6ff 0%,
+      #ffffff 100%
+    );
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+}
+@media screen and (max-width: 820px) {
+  .gradi {
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+    height: 100%;
+    left: 0px;
+    top: 0;
+
+    background: radial-gradient(
+      16.34% 34.73% at 70.71% 51.81%,
+      #deebff 0%,
+      #ffffff 100%
+    );
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
 }
 </style>

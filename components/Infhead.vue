@@ -5,19 +5,23 @@
             <div class="track2">Bayn for Influencer, Bayn for Influencer,</div> 
         </div>-->
         <Marquee
-            class="absolute z-10 top-[10%] max-w-[1920px] text-[160px] h-[279.81px]"
+            class="absolute z-10 -top-[3%] md:top-[6%] lg:top-[10%] xl:max-w-[1366px] 2xl:max-w-[1920px] text-[160px] h-[279.81px]"
             :duration="25"
             :repeat="3"
         >
             <span
-                class="text-[160px] text-[#0A2533] w-[2159.4px] overflow-x-hidden h-[179.81px] py-2 leading-[73px]"
+                class="text-[60px] md:text-[100px] lg:text-[160px] text-[#0A2533] w-[2159.4px] overflow-x-hidden h-[179.81px] py-2 leading-[73px]"
             >Bayn For Influencers, Bayn for Influencer,</span>
         </Marquee>
-        <div class="px-[355px] relative z-30 flex flex-col gap-y-[96px] pt-[14px] pb-[142px]">
-            <div class="flex gap-x-[202px] pt-[20px] pb-[64px]">
+        <div
+            class="2xl:px-[355px] md:px-[34px] lg:px-[114px] relative z-30 flex flex-col gap-y-[96px] pt-[14px] pb-[142px]"
+        >
+            <div
+                class="flex flex-col mt-[130px] md:mt-0 md:flex-row lg:gap-x-[202px] pt-[20px] pb-[64px]"
+            >
                 <div class="flex mb-[85px] flex-col self-end">
                     <p
-                        class="max-w-[541.68px] font-[500] text-[#394452] text-[18px] leading-[35px]"
+                        class="max-w-[357.97px] text-center md:text-left mx-auto md:mx-0 md:max-w-[410.27px] lg:max-w-[541.68px] font-[500] text-[#394452] text-[18px] leading-[35px]"
                     >
                         Join our network of
                         live commerce influencers
@@ -33,7 +37,7 @@
                         >Get Bayn for Iphone</button>
                     </div>
                     <svg
-                        class="absolute top-[42.5%] left-[38%]"
+                        class="absolute hidden lg:flex top-[42.5%] left-[38%]"
                         width="187"
                         height="76"
                         viewBox="0 0 187 76"
@@ -151,17 +155,17 @@
                 your lifestyle
             </h1>
         </div>
-        <div class="flex relative justify-center gap-x-[120px]">
+        <div class="flex relative justify-center md:gap-x-[48px] lg:gap-x-[120px]">
             <div class="gradie"></div>
 
             <div class="relative z-30">
                 <img class="relative z-30" src="/Rectangle 8.png" alt />
             </div>
             <div
-                class="mt-[91px] relative z-30 max-w-[564px] flex flex-col font-[500] text-[#0A2533] text-[30px] leading-[73px]"
+                class="mt-[91px] relative z-30 gap-y-[18px] max-w-[564px] flex flex-col font-[500] text-[#0A2533] md:text-[24px] lg:text-[30px] md:leading-[38px] lg:leading-[73px]"
             >
                 <svg
-                    class="absolute right-[28%] top-12"
+                    class="absolute lg:right-[28%] md:right-[12%] md:top-6 lg:top-12"
                     width="47"
                     height="51"
                     viewBox="0 0 47 51"
@@ -188,7 +192,7 @@
                     />
                 </svg>
                 <svg
-                    class="absolute top-[19%] right-[19%]"
+                    class="absolute md:top-[19%] md:right-[13%] lg:right-[19%]"
                     width="45"
                     height="50"
                     viewBox="0 0 45 50"
@@ -215,7 +219,7 @@
                     />
                 </svg>
                 <svg
-                    class="absolute bottom-[53%] -right-8"
+                    class="absolute md:bottom-[49%] lg:bottom-[53%] md:right-[4%] lg:-right-8"
                     width="43"
                     height="40"
                     viewBox="0 0 43 40"
@@ -266,7 +270,6 @@ export default {
 
 }
 </script>
-
 <style>
 .track {
     position: absolute;
