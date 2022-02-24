@@ -2,11 +2,17 @@
   <div class="md:pr-[58px] max-w-screen xl:pr-[185px] 2xl:pr-80">
     <div class="flex overflow-x-hidden flex-col md:flex-row md:gap-x-[17px] xl:gap-x-[58px]">
       <div
-        class="flex max-w-[676.6px] xl:max-w-full -translate-x-28 max-h-[443.36px] order-last md:order-first xl:max-h-full 2xl:translate-x-0 xl:-translate-x-60"
+        class="flex lg::max-w-full -translate-x-28 w-[676.6px] md:w-auto order-last md:order-first lg::max-h-auto 2xl:translate-x-0 lg::-translate-x-60"
       >
-        <img class="flex md:hidden lg:flex" src="/Rectangle 20.png" alt />
-        <img src="/Rectangle 8.png" alt />
-        <img src="/Rectangle 14.png" alt />
+        <div class="max-w-[676.6px] lg:max-w-full max-h-[443.36px] max-h-auto">
+          <img class="flex object-cover md:hidden lg:flex" src="/Rectangle 20.png" alt />
+        </div>
+        <div class="max-w-[676.6px] lg:max-w-full max-h-[443.36px] max-h-auto">
+          <img class="object-fit" src="/Rectangle 8.png" alt />
+        </div>
+        <div class="max-w-[676.6px] lg:max-w-full max-h-[443.36px] max-h-auto">
+          <img class="object-fit" src="/Rectangle 14.png" alt />
+        </div>
       </div>
       <div class="my-auto">
         <p
