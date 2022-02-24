@@ -1,7 +1,9 @@
 <template>
-  <div class="pt-[89px] pb-[160px] relative flex gap-x-[114px] justify-center">
+  <div
+    class="pt-[89px] pb-[160px] relative flex md:gap-x-[71px] xl:gap-x-[90px] 2xl:gap-x-[114px] justify-center"
+  >
     <div class="gradi"></div>
-    <div class="relative z-30">
+    <div class="relative z-30 md:w-[277px] md:h-[441px] lg:w-full lg:h-full">
       <img src="/Rectangle 21.png" />
       <img class="absolute left-0 top-[44%]" src="/Rectangle 1281.png" alt />
       <svg
@@ -53,9 +55,11 @@
       </svg>
 
       <h1
-        class="mt-[14px] max-w-[284px] text-[55px] leading-[73px] font-[600] text-[#0A2533]"
+        class="mt-[14px] md:max-w-[330px] lg:max-w-[284px] md:text-[38px] lg:text-[55px] leading-[73px] font-[600] text-[#0A2533]"
       >Shoppable Stories</h1>
-      <p class="text-[24px] leading-[32px] font-[500] max-w-[497.85px] text-[#394452] mt-[36px]">
+      <p
+        class="md:text-[18px] lg:text-[24px] leading-[32px] font-[500] md:max-w-[335.74px] lg:max-w-[497.85px] text-[#394452] mt-[36px]"
+      >
         Keep attached to your clients through unlimited number of shoppable
         stories per day
       </p>

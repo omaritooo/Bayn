@@ -1,9 +1,9 @@
 <template>
-  <div class="pt-[89px] pb-[160px] relative flex gap-x-[114px] justify-center">
+  <div class="pt-[89px] pb-[160px] relative flex lg:gap-x-[114px] justify-center">
     <div class="gradi"></div>
-    <div class="relative z-30 order-last">
+    <div class="relative w-[277px] h-[421.3px] z-30 order-last">
       <img src="/Rectangle 19.png" />
-      <img class="absolute left-0 top-[34%]" src="/notif2.png" alt="" />
+      <img class="absolute left-0 top-[34%] md:scale-50 lg:scale-100" src="/notif2.png" alt />
       <svg
         class="absolute top-[55%] -left-[4%]"
         width="75"
@@ -21,7 +21,7 @@
         />
       </svg>
     </div>
-    <div class="relative z-30">
+    <div class="relative z-30 md:my-auto lg:my-0">
       <svg
         width="107"
         height="107"
@@ -49,79 +49,24 @@
         />
       </svg>
       <h1
-        class="
-          mt-[36px]
-          max-w-[473px]
-          text-[90px]
-          leading-[103px]
-          font-[600]
-          text-[#0A2533]
-        "
+        class="mt-[17px] lg:mt-[36px] max-w-[473px] md:text-[38px] md:leading-[45px] lg:text-[90px] lg:leading-[103px] font-[600] text-[#0A2533]"
       >
-        Live Commerces
+        Shoppable
+        Videos
       </h1>
-      <div class="flex gap-x-[15px]">
+      <div class="mt-[50px] flex gap-x-[15px] gap-y-[5px] flex-wrap md:max-w-[300px] lg:max-w-full">
         <div
-          class="
-            px-[20px]
-            py-[10px]
-            bg-transparent
-            rounded-[8px]
-            text-[#56545D] text-[14px]
-            leading-[16.44px]
-            font-[600]
-            border-[1px] border-[#F1F1F1]
-            w-fit
-          "
-        >
-          Live stream
-        </div>
+          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+        >Video shopping</div>
         <div
-          class="
-            px-[20px]
-            py-[10px]
-            bg-transparent
-            rounded-[8px]
-            text-[#56545D] text-[14px]
-            leading-[16.44px]
-            font-[600]
-            border-[1px] border-[#F1F1F1]
-            w-fit
-          "
-        >
-          Live shopping
-        </div>
+          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+        >Unboxing</div>
         <div
-          class="
-            px-[20px]
-            py-[10px]
-            bg-transparent
-            rounded-[8px]
-            text-[#56545D] text-[14px]
-            leading-[16.44px]
-            font-[600]
-            border-[1px] border-[#F1F1F1]
-            w-fit
-          "
-        >
-          live commerce
-        </div>
-      </div>
-      <div
-        class="
-          px-[20px]
-          mt-[15px]
-          py-[10px]
-          bg-transparent
-          rounded-[8px]
-          text-[#56545D] text-[14px]
-          leading-[16.44px]
-          font-[600]
-          border-[1px] border-[#F1F1F1]
-          w-fit
-        "
-      >
-        Live products
+          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+        >Reviews</div>
+        <div
+          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+        >Shoppable videos</div>
       </div>
     </div>
   </div>

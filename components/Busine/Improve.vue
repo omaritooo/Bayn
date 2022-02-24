@@ -1,27 +1,33 @@
 <template>
-    <div class="flex justify-center gap-x-16 px-80 pt-[300px]">
+    <div class="flex lg:justify-center px-[31px] lg:gap-x-16 2xl:px-80 xl:px-[110px] pt-[300px]">
         <div class="relative">
-            <img class="w-[575.1px] h-[551.47px]" src="/1922 2.png" alt />
+            <img
+                class="lg:w-[575.1px] md:w-[346.26px] md:h-[332.67px] lg:h-[551.47px]"
+                src="/1922 2.png"
+                alt
+            />
             <!-- <div class="h-fit w-fit">
                     <img class src="01.png" alt />
                 </div>
                 <div>
                     <img src="02.png" alt />
             </div>-->
-            <div class="absolute flex z-20 left-[15.5%] h-fit top-[27%]">
+            <div
+                class="absolute flex z-20 md:-left-[14%] md:top-[24%] lg:left-[15.5%] lg:h-fit lg:top-[27%]"
+            >
                 <img src="/LIVE CARD 1.png" alt />
             </div>
-            <div class="absolute px-32 py-14 bg-white top-[29%] z-10 left-[1%]"></div>
+            <div class="absolute md:px-32 md:py-8 lg:py-14 bg-white top-[29%] z-10 left-[1%]"></div>
         </div>
-        <div class="flex flex-col gap-y-[50px] mx-auto order-first">
+        <div class="flex flex-col gap-y-[50px] w-fit lg:mx-auto order-first">
             <div class="pb-12 pt-6 flex flex-col gap-y-[40px]">
                 <!-- <h1 class="font-[600] w-fit text-[28px] text-[#D8315B] uppercase">for Business Owner</h1> -->
                 <div class="flex flex-col gap-y-[50px]">
                     <p
-                        class="font-[600] w-fit max-w-[503.02px] text-[48px] text-[#0A2533] leading-[60px]"
+                        class="font-[600] w-fit md:max-w-[503.02px] md:text-[38px] md:leading-[45px] lg:text-[48px] text-[#0A2533] lg:leading-[60px]"
                     >Improve your product appearance</p>
                     <p
-                        class="font-[500] leading-[32px] max-w-[497.85px] w-fit text-[24px] text-[#394452]"
+                        class="font-[500] leading-[24px] text-[18px] lg:leading-[32px] md:max-w-[372.9px] lg:max-w-[497.85px] w-fit lg:text-[24px] text-[#394452]"
                     >Bayn gives you the ability to add your products easily, manage stock and sales through direct promotions (video review - livestream - live stories) in no time</p>
                 </div>
                 <!-- <button
@@ -61,7 +67,7 @@
                         </svg>
                     </div>
                     <div
-                        class="text-[18px] ml-[20px] leading-[32px] font-[500] text-[#0A2533] max-w-[464px]"
+                        class="md:text-[14px] lg:text-[18px] ml-[20px] leading-[18px] max-w-[284.89px] lg:leading-[32px] font-[500] text-[#0A2533] lg:max-w-[464px]"
                     >Better client experience — now you can focus more on your clients and speed up selling</div>
                 </div>
             </div>

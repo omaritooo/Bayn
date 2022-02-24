@@ -35,70 +35,28 @@
           stroke-linejoin="round"
         />
       </svg>
-      <h1 class="text-center font-[600] text-[55px] leading-[73px] text-black">
-        Hire Influencers
-      </h1>
+      <h1
+        class="text-center font-[600] text-[38px] lg:text-[55px] leading-[73px] text-black"
+      >Hire Influencers</h1>
       <p
-        class="
-          text-center
-          font-[500]
-          text-[24px]
-          leading-[32px]
-          text-[#394452]
-          max-w-[710.04px]
-          mx-auto
-        "
+        class="text-center font-[500] text-[18px] lg:text-[24px] leading-[32px] text-[#394452] max-w-[522px] lg:max-w-[710.04px] mx-auto"
       >
         Let influencers promote and sell your items during set of events -
         Livestreams or shoppable videos
       </p>
       <div class="flex justify-center gap-x-[15px]">
         <div
-          class="
-            font-[600]
-            max-w-[178px]
-            text-center
-            px-[10px]
-            rounded-[8px]
-            border-[1px] border-[#F1F1F1]
-            py-[10px]
-            text-[14px]
-            leading-[16.44px]
-          "
-        >
-          Influencer marketing
-        </div>
+          class="font-[600] max-w-[178px] text-center px-[10px] rounded-[8px] border-[1px] border-[#F1F1F1] py-[10px] text-[14px] leading-[16.44px]"
+        >Influencer marketing</div>
         <div
-          class="
-            font-[600]
-            px-[10px]
-            max-w-[147px]
-            rounded-[8px]
-            border-[1px] border-[#F1F1F1]
-            py-[10px]
-            text-[14px]
-            leading-[16.44px]
-          "
-        >
-          Live Promotions
-        </div>
+          class="font-[600] px-[10px] max-w-[147px] rounded-[8px] border-[1px] border-[#F1F1F1] py-[10px] text-[14px] leading-[16.44px]"
+        >Live Promotions</div>
         <div
-          class="
-            font-[600]
-            px-[10px]
-            max-w-[167px]
-            rounded-[8px]
-            border-[1px] border-[#F1F1F1]
-            py-[10px]
-            text-[14px]
-            leading-[16.44px]
-          "
-        >
-          Live Advertisments
-        </div>
+          class="font-[600] px-[10px] max-w-[167px] rounded-[8px] border-[1px] border-[#F1F1F1] py-[10px] text-[14px] leading-[16.44px]"
+        >Live Advertisments</div>
       </div>
       <svg
-        class="absolute top-[10%] right-1/4"
+        class="absolute lg:top-[10%] lg:right-[20%] 2xl:right-1/4"
         width="208"
         height="250"
         viewBox="0 0 208 250"
@@ -111,7 +69,7 @@
         />
       </svg>
       <svg
-        class="absolute top-[58%] right-[19%]"
+        class="absolute xl:top-[58%] xl:right-[17%] 2xl:right-[19%]"
         width="58"
         height="56"
         viewBox="0 0 58 56"
@@ -134,7 +92,7 @@
         />
       </svg>
       <svg
-        class="absolute top-[13%] left-1/4"
+        class="absolute xl:top-[13%] xl:left-[18%] 2xl:left-1/4"
         width="224"
         height="237"
         viewBox="0 0 224 237"
@@ -150,7 +108,7 @@
         />
       </svg>
       <svg
-        class="absolute top-[18%] left-[16%]"
+        class="absolute xl:top-[18%] xl:left-[10%] 2xl:left-[16%]"
         width="82"
         height="59"
         viewBox="0 0 82 59"
@@ -222,154 +180,68 @@
         />
       </svg>
     </div>
-    <div class="flex gap-x-[60px] w-[100%] h-[100%] py-20 overflow-hidden">
+    <div
+      class="lg:flex hidden gap-x-[60px] xl:-translate-x-40 lg:w-[125%] 2xl:w-[100%] h-[100%] py-20 overflow-hidden"
+    >
       <div class="relative translate-y-[70px]">
         <img class="relative z-20" src="/unsplash_E0cTcs52a14.png" />
         <div class="w-[140px]">
           <span
-            class="
-              absolute
-              top-4
-              max-w-[140px]
-              flex-nowrap
-              h-[19px]
-              -right-4
-              z-30
-              notifs
-              py-[15px]
-              text-[16px]
-              leading-[19.36px]
-            "
-            >105K Follower</span
-          >
+            class="absolute top-4 max-w-[140px] flex-nowrap h-[19px] -right-4 z-30 notifs py-[15px] text-[16px] leading-[19.36px]"
+          >105K Follower</span>
         </div>
       </div>
       <div class="relative">
         <img class="relative z-20" src="/Ellipse 3.png" />
         <div class="w-[140px]">
           <span
-            class="
-              absolute
-              top-4
-              max-w-[140px]
-              flex-nowrap
-              h-[19px]
-              -right-4
-              z-30
-              notifs
-              py-[15px]
-              text-[16px]
-              leading-[19.36px]
-            "
-            >1.2M Follower</span
-          >
+            class="absolute top-4 max-w-[140px] flex-nowrap h-[19px] -right-4 z-30 notifs py-[15px] text-[16px] leading-[19.36px]"
+          >1.2M Follower</span>
         </div>
       </div>
       <div class="relative translate-y-[70px]">
         <img class="relative z-20" src="/Ellipse 4.png" />
         <div class="w-[140px]">
           <span
-            class="
-              absolute
-              top-4
-              max-w-[140px]
-              flex-nowrap
-              h-[19px]
-              -right-4
-              z-30
-              notifs
-              py-[15px]
-              text-[16px]
-              leading-[19.36px]
-            "
-            >12K Follower</span
-          >
+            class="absolute top-4 max-w-[140px] flex-nowrap h-[19px] -right-4 z-30 notifs py-[15px] text-[16px] leading-[19.36px]"
+          >12K Follower</span>
         </div>
       </div>
       <div class="relative">
         <img class="relative z-20" src="/Ellipse 5.png" />
         <div class="w-[140px]">
           <span
-            class="
-              absolute
-              top-4
-              w-[140px]
-              flex-nowrap
-              h-[19px]
-              -right-4
-              z-30
-              notifs
-              py-[15px]
-              text-[16px]
-              leading-[19.36px]
-            "
-            >37k Follower</span
-          >
+            class="absolute top-4 w-[140px] flex-nowrap h-[19px] -right-4 z-30 notifs py-[15px] text-[16px] leading-[19.36px]"
+          >37k Follower</span>
         </div>
       </div>
       <div class="relative translate-y-[70px]">
         <img class="relative z-20" src="/Ellipse 6.png" />
         <div class="w-[140px]">
           <span
-            class="
-              absolute
-              top-4
-              w-[140px]
-              flex-nowrap
-              h-[19px]
-              -right-4
-              z-30
-              notifs
-              py-[15px]
-              text-[16px]
-              leading-[19.36px]
-            "
-            >1.7M Follower</span
-          >
+            class="absolute top-4 w-[140px] flex-nowrap h-[19px] -right-4 z-30 notifs py-[15px] text-[16px] leading-[19.36px]"
+          >1.7M Follower</span>
         </div>
       </div>
       <div class="relative">
         <img class="relative z-20" src="/Ellipse 7.png" />
         <div class="w-[140px]">
           <span
-            class="
-              absolute
-              top-4
-              w-[140px]
-              flex-nowrap
-              h-[19px]
-              -right-4
-              z-30
-              notifs
-              py-[15px]
-              text-[16px]
-              leading-[19.36px]
-            "
-            >1.2K Follower</span
-          >
+            class="absolute top-4 w-[140px] flex-nowrap h-[19px] -right-4 z-30 notifs py-[15px] text-[16px] leading-[19.36px]"
+          >1.2K Follower</span>
         </div>
       </div>
       <div class="relative translate-y-[70px]">
         <img class="relative z-20" src="/unsplash_nmpCzYJmocg.png" />
         <div class="w-[140px]">
           <span
-            class="
-              absolute
-              top-4
-              w-[140px]
-              flex-nowrap
-              h-[19px]
-              -right-16
-              z-30
-              notifs
-              py-[15px]
-              text-[16px]
-              leading-[19.36px]
-            "
-            >7K Follower</span
-          >
+            class="absolute top-4 w-[140px] flex-nowrap h-[19px] -right-16 z-30 notifs py-[15px] text-[16px] leading-[19.36px]"
+          >7K Follower</span>
         </div>
       </div>
+    </div>
+    <div class="flex lg:hidden">
+      <img src="/Group 48 1.png" alt />
     </div>
   </div>
 </template>
@@ -396,5 +268,26 @@ export default {}
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 7px;
+}
+
+@media screen and (max-width: 1366px) {
+  .notifs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 122px;
+    height: 33px;
+    background: linear-gradient(
+      269.86deg,
+      rgba(255, 255, 255, 0.01) 0.12%,
+      rgba(255, 255, 255, 0.005) 0.13%
+    );
+    backdrop-filter: blur(45px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 7px;
+  }
 }
 </style>

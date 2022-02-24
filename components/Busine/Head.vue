@@ -1,9 +1,9 @@
 <template>
   <div class>
-    <div class="flex justify-between gap-x-[183px] px-80">
+    <div class="flex justify-between md:px-[22px] xl:px-[103px] 2xl:px-80">
       <div class="relative my-auto">
         <h1
-          class="text-[80px] leading-[100px] font-[500] text-[#2C3A4B] max-w-[542px]"
+          class="md:text-[30px] lg:text-[80px] md:leading-[45px] lg:leading-[100px] font-[500] text-[#2C3A4B] md:max-w-[204px] lg:max-w-[542px]"
         >Sell more with Confidence</h1>
         <p
           class="text-[18px] leading-[30px] font-[500] my-5 max-h-[151.89px] text-[#394452] max-w-[342.38px]"
@@ -17,7 +17,7 @@
           >Start a campaign</button>
         </div>
         <svg
-          class="absolute bottom-0 left-1/2"
+          class="absolute bottom-0 hidden lg:flex left-1/2"
           width="259"
           height="64"
           viewBox="0 0 259 64"
@@ -44,7 +44,7 @@
           />
         </svg>
       </div>
-      <div class="relative">
+      <div class="relative hidden lg:flex">
         <img src="/Bayn Website (1)/1922 3.png" alt />
         <div class="absolute flex top-[30%] -left-20">
           <img src="/Bayn Website (1)/1923.png" alt />
@@ -56,8 +56,13 @@
           alt
         />
       </div>
+      <div class="flex lg:hidden">
+        <img src="/Group 44 1.png" alt />
+      </div>
     </div>
-    <div class="pt-[87px] flex justify-center text-center gap-x-[150px] pb-[163px]">
+    <div
+      class="pt-[87px] px-2 flex md:justify-between lg:justify-center text-center lg:gap-x-[150px] pb-[163px]"
+    >
       <div class="w-fit">
         <svg
           class="mx-auto"
@@ -102,9 +107,11 @@
           </defs>
         </svg>
         <span
-          class="text-[#0A2533] text-[22px] leading-[40px] max-w-[241px] font-[600] mt-[25.9px] mb-[12px]"
+          class="text-[#0A2533] md:text-[18px] lg:text-[22px] leading-[40px] md:max-w-[197px] lg:max-w-[241px] font-[600] mt-[25.9px] mb-[12px]"
         >Products under control</span>
-        <p class="text-center max-w-[281px] font-[500] text-[18px] leading-[24px] text-[#394452]">
+        <p
+          class="text-center md:max-w-[219px] lg:max-w-[281px] font-[500] md:text-[14px] lg:text-[18px] leading-[24px] text-[#394452]"
+        >
           keep your products & promotions
           all in one place
         </p>
@@ -138,10 +145,10 @@
         </svg>
 
         <span
-          class="text-[#0A2533] text-[22px] leading-[40px] max-w-[241px] font-[600] mt-[25.9px] mb-[12px]"
+          class="text-[#0A2533] md:text-[18px] lg:text-[22px] leading-[40px] md:max-w-[177px] lg:max-w-[241px] font-[600] mt-[25.9px] mb-[12px]"
         >Influencer Marketing</span>
         <p
-          class="text-center max-w-[220px] font-[500] text-[18px] leading-[24px] text-[#394452]"
+          class="text-center max-w-[172px] lg:max-w-[220px] font-[500] md:text-[14px] lg:text-[18px] leading-[24px] text-[#394452]"
         >don’t search for audience, we bring them to you</p>
       </div>
       <div class="w-fit">
@@ -183,9 +190,11 @@
         </svg>
 
         <span
-          class="text-[#0A2533] text-[22px] leading-[40px] max-w-[241px] font-[600] mt-[25.9px] mb-[12px]"
+          class="text-[#0A2533] md:text-[18px] lg:text-[22px] leading-[40px] md:max-w-[117px] lg:max-w-[241px] font-[600] mt-[25.9px] mb-[12px]"
         >Happy clients</span>
-        <p class="text-center max-w-[333px] font-[500] text-[18px] leading-[24px] text-[#394452]">
+        <p
+          class="text-center max-w-[196.39px] lg:max-w-[333px] font-[500] md:text-[14px] lg:text-[18px] leading-[24px] text-[#394452]"
+        >
           clients get the experience they deserve
           They'll never search anywhere else
         </p>

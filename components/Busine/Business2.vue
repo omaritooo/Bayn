@@ -1,7 +1,11 @@
 <template>
-    <div class="flex justify-center gap-x-16 px-80 pt-[240px] pb-[150px]">
-        <div class="relative">
-            <img class="w-[575.1px] h-[551.47px]" src="/1922 2.png" alt />
+    <div
+        class="flex justify-center xl:gap-x-[107px] 2xl:gap-x-16 xl:px-[130px] 2xl:px-80 pt-[240px] pb-[150px]"
+    >
+        <div class="relative flex-1">
+            <div class="lg:w-[575.1px] md:w-[464.84px] md:h-[370.38px] lg:h-[551.47px]">
+                <img class="object-cover" src="/1922 2.png" alt />
+            </div>
             <div class="absolute flex z-20 -left-52 h-fit top-[27%]">
                 <div class="h-fit w-fit">
                     <img class src="01.png" alt />
@@ -12,15 +16,15 @@
             </div>
             <div class="absolute px-10 py-14 bg-white top-[29%] z-10 left-[20%]"></div>
         </div>
-        <div class="flex flex-col gap-y-[50px] mx-auto">
+        <div class="flex flex-col gap-y-[50px] lg:mx-auto flex-1">
             <div class="pb-12 pt-6 flex flex-col gap-y-[40px]">
                 <!-- <h1 class="font-[600] w-fit text-[28px] text-[#D8315B] uppercase">for Business Owner</h1> -->
                 <div class="flex flex-col gap-y-[50px]">
                     <p
-                        class="font-[600] w-fit max-w-[503.02px] text-[48px] text-[#0A2533] leading-[60px]"
+                        class="font-[600] w-fit max-w-[503.02px] md:text-[38px] lg:text-[48px] text-[#0A2533] leading-[60px]"
                     >Instant sales from livestream & shoppable videos</p>
                     <p
-                        class="font-[500] leading-[32px] max-w-[497.85px] w-fit text-[24px] text-[#394452]"
+                        class="font-[500] md:leading-[24px] lg:leading-[32px] md:max-w-[347.44px] lg:max-w-[497.85px] w-fit md:text-[18px] lg:text-[24px] text-[#394452]"
                     >Integrating with bayn gives you the ability to do something you’ve never done before: bring in products to your store promotions (video review - livestream - live stories) in no time</p>
                 </div>
                 <!-- <button
@@ -60,7 +64,7 @@
                         </svg>
                     </div>
                     <div
-                        class="text-[18px] ml-[20px] leading-[32px] font-[500] text-[#0A2533] max-w-[464px]"
+                        class="lg:text-[18px] text-[14px] leading-[18px] ml-[20px] lg:leading-[32px] font-[500] text-[#0A2533] md:max-w-[284.89px] lg:max-w-[464px]"
                     >Quick Purchase — no more clicking on attached links or additional steps, we do all in one place</div>
                 </div>
             </div>
