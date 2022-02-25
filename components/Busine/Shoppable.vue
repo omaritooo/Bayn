@@ -1,10 +1,21 @@
 <template>
   <div
-    class="pt-[89px] pb-[160px] relative flex md:gap-x-[71px] xl:gap-x-[90px] 2xl:gap-x-[114px] justify-center"
+    class="
+      pt-[89px]
+      pb-[160px]
+      relative
+      flex flex-col
+      md:flex-row md:gap-x-[71px]
+      xl:gap-x-[90px]
+      2xl:gap-x-[114px]
+      justify-center
+    "
   >
-    <div class="gradi"></div>
-    <div class="relative z-30 md:w-[277px] md:h-[441px] lg:w-full lg:h-full">
-      <img src="/Rectangle 21.png" />
+    <!-- <div class="gradi"></div> -->
+    <div class="relative z-30 mt-[15px] md:mt-0 mx-auto md:mx-0">
+      <div class="w-[277px] h-[441px] lg:w-full lg:h-full">
+        <img class="mx-auto md:mx-0" src="/Rectangle 21.png" />
+      </div>
       <img class="absolute left-0 top-[44%]" src="/Rectangle 1281.png" alt />
       <svg
         class="absolute top-[66%] -left-[3%]"
@@ -23,8 +34,9 @@
         />
       </svg>
     </div>
-    <div class="relative z-30 my-auto">
+    <div class="relative z-30 order-first my-auto md:order-last">
       <svg
+        class="mx-auto md:mx-0"
         width="131"
         height="75"
         viewBox="0 0 131 75"
@@ -55,21 +67,71 @@
       </svg>
 
       <h1
-        class="mt-[14px] md:max-w-[330px] lg:max-w-[284px] md:text-[38px] lg:text-[55px] leading-[73px] font-[600] text-[#0A2533]"
-      >Shoppable Stories</h1>
+        class="
+          mt-[14px]
+          max-w-[330px]
+          lg:max-w-[284px]
+          text-[38px] text-center
+          md:text-left
+          mx-auto
+          md:mx-0
+          lg:text-[55px]
+          leading-[73px]
+          font-[600]
+          text-[#0A2533]
+        "
+      >
+        Shoppable Stories
+      </h1>
       <p
-        class="md:text-[18px] lg:text-[24px] leading-[32px] font-[500] md:max-w-[335.74px] lg:max-w-[497.85px] text-[#394452] mt-[36px]"
+        class="
+          text-[18px]
+          lg:text-[24px] lg:leading-[32px]
+          text-center
+          mx-auto
+          md:mx-0
+          leading-[24px]
+          font-[500]
+          max-w-[335.74px]
+          lg:max-w-[497.85px]
+          text-[#394452]
+          mt-[15px]
+        "
       >
         Keep attached to your clients through unlimited number of shoppable
         stories per day
       </p>
-      <div class="flex gap-x-[15px] mt-[45px]">
+      <div class="flex gap-x-[15px] mx-auto md:mx-0 mt-[15px] md:mt-[45px]">
         <div
-          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-        >Live stream</div>
+          class="
+            px-[20px]
+            py-[10px]
+            bg-transparent
+            rounded-[8px]
+            text-[#56545D] text-[14px]
+            leading-[16.44px]
+            font-[600]
+            border-[1px] border-[#F1F1F1]
+            w-fit
+          "
+        >
+          Live stream
+        </div>
         <div
-          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-        >Live shopping</div>
+          class="
+            px-[20px]
+            py-[10px]
+            bg-transparent
+            rounded-[8px]
+            text-[#56545D] text-[14px]
+            leading-[16.44px]
+            font-[600]
+            border-[1px] border-[#F1F1F1]
+            w-fit
+          "
+        >
+          Live shopping
+        </div>
       </div>
     </div>
   </div>
