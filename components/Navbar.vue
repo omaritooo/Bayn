@@ -1,5 +1,5 @@
 <template>
-  <div class="flex xl:px-[108px] py-[50px] lg:py-[50px] md:px-[34px] px-[15px] 2xl:px-80 w-screen">
+  <div class="flex xl:px-[108px] py-[50px] lg:py-[50px] md:px-[34px] px-[15px] 2xl:px-80">
     <!-- <nuxt-link class="my-auto" to="/">
       <svg
         width="69"
@@ -186,7 +186,7 @@
             leave-to-class="transform scale-95 opacity-0"
           >
             <ul
-              class="flex flex-col ml-auto list-none bg-white h-screen lg-s md: overflow-hidden lg:ml-auto md:gap-y-4 lg:gap-x-[40px] lg:flex-row"
+              class="flex flex-col ml-auto list-none lg:ml-auto md:gap-y-4 lg:gap-x-[40px] lg:flex-row"
             >
               <li class="nav-item lg:py-[14px]">
                 <nuxt-link

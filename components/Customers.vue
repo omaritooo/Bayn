@@ -1,6 +1,6 @@
 <template>
   <div class="md:pr-[58px] max-w-screen xl:pr-[185px] 2xl:pr-80">
-    <div class="flex overflow-x-hidden flex-col md:flex-row md:gap-x-[17px] xl:gap-x-[58px]">
+    <div class="flex flex-col md:flex-row md:gap-x-[17px] xl:gap-x-[58px]">
       <div
         class="flex lg::max-w-full -translate-x-28 w-[676.6px] md:w-auto order-last md:order-first lg::max-h-auto 2xl:translate-x-0 lg::-translate-x-60"
       >
