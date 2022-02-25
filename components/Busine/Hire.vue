@@ -1,5 +1,5 @@
 <template>
-  <div class>
+  <div class="container mx-auto overflow-x-hidden">
     <div class="flex relative mt-[147px] flex-col justify-center gap-y-[19px]">
       <svg
         class="mx-auto"
@@ -69,7 +69,7 @@
         />
       </svg>
       <svg
-        class="absolute xl:top-[58%] xl:right-[17%] 2xl:right-[19%]"
+        class="absolute lg: xl:top-[58%] xl:right-[17%] 2xl:right-[19%]"
         width="58"
         height="56"
         viewBox="0 0 58 56"
@@ -92,7 +92,7 @@
         />
       </svg>
       <svg
-        class="absolute xl:top-[13%] xl:left-[18%] 2xl:left-1/4"
+        class="absolute lg:top-[13%] lg:left-[14%] xl:top-[13%] xl:left-[18%] 2xl:left-1/4"
         width="224"
         height="237"
         viewBox="0 0 224 237"
@@ -108,7 +108,7 @@
         />
       </svg>
       <svg
-        class="absolute xl:top-[18%] xl:left-[10%] 2xl:left-[16%]"
+        class="absolute lg:top-[16%] lg:left-[7%] xl:top-[18%] xl:left-[10%] 2xl:left-[16%]"
         width="82"
         height="59"
         viewBox="0 0 82 59"
@@ -184,7 +184,7 @@
       class="lg:flex hidden gap-x-[60px] xl:-translate-x-40 lg:w-[125%] 2xl:w-[100%] h-[100%] py-20 overflow-hidden"
     >
       <div class="relative translate-y-[70px]">
-        <img class="relative z-20" src="/unsplash_E0cTcs52a14.png" />
+        <img class="relative z-20" src="/Ellipse 4.png" />
         <div class="w-[140px]">
           <span
             class="absolute top-4 max-w-[140px] flex-nowrap h-[19px] -right-4 z-30 notifs py-[15px] text-[16px] leading-[19.36px]"

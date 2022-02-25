@@ -74,7 +74,7 @@ export default {}
 </script>
 
 <style scoped>
-.gradi {
+/* .gradi {
   position: absolute;
   width: 100%;
   z-index: 20;
@@ -88,5 +88,5 @@ export default {}
     #ffffff 100%
   );
   transform: matrix(-1, 0, 0, 1, 0, 0);
-}
+} */
 </style>
