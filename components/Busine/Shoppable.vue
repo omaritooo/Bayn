@@ -88,6 +88,7 @@
           text-[18px]
           lg:text-[24px] lg:leading-[32px]
           text-center
+          md:text-left
           mx-auto
           md:mx-0
           leading-[24px]

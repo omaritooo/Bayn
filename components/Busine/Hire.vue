@@ -414,7 +414,7 @@
         </div>
       </div>
     </div>
-    <div class="flex lg:hidden">
+    <div class="hidden lg:hidden">
       <img src="/Group 48 1.png" alt />
     </div>
   </div>

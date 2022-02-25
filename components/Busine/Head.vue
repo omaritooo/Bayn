@@ -95,7 +95,9 @@
           />
         </svg>
       </div>
-      <div class="relative hidden xl:max-w-[498.48px] md:flex">
+      <div
+        class="relative hidden mt-[15px] md:mt-0 xl:max-w-[498.48px] md:flex"
+      >
         <img
           class="object-cover lg:w-max-w-[480px]"
           src="/Bayn Website (1)/1922 3.png"
