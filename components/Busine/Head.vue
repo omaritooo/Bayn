@@ -44,7 +44,7 @@
           />
         </svg>
       </div>
-      <div class="relative hidden mt-[15px] md:mt-0 xl:max-w-[498.48px] md:flex">
+      <div class="relative hidden mt-[15px] md:mt-0 xl:max-w-[498.48px] lg:flex">
         <img class="object-cover lg:w-max-w-[480px]" src="/Bayn Website (1)/1922 3.png" alt />
         <div class="absolute lg:w-[467px] flex top-[30%] -left-20">
           <img class="lg:w-[233px]" src="/Bayn Website (1)/1923.png" alt />
@@ -54,7 +54,7 @@
           <img class="object-cover" src="/Bayn Website (1)/chart.png" alt />
         </div>
       </div>
-      <div class="flex md:hidden">
+      <div class="flex lg:hidden">
         <img src="/Group 44 1.png" alt />
       </div>
     </div>

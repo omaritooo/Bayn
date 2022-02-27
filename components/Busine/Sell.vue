@@ -1,24 +1,11 @@
 <template>
   <div
-    class="
-      pt-[89px]
-      pb-[160px]
-      relative
-      flex flex-col
-      md:flex-row
-      gap-x-[62px]
-      mx-auto
-      container
-      lg:gap-x-[114px]
-      justify-center
-    "
+    class="py-[89px] relative flex flex-col md:flex-row gap-x-[62px] mx-auto container lg:gap-x-[14px] justify-center"
   >
     <div class="gradi"></div>
-    <div
-      class="relative z-30 order-last mx-auto my-auto  md:order-first md:mx-0 lg:w-auto lg:h-auto"
-    >
-      <div class="w-[277px] h-[430px]">
-        <img class="object-cover md:my-auto" src="/phone.png" alt />
+    <div class="relative z-30 order-last mx-auto my-auto md:order-first md:ml-auto">
+      <div class="w-[277px] h-[430px] lg:h-[613.15px]">
+        <img class="object-cover" src="/phone.png" alt />
       </div>
       <img src="/views.png" class="absolute -left-8 top-1/3" />
       <svg
@@ -67,98 +54,23 @@
         />
       </svg>
       <h1
-        class="
-          mx-auto
-          md:mx-0
-          text-center
-          md:text-left
-          mt-[19px]
-          lg:mt-[36px]
-          max-w-[348.04px]
-          lg:max-w-[512px]
-          text-[38px]
-          lg:text-[55px]
-          leading-[45px]
-          lg:leading-[72px]
-          font-[600]
-          text-[#0A2533]
-        "
-      >
-        Sell live to many customers instantly
-      </h1>
+        class="mx-auto md:mx-0 text-center md:text-left mt-[19px] lg:mt-[36px] max-w-[348.04px] lg:max-w-[512px] text-[38px] lg:text-[55px] leading-[45px] lg:leading-[72px] font-[600] text-[#0A2533]"
+      >Sell live to many customers instantly</h1>
       <div
-        class="
-          flex
-          mx-auto
-          md:mx-0
-          gap-x-[15px]
-          mt-[20px]
-          gap-y-[5px]
-          flex-wrap
-          max-w-[300px]
-          lg:max-w-full
-        "
+        class="flex mx-auto md:mx-0 gap-x-[15px] mt-[20px] gap-y-[5px] flex-wrap max-w-[300px] lg:max-w-full"
       >
         <div
-          class="
-            px-[20px]
-            py-[10px]
-            bg-transparent
-            rounded-[8px]
-            text-[#56545D] text-[14px]
-            leading-[16.44px]
-            font-[600]
-            border-[1px] border-[#F1F1F1]
-            w-fit
-          "
-        >
-          Video shopping
-        </div>
+          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+        >Video shopping</div>
         <div
-          class="
-            px-[20px]
-            py-[10px]
-            bg-transparent
-            rounded-[8px]
-            text-[#56545D] text-[14px]
-            leading-[16.44px]
-            font-[600]
-            border-[1px] border-[#F1F1F1]
-            w-fit
-          "
-        >
-          Unboxing
-        </div>
+          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+        >Unboxing</div>
         <div
-          class="
-            px-[20px]
-            py-[10px]
-            bg-transparent
-            rounded-[8px]
-            text-[#56545D] text-[14px]
-            leading-[16.44px]
-            font-[600]
-            border-[1px] border-[#F1F1F1]
-            w-fit
-          "
-        >
-          Reviews
-        </div>
+          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+        >Reviews</div>
         <div
-          class="
-            px-[20px]
-            py-[10px]
-            bg-transparent
-            rounded-[8px]
-            text-[#56545D] text-[14px]
-            leading-[16.44px]
-            font-[600]
-            border-[1px] border-[#F1F1F1]
-            w-fit
-          "
-        >
-          Shoppable videos
-        </div>
+          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+        >Shoppable videos</div>
       </div>
     </div>
   </div>

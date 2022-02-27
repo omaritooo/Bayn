@@ -1,25 +1,13 @@
 <template>
   <div
-    class="
-      pt-[89px]
-      pb-[160px]
-      relative
-      flex flex-col
-      md:flex-row
-      lg:gap-x-[114px]
-      justify-center
-    "
+    class="pt-[89px] pb-[160px] relative flex flex-col md:flex-row lg:gap-x-[114px] justify-center"
   >
     <!-- <div class="gradi"></div> -->
     <div class="relative z-30 order-last mx-auto md:mx-0">
       <div class="w-[277px] h-[421.3px] lg:h-[613.15px]">
         <img class="object-cover my-auto" src="/Rectangle 19.png" />
       </div>
-      <img
-        class="absolute left-0 top-[34%] md:scale-50 lg:scale-100"
-        src="/notif2.png"
-        alt
-      />
+      <img class="absolute left-0 top-[34%] md:scale-50 lg:scale-100" src="/notif2.png" alt />
       <svg
         class="absolute top-[55%] -left-[4%]"
         width="75"
@@ -84,93 +72,23 @@
       </svg>
 
       <h1
-        class="
-          mx-auto
-          md:mx-0
-          mt-[17px]
-          lg:mt-[27px] lg:max-w-[473px]
-          max-w-[196px]
-          text-[38px]
-          leading-[45px]
-          lg:text-[55px] lg:leading-[72px]
-          font-[600]
-          text-[#0A2533] text-center
-          md:text-left
-        "
-      >
-        Shoppable Videos
-      </h1>
+        class="mx-auto md:mx-0 mt-[17px] lg:mt-[27px] lg:max-w-[473px] max-w-[196px] text-[38px] leading-[45px] lg:text-[55px] lg:leading-[72px] font-[600] text-[#0A2533] text-center md:text-left"
+      >Shoppable Videos</h1>
       <div
-        class="
-          mt-[24px]
-          md:mx-0
-          flex
-          gap-x-[15px] gap-y-[5px]
-          flex-wrap
-          md:max-w-[300px]
-          lg:max-w-full
-        "
+        class="mt-[24px] md:mx-0 flex gap-x-[15px] gap-y-[5px] flex-wrap md:max-w-[300px] lg:max-w-full"
       >
         <div
-          class="
-            px-[20px]
-            py-[10px]
-            bg-transparent
-            rounded-[8px]
-            text-[#56545D] text-[14px]
-            leading-[16.44px]
-            font-[600]
-            border-[1px] border-[#F1F1F1]
-            w-fit
-          "
-        >
-          Video shopping
-        </div>
+          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+        >Video shopping</div>
         <div
-          class="
-            px-[20px]
-            py-[10px]
-            bg-transparent
-            rounded-[8px]
-            text-[#56545D] text-[14px]
-            leading-[16.44px]
-            font-[600]
-            border-[1px] border-[#F1F1F1]
-            w-fit
-          "
-        >
-          Unboxing
-        </div>
+          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+        >Unboxing</div>
         <div
-          class="
-            px-[20px]
-            py-[10px]
-            bg-transparent
-            rounded-[8px]
-            text-[#56545D] text-[14px]
-            leading-[16.44px]
-            font-[600]
-            border-[1px] border-[#F1F1F1]
-            w-fit
-          "
-        >
-          Reviews
-        </div>
+          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+        >Reviews</div>
         <div
-          class="
-            px-[20px]
-            py-[10px]
-            bg-transparent
-            rounded-[8px]
-            text-[#56545D] text-[14px]
-            leading-[16.44px]
-            font-[600]
-            border-[1px] border-[#F1F1F1]
-            w-fit
-          "
-        >
-          Shoppable videos
-        </div>
+          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+        >Shoppable videos</div>
       </div>
     </div>
   </div>
