@@ -1,71 +1,20 @@
 <template>
-  <div class="">
-    <div
-      class="
-        flex flex-col
-        md:flex-row
-        justify-between
-        md:px-[22px]
-        lg:px-[103px]
-        2xl:px-80
-      "
-    >
+  <div class>
+    <div class="flex flex-col md:flex-row justify-between md:px-[22px] xl:px-[103px] 2xl:px-80">
       <div class="relative my-auto">
         <h1
-          class="
-            text-center
-            md:text-left
-            text-[30px]
-            lg:text-[80px]
-            mx-auto
-            md:mx-0
-            leading-[45px]
-            lg:leading-[100px]
-            font-[500]
-            text-[#2C3A4B]
-            max-w-[204px]
-            lg:max-w-[542px]
-          "
-        >
-          Sell more with Confidence
-        </h1>
+          class="text-center md:text-left text-[30px] lg:text-[80px] mx-auto md:mx-0 leading-[45px] lg:leading-[100px] font-[500] text-[#2C3A4B] max-w-[204px] lg:max-w-[542px]"
+        >Sell more with Confidence</h1>
         <p
-          class="
-            text-[18px]
-            leading-[30px]
-            font-[500]
-            my-5
-            max-w-[285.37px]
-            text-center
-            md:text-left
-            mx-auto
-            md:mx-0
-            lg:max-h-[151.89px]
-            text-[#394452]
-            lg:max-w-[342.38px]
-          "
+          class="text-[18px] leading-[30px] font-[500] my-5 max-w-[285.37px] text-center md:text-left mx-auto md:mx-0 lg:max-h-[151.89px] text-[#394452] lg:max-w-[342.38px]"
         >
           Bayn provides one-stop-shop to manage your business and scale up you
           sales
         </p>
         <div class="flex gap-x-[12px]">
           <button
-            class="
-              mx-auto
-              md:mx-0
-              bg-black
-              font-[500]
-              leading-[18.78px]
-              rounded-[8px]
-              text-[16px]
-              px-[20px]
-              py-[15px]
-              text-white
-              w-fit
-            "
-          >
-            Start a campaign
-          </button>
+            class="mx-auto md:mx-0 bg-black font-[500] leading-[18.78px] rounded-[8px] text-[16px] px-[20px] py-[15px] text-white w-fit"
+          >Start a campaign</button>
         </div>
         <svg
           class="absolute bottom-0 hidden lg:flex lg:left-1/3"
@@ -95,21 +44,13 @@
           />
         </svg>
       </div>
-      <div
-        class="relative hidden mt-[15px] md:mt-0 xl:max-w-[498.48px] md:flex"
-      >
-        <img
-          class="object-cover lg:w-max-w-[480px]"
-          src="/Bayn Website (1)/1922 3.png"
-          alt
-        />
+      <div class="relative hidden mt-[15px] md:mt-0 xl:max-w-[498.48px] md:flex">
+        <img class="object-cover lg:w-max-w-[480px]" src="/Bayn Website (1)/1922 3.png" alt />
         <div class="absolute lg:w-[467px] flex top-[30%] -left-20">
           <img class="lg:w-[233px]" src="/Bayn Website (1)/1923.png" alt />
           <img class="lg:w-[233px]" src="/Bayn Website (1)/1924.png" alt />
         </div>
-        <div
-          class="lg:w-[467px] absolute top-[46%] scale-x-[102%] -left-[4.6rem]"
-        >
+        <div class="lg:w-[467px] absolute top-[46%] scale-x-[102%] -left-[4.6rem]">
           <img class="object-cover" src="/Bayn Website (1)/chart.png" alt />
         </div>
       </div>
@@ -118,20 +59,7 @@
       </div>
     </div>
     <div
-      class="
-        pt-[87px]
-        flex-col
-        md:flex-row
-        px-2
-        gap-y-[30px]
-        md:gap-y-0
-        flex
-        md:justify-between
-        lg:justify-center
-        text-center
-        lg:gap-x-[150px]
-        pb-[163px]
-      "
+      class="pt-[87px] flex-col md:flex-row px-2 gap-y-[30px] md:gap-y-0 flex md:justify-between lg:justify-center text-center lg:gap-x-[150px] pb-[163px]"
     >
       <div class="mx-auto w-fit md:mx-0">
         <svg
@@ -164,12 +92,7 @@
           </g>
           <defs>
             <clipPath id="clip0_70_2854">
-              <rect
-                width="90"
-                height="105"
-                fill="white"
-                transform="translate(0.333252 0.87793)"
-              />
+              <rect width="90" height="105" fill="white" transform="translate(0.333252 0.87793)" />
             </clipPath>
             <clipPath id="clip1_70_2854">
               <rect
@@ -182,32 +105,11 @@
           </defs>
         </svg>
         <span
-          class="
-            text-[#0A2533] text-[18px]
-            lg:text-[22px]
-            leading-[40px]
-            md:max-w-[197px]
-            lg:max-w-[241px]
-            font-[600]
-            mt-[25.9px]
-            mb-[12px]
-          "
-          >Products under control</span
-        >
+          class="text-[#0A2533] text-[18px] lg:text-[22px] leading-[40px] md:max-w-[197px] lg:max-w-[241px] font-[600] mt-[25.9px] mb-[12px]"
+        >Products under control</span>
         <p
-          class="
-            text-center
-            max-w-[219px]
-            lg:max-w-[281px]
-            font-[500]
-            md:text-[14px]
-            lg:text-[18px]
-            leading-[24px]
-            text-[#394452]
-          "
-        >
-          keep your products & promotions all in one place
-        </p>
+          class="text-center max-w-[219px] lg:max-w-[281px] font-[500] md:text-[14px] lg:text-[18px] leading-[24px] text-[#394452]"
+        >keep your products & promotions all in one place</p>
       </div>
       <div class="mx-auto w-fit md:mx-0">
         <svg
@@ -232,43 +134,17 @@
           </g>
           <defs>
             <clipPath id="clip0_70_2864">
-              <rect
-                width="90"
-                height="105"
-                fill="white"
-                transform="translate(0 0.87793)"
-              />
+              <rect width="90" height="105" fill="white" transform="translate(0 0.87793)" />
             </clipPath>
           </defs>
         </svg>
 
         <span
-          class="
-            text-[#0A2533] text-[18px]
-            lg:text-[22px]
-            leading-[40px]
-            md:max-w-[177px]
-            lg:max-w-[241px]
-            font-[600]
-            mt-[25.9px]
-            mb-[12px]
-          "
-          >Influencer Marketing</span
-        >
+          class="text-[#0A2533] text-[18px] lg:text-[22px] leading-[40px] md:max-w-[177px] lg:max-w-[241px] font-[600] mt-[25.9px] mb-[12px]"
+        >Influencer Marketing</span>
         <p
-          class="
-            text-center
-            max-w-[172px]
-            lg:max-w-[220px]
-            font-[500]
-            text-[14px]
-            lg:text-[18px]
-            leading-[24px]
-            text-[#394452]
-          "
-        >
-          don’t search for audience, we bring them to you
-        </p>
+          class="text-center max-w-[172px] lg:max-w-[220px] font-[500] text-[14px] lg:text-[18px] leading-[24px] text-[#394452]"
+        >don’t search for audience, we bring them to you</p>
       </div>
       <div class="mx-auto w-fit md:mx-0">
         <svg
@@ -303,40 +179,16 @@
           </g>
           <defs>
             <clipPath id="clip0_70_2872">
-              <rect
-                width="90"
-                height="105"
-                fill="white"
-                transform="translate(0.666992 0.87793)"
-              />
+              <rect width="90" height="105" fill="white" transform="translate(0.666992 0.87793)" />
             </clipPath>
           </defs>
         </svg>
 
         <span
-          class="
-            text-[#0A2533] text-[18px]
-            lg:text-[22px]
-            leading-[40px]
-            md:max-w-[117px]
-            lg:max-w-[241px]
-            font-[600]
-            mt-[25.9px]
-            mb-[12px]
-          "
-          >Happy clients</span
-        >
+          class="text-[#0A2533] text-[18px] lg:text-[22px] leading-[40px] md:max-w-[117px] lg:max-w-[241px] font-[600] mt-[25.9px] mb-[12px]"
+        >Happy clients</span>
         <p
-          class="
-            text-center
-            max-w-[196.39px]
-            lg:max-w-[333px]
-            font-[500]
-            text-[14px]
-            lg:text-[18px]
-            leading-[24px]
-            text-[#394452]
-          "
+          class="text-center max-w-[196.39px] lg:max-w-[333px] font-[500] text-[14px] lg:text-[18px] leading-[24px] text-[#394452]"
         >
           clients get the experience they deserve They'll never search anywhere
           else

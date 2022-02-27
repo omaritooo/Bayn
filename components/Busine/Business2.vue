@@ -1,25 +1,12 @@
 <template>
   <div
-    class="
-      flex flex-col
-      md:flex-row
-      justify-center
-      xl:gap-x-[107px]
-      2xl:gap-x-16
-      px-[16px]
-      xl:px-[130px]
-      2xl:px-80
-      pt-[240px]
-      pb-[150px]
-    "
+    class="flex flex-col md:flex-row justify-center xl:gap-x-[107px] 2xl:gap-x-16 px-[16px] xl:px-[130px] 2xl:px-80 pt-[240px] pb-[150px]"
   >
     <div class="relative order-last md:flex-1 md:order-first">
-      <div
-        class="lg:w-[575.1px] md:w-[464.84px] md:h-[370.38px] lg:h-[551.47px]"
-      >
+      <div class="xl:w-[575.1px] md:w-[464.84px] md:h-[370.38px] lg:h-[551.47px]">
         <img class="object-cover" src="/1922 2.png" alt />
       </div>
-      <div class="absolute flex z-20 -left-52 h-fit top-[27%]">
+      <div class="absolute flex z-20 xl:-left-52 h-fit lg:-left-72 lg:top-[15%] xl:top-[27%]">
         <div class="h-fit w-fit">
           <img class src="01.png" alt />
         </div>
@@ -27,40 +14,17 @@
           <img src="02.png" alt />
         </div>
       </div>
-      <div
-        class="absolute px-10 py-14 bg-white top-[29%] z-10 left-[20%]"
-      ></div>
+      <div class="absolute px-10 py-14 bg-white top-[29%] z-10 left-[20%]"></div>
     </div>
     <div class="flex flex-col gap-y-[50px] lg:mx-auto md:flex-1">
       <div class="pb-12 pt-6 flex flex-col gap-y-[40px]">
         <!-- <h1 class="font-[600] w-fit text-[28px] text-[#D8315B] uppercase">for Business Owner</h1> -->
         <div class="flex flex-col gap-y-[50px]">
           <p
-            class="
-              font-[600]
-              max-w-[356.61px]
-              md:max-w-[503.02px]
-              text-[38px] text-center
-              md:text-left
-              lg:text-[48px]
-              text-[#0A2533]
-              leading-[60px]
-            "
-          >
-            Instant sales from livestream & shoppable videos
-          </p>
+            class="font-[600] max-w-[356.61px] md:max-w-[503.02px] text-[38px] text-center md:text-left lg:text-[48px] text-[#0A2533] leading-[60px]"
+          >Instant sales from livestream & shoppable videos</p>
           <p
-            class="
-              font-[500]
-              leading-[24px]
-              lg:leading-[32px]
-              md:max-w-[347.44px]
-              lg:max-w-[497.85px]
-              w-fit
-              text-[18px]
-              lg:text-[24px]
-              text-[#394452]
-            "
+            class="font-[500] leading-[24px] lg:leading-[32px] md:max-w-[347.44px] lg:max-w-[497.85px] w-fit text-[18px] lg:text-[24px] text-[#394452]"
           >
             Integrating with bayn gives you the ability to do something you’ve
             never done before: bring in products to your store promotions (video
@@ -69,7 +33,7 @@
         </div>
         <!-- <button
                     class="bg-black font-semibold rounded-[8px] text-[14px] px-[20px] py-[15px] text-white w-fit"
-                >Start a campaign</button>-->
+        >Start a campaign</button>-->
         <div class="flex">
           <div>
             <svg
@@ -104,17 +68,7 @@
             </svg>
           </div>
           <div
-            class="
-              lg:text-[18px]
-              text-[14px]
-              leading-[18px]
-              ml-[20px]
-              lg:leading-[32px]
-              font-[500]
-              text-[#0A2533]
-              md:max-w-[284.89px]
-              lg:max-w-[464px]
-            "
+            class="lg:text-[18px] text-[14px] leading-[18px] ml-[20px] lg:leading-[32px] font-[500] text-[#0A2533] md:max-w-[284.89px] lg:max-w-[464px]"
           >
             Quick Purchase — no more clicking on attached links or additional
             steps, we do all in one place

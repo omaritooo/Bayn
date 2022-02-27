@@ -3,73 +3,25 @@
     <!-- <div class="text-[160px] leading-[73px]">
             <div class="track">Bayn For Influencers, Bayn for Influencer,</div>
             <div class="track2">Bayn for Influencer, Bayn for Influencer,</div> 
-        </div>-->
+    </div>-->
     <Marquee
-      class="
-        absolute
-        z-10
-        -top-[3%]
-        md:top-[6%]
-        lg:top-[10%]
-        xl:max-w-[1366px]
-        2xl:max-w-[1920px]
-        text-[160px]
-        h-[279.81px]
-      "
+      class="absolute z-10 -top-[3%] md:-top-[0%] xl:top-[0%] text-[160px] h-[279.81px]"
       :duration="25"
       :repeat="3"
     >
       <span
-        class="
-          text-[60px]
-          md:text-[100px]
-          lg:text-[160px]
-          text-[#0A2533]
-          w-[2159.4px]
-          overflow-x-hidden
-          h-[179.81px]
-          py-2
-          leading-[73px]
-        "
-        >Bayn For Influencers, Bayn for Influencer,</span
-      >
+        class="text-[60px] md:text-[100px] lg:text-[160px] text-[#0A2533] w-[2159.4px] overflow-x-hidden h-[179.81px] py-2 leading-[73px]"
+      >Bayn For Influencers, Bayn for Influencer,</span>
     </Marquee>
     <div
-      class="
-        2xl:px-[355px]
-        md:px-[34px]
-        lg:px-[114px]
-        relative
-        z-30
-        flex flex-col
-        gap-y-[96px]
-        pt-[14px]
-        pb-[142px]
-      "
+      class="2xl:px-[355px] md:px-[34px] lg:px-[114px] relative z-30 flex flex-col gap-y-[96px] pt-[14px] pb-[142px]"
     >
       <div
-        class="
-          flex flex-col
-          mt-[130px]
-          md:mt-0 md:flex-row
-          lg:gap-x-[202px]
-          pt-[20px]
-          pb-[64px]
-        "
+        class="flex flex-col mt-[130px] md:mt-0 md:flex-row lg: xl:gap-x-[202px] pt-[20px] pb-[64px]"
       >
-        <div class="flex mb-[85px] flex-col self-end">
+        <div class="flex xl:mb-[85px] flex-col self-end xl:self-center">
           <p
-            class="
-              max-w-[357.97px]
-              text-center
-              md:text-left
-              mx-auto
-              md:mx-0 md:max-w-[410.27px]
-              lg:max-w-[541.68px]
-              font-[500]
-              text-[#394452] text-[18px]
-              leading-[35px]
-            "
+            class="max-w-[357.97px] text-center md:text-left mx-auto md:mx-0 md:max-w-[410.27px] lg:max-w-[541.68px] font-[500] text-[#394452] text-[18px] leading-[35px]"
           >
             Join our network of live commerce influencers , Receive requests
             from stores and earn rewards while presenting the products you
@@ -77,39 +29,14 @@
           </p>
           <div class="flex gap-x-[17px] mt-[27px]">
             <button
-              class="
-                text-[14px]
-                leading-[16.44px]
-                font-[500]
-                py-[12px]
-                px-[15px]
-                md:px-[20px] md:py-[15px]
-                text-white
-                bg-black
-                rounded-[8px]
-              "
-            >
-              Get Bayn for Android
-            </button>
+              class="text-[14px] leading-[16.44px] font-[500] py-[12px] px-[15px] lg:px-[20px] lg:py-[15px] text-white bg-black rounded-[8px]"
+            >Get Bayn for Android</button>
             <button
-              class="
-                text-[14px]
-                leading-[16.44px]
-                font-[500]
-                py-[12px]
-                px-[15px]
-                md:px-[20px] md:py-[15px]
-                text-black
-                bg-transparent
-                border-[1px] border-black
-                rounded-[8px]
-              "
-            >
-              Get Bayn for Iphone
-            </button>
+              class="text-[14px] leading-[16.44px] font-[500] py-[12px] px-[15px] lg:px-[20px] lg:py-[15px] text-black bg-transparent border-[1px] border-black rounded-[8px]"
+            >Get Bayn for Iphone</button>
           </div>
           <svg
-            class="absolute hidden lg:flex top-[42.5%] left-[38%]"
+            class="absolute hidden lg:flex xl:top-[24%] xl:left-[41%] lp:top-[24.5%] lp:left-[34%]"
             width="187"
             height="76"
             viewBox="0 0 187 76"
@@ -136,9 +63,9 @@
             />
           </svg>
         </div>
-        <div class="relative self-end">
+        <div class="relative self-end hidden lg:block">
           <div
-            class="absolute glass top-1/3 border-[1px] border-white -left-1/4"
+            class="absolute hidden xl:block glass xl:w-full w-3/4 h-fit top-1/3 border-[1px] border-white -left-1/4"
           >
             <div class="flex justify-between w-full">
               <svg
@@ -173,40 +100,19 @@
               <div>now</div>
             </div>
             <div
-              class="
-                font-[600]
-                mt-[13px]
-                text-[14px]
-                leading-[16.94px]
-                text-black
-              "
-            >
-              New Live Stream Request
-            </div>
+              class="font-[600] mt-[13px] text-[14px] leading-[16.94px] text-black"
+            >New Live Stream Request</div>
             <div
-              class="
-                font-[400]
-                max-w-[324.36px]
-                mt-[4px]
-                text-[14px]
-                leading-[16.94px]
-                text-black
-              "
+              class="font-[400] max-w-[324.36px] mt-[4px] text-[14px] leading-[16.94px] text-black"
             >
               H&M Stores KSA send you a live stream new agreement to check
               details
             </div>
           </div>
           <div
-            class="
-              absolute
-              glass
-              bottom-[15%]
-              border-[1px] border-white
-              -right-1/4
-            "
+            class="absolute hidden lg:block glass bottom-[15%] xl:w-full w-3/4 h-fit border-[1px] border-white -right-1/4"
           >
-            <div class="flex justify-between w-full">
+            <div class="flex justify-between">
               <svg
                 width="43"
                 height="17"
@@ -239,25 +145,10 @@
               <div>now</div>
             </div>
             <div
-              class="
-                font-[600]
-                mt-[13px]
-                text-[14px]
-                leading-[16.94px]
-                text-black
-              "
-            >
-              New Live Stream Request
-            </div>
+              class="font-[600] mt-[13px] text-[14px] leading-[16.94px] text-black"
+            >New Live Stream Request</div>
             <div
-              class="
-                font-[400]
-                max-w-[324.36px]
-                mt-[4px]
-                text-[14px]
-                leading-[16.94px]
-                text-black
-              "
+              class="font-[400] max-w-[324.36px] mt-[4px] text-[14px] leading-[16.94px] text-black"
             >
               H&M Stores KSA send you a live stream new agreement to check
               details
@@ -265,26 +156,17 @@
           </div>
           <!-- <span>H&M Stores KSA send you a live stream new agreement to check details</span> -->
 
-          <img src="/Rectangle 1.png" />
+          <div class="hidden xl:block lp:my-auto w-[283.31px] xl:h-[613.15px] h-[444.44px]">
+            <img class="object-cover" src="/Rectangle 1.png" />
+          </div>
+        </div>
+        <div>
+          <img class="block xl:hidden" src="/Frame 17 1.png" alt />
         </div>
       </div>
       <h1
-        class="
-          font-[600]
-          text-[60px]
-          md:text-[90px]
-          lg:leading-[120px]
-          leading-[77px]
-          lg:max-w-[751px]
-          max-w-[357.66px]
-          text-center
-          md:text-left
-          px-2
-          text-[#0A2533]
-        "
-      >
-        Work that fits into your lifestyle
-      </h1>
+        class="font-[600] text-[60px] md:text-[90px] lg:leading-[120px] leading-[77px] lg:max-w-[751px] max-w-[357.66px] text-center md:text-left px-2 text-[#0A2533]"
+      >Work that fits into your lifestyle</h1>
     </div>
     <div class="flex relative justify-center md:gap-x-[48px] lg:gap-x-[120px]">
       <div class="gradie"></div>
@@ -293,20 +175,7 @@
         <img class="relative z-30" src="/Rectangle 8.png" alt />
       </div>
       <div
-        class="
-          mt-[91px]
-          relative
-          z-30
-          gap-y-[18px]
-          max-w-[564px]
-          flex flex-col
-          font-[500]
-          text-[#0A2533]
-          md:text-[24px]
-          lg:text-[30px]
-          md:leading-[38px]
-          lg:leading-[73px]
-        "
+        class="mt-[91px] relative z-30 gap-y-[18px] max-w-[564px] flex flex-col font-[500] text-[#0A2533] md:text-[24px] lg:text-[30px] md:leading-[38px] lg:leading-[73px]"
       >
         <svg
           class="absolute lg:right-[28%] md:right-[12%] md:top-6 lg:top-12"
@@ -363,13 +232,7 @@
           />
         </svg>
         <svg
-          class="
-            absolute
-            md:bottom-[49%]
-            lg:bottom-[53%]
-            md:right-[4%]
-            lg:-right-8
-          "
+          class="absolute md:bottom-[49%] lg:bottom-[53%] md:right-[4%] lg:-right-8"
           width="43"
           height="40"
           viewBox="0 0 43 40"
@@ -404,34 +267,11 @@
 
         <div class="flex gap-x-[17px] mt-[27px]">
           <button
-            class="
-              text-[14px]
-              leading-[16.44px]
-              font-[500]
-              px-[20px]
-              py-[15px]
-              text-white
-              bg-black
-              rounded-[8px]
-            "
-          >
-            Get Bayn for Android
-          </button>
+            class="text-[14px] leading-[16.44px] font-[500] px-[20px] py-[15px] text-white bg-black rounded-[8px]"
+          >Get Bayn for Android</button>
           <button
-            class="
-              text-[14px]
-              leading-[16.44px]
-              font-[500]
-              px-[20px]
-              py-[15px]
-              text-black
-              bg-transparent
-              border-[1px] border-black
-              rounded-[8px]
-            "
-          >
-            Get Bayn for Iphone
-          </button>
+            class="text-[14px] leading-[16.44px] font-[500] px-[20px] py-[15px] text-black bg-transparent border-[1px] border-black rounded-[8px]"
+          >Get Bayn for Iphone</button>
         </div>
       </div>
     </div>
