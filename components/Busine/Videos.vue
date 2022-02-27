@@ -103,18 +103,4 @@ export default {}
 </script>
 
 <style scoped>
-.gradi {
-  position: absolute;
-  width: 100%;
-  z-index: 20;
-  height: 901.87px;
-  left: 0px;
-  top: 0;
-
-  background: radial-gradient(
-    21.55% 45.87% at 65.87% 50%,
-    #d5e6ff 0%,
-    #ffffff 100%
-  );
-}
 </style>

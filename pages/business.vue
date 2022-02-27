@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-white">
-    <div class="">
+  <div class="overflow-x-hidden bg-white">
+    <div class>
       <div class="z-20 gradient"></div>
       <Navbar class="relative z-30" />
       <Head class="relative z-30" />
@@ -8,7 +8,7 @@
     <Sell />
     <Videos />
     <Shoppable />
-    <Hire />
+    <Hire class="relative z-30" />
     <Improve />
     <Business2 />
     <Footer />
@@ -31,7 +31,7 @@ export default {
 
 <style>
 html {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .gradient {
   position: absolute;

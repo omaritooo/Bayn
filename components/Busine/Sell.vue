@@ -2,8 +2,8 @@
   <div
     class="py-[89px] relative flex flex-col md:flex-row gap-x-[62px] mx-auto container md:gap-x-[14px] justify-center"
   >
-    <div class="gradi"></div>
-    <div class="relative z-30 order-last mx-auto my-auto md:order-first md:ml-auto">
+    <!-- <div class="gradi"></div> -->
+    <div class="relative z-30 order-last mx-auto my-auto md:order-first md:mx-0">
       <div class="w-[277px] h-[430px] lg:h-[613.15px]">
         <img class="object-cover" src="/phone.png" alt />
       </div>
