@@ -6,7 +6,7 @@
           class="xl:text-[48px] text-center md:text-left text-[30px] xl:leading-[73px] leading-[45px] font-[600] text-[#2C3A4B] 2xl:max-w-[660px] xl:max-w-[660px] xl:w-[660px] md:max-w-[451px]"
         >A livestreaming commerce Platform that transforms your business</h1>
         <p
-          class="text-[18px] mt-[20px] text-center md:text-left md:mt-0 leading-[30px] font-[500] my-2 xl:max-h-[151.89px] text-[#394452] xl:max-w-[342.38px] max-w-[360.37px] md:max-w-[392.38px]"
+          class="text-[18px] mt-[20px] mx-auto md:mx-0 text-center md:text-left md:mt-0 leading-[30px] font-[500] my-2 xl:max-h-[151.89px] text-[#394452] xl:max-w-[342.38px] max-w-[360.37px] md:max-w-[392.38px]"
         >
           Bayn connects people to their needs for saving time & effort to reach
           maximum entertainment
