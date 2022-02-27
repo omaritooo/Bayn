@@ -192,7 +192,7 @@
       </div>
     </div>
     <div
-      class="lg:flex !mx-0 hidden gap-x-[60px] overflow-hidden 2xl:translate-x-0 xl:-translate-x-40 lg:w-screen xl:w-[100%] 2xl:w-screen h-[100%] py-20"
+      class="lg:flex !mx-0 hidden gap-x-[60px] overflow-hidden lg:w-screen xl:w-[100%] 2xl:w-screen h-[100%] py-20"
     >
       <div class="relative translate-y-[70px]">
         <img class="relative z-20" src="/Ellipse 4.png" />

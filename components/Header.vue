@@ -12,12 +12,14 @@
           maximum entertainment
         </p>
         <div class="flex md:mt-[15px] gap-x-[12px]">
-          <button
+          <nuxt-link
+            to="/business"
             class="bg-black font-[500] leading-[18.78px] rounded-[8px] text-[16px] px-[20px] py-[15px] text-white w-fit"
-          >I’m a business owner</button>
-          <button
+          >I’m a business owner</nuxt-link>
+          <nuxt-link
+            to="/influencers"
             class="bg-transparent font-[500] leading-[16.44px] rounded-[8px] text-[16px] px-[20px] py-[15px] text-black border-[1px] border-black w-fit"
-          >I’m an influencer</button>
+          >I’m an influencer</nuxt-link>
         </div>
         <svg
           class="absolute hidden xl:flex top-[39%] left-[65%]"

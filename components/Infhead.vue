@@ -36,7 +36,7 @@
             >Get Bayn for Iphone</button>
           </div>
           <svg
-            class="absolute invisible lg:visible lg:top-[53%] lg:left-[70%] scale-50 xl:scale-100 xl:top-[27%] xl:left-[41%] 2xl:top-[54.5%] 2xl:left-[81%]"
+            class="absolute invisible lg:visible lg:top-[53%] lg:left-[70%] scale-50 xl:scale-100 xl:top-[27%] xl:-right-[22%] 2xl:top-[55.5%] 2xl:right-[1%]"
             width="187"
             height="76"
             viewBox="0 0 187 76"

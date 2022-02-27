@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="relative">
-            <!-- <div class="gradient"></div> -->
+            <div class="gradient"></div>
             <Navbar class="relative z-30" />
             <Infhead class="relative z-30" />
         </div>

@@ -1,16 +1,6 @@
 <template>
   <div>
-    <div
-      class="
-        flex
-        xl:px-[108px]
-        py-[50px]
-        lg:py-[50px]
-        md:px-[34px]
-        px-[15px]
-        2xl:px-80
-      "
-    >
+    <div class="flex xl:px-[108px] py-[50px] lg:py-[50px] md:px-[34px] px-[15px] 2xl:px-80">
       <!-- <nuxt-link class="my-auto" to="/">
         <svg
           width="69"
@@ -110,12 +100,10 @@
           Start a campaign
         </button>
       </div>-->
-      <nav
-        class="relative flex flex-wrap justify-around w-screen bg-blueGray-500"
-      >
+      <nav class="relative flex flex-wrap justify-around w-screen bg-blueGray-500">
         <div class="container flex flex-wrap items-center justify-between">
           <div
-            class="relative flex justify-between w-full  lg:w-auto lg:static lg:block lg:justify-around"
+            class="relative flex justify-between w-full lg:w-auto lg:static lg:block lg:justify-around"
           >
             <nuxt-link class="my-auto" to="/">
               <svg
@@ -148,7 +136,7 @@
               </svg>
             </nuxt-link>
             <button
-              class="block px-3 text-xl leading-none text-white bg-transparent border border-transparent border-solid rounded outline-none cursor-pointer  lg:hidden focus:outline-none"
+              class="block px-3 text-xl leading-none text-white bg-transparent border border-transparent border-solid rounded outline-none cursor-pointer lg:hidden focus:outline-none"
               type="button"
             >
               <button
@@ -157,21 +145,11 @@
               >
                 <span class="sr-only">Open main menu</span>
                 <div
-                  class="absolute block w-5 transform -translate-x-1/2 -translate-y-1/2  left-1/2 top-1/2"
+                  class="absolute block w-5 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2"
                 >
                   <span
                     aria-hidden="true"
-                    class="
-                      block
-                      absolute
-                      h-0.5
-                      w-5
-                      bg-current
-                      transform
-                      transition
-                      duration-500
-                      ease-in-out
-                    "
+                    class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out"
                     :class="{
                       'rotate-45': showMenu,
                       ' -translate-y-1.5': !showMenu,
@@ -179,32 +157,12 @@
                   ></span>
                   <span
                     aria-hidden="true"
-                    class="
-                      block
-                      absolute
-                      h-0.5
-                      w-5
-                      bg-current
-                      transform
-                      transition
-                      duration-500
-                      ease-in-out
-                    "
+                    class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out"
                     :class="{ 'opacity-0': showMenu }"
                   ></span>
                   <span
                     aria-hidden="true"
-                    class="
-                      block
-                      absolute
-                      h-0.5
-                      w-5
-                      bg-current
-                      transform
-                      transition
-                      duration-500
-                      ease-in-out
-                    "
+                    class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out"
                     :class="{
                       '-rotate-45': showMenu,
                       ' translate-y-1.5': !showMenu,
@@ -228,89 +186,42 @@
               leave-to-class="transform scale-95 opacity-0"
             >
               <ul
-                class="
-                  flex flex-col
-                  ml-auto
-                  list-none
-                  lg:ml-auto
-                  md:gap-y-4
-                  lg:gap-x-[40px] lg:flex-row
-                "
+                class="flex flex-col ml-auto list-none lg:ml-auto md:gap-y-4 lg:gap-x-[40px] lg:flex-row"
               >
                 <li class="nav-item lg:py-[14px]">
                   <nuxt-link
-                    class="
-                      font-semibold
-                      text-[14px] text-[#394452]
-                      leading-[16.44px]
-                    "
+                    class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
                     to
-                    >Why bayn?</nuxt-link
-                  >
+                  >Why bayn?</nuxt-link>
                 </li>
                 <li class="nav-item lg:py-[14px]">
                   <nuxt-link
-                    class="
-                      font-semibold
-                      text-[14px] text-[#394452]
-                      leading-[16.44px]
-                    "
-                    to
-                    >For Influencers</nuxt-link
-                  >
+                    class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
+                    to="/influencers"
+                  >For Influencers</nuxt-link>
                 </li>
                 <li class="nav-item lg:py-[14px]">
                   <nuxt-link
-                    class="
-                      font-semibold
-                      text-[14px] text-[#394452]
-                      leading-[16.44px]
-                    "
+                    class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
                     to
-                    >About</nuxt-link
-                  >
+                  >About</nuxt-link>
                 </li>
                 <li class="nav-item lg:py-[14px]">
                   <nuxt-link
-                    class="
-                      font-semibold
-                      text-[14px] text-[#394452]
-                      leading-[16.44px]
-                    "
+                    class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
                     to
-                    >FAQ</nuxt-link
-                  >
+                  >FAQ</nuxt-link>
                 </li>
                 <li class="nav-item lg:py-[14px]">
                   <nuxt-link
-                    class="
-                      font-semibold
-                      text-[14px]
-                      ]
-                      text-[#394452]
-                      leading-[16.44px]
-                    "
+                    class="font-semibold text-[14px] ] text-[#394452] leading-[16.44px]"
                     to
-                    >Contact Us</nuxt-link
-                  >
+                  >Contact Us</nuxt-link>
                 </li>
                 <li class="my-auto nav-item">
                   <button
-                    class="
-                      bg-black
-                      font-semibold
-                      my-auto
-                      leading-[16.44px]
-                      rounded-[8px]
-                      text-[12px]
-                      px-[20px]
-                      py-[15px]
-                      text-white
-                      w-fit
-                    "
-                  >
-                    Start a campaign
-                  </button>
+                    class="bg-black font-semibold my-auto leading-[16.44px] rounded-[8px] text-[12px] px-[20px] py-[15px] text-white w-fit"
+                  >Start a campaign</button>
                 </li>
               </ul>
             </transition>
@@ -333,7 +244,7 @@ export default {
     // this.$refs['home'].focus()
   },
   method: {
-    meth() {},
+    meth() { },
     toggleNavbar() {
       this.showMenu = !this.showMenu
       document.getElementById('myNav').style.width = '100%'
