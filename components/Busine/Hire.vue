@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto overflow-x-hidden">
-    <div class="md:flex relative hidden flex-col justify-center gap-y-[19px]">
+  <div class="container mx-auto overflow-x-hidden max-w-screen">
+    <div class="md:flex relative hidden flex-col overflow-x-hidden justify-center gap-y-[19px]">
       <svg
         class="mx-auto"
         width="82"
@@ -95,7 +95,7 @@
       </svg>
       <svg
         id="squiggleleft"
-        class="absolute md:top-[13%] md:left-[10%] lg:top-[13%] lg:left-[14%] xl:top-[13%] xl:left-[18%] 2xl:left-1/3"
+        class="absolute md:top-[13%] md:left-[10%] lg:top-[13%] lg:left-[14%] xl:top-[13%] xl:left-[18%] 2xl:left-1/4"
         width="224"
         height="237"
         viewBox="0 0 224 237"
@@ -186,7 +186,7 @@
       </svg>
     </div>
     <div
-      class="lg:flex hidden gap-x-[60px] xl:-translate-x-40 lg:w-[125%] 2xl:w-[100%] h-[100%] py-20 overflow-hidden"
+      class="lg:flex hidden gap-x-[60px] xl:-translate-x-40 2xl:-translate-x-52 lg:w-screen xl:w-[125%] 2xl:w-screen h-[100%] py-20"
     >
       <div class="relative translate-y-[70px]">
         <img class="relative z-20" src="/Ellipse 4.png" />
@@ -245,7 +245,7 @@
         </div>
       </div>
     </div>
-    <div class="hidden lg:hidden">
+    <div class="hidden md:block lg:hidden">
       <img src="/Group 48 1.png" alt />
     </div>
   </div>

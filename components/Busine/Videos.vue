@@ -7,9 +7,13 @@
       <div class="w-[277px] h-[421.3px] lg:h-[613.15px]">
         <img class="object-cover my-auto" src="/Rectangle 19.png" />
       </div>
-      <img class="absolute left-0 top-[34%] md:scale-50 lg:scale-100" src="/notif2.png" alt />
+      <img
+        class="absolute left-0 top-[34%] lg:top-[20%] lg:-left-4 2xl:top-[24%] 2xl:-left-7 md:scale-75 lg:scale-100"
+        src="/notif2.png"
+        alt
+      />
       <svg
-        class="absolute top-[55%] -left-[4%]"
+        class="absolute top-[55%] -left-[10%] 2xl:top-[37%] lg:top-[38%] lg:-left-[10%]"
         width="75"
         height="108"
         viewBox="0 0 75 108"

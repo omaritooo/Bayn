@@ -1,15 +1,18 @@
 <template>
   <div
-    class="py-[89px] relative flex flex-col md:flex-row gap-x-[62px] mx-auto container lg:gap-x-[14px] justify-center"
+    class="py-[89px] relative flex flex-col md:flex-row gap-x-[62px] mx-auto container md:gap-x-[14px] justify-center"
   >
     <div class="gradi"></div>
     <div class="relative z-30 order-last mx-auto my-auto md:order-first md:ml-auto">
       <div class="w-[277px] h-[430px] lg:h-[613.15px]">
         <img class="object-cover" src="/phone.png" alt />
       </div>
-      <img src="/views.png" class="absolute -left-8 top-1/3" />
+      <img
+        src="/views.png"
+        class="absolute scale-75 -left-8 top-[30%] lg:-left-8 lg:top-1/4 lg:scale-100"
+      />
       <svg
-        class="absolute top-[23%] -left-8"
+        class="absolute -left-6 top-[24%] lg:top-[24%] lg:-left-8 scale-75 lg:scale-100"
         width="68"
         height="64"
         viewBox="0 0 68 64"
