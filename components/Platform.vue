@@ -1,10 +1,10 @@
 <template>
-  <div class="py-[120px] md:py-[178px] px-[16px] md:px-[64px] xl:px-[103px] 2xl:px-80">
+  <div class="py-[120px] md:py-[178px] px-[16px] md:px-[64px] lg:px-[103px] 2xl:px-80">
     <h1
-      class="font-semibold max-h-[95px] w-full md:max-w-full leading-[45px] md:leading-[53px] text-[38px] xl:text-[55px] text-center text-[#0A2533]"
+      class="font-semibold max-h-[95px] w-full md:max-w-full leading-[45px] md:leading-[53px] text-[38px] lg:text-[55px] text-center text-[#0A2533]"
     >Million Businesses in 1 Platform</h1>
     <h2
-      class="font-[500] mt-[29px] md:leading-[22px] xl:leading-[40px] md:text-[18px] md:max-w-[509.24px] xl:max-w-full xl:text-[24px] text-center text-[#394452] md:mx-auto xl:mx-none"
+      class="font-[500] mt-[29px] md:leading-[22px] lg:leading-[40px] md:text-[18px] md:max-w-[509.24px] lg:max-w-full lg:text-[24px] text-center text-[#394452] md:mx-auto lg:mx-none"
     >You will be able to market your businesses through the different solutions</h2>
     <div
       class="flex flex-col md:flex-row xl:justify-center md:gap-x-[178px] xl:gap-x-[222.5px] mt-[59px] xl:ml-20"
@@ -41,7 +41,7 @@
                     class="mx-auto text-[#0A2533] text-[22px] leading-[40px] font-bold text-center"
         >Live Commerce</p>-->
         <p
-          class="text-[#0A2533] xl:text-[22px] text-[18px] leading-[40px] font-semibold text-center"
+          class="text-[#0A2533] lg:text-[22px] text-[18px] leading-[40px] font-semibold text-center"
         >Live Commerce</p>
       </div>
       <div class="flex flex-col my-auto gap-y-[23px]">
@@ -90,7 +90,7 @@
           />
         </svg>
         <p
-          class="text-[#0A2533] xl:text-[22px] text-[18px] leading-[40px] font-semibold text-center"
+          class="text-[#0A2533] lg:text-[22px] text-[18px] leading-[40px] font-semibold text-center"
         >Shoppable Videos</p>
         <!-- <p
                     class="mx-auto text-[#0A2533] text-[22px] leading-[40px] font-bold text-center"
@@ -128,7 +128,7 @@
           />
         </svg>
         <p
-          class="text-[#0A2533] xl:text-[22px] text-[18px] leading-[40px] font-semibold text-center"
+          class="text-[#0A2533] lg:text-[22px] text-[18px] leading-[40px] font-semibold text-center"
         >Live Commerce</p>
       </div>
     </div>
@@ -143,8 +143,8 @@
                 class="text-[#0A2533] text-[22px] leading-[40px] font-semibold text-center"
             >Shoppable Stories</p>
     </div>-->
-    <div
-      class="lg:flex hidden flex-col md:justify-center flex-2 md:flex-row flex-wrap gap-y-[42px] mt-[77px]"
+    <!-- <div
+      class="lg:flex hidden flex-col md:justify-center md:flex-row flex-wrap gap-y-[42px] mt-[77px]"
     >
       <div class="flex justify-evenly">
         <div class="flex gap-x-[10px]">
@@ -336,12 +336,12 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
     <div
-      class="lg:hidden justify-center flex flex-col gap-x-[10px] flex-auto lg:p-0 gap-y-[10px] max-w-[718px] md:flex-row flex-wrap text-center md:gap-y-[42px] mt-[34px] lg:mt-[77px]"
+      class="justify-center flex flex-col gap-x-[10px] flex-auto lg:p-0 gap-y-[10px] max-w-[718px] xl:max-w-[1222px] xl:gap-x-[25px] md:flex-row flex-wrap text-center md:gap-y-[42px] mt-[34px] lg:mt-[77px]"
     >
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:px-[20px] md: py-[20px] md:p-0 mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="27"
@@ -360,7 +360,7 @@
         >Electronics & Mobiles</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:px-[20px] md: py-[20px] md:p-0 mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="27"
@@ -380,7 +380,7 @@
         <p class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold">Fashion</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:px-[20px] md: py-[20px] md:p-0 mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="26"
@@ -402,7 +402,7 @@
         >Beauty & Health</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:px-[20px] md: py-[20px] md:p-0 mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="26"
@@ -422,7 +422,7 @@
         >Toys & games</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:px-[20px] md: py-[20px] md:p-0 mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="25"
@@ -443,7 +443,7 @@
         <p class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold">Books</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:px-[20px] md: py-[20px] md:p-0 mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="27"
@@ -472,7 +472,7 @@
         >Sports & Fitness</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:px-[20px] md: py-[20px] md:p-0 mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="27"
@@ -494,7 +494,7 @@
         >Automotive</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:px-[20px] md: py-[20px] md:p-0 mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="27"
@@ -516,7 +516,7 @@
         >Tools & Home Improvement</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:px-[20px] md: py-[20px] md:p-0 mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="23"
@@ -538,7 +538,7 @@
         >Office Supplies</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:px-[20px] md: py-[20px] md:p-0 mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="27"

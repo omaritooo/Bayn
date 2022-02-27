@@ -1,6 +1,6 @@
 <template>
   <div class="px-[14px] md:px-[34px] 2xl:px-80 xl:px-[112px]">
-    <div class="flex flex-col md:flex-row xl:gap-x-[120px] 2xl:gap-x-[219px]">
+    <div class="flex flex-col md:flex-row lg:gap-x-[120px] 2xl:gap-x-[219px]">
       <div class="relative flex flex-col my-auto">
         <h1
           class="xl:text-[48px] text-center md:text-left text-[30px] xl:leading-[73px] leading-[45px] font-[600] text-[#2C3A4B] 2xl:max-w-[660px] xl:max-w-[660px] xl:w-[660px] md:max-w-[451px]"
@@ -85,7 +85,7 @@
         </svg>
       </div>
       <div
-        class="xl:h-[613.15px] mt-[22px] md:mt-0 xl:w-[333.31px] mx-auto lg:mx-0 w-[267.04px] h-[443.36px]"
+        class="lg:h-[613.15px] mt-[22px] md:mt-0 lg:my-auto lg:w-[333.31px] mx-auto lg:mx-0 w-[267.04px] h-[443.36px]"
       >
         <img class="object-cover" src="/phoneright.png" alt />
       </div>
