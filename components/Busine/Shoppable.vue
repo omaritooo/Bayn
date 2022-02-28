@@ -1,18 +1,48 @@
 <template>
   <div
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="200"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
     class="pt-[89px] pb-[160px] relative flex flex-col md:flex-row md:gap-x-[71px] xl:gap-x-[90px] 2xl:gap-x-[114px] justify-center"
   >
     <!-- <div class="gradi"></div> -->
     <div class="relative z-30 mt-[15px] md:mt-0 mx-auto md:mx-0">
-      <div class="w-[277px] h-[441px] lg:w-full lg:h-full">
+      <div
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="350"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        class="w-[277px] h-[441px] lg:w-full lg:h-full"
+      >
         <img class="mx-auto md:mx-0" src="/Rectangle 21.png" />
       </div>
       <img
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="450"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         class="absolute top-[43%] -left-[2%] scale-75 lg:scale-100 lg:-left-2 lg:top-[53%] 2xl:left-0 2xl:top-[49%]"
         src="/Rectangle 1281.png"
         alt
       />
       <svg
+        data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-delay="500"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         class="absolute top-[66%] -left-[3%] scale-75 lg:scale-100"
         width="122"
         height="116"

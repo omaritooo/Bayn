@@ -1,12 +1,35 @@
 <template>
   <div
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="200"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
     class="flex flex-col lg:flex-row justify-between lg:justify-center gap-x-[6px] 2xl:gap-x-16 xl:px-[130px] 2xl:px-80 py-[150px]"
   >
     <div class="relative order-last mx-auto mb-[40px] lg:mb-0 lg:flex-1 md:order-first">
-      <div class="lg:w-[575.1px] md:w-[464.84px] md:h-[370.38px] lg:h-[551.47px]">
+      <div
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="400"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        class="lg:w-[575.1px] md:w-[464.84px] md:h-[370.38px] lg:h-[551.47px]"
+      >
         <img class="object-cover" src="/1922 2.png" alt />
       </div>
       <div
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="550"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         class="absolute scale-[80%] lg:scale-100 flex z-20 xl:-left-52 h-fit top-[27%] -left-[70%] lg:-left-72 lg:top-[15%] xl:top-[27%]"
       >
         <img class src="01.png" alt />

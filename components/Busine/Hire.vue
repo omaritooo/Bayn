@@ -1,5 +1,14 @@
 <template>
-  <div class="container max-w-screen">
+  <div
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="200"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    class="container max-w-screen"
+  >
     <div class="flex flex-col w-screen mx-auto">
       <div class="md:flex relative flex-col overflow-x-hidden justify-center gap-y-[19px]">
         <svg
@@ -198,6 +207,13 @@
         <img class="relative z-20" src="/Ellipse 4.png" />
         <div class="w-[140px]">
           <span
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="400"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
             class="absolute top-4 max-w-[140px] flex-nowrap h-[19px] -right-4 z-30 notifs py-[15px] text-[16px] leading-[19.36px]"
           >105K Follower</span>
         </div>
@@ -206,6 +222,13 @@
         <img class="relative z-20" src="/Ellipse 3.png" />
         <div class="w-[140px]">
           <span
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="400"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
             class="absolute top-4 max-w-[140px] flex-nowrap h-[19px] -right-4 z-30 notifs py-[15px] text-[16px] leading-[19.36px]"
           >1.2M Follower</span>
         </div>
@@ -214,6 +237,13 @@
         <img class="relative z-20" src="/Ellipse 4.png" />
         <div class="w-[140px]">
           <span
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="400"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
             class="absolute top-4 max-w-[140px] flex-nowrap h-[19px] -right-4 z-30 notifs py-[15px] text-[16px] leading-[19.36px]"
           >12K Follower</span>
         </div>
@@ -222,6 +252,13 @@
         <img class="relative z-20" src="/Ellipse 5.png" />
         <div class="w-[140px]">
           <span
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="400"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
             class="absolute top-4 w-[140px] flex-nowrap h-[19px] -right-4 z-30 notifs py-[15px] text-[16px] leading-[19.36px]"
           >37k Follower</span>
         </div>
@@ -230,6 +267,13 @@
         <img class="relative z-20" src="/Ellipse 6.png" />
         <div class="w-[140px]">
           <span
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="400"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
             class="absolute top-4 w-[140px] flex-nowrap h-[19px] -right-4 z-30 notifs py-[15px] text-[16px] leading-[19.36px]"
           >1.7M Follower</span>
         </div>
@@ -238,6 +282,13 @@
         <img class="relative z-20" src="/Ellipse 7.png" />
         <div class="w-[140px]">
           <span
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="400"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
             class="absolute top-4 w-[140px] flex-nowrap h-[19px] -right-4 z-30 notifs py-[15px] text-[16px] leading-[19.36px]"
           >1.2K Follower</span>
         </div>
@@ -246,6 +297,13 @@
         <img class="relative z-20" src="/unsplash_nmpCzYJmocg.png" />
         <div class="w-[140px] overflow-hidden">
           <span
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="400"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
             class="absolute top-4 w-[140px] flex-nowrap h-[19px] -right-16 z-30 notifs py-[15px] text-[16px] leading-[19.36px]"
           >7K Follower</span>
         </div>

@@ -1,18 +1,23 @@
 <template>
   <div
-    class="
-      flex flex-col
-      md:flex-row
-      lg:justify-center
-      px-[31px]
-      lg:gap-x-16
-      2xl:px-80
-      xl:px-[110px]
-      pt-[300px]
-    "
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="200"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    class="flex flex-col md:flex-row lg:justify-center px-[31px] lg:gap-x-16 2xl:px-80 xl:px-[110px] pt-[300px]"
   >
-    <div class="hidden md:block relative">
+    <div class="relative hidden md:block">
       <img
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="350"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         class="lg:w-[575.1px] w-[346.26px] h-[332.67px] lg:h-[551.47px]"
         src="/1922 2.png"
         alt
@@ -22,61 +27,33 @@
                 </div>
                 <div>
                     <img src="02.png" alt />
-            </div>-->
+      </div>-->
       <div
-        class="
-          absolute
-          flex
-          z-20
-          md:-left-[14%] md:top-[24%]
-          lg:left-[15.5%] lg:h-fit lg:top-[27%]
-        "
+        class="absolute flex z-20 md:-left-[14%] md:top-[24%] lg:left-[15.5%] lg:h-fit lg:top-[27%]"
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="400"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
       >
         <img src="/LIVE CARD 1.png" alt />
       </div>
-      <div
-        class="
-          absolute
-          md:px-32 md:py-8
-          lg:py-14
-          bg-white
-          top-[29%]
-          z-10
-          left-[1%]
-        "
-      ></div>
+      <div class="absolute md:px-32 md:py-8 lg:py-14 bg-white top-[29%] z-10 left-[1%]"></div>
     </div>
     <div class="block md:hidden">
-      <img src="/Group 49 1.png" alt="" />
+      <img src="/Group 49 1.png" alt />
     </div>
     <div class="flex flex-col gap-y-[50px] w-fit lg:mx-auto order-first">
       <div class="pb-12 pt-6 flex flex-col gap-y-[40px]">
         <!-- <h1 class="font-[600] w-fit text-[28px] text-[#D8315B] uppercase">for Business Owner</h1> -->
         <div class="flex flex-col gap-y-[50px]">
           <p
-            class="
-              font-[600]
-              w-fit
-              md:max-w-[503.02px] md:text-[38px] md:leading-[45px]
-              lg:text-[48px]
-              text-[#0A2533]
-              lg:leading-[60px]
-            "
-          >
-            Improve your product appearance
-          </p>
+            class="font-[600] w-fit md:max-w-[503.02px] md:text-[38px] md:leading-[45px] lg:text-[48px] text-[#0A2533] lg:leading-[60px]"
+          >Improve your product appearance</p>
           <p
-            class="
-              font-[500]
-              leading-[24px]
-              text-[18px]
-              lg:leading-[32px]
-              md:max-w-[372.9px]
-              lg:max-w-[497.85px]
-              w-fit
-              lg:text-[24px]
-              text-[#394452]
-            "
+            class="font-[500] leading-[24px] text-[18px] lg:leading-[32px] md:max-w-[372.9px] lg:max-w-[497.85px] w-fit lg:text-[24px] text-[#394452]"
           >
             Bayn gives you the ability to add your products easily, manage stock
             and sales through direct promotions (video review - livestream -
@@ -85,7 +62,7 @@
         </div>
         <!-- <button
                     class="bg-black font-semibold rounded-[8px] text-[14px] px-[20px] py-[15px] text-white w-fit"
-                >Start a campaign</button>-->
+        >Start a campaign</button>-->
         <div class="flex">
           <div>
             <svg
@@ -120,17 +97,7 @@
             </svg>
           </div>
           <div
-            class="
-              md:text-[14px]
-              lg:text-[18px]
-              ml-[20px]
-              leading-[18px]
-              max-w-[284.89px]
-              lg:leading-[32px]
-              font-[500]
-              text-[#0A2533]
-              lg:max-w-[464px]
-            "
+            class="md:text-[14px] lg:text-[18px] ml-[20px] leading-[18px] max-w-[284.89px] lg:leading-[32px] font-[500] text-[#0A2533] lg:max-w-[464px]"
           >
             Better client experience — now you can focus more on your clients
             and speed up selling

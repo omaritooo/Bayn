@@ -5,9 +5,9 @@
     <div class="flex flex-col md:flex-row md:gap-x-[17px] xl:gap-x-[58px]">
       <div
         data-aos="fade-right"
-        data-aos-offset="200"
+        data-aos-offset="100"
         data-aos-delay="200"
-        data-aos-duration="1000"
+        data-aos-duration="500"
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="true"

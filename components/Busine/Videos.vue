@@ -1,18 +1,48 @@
 <template>
   <div
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="200"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
     class="pt-[89px] pb-[160px] relative flex flex-col md:flex-row lg:gap-x-[114px] justify-center"
   >
     <!-- <div class="gradi"></div> -->
     <div class="relative z-30 order-last mx-auto md:mx-0">
-      <div class="w-[277px] h-[421.3px] lg:h-[613.15px]">
+      <div
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="350"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        class="w-[277px] h-[421.3px] lg:h-[613.15px]"
+      >
         <img class="object-cover my-auto" src="/Rectangle 19.png" />
       </div>
       <img
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="450"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         class="absolute left-0 top-[34%] lg:top-[20%] lg:-left-4 2xl:top-[24%] 2xl:-left-7 md:scale-75 lg:scale-100"
         src="/notif2.png"
         alt
       />
       <svg
+        data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-delay="550"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         class="absolute top-[55%] -left-[10%] 2xl:top-[37%] lg:top-[38%] lg:-left-[10%]"
         width="75"
         height="108"

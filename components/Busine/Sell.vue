@@ -1,17 +1,47 @@
 <template>
   <div
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="200"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
     class="py-[89px] relative flex flex-col md:flex-row gap-x-[62px] mx-auto container md:gap-x-[14px] justify-center"
   >
     <!-- <div class="gradi"></div> -->
     <div class="relative z-30 order-last mx-auto my-auto md:order-first md:mx-0">
-      <div class="w-[277px] h-[430px] lg:h-[613.15px]">
+      <div
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="350"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        class="w-[277px] h-[430px] lg:h-[613.15px]"
+      >
         <img class="object-cover" src="/phone.png" alt />
       </div>
       <img
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="400"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         src="/views.png"
         class="absolute scale-75 -left-8 top-[30%] lg:-left-8 lg:top-1/4 lg:scale-100"
       />
       <svg
+        data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-delay="500"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         class="absolute -left-6 top-[24%] lg:top-[24%] lg:-left-8 scale-75 lg:scale-100"
         width="68"
         height="64"
