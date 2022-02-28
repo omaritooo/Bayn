@@ -1,5 +1,14 @@
 <template>
-  <div class="py-[120px] md:py-[178px] px-[16px] md:px-[64px] lg:px-[103px] 2xl:px-80">
+  <div
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="200"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    class="py-[120px] md:py-[178px] px-[16px] md:px-[64px] lg:px-[103px] 2xl:px-80"
+  >
     <h1
       class="font-semibold max-h-[95px] w-full md:max-w-full leading-[45px] md:leading-[53px] text-[38px] lg:text-[55px] text-center text-[#0A2533]"
     >Million Businesses in 1 Platform</h1>

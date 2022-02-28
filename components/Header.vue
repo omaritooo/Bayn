@@ -22,6 +22,13 @@
           >I’m an influencer</nuxt-link>
         </div>
         <svg
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
           class="absolute hidden xl:flex top-[39%] left-[65%]"
           width="253"
           height="60"
@@ -37,6 +44,13 @@
           />
         </svg>
         <svg
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
           class="absolute hidden xl:flex top-[38.5%] -right-6"
           width="29"
           height="8"
@@ -52,6 +66,13 @@
           />
         </svg>
         <svg
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
           class="absolute hidden xl:flex top-[39.5%] -right-6"
           width="20"
           height="25"
@@ -67,6 +88,13 @@
           />
         </svg>
         <svg
+          data-aos="fade-down"
+          data-aos-offset="200"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
           class="absolute hidden md:flex xl:right-4 md:right-6 -top-2"
           width="40"
           height="31"
@@ -87,6 +115,13 @@
         </svg>
       </div>
       <div
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="200"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         class="lg:h-[613.15px] mt-[22px] md:mt-0 lg:my-auto lg:w-[333.31px] mx-auto lg:mx-0 w-[267.04px] h-[443.36px]"
       >
         <img class="object-cover" src="/phoneright.png" alt />
@@ -96,7 +131,10 @@
 </template>
 
 <script>
-export default {}
+import AOS from '@/mixins/aos.js'
+export default {
+  mixins: [AOS]
+}
 </script>
 
 <style>

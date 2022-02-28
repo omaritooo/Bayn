@@ -6,7 +6,16 @@
         <h1
           class="font-[600] text-[#2C3A4B] mx-auto lg:mx-0 text-[38px] xl:text-[55px] xl:leading-[73px] leading-[55px] lg:max-w-[600px] md:max-w-[400.04px] max-w-[373.04px]"
         >Do more to reach higher engagement</h1>
-        <div class="flex gap-x-[10px] xl:gap-x-[19px] mt-[40px] mb-[45px]">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
+          class="flex gap-x-[10px] xl:gap-x-[19px] mt-[40px] mb-[45px]"
+        >
           <img
             class="lg:w-[72px] lg:h-[72px] :w-[46.05px] h-[46.05px]"
             src="/badge/Ellipse 3.png"
@@ -59,11 +68,37 @@
       </div>
       <div class="relative z-30 mx-auto md:mx-0 lg:my-auto">
         <div class="lg:w-full lg:h-full">
-          <div class="xl:w-[283.31px] xl:h-[613.15px] w-[297.05px] h-[461.71px]">
+          <div
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            class="xl:w-[283.31px] xl:h-[613.15px] w-[297.05px] h-[461.71px]"
+          >
             <img class="object-cover" src="/phone.png" alt />
           </div>
-          <img src="/views.png" class="absolute -left-8 top-1/3" />
+          <img
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            src="/views.png"
+            class="absolute -left-8 top-1/3"
+          />
           <svg
+            data-aos="fade-down"
+            data-aos-offset="200"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
             class="absolute top-[23%] -left-8"
             width="68"
             height="64"

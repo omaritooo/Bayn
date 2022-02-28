@@ -4,6 +4,13 @@
   >
     <div class="flex flex-col md:flex-row md:gap-x-[17px] xl:gap-x-[58px]">
       <div
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="200"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         class="flex lg::max-w-full -translate-x-28 w-[676.6px] md:w-auto order-last md:order-first lg::max-h-auto 2xl:translate-x-0 lg::-translate-x-60"
       >
         <div class="max-w-[676.6px] lg:max-w-full max-h-[443.36px] max-h-auto">

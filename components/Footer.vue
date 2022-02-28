@@ -4,6 +4,13 @@
   >
     <div class="relative py-16">
       <div
+        data-aos="zoom-in"
+        data-aos-offset="200"
+        data-aos-delay="200"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         class="bg-[#FFFAFF] z-50 relative px-[16px] lg:px-[105px] py-[30px] lg:py-[90px] rounded-xl lg:flex-row flex-col flex justify-between self-center"
       >
         <div class="gap-y-[25px] my-auto xl:gap-y-4 text-[#394452] z-50">
@@ -20,10 +27,26 @@
           >Start your campaign</button>
         </div>
       </div>
-      <div class="absolute !z-[1] overflow-x-hidden w-screen h-[2px] bg-[#EBEEF2] top-1/2 -left-80"></div>
+      <div
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="300"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        class="absolute !z-[1] overflow-x-hidden w-screen h-[2px] bg-[#EBEEF2] top-1/2 -left-80"
+      ></div>
     </div>
 
     <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="200"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="true"
       class="xl:flex flex xl:flex-row flex-col md:hidden justify-between md:py-[79px] xl:py-[142px]"
     >
       <div
