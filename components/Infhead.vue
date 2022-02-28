@@ -27,16 +27,23 @@
             from stores and earn rewards while presenting the products you
             promote
           </p>
-          <div class="flex gap-x-[17px] mt-[27px]">
+          <div class="flex gap-x-[17px] mt-[27px] relative z-40">
             <button
-              class="text-[14px] leading-[16.44px] font-[500] py-[12px] px-[15px] lg:px-[20px] lg:py-[15px] text-white bg-black rounded-[8px]"
+              class="text-[14px] relative z-40 leading-[16.44px] font-[500] py-[12px] px-[15px] lg:px-[20px] lg:py-[15px] text-white bg-black rounded-[8px]"
             >Get Bayn for Android</button>
             <button
-              class="text-[14px] leading-[16.44px] font-[500] py-[12px] px-[15px] lg:px-[20px] lg:py-[15px] text-black bg-transparent border-[1px] border-black rounded-[8px]"
+              class="text-[14px] relative z-40 leading-[16.44px] font-[500] py-[12px] px-[15px] lg:px-[20px] lg:py-[15px] text-black bg-white border-[1px] border-black rounded-[8px]"
             >Get Bayn for Iphone</button>
           </div>
           <svg
-            class="absolute invisible lg:visible lg:top-[53%] lg:left-[70%] scale-50 xl:scale-100 xl:top-[27%] xl:-right-[22%] 2xl:top-[55.5%] 2xl:right-[1%]"
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="400"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            class="absolute invisible z-20 lg:visible lg:top-[53%] lg:left-[70%] scale-50 xl:scale-100 xl:top-[27%] xl:-right-[22%] 2xl:top-[55.5%] 2xl:right-[1%]"
             width="187"
             height="76"
             viewBox="0 0 187 76"
@@ -65,6 +72,13 @@
         </div>
         <div class="relative self-end hidden ml-auto xl:flex">
           <div
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="400"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
             class="absolute hidden xl:block glass xl:w-[354.36px] w-3/4 h-fit top-1/3 border-[1px] border-white -left-1/4"
           >
             <div class="flex justify-between w-full">
@@ -110,6 +124,13 @@
             </div>
           </div>
           <div
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="400"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
             class="absolute hidden xl:block glass bottom-[15%] xl: xl:w-[354.36px] w-3/4 h-fit border-[1px] border-white -right-1/4"
           >
             <div class="flex justify-between">
@@ -156,22 +177,55 @@
           </div>
           <!-- <span>H&M Stores KSA send you a live stream new agreement to check details</span> -->
 
-          <div class="hidden xl:flex w-[353.31px] xl:h-[613.15px] h-[444.44px]">
+          <div
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="200"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            class="hidden xl:flex w-[353.31px] xl:h-[613.15px] h-[444.44px]"
+          >
             <img class="object-cover" src="/Rectangle 1.png" />
           </div>
         </div>
-        <div>
+        <div
+          data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-delay="200"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
+        >
           <img class="block xl:hidden" src="/Frame 17 1.png" alt />
         </div>
       </div>
       <h1
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="550"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         class="font-[600] text-[60px] md:text-[90px] lg:leading-[120px] leading-[77px] lg:max-w-[751px] max-w-[357.66px] text-center md:text-left px-2 text-[#0A2533]"
       >Work that fits into your lifestyle</h1>
     </div>
     <div class="flex flex-col md:flex-row relative justify-center md:gap-x-[48px] lg:gap-x-[120px]">
       <div class="gradie"></div>
 
-      <div class="relative z-30">
+      <div
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="650"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        class="relative z-30"
+      >
         <img class="relative z-30" src="/Rectangle 8.png" alt />
       </div>
       <div
@@ -279,7 +333,10 @@
 </template>
 
 <script>
-export default {}
+import AOS from '@/mixins/aos.js'
+export default {
+  mixins: [AOS]
+}
 </script>
 <style>
 .track {

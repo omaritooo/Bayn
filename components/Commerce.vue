@@ -1,15 +1,36 @@
 <template>
   <div
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="200"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
     class="pt-[89px] pb-[160px] relative flex flex-col md:flex-row md:gap-x-[59px] px-[37px] xl:gap-x-[114px] justify-center md:px-[69px] 2xl:px-[460px]"
   >
     <div class="gradi"></div>
     <div
+      data-aos="fade-right"
+      data-aos-offset="200"
+      data-aos-delay="400"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="true"
       class="max-w-[277px] mt-[30px] md:mt-0 order-last md:order-first relative z-30 lg:w-full max-h-[460.35px] lg:h-full"
     >
       <img class="relative z-30" src="/phone.png" />
     </div>
     <div class="relative z-30 xl:my-auto">
       <svg
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="450"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         class="mx-auto md:mx-0"
         width="107"
         height="107"
@@ -37,12 +58,28 @@
         />
       </svg>
       <h1
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="500"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         class="mt-[36px] max-w-[315px] text-center md:text-left md:max-w-[473px] text-[60px] lg:text-[90px] leading-[80px] lg:leading-[103px] font-[600] text-[#0A2533]"
       >
         Live
         Commerce
       </h1>
-      <div class="flex gap-x-[15px] gap-y-[5px] flex-wrap md:max-w-[300px] lg:max-w-full">
+      <div
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="550"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        class="flex gap-x-[15px] gap-y-[5px] flex-wrap md:max-w-[300px] lg:max-w-full"
+      >
         <div
           class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
         >Live stream</div>
@@ -61,9 +98,6 @@
 </template>
 
 <script>
-export default {
-
-}
 </script>
 
 <style scoped>

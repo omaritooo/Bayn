@@ -1,78 +1,92 @@
 <template>
   <div
-    class="
-      px-[13px]
-      lg:px-[110px]
-      2xl:px-80
-      py-[180px]
-      xl:justify-center
-      flex flex-col
-      md:flex-row md:gap-x-4
-      lg:gap-x-[72px]
-    "
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="200"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    class="px-[13px] lg:px-[110px] 2xl:px-80 py-[180px] xl:justify-center flex flex-col md:flex-row md:gap-x-4 lg:gap-x-[72px]"
   >
     <div class="relative flex order-last md:my-auto lg:my-none md:order-first">
-      <div class="md:w-[432.1px] md:h-[534.49px]">
+      <div
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="350"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        class="md:w-[432.1px] md:h-[534.49px]"
+      >
         <img class="object-cover" src="/Influencer/Rectangle 9.png" />
       </div>
       <img
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="400"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         src="/Influencer/Frame 40.png"
         class="absolute w-1/2 md:top-1/2 lg:top-[59%] -left-2 xl:-left-12"
       />
       <img
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="400"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         src="/Influencer/Frame 41.png"
-        class="absolute w-1/2  md:-bottom-10 lg:-bottom-14 md:left-1/2 lg:left-64"
+        class="absolute w-1/2 md:-bottom-10 lg:-bottom-14 md:left-1/2 lg:left-64"
       />
       <img
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="400"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
         src="/Influencer/Frame 42.png"
         class="absolute w-1/2 md:-top-14 md:left-1/2 lg:left-[35%]"
       />
     </div>
-    <div
-      class="
-        flex
-        md:h-[90%]
-        lg:h-full
-        flex-col
-        my-auto
-        gap-y-[30px]
-        xl:gap-y-[50px]
-      "
-    >
+    <div class="flex md:h-[90%] lg:h-full flex-col my-auto gap-y-[30px] xl:gap-y-[50px]">
       <h1
-        class="
-          text-[38px]
-          mx-auto
-          md:mx-0
-          text-center
-          md:text-left
-          xl:text-[48px]
-          leading-[60px]
-          max-w-[269px]
-          xl:max-w-[340px]
-          font-[600]
-          text-[#0A2533]
-        "
-      >
-        Getting started is quick and easy
-      </h1>
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="450"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        class="text-[38px] mx-auto md:mx-0 text-center md:text-left xl:text-[48px] leading-[60px] max-w-[269px] xl:max-w-[340px] font-[600] text-[#0A2533]"
+      >Getting started is quick and easy</h1>
       <span
-        class="
-          text-[24px]
-          mx-auto
-          md:mx-0
-          text-center
-          md:text-left
-          xl:text-[36px]
-          leading-[44px]
-          text-[#0A2533]
-          font-[600]
-          max-w-[311.78px]
-          xl:max-w-[600px]
-        "
-        >We’ve designed Bayn so that anyone can do it. Literally anyone.</span
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="500"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        class="text-[24px] mx-auto md:mx-0 text-center md:text-left xl:text-[36px] leading-[44px] text-[#0A2533] font-[600] max-w-[311.78px] xl:max-w-[600px]"
+      >We’ve designed Bayn so that anyone can do it. Literally anyone.</span>
+      <div
+        class="flex flex-col gap-y-[15px]"
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="550"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
       >
-      <div class="flex flex-col gap-y-[15px]">
         <div class="flex gap-x-[20px]">
           <svg
             width="18"
@@ -106,17 +120,11 @@
           </svg>
 
           <span
-            class="
-              md:max-w-[284.89px]
-              lg:max-w-[557px]
-              leading-[32px]
-              md:text-[14px]
-              xl:text-[18px]
-              font-[500]
-            "
-            >No experience needed — you’ll be doing work that’s basic to you but
-            vital to the business</span
+            class="md:max-w-[284.89px] lg:max-w-[557px] leading-[32px] md:text-[14px] xl:text-[18px] font-[500]"
           >
+            No experience needed — you’ll be doing work that’s basic to you but
+            vital to the business
+          </span>
         </div>
         <div class="flex gap-x-[20px]">
           <svg
@@ -151,17 +159,11 @@
           </svg>
 
           <span
-            class="
-              md:max-w-[284.89px]
-              lg:max-w-[557px]
-              leading-[32px]
-              md:text-[14px]
-              xl:text-[18px]
-              font-[500]
-            "
-            >No application process — No CV or interview — there’s no need to
-            tell your life story to get your first live with us</span
+            class="md:max-w-[284.89px] lg:max-w-[557px] leading-[32px] md:text-[14px] xl:text-[18px] font-[500]"
           >
+            No application process — No CV or interview — there’s no need to
+            tell your life story to get your first live with us
+          </span>
         </div>
         <div class="flex gap-x-[20px]">
           <svg
@@ -196,17 +198,11 @@
           </svg>
 
           <span
-            class="
-              md:max-w-[285px]
-              lg:max-w-[557px]
-              leading-[32px]
-              md:text-[14px]
-              xl:text-[18px]
-              font-[500]
-            "
-            >Quick onboarding — it takes less than 10 minutes to create your
-            business account and get accepted by Bayn’s Team</span
+            class="md:max-w-[285px] lg:max-w-[557px] leading-[32px] md:text-[14px] xl:text-[18px] font-[500]"
           >
+            Quick onboarding — it takes less than 10 minutes to create your
+            business account and get accepted by Bayn’s Team
+          </span>
         </div>
       </div>
     </div>

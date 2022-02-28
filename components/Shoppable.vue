@@ -1,15 +1,36 @@
 <template>
       <div
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="200"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
             class="relative pt-[89px] pb-[160px] px-[39px] md:px-4 lg:px-0 flex flex-col md:flex-row md:gap-x-[82px] lg:gap-x-[114px] justify-center"
       >
             <div class="gradi"></div>
             <div
+                  data-aos="fade-right"
+                  data-aos-offset="200"
+                  data-aos-delay="400"
+                  data-aos-duration="500"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
                   class="max-w-[277px] mt-[30px] md:mt-0 order-last md:order-first relative z-30 lg:w-full max-h-[460.35px] lg:h-full"
             >
                   <img class="relative z-30 object-cover rotate-[20deg]" src="/Rectangle 14.png" />
             </div>
             <div class="relative z-30 my-auto">
                   <svg
+                        data-aos="fade-left"
+                        data-aos-offset="200"
+                        data-aos-delay="450"
+                        data-aos-duration="500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="true"
                         class="mx-auto md:mx-0"
                         width="113"
                         height="112"
@@ -55,12 +76,26 @@
                   </svg>
 
                   <h1
+                        data-aos="fade-left"
+                        data-aos-offset="200"
+                        data-aos-delay="500"
+                        data-aos-duration="500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="true"
                         class="mt-[36px] max-w-[315px] text-center md:text-left md:max-w-[473px] text-[60px] lg:text-[90px] leading-[80px] lg:leading-[103px] font-[600] text-[#0A2533]"
                   >
                         Shoppable
                         Videos
                   </h1>
                   <div
+                        data-aos="fade-left"
+                        data-aos-offset="200"
+                        data-aos-delay="550"
+                        data-aos-duration="500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="true"
                         class="flex gap-x-[15px] gap-y-[5px] flex-wrap md:max-w-[300px] lg:max-w-full"
                   >
                         <div

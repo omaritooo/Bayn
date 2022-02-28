@@ -1,6 +1,13 @@
 <template>
   <div class="mt-[30px] overflow-x-hidden">
     <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="200"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="true"
       class="relative overflow-x-hidden flex flex-col w-[100%] py-[30px] md:py-[180px] xl:px-[350px]"
     >
       <div class="relative hidden py-12 md:block">
@@ -13,14 +20,53 @@
         <div
           class="absolute scale-75 -top-[25%] -right-[10%] lg:scale-100 lg:-top-[15%] lg:right-0 xl:-top-[30%] xl:-right-32 2xl:-top-[40%] 2xl:-right-2"
         >
-          <img src="/Ellipse 1.png" />
-          <img class="absolute top-2 right-2" src="/Frame 18.png" />
+          <img
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="350"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            src="/Ellipse 1.png"
+          />
+          <img
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="400"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            class="absolute top-2 right-2"
+            src="/Frame 18.png"
+          />
         </div>
         <div
           class="absolute scale-75 lg:scale-100 -bottom-[105%] -left-[7%] lg:-bottom-[95%] xl:-bottom-[96%] xl:-left-[19%] 2xl:-bottom-[87%] 2xl:left-[5%]"
         >
-          <img src="/Ellipse 2.png" alt />
-          <img class="absolute -left-4 bottom-3" src="/Frame 19.png" />
+          <img
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="350"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            src="/Ellipse 2.png"
+            alt
+          />
+          <img
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="400"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            class="absolute -left-4 bottom-3"
+            src="/Frame 19.png"
+          />
         </div>
         <svg
           class="absolute -top-[56%] left-1/3"
@@ -57,6 +103,13 @@
         </svg>
         <svg
           id="trident right"
+          data-aos="fade-down"
+          data-aos-offset="200"
+          data-aos-delay="500"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
           class="absolute -top-[30%] md:right-20 lg:-top-[35%] xl:-top-[50%] xl:right-5 2xl:-top-[60%] right-44"
           width="58"
           height="59"
@@ -79,6 +132,13 @@
         </svg>
         <svg
           id="bottom trident right"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="500"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
           class="absolute top-1/2 right-2 lg:top-[57%] lg:right-0 xl:top-[55%] xl:-right-[14%] 2xl:top-[55%] 2xl:right-2"
           width="42"
           height="68"
@@ -167,6 +227,13 @@
         </svg>
         <svg
           id="arrow right"
+          data-aos="fade-right-up"
+          data-aos-offset="200"
+          data-aos-delay="500"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
           class="absolute -bottom-[10%] right-32 lg:-bottom-[40%] lg:right-[12%] xl:right-[6%] xl:-bottom-[40%] 2xl:right-[18%]"
           width="47"
           height="67"
@@ -555,6 +622,13 @@
       </div>
     </div>
     <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="300"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="true"
       class="flex flex-col md:flex-row xl:w-[100%] md:w-[120%] mt-10 px-[16px] md:px-[38px] xl:px-[110px] 2xl:px-[350px] justify-between"
     >
       <div class="flex relative flex-col gap-y-[24px]">
