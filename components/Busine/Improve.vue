@@ -51,7 +51,9 @@
         <div class="flex flex-col gap-y-[50px]">
           <p
             class="font-[600] w-fit md:max-w-[503.02px] md:text-[38px] md:leading-[45px] lg:text-[48px] text-[#0A2533] lg:leading-[60px]"
-          >Improve your product appearance</p>
+          >
+            Improve your product appearance
+          </p>
           <p
             class="font-[500] leading-[24px] text-[18px] lg:leading-[32px] md:max-w-[372.9px] lg:max-w-[497.85px] w-fit lg:text-[24px] text-[#394452]"
           >
@@ -112,5 +114,4 @@
 export default {}
 </script>
 
-<style>
-</style>
+<style></style>

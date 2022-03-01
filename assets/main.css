@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body[data-aos-easing='bayn-ease'] [data-aos],
+[data-aos][data-aos][data-aos-easing='bayn-ease'] {
+  transition-timing-function: cubic-bezier(0.46, 0.01, 0, 0.2);
+}

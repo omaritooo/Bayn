@@ -11,7 +11,8 @@
     >
       <span
         class="text-[60px] md:text-[100px] lg:text-[160px] text-[#0A2533] w-[2159.4px] overflow-x-hidden h-[179.81px] py-4 leading-[73px]"
-      >Bayn For Influencers, Bayn for Influencer,</span>
+        >Bayn For Influencers, Bayn for Influencer,</span
+      >
     </Marquee>
     <div
       class="2xl:px-[350px] md:px-[34px] lg:px-[114px] relative z-30 flex flex-col gap-y-[96px] pt-[14px] pb-[142px]"
@@ -30,12 +31,16 @@
           <div class="flex gap-x-[17px] mt-[27px] relative z-40">
             <button
               class="text-[14px] relative z-40 leading-[16.44px] font-[500] py-[12px] px-[15px] lg:px-[20px] lg:py-[15px] text-white bg-black rounded-[8px]"
-            >Get Bayn for Android</button>
+            >
+              Get Bayn for Android
+            </button>
             <button
               class="text-[14px] relative z-40 leading-[16.44px] font-[500] py-[12px] px-[15px] lg:px-[20px] lg:py-[15px] text-black bg-white border-[1px] border-black rounded-[8px]"
-            >Get Bayn for Iphone</button>
+            >
+              Get Bayn for Iphone
+            </button>
           </div>
-          <svg
+          <!-- <svg
             data-aos="fade-right"
             data-aos-offset="200"
             data-aos-delay="400"
@@ -68,7 +73,7 @@
               stroke-width="3"
               stroke-linecap="round"
             />
-          </svg>
+          </svg> -->
         </div>
         <div class="relative self-end hidden ml-auto xl:flex">
           <div
@@ -115,7 +120,9 @@
             </div>
             <div
               class="font-[600] mt-[13px] text-[14px] leading-[16.94px] text-black"
-            >New Live Stream Request</div>
+            >
+              New Live Stream Request
+            </div>
             <div
               class="font-[400] max-w-[324.36px] mt-[4px] text-[14px] leading-[16.94px] text-black"
             >
@@ -133,7 +140,7 @@
             data-aos-once="true"
             class="absolute hidden xl:block glass bottom-[15%] xl: xl:w-[354.36px] w-3/4 h-fit border-[1px] border-white -right-1/4"
           >
-            <div class="flex justify-between">
+            <div class="flex justify-between w-full">
               <svg
                 width="43"
                 height="17"
@@ -167,7 +174,9 @@
             </div>
             <div
               class="font-[600] mt-[13px] text-[14px] leading-[16.94px] text-black"
-            >New Live Stream Request</div>
+            >
+              New Live Stream Request
+            </div>
             <div
               class="font-[400] max-w-[324.36px] mt-[4px] text-[14px] leading-[16.94px] text-black"
             >
@@ -211,9 +220,13 @@
         data-aos-mirror="true"
         data-aos-once="true"
         class="font-[600] text-[60px] md:text-[90px] lg:leading-[120px] leading-[77px] lg:max-w-[751px] max-w-[357.66px] text-center md:text-left px-2 text-[#0A2533]"
-      >Work that fits into your lifestyle</h1>
+      >
+        Work that fits into your lifestyle
+      </h1>
     </div>
-    <div class="flex flex-col md:flex-row relative justify-center md:gap-x-[48px] lg:gap-x-[120px]">
+    <div
+      class="flex flex-col md:flex-row relative justify-center md:gap-x-[48px] lg:gap-x-[120px]"
+    >
       <div class="gradie"></div>
 
       <div
@@ -322,10 +335,14 @@
         <div class="flex gap-x-[17px] mt-[27px]">
           <button
             class="text-[14px] leading-[16.44px] font-[500] px-[20px] py-[15px] text-white bg-black rounded-[8px]"
-          >Get Bayn for Android</button>
+          >
+            Get Bayn for Android
+          </button>
           <button
             class="text-[14px] leading-[16.44px] font-[500] px-[20px] py-[15px] text-black bg-transparent border-[1px] border-black rounded-[8px]"
-          >Get Bayn for Iphone</button>
+          >
+            Get Bayn for Iphone
+          </button>
         </div>
       </div>
     </div>
@@ -335,7 +352,7 @@
 <script>
 import AOS from '@/mixins/aos.js'
 export default {
-  mixins: [AOS]
+  mixins: [AOS],
 }
 </script>
 <style>

@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="flex xl:px-[108px] py-[50px] lg:py-[50px] md:px-[34px] px-[15px] 2xl:px-80">
+    <div
+      class="flex xl:px-[108px] py-[50px] lg:py-[50px] md:px-[34px] px-[15px] 2xl:px-80"
+    >
       <!-- <nuxt-link class="my-auto" to="/">
         <svg
           width="69"
@@ -100,7 +102,9 @@
           Start a campaign
         </button>
       </div>-->
-      <nav class="relative flex flex-wrap justify-around w-screen bg-blueGray-500">
+      <nav
+        class="relative flex flex-wrap justify-around w-screen bg-blueGray-500"
+      >
         <div class="container flex flex-wrap items-center justify-between">
           <div
             class="relative flex justify-between w-full lg:w-auto lg:static lg:block lg:justify-around"
@@ -188,40 +192,51 @@
               <ul
                 class="flex flex-col ml-auto list-none lg:ml-auto md:gap-y-4 lg:gap-x-[40px] lg:flex-row"
               >
-                <li class="nav-item lg:py-[14px]">
+                <!-- <li class="nav-item lg:py-[14px]">
                   <nuxt-link
                     class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
                     to
                   >Why bayn?</nuxt-link>
-                </li>
+                </li> -->
                 <li class="nav-item lg:py-[14px]">
                   <nuxt-link
                     class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
                     to="/influencers"
-                  >For Influencers</nuxt-link>
+                    >For Influencers</nuxt-link
+                  >
                 </li>
                 <li class="nav-item lg:py-[14px]">
+                  <nuxt-link
+                    class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
+                    to="/business"
+                    >For Businesses</nuxt-link
+                  >
+                </li>
+                <!-- <li class="nav-item lg:py-[14px]">
                   <nuxt-link
                     class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
                     to
                   >About</nuxt-link>
-                </li>
-                <li class="nav-item lg:py-[14px]">
+                </li> -->
+                <!-- <li class="nav-item lg:py-[14px]">
                   <nuxt-link
                     class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
                     to
                   >FAQ</nuxt-link>
-                </li>
-                <li class="nav-item lg:py-[14px]">
+                </li> -->
+                <!-- <li class="nav-item lg:py-[14px]">
                   <nuxt-link
                     class="font-semibold text-[14px] ] text-[#394452] leading-[16.44px]"
                     to
                   >Contact Us</nuxt-link>
-                </li>
+                </li> -->
                 <li class="my-auto nav-item">
-                  <button
+                  <a
+                    href="https://bayn.io/"
                     class="bg-black font-semibold my-auto leading-[16.44px] rounded-[8px] text-[12px] px-[20px] py-[15px] text-white w-fit"
-                  >Start a campaign</button>
+                  >
+                    Start a campaign
+                  </a>
                 </li>
               </ul>
             </transition>
@@ -244,7 +259,7 @@ export default {
     // this.$refs['home'].focus()
   },
   method: {
-    meth() { },
+    meth() {},
     toggleNavbar() {
       this.showMenu = !this.showMenu
       document.getElementById('myNav').style.width = '100%'

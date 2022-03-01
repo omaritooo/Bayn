@@ -9,7 +9,9 @@
     data-aos-once="true"
     class="flex flex-col lg:flex-row justify-between lg:justify-center gap-x-[6px] 2xl:gap-x-16 xl:px-[130px] 2xl:px-80 py-[150px]"
   >
-    <div class="relative order-last mx-auto mb-[40px] lg:mb-0 lg:flex-1 md:order-first">
+    <div
+      class="relative order-last mx-auto mb-[40px] lg:mb-0 lg:flex-1 md:order-first"
+    >
       <div
         data-aos="fade-left"
         data-aos-offset="200"
@@ -43,7 +45,9 @@
         <div class="flex flex-col gap-y-[30px] lg:gap-y-[50px]">
           <p
             class="font-[600] max-w-[356.61px] md:max-w-[503.02px] text-[38px] text-center lg:text-left lg:text-[48px] text-[#0A2533] leading-45 lg:leading-[60px]"
-          >Instant sales from livestream & shoppable videos</p>
+          >
+            Instant sales from livestream & shoppable videos
+          </p>
           <p
             class="font-[500] leading-[24px] lg:leading-[32px] mx-auto lg:mx-0 md:max-w-[347.44px] lg:max-w-[497.85px] max-w-fit text-[18px] lg:text-[24px] text-[#394452]"
           >
@@ -104,5 +108,4 @@
 export default {}
 </script>
 
-<style>
-</style>
+<style></style>

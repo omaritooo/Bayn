@@ -13,10 +13,14 @@
       <div class="relative hidden py-12 md:block">
         <h1
           class="text-[48px] leading-[73px] font-[600] text-center text-[#0A2533]"
-        >We’re here for you</h1>
+        >
+          We’re here for you
+        </h1>
         <p
           class="text-[24px] leading-[32px] max-w-[497.85px] mx-auto font-[500] mt-[11.79px] text-center text-[#394452]"
-        >it is designed to give you all the support to achieve success.</p>
+        >
+          it is designed to give you all the support to achieve success.
+        </p>
         <!-- <div
           class="absolute scale-75 -top-[25%] -right-[10%] lg:scale-100 lg:-top-[15%] lg:right-0 xl:-top-[30%] xl:-right-32 2xl:-top-[40%] 2xl:-right-2"
         >
@@ -362,10 +366,14 @@
         </div>
         <h1
           class="max-w-[410px] text-[38px] mx-auto text-center md:text-left font-[600]"
-        >We’re here for you</h1>
+        >
+          We’re here for you
+        </h1>
         <p
           class="text-[20px] leading-[32px] max-w-[358.15px] mx-auto mb-[10px] text-center font-[500]"
-        >it is designed to give you all the support to achieve success.</p>
+        >
+          it is designed to give you all the support to achieve success.
+        </p>
         <div
           class="flex md:hidden mx-auto max-w-[264px] md:max-w-[427px] lg:max-w-[570px] flex-wrap gap-x-[15px] gap-y-[15px]"
         >
@@ -389,13 +397,19 @@
               </g>
               <defs>
                 <clipPath id="clip0_1_1371">
-                  <rect width="18" height="18" fill="white" transform="translate(0 0.244629)" />
+                  <rect
+                    width="18"
+                    height="18"
+                    fill="white"
+                    transform="translate(0 0.244629)"
+                  />
                 </clipPath>
               </defs>
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Time Management</span>
+              >Time Management</span
+            >
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -416,7 +430,8 @@
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Direct connection with store owners</span>
+              >Direct connection with store owners</span
+            >
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -434,14 +449,20 @@
               </g>
               <defs>
                 <clipPath id="clip0_1_1382">
-                  <rect width="18.6" height="16" fill="white" transform="translate(0 0.244629)" />
+                  <rect
+                    width="18.6"
+                    height="16"
+                    fill="white"
+                    transform="translate(0 0.244629)"
+                  />
                 </clipPath>
               </defs>
             </svg>
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Documented requirements</span>
+              >Documented requirements</span
+            >
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -459,7 +480,8 @@
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Long term relationships</span>
+              >Long term relationships</span
+            >
           </div>
         </div>
 
@@ -499,7 +521,9 @@
           <img class="absolute right-32 bottom-2" src="/Frame 19.png" />
         </div>
       </div>
-      <div class="flex flex-col mx-auto mt-[15px] text-center justify-center gap-y-[18px]">
+      <div
+        class="flex flex-col mx-auto mt-[15px] text-center justify-center gap-y-[18px]"
+      >
         <div
           class="hidden md:flex max-w-[264px] md:max-w-[427px] lg:max-w-[570px] flex-wrap gap-x-[15px] gap-y-[15px]"
         >
@@ -523,13 +547,19 @@
               </g>
               <defs>
                 <clipPath id="clip0_1_1371">
-                  <rect width="18" height="18" fill="white" transform="translate(0 0.244629)" />
+                  <rect
+                    width="18"
+                    height="18"
+                    fill="white"
+                    transform="translate(0 0.244629)"
+                  />
                 </clipPath>
               </defs>
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Time Management</span>
+              >Time Management</span
+            >
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -550,7 +580,8 @@
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Direct connection with store owners</span>
+              >Direct connection with store owners</span
+            >
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -568,14 +599,20 @@
               </g>
               <defs>
                 <clipPath id="clip0_1_1382">
-                  <rect width="18.6" height="16" fill="white" transform="translate(0 0.244629)" />
+                  <rect
+                    width="18.6"
+                    height="16"
+                    fill="white"
+                    transform="translate(0 0.244629)"
+                  />
                 </clipPath>
               </defs>
             </svg>
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Documented requirements</span>
+              >Documented requirements</span
+            >
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -593,7 +630,8 @@
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Long term relationships</span>
+              >Long term relationships</span
+            >
           </div>
         </div>
         <svg
@@ -635,7 +673,9 @@
         <img class="max-w-[124px]" src="/handup.png" alt />
         <h1
           class="font-[600] text-[38px] xl:text-[48px] leading-[73px] text-[#0A2533]"
-        >Flow of success</h1>
+        >
+          Flow of success
+        </h1>
         <div
           class="flex relative flex-col text-[#0A2533] gap-y-[20px] leading-[28px] font-[500] md:leading-[52px] xl:leading-[58px] max-w-[358.36px] md:max-w-[632px] md:text-[18px] xl:text-[24px]"
         >
@@ -845,24 +885,36 @@
             fill="#1E1E27"
           />
         </svg>-->
-        -->
       </div>
       <div
         class="flex flex-col md:-translate-x-20 xl:-translate-x-0 lg:-translate-x-40 mt-10 md:mt-auto gap-y-[74px]"
       >
         <div class="flex md:gap-x-[10px] lg:gap-x-[44px]">
           <div class="translate-y-[50px] lg:translate-y-[103px]">
-            <img class="xl:w-[150.86px] xl:h-[150.86px] md:w-[104px] md:h-[104px]" src="/woman.png" />
+            <img
+              class="xl:w-[150.86px] xl:h-[150.86px] md:w-[104px] md:h-[104px]"
+              src="/woman.png"
+            />
           </div>
           <div>
-            <img class="xl:w-[150.86px] xl:h-[150.86px] md:w-[104px] md:h-[104px]" src="/woman.png" />
+            <img
+              class="xl:w-[150.86px] xl:h-[150.86px] md:w-[104px] md:h-[104px]"
+              src="/unsplash_ruWf1KGPPsY.png"
+            />
           </div>
           <div class="translate-y-[100px] lg:translate-y-[200px]">
-            <img class="xl:w-[150.86px] xl:h-[150.86px] md:w-[104px] md:h-[104px]" src="/woman.png" />
+            <img
+              class="xl:w-[150.86px] xl:h-[150.86px] md:w-[104px] md:h-[104px]"
+              src="/unsplash_SH1WBCu9f88.png"
+            />
           </div>
         </div>
         <div>
-          <img class="mx-auto scale-75 md:scale-50 lg:scale-100" src="/trophy.png" alt />
+          <img
+            class="mx-auto scale-75 md:scale-50 lg:scale-100"
+            src="/trophy.png"
+            alt
+          />
         </div>
       </div>
     </div>
@@ -873,13 +925,9 @@
 export default {}
 </script>
 
-
-
-
-
 <style>
 .test {
-  background-image: url("/Frame 43.png");
+  background-image: url('/Frame 43.png');
   background-size: auto;
   width: 100%;
   background-repeat: no-repeat;
@@ -888,7 +936,7 @@ export default {}
 
 @media screen and (max-width: 1280px) {
   .test {
-    background-image: url("/Frame 43.png");
+    background-image: url('/Frame 43.png');
     background-size: contain;
     width: 900px;
     background-repeat: no-repeat;
@@ -899,7 +947,7 @@ export default {}
 
 @media screen and (max-width: 1024px) {
   .test {
-    background-image: url("/Frame 43.png");
+    background-image: url('/Frame 43.png');
     background-size: contain;
     width: 800px;
     background-repeat: no-repeat;
