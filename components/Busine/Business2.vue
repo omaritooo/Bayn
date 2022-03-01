@@ -20,9 +20,9 @@
         data-aos-once="true"
         class="lg:w-[575.1px] md:w-[464.84px] md:h-[370.38px] lg:h-[551.47px]"
       >
-        <img class="object-cover" src="/1922 2.png" alt />
+        <img class="object-cover" src="/Bayn Website/Frame 2247.png" alt />
       </div>
-      <div
+      <!-- <div
         data-aos="fade-right"
         data-aos-offset="200"
         data-aos-delay="550"
@@ -35,7 +35,7 @@
         <img class src="01.png" alt />
         <img src="02.png" alt />
       </div>
-      <div class="absolute px-10 py-14 bg-white top-[29%] z-10 left-[20%]"></div>
+      <div class="absolute px-10 py-14 bg-white top-[29%] z-10 left-[20%]"></div>-->
     </div>
     <div class="flex flex-col gap-y-[50px] md:mx-auto md:flex-1">
       <div class="pb-12 pt-6 flex flex-col gap-y-[40px]">

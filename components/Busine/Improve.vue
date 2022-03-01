@@ -19,7 +19,7 @@
         data-aos-mirror="true"
         data-aos-once="true"
         class="lg:w-[575.1px] w-[346.26px] h-[332.67px] lg:h-[551.47px]"
-        src="/1922 2.png"
+        src="/Bayn Website/Frame 2246.png"
         alt
       />
       <!-- <div class="h-fit w-fit">
@@ -28,7 +28,7 @@
                 <div>
                     <img src="02.png" alt />
       </div>-->
-      <div
+      <!-- <div
         class="absolute flex z-20 md:-left-[14%] md:top-[24%] lg:left-[15.5%] lg:h-fit lg:top-[27%]"
         data-aos="fade-right"
         data-aos-offset="200"
@@ -40,7 +40,7 @@
       >
         <img src="/LIVE CARD 1.png" alt />
       </div>
-      <div class="absolute md:px-32 md:py-8 lg:py-14 bg-white top-[29%] z-10 left-[1%]"></div>
+      <div class="absolute md:px-32 md:py-8 lg:py-14 bg-white top-[29%] z-10 left-[1%]"></div>-->
     </div>
     <div class="block md:hidden">
       <img src="/Group 49 1.png" alt />

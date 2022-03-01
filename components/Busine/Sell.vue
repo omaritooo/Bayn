@@ -21,9 +21,9 @@
         data-aos-once="true"
         class="w-[277px] h-[430px] lg:h-[613.15px]"
       >
-        <img class="object-cover" src="/phone.png" alt />
+        <img class="object-cover" src="/Bayn Website/Frame 2221.png" alt />
       </div>
-      <img
+      <!-- <img
         data-aos="fade-up"
         data-aos-offset="200"
         data-aos-delay="400"
@@ -56,7 +56,7 @@
           stroke-miterlimit="10"
           stroke-linecap="round"
         />
-      </svg>
+      </svg>-->
     </div>
     <div class="relative z-30 mx-auto md:my-auto md:mt-0 mt-7 md:mx-0">
       <svg

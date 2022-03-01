@@ -7,7 +7,7 @@
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="true"
-    class="pt-[89px] pb-[160px] relative flex flex-col md:flex-row lg:gap-x-[114px] justify-center"
+    class="py-[89px] relative flex flex-col md:flex-row lg:gap-x-[114px] justify-center"
   >
     <!-- <div class="gradi"></div> -->
     <div class="relative z-30 order-last mx-auto md:mx-0">
@@ -21,9 +21,9 @@
         data-aos-once="true"
         class="w-[277px] h-[421.3px] lg:h-[613.15px]"
       >
-        <img class="object-cover my-auto" src="/Rectangle 19.png" />
+        <img class="object-cover my-auto" src="/Bayn Website/Frame 2222.png" />
       </div>
-      <img
+      <!-- <img
         data-aos="fade-up"
         data-aos-offset="200"
         data-aos-delay="450"
@@ -57,7 +57,7 @@
           stroke-miterlimit="10"
           stroke-linecap="round"
         />
-      </svg>
+      </svg>-->
     </div>
     <div class="relative z-30 mx-auto md:mx-0 md:my-auto lg:my-0">
       <svg

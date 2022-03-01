@@ -82,10 +82,10 @@
           data-aos-mirror="true"
           data-aos-once="true"
           class="object-cover lg:w-max-w-[480px]"
-          src="/Bayn Website (1)/1922 3.png"
+          src="/Frame 2225.png"
           alt
         />
-        <div class="absolute lg:w-[467px] flex top-[30%] -left-20">
+        <!-- <div class="absolute lg:w-[467px] flex top-[30%] -left-20">
           <img
             data-aos="fade-up"
             data-aos-offset="200"
@@ -124,7 +124,7 @@
             src="/Bayn Website (1)/chart.png"
             alt
           />
-        </div>
+        </div>-->
       </div>
       <div
         data-aos="fade-up"

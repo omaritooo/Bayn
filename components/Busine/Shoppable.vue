@@ -21,9 +21,9 @@
         data-aos-once="true"
         class="w-[277px] h-[441px] lg:w-full lg:h-full"
       >
-        <img class="mx-auto md:mx-0" src="/Rectangle 21.png" />
+        <img class="mx-auto md:mx-0" src="/Bayn Website/Frame 2223.png" />
       </div>
-      <img
+      <!-- <img
         data-aos="fade-right"
         data-aos-offset="200"
         data-aos-delay="450"
@@ -57,7 +57,7 @@
           stroke-miterlimit="10"
           stroke-linecap="round"
         />
-      </svg>
+      </svg>-->
     </div>
     <div class="relative z-30 order-first my-auto md:order-last">
       <svg
