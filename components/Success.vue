@@ -8,7 +8,7 @@
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
       data-aos-once="true"
-      class="relative overflow-x-hidden flex flex-col w-[100%] py-[30px] md:py-[180px] xl:px-[350px]"
+      class="relative overflow-x-hidden flex flex-col w-[100%] lg:test py-[30px] md:py-[180px] xl:px-[350px]"
     >
       <div class="relative hidden py-12 md:block">
         <h1
@@ -17,7 +17,7 @@
         <p
           class="text-[24px] leading-[32px] max-w-[497.85px] mx-auto font-[500] mt-[11.79px] text-center text-[#394452]"
         >it is designed to give you all the support to achieve success.</p>
-        <div
+        <!-- <div
           class="absolute scale-75 -top-[25%] -right-[10%] lg:scale-100 lg:-top-[15%] lg:right-0 xl:-top-[30%] xl:-right-32 2xl:-top-[40%] 2xl:-right-2"
         >
           <img
@@ -67,8 +67,8 @@
             class="absolute -left-4 bottom-3"
             src="/Frame 19.png"
           />
-        </div>
-        <svg
+        </div>-->
+        <!-- <svg
           class="absolute -top-[56%] left-1/3"
           width="240"
           height="87"
@@ -310,7 +310,7 @@
             stroke-linecap="round"
             stroke-linejoin="round"
           />
-        </svg>
+        </svg>-->
       </div>
       <div class="flex flex-col md:hidden">
         <div class="relative">
@@ -644,7 +644,7 @@
           <span>Manage your schedule and campaigns with ease</span>
           <span>Provide shoppable videos that can be accessed anytime</span>
           <span>Go live with clear content and Instrcutions</span>
-          <svg
+          <!-- <svg
             class="absolute block top-8 left-20 md:hidden"
             width="29"
             height="31"
@@ -743,10 +743,9 @@
               d="M2.20331 6.50671C1.68277 6.32215 1.11118 6.59451 0.926627 7.11505C0.742071 7.63559 1.01444 8.20718 1.53497 8.39173L2.20331 6.50671ZM18.6305 23.7647C18.87 24.2623 19.4677 24.4714 19.9653 24.2319C20.4629 23.9923 20.6721 23.3947 20.4325 22.8971L18.6305 23.7647ZM1.53497 8.39173C5.40907 9.76529 14.3152 14.8016 18.6305 23.7647L20.4325 22.8971C15.8124 13.3009 6.38101 7.98791 2.20331 6.50671L1.53497 8.39173Z"
               fill="#1E1E27"
             />
-          </svg>
+          </svg>-->
         </div>
-        <!-- arrow one -->
-        <svg
+        <!-- <svg
           class="absolute hidden md:block top-[53%] left-[82%] 2xl:left-[82%] xl:top-[47%] 2xl:top-[53%]"
           width="69"
           height="59"
@@ -771,7 +770,6 @@
             fill="#1E1E27"
           />
         </svg>
-        <!-- arrow two -->
         <svg
           class="absolute hidden md:block xl:top-[53%] xl:left-[66%] top-[59%] left-[63%] 2xl:top-[59%] 2xl:left-[63%]"
           width="69"
@@ -797,7 +795,6 @@
             fill="#1E1E27"
           />
         </svg>
-        <!-- arrow three -->
         <svg
           class="absolute hidden md:block 2xl:top-[70%] xl:top-[65%] 2xl:left-[78%] top-[70%] left-[78%]"
           width="70"
@@ -823,7 +820,6 @@
             fill="#1E1E27"
           />
         </svg>
-        <!-- arrow four  -->
         <svg
           class="absolute hidden md:block top-[81%] left-[92%]"
           width="70"
@@ -848,7 +844,8 @@
             d="M2.53932 22.6762C1.71977 22.5553 0.957341 23.1216 0.836387 23.9411C0.715432 24.7607 1.28176 25.5231 2.10131 25.6441L2.53932 22.6762ZM48.5863 53.3943C49.083 54.0573 50.0231 54.1922 50.6862 53.6955C51.3492 53.1989 51.4841 52.2588 50.9874 51.5957L48.5863 53.3943ZM2.10131 25.6441C11.6969 27.0603 34.5321 34.6317 48.5863 53.3943L50.9874 51.5957C36.3014 31.9896 12.613 24.163 2.53932 22.6762L2.10131 25.6441Z"
             fill="#1E1E27"
           />
-        </svg>
+        </svg>-->
+        -->
       </div>
       <div
         class="flex flex-col md:-translate-x-20 xl:-translate-x-0 lg:-translate-x-40 mt-10 md:mt-auto gap-y-[74px]"
@@ -881,4 +878,39 @@ export default {}
 
 
 <style>
+.test {
+  background-image: url("/Frame 43.png");
+  background-size: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+  .test {
+    background-image: url("/Frame 43.png");
+    background-size: contain;
+    width: 900px;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .test {
+    background-image: url("/Frame 43.png");
+    background-size: contain;
+    width: 800px;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .test {
+    width: 100%;
+  }
+}
 </style>

@@ -23,7 +23,7 @@
         </div>
         <div class="z-50 mx-auto lg:mt-0 mt-[20px] lg:mx-0 lg:my-auto">
           <button
-            class="px-[40px] lgS:mx-0 mx-auto text-white bg-black rounded-lg text-[13px] xl:text-[24px] py-[12px] xl:py-[16px]"
+            class="px-[20px] lg:mx-0 mx-auto text-white bg-black rounded-lg text-[13px] xl:text-[24px] py-[12px] xl:py-[12px]"
           >Start your campaign</button>
         </div>
       </div>

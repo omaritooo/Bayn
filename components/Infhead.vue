@@ -231,7 +231,7 @@
       <div
         class="mt-[91px] mx-auto md:mx-0 relative z-30 gap-y-[18px] max-w-[564px] flex flex-col font-[500] text-[#0A2533] md:text-[24px] lg:text-[30px] md:leading-[38px] lg:leading-[73px]"
       >
-        <svg
+        <!-- <svg
           class="absolute right-[26%] top-7 lg:right-[28%] md:right-[7%] md:top-6 lg:top-12"
           width="47"
           height="51"
@@ -303,7 +303,7 @@
             stroke="black"
             stroke-width="3"
           />
-        </svg>
+        </svg>-->
 
         <span>
           Your remarkable content

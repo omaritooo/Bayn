@@ -1,12 +1,19 @@
 <template>
   <div
+    data-aos="fade-up"
+    data-aos-offset="100"
+    data-aos-delay="200"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
     class="md:pr-[58px] max-w-screen xl:pr-[185px] 2xl:pr-80 overflow-x-hidden lg:overflow-visible"
   >
     <div class="flex flex-col md:flex-row md:gap-x-[17px] xl:gap-x-[58px]">
       <div
         data-aos="fade-right"
         data-aos-offset="100"
-        data-aos-delay="200"
+        data-aos-delay="300"
         data-aos-duration="500"
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"

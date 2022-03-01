@@ -7,7 +7,7 @@
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="true"
-            class="relative pt-[89px] pb-[160px] px-[39px] md:px-4 lg:px-0 flex flex-col md:flex-row md:gap-x-[82px] lg:gap-x-[114px] justify-center"
+            class="relative py-[89px] px-[39px] md:px-4 lg:px-0 flex flex-col md:flex-row md:gap-x-[82px] lg:gap-x-[114px] justify-center"
       >
             <div class="gradi"></div>
             <div

@@ -18,11 +18,11 @@
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="true"
-        class="md:w-[432.1px] md:h-[534.49px]"
+        class="md:w-[432.1px] md:h-[534.49px] lg:w-[708.72px] lg:h-[876.9px]"
       >
-        <img class="object-cover" src="/Influencer/Rectangle 9.png" />
+        <img class="object-cover" src="/Frame 2250.png" />
       </div>
-      <img
+      <!-- <img
         data-aos="fade-right"
         data-aos-offset="200"
         data-aos-delay="400"
@@ -54,7 +54,7 @@
         data-aos-once="true"
         src="/Influencer/Frame 42.png"
         class="absolute w-1/2 md:-top-14 md:left-1/2 lg:left-[35%]"
-      />
+      />-->
     </div>
     <div class="flex md:h-[90%] lg:h-full flex-col my-auto gap-y-[30px] xl:gap-y-[50px]">
       <h1
