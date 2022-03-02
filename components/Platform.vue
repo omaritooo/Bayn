@@ -16,7 +16,7 @@
       class="font-[500] mt-[29px] md:leading-[22px] lg:leading-[40px] md:text-[18px] md:max-w-[509.24px] lg:max-w-full lg:text-[24px] text-center text-[#394452] md:mx-auto lg:mx-none"
     >You will be able to market your businesses through the different solutions</h2>
     <div
-      class="flex flex-col md:flex-row xl:justify-center md:gap-x-[178px] xl:gap-x-[222.5px] mt-[59px] xl:ml-20"
+      class="flex flex-col md:flex-row xl:justify-center gap-x-[95px] mx-auto lg:mx-0 lg:gap-x-[117px] xl:gap-x-[222.5px] mt-[59px] xl:ml-20"
     >
       <div class="flex flex-col gap-y-[22.6px]">
         <svg
@@ -347,10 +347,10 @@
       </div>
     </div>-->
     <div
-      class="justify-center flex flex-col gap-x-[10px] flex-auto lg:p-0 gap-y-[10px] max-w-[718px] xl:max-w-[1222px] xl:gap-x-[25px] md:flex-row flex-wrap text-center md:gap-y-[42px] mt-[34px] lg:mt-[77px]"
+      class="justify-center flex mx-auto flex-col gap-x-[10px] flex-auto lg:p-0 gap-y-[10px] max-w-[718px] xl:max-w-[1222px] xl:gap-x-[25px] md:flex-row flex-wrap text-center md:gap-y-[42px] mt-[34px] lg:mt-[77px]"
     >
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="27"
@@ -369,7 +369,7 @@
         >Electronics & Mobiles</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="27"
@@ -389,7 +389,7 @@
         <p class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold">Fashion</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="26"
@@ -411,7 +411,7 @@
         >Beauty & Health</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="26"
@@ -431,7 +431,7 @@
         >Toys & games</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="25"
@@ -452,7 +452,7 @@
         <p class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold">Books</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="27"
@@ -481,7 +481,7 @@
         >Sports & Fitness</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="27"
@@ -503,7 +503,7 @@
         >Automotive</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="27"
@@ -525,7 +525,7 @@
         >Tools & Home Improvement</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="23"
@@ -547,7 +547,7 @@
         >Office Supplies</p>
       </div>
       <div
-        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] md:py-[12px] md:px-[20px] mx-auto md:mx-0"
+        class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
       >
         <svg
           width="27"

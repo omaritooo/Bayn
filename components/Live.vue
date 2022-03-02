@@ -38,11 +38,11 @@
         />
       </svg>
       <div
-        class="relative z-30 xl:text-[48px] text-[30px] max-w-[344.27px] mt-[41px] mx-auto text-center font-semibold xl:leading-[53px] md:leading-[45px] md:max-w-[917px] text-[#0A2533]"
+        class="relative z-30 lg:text-[48px] text-[30px] max-w-[344.27px] mt-[41px] mx-auto text-center font-semibold xl:leading-[53px] md:leading-[45px] md:max-w-[917px] text-[#0A2533]"
       >The future of livestreaming commerce campaign has no trade-offs</div>
     </div>
     <div
-      class="relative z-30 xl:text-[24px] text-[18px] mt-[34px] mx-auto text-center font-[500] xl:leading-[40px] leading-[30px] max-w-[836.08px] text-[#394452]"
+      class="relative z-30 lg:text-[24px] text-[18px] mt-[34px] mx-auto text-center font-[500] xl:leading-[40px] leading-[30px] max-w-[836.08px] text-[#394452]"
     >
       we connect people who is passionate on shopping and following trends with
       stores and influencers allowing them to improve the shopping experience

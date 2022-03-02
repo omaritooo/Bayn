@@ -2,9 +2,9 @@
   <div class="px-[3px] md:px-[34px] lg:mt-72 2xl:px-80 xl:px-[173px] pt-[130px] pb-[14px] relative">
     <div class="grad"></div>
     <div class="flex flex-col relative md:flex-row justify-start md:gap-x-[26px] xl:gap-x-[66px]">
-      <div class="relative z-30 flex-1">
+      <div class="relative z-30 flex-1 my-auto">
         <h1
-          class="font-[600] text-[#2C3A4B] mx-auto lg:mx-0 text-[38px] xl:text-[55px] xl:leading-[73px] leading-[55px] lg:max-w-[600px] md:max-w-[400.04px] max-w-[373.04px]"
+          class="font-[600] text-[#2C3A4B] mx-auto lg:mx-0 text-[38px] xl:text-[55px] xl:leading-[73px] leading-[55px] lg:max-w-[600px] md:max-w-[373.04px] max-w-[373.04px]"
         >Do more to reach higher engagement</h1>
         <div
           data-aos="fade-right"
@@ -17,7 +17,7 @@
           class="flex gap-x-[10px] xl:gap-x-[19px] mt-[40px] mb-[45px]"
         >
           <img
-            class="lg:w-[72px] lg:h-[72px] :w-[46.05px] h-[46.05px]"
+            class="lg:w-[72px] lg:h-[72px] w-[46.05px] h-[46.05px]"
             src="/badge/Ellipse 3.png"
             alt
           />
@@ -66,8 +66,8 @@
           >Live Advertisments</div>
         </div>
       </div>
-      <div class="relative z-30 flex-1 mx-auto md:mx-0 lg:">
-        <div class="md:w-[283.31px] md:h-[613.15px] w-[297.05px] h-[461.71px]">
+      <div class="relative z-30 mx-auto my-auto md:mx-0 f">
+        <div class="md:w-[283.31px] lg:h-[613.15px] w-[297.05px] h-[461.71px]">
           <!-- <div
             data-aos="fade-left"
             data-aos-offset="200"

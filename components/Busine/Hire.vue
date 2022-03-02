@@ -49,12 +49,14 @@
           class="text-center font-[600] text-[38px] lg:text-[55px] leading-[73px] text-black"
         >Hire Influencers</h1>
         <p
-          class="text-center font-[500] text-[18px] lg:text-[24px] leading-[32px] text-[#394452] max-w-[522px] lg:max-w-[710.04px] mx-auto"
+          class="text-center font-[500] text-[18px] lg:text-[24px] leading-[32px] text-[#394452] max-w-[324.4px] md:max-w-[522px] lg:max-w-[710.04px] mx-auto"
         >
           Let influencers promote and sell your items during set of events -
           Livestreams or shoppable videos
         </p>
-        <div class="flex justify-center gap-x-[15px]">
+        <div
+          class="flex justify-center flex-wrap max-w-[340px] mx-auto my-[10px] gap-y-[10px] gap-x-[15px]"
+        >
           <div
             class="font-[600] max-w-[178px] text-center px-[10px] rounded-[8px] border-[1px] border-[#F1F1F1] py-[10px] text-[14px] leading-[16.44px]"
           >Influencer marketing</div>
@@ -67,7 +69,7 @@
         </div>
         <svg
           id="squiggleleft"
-          class="absolute md:top-[10%] md:right-[10%] lg:top-[10%] lg:right-[13%] xl:right-[20%] 2xl:right-1/4"
+          class="absolute md:top-[10%] hidden md:block md:right-[10%] lg:top-[10%] lg:right-[13%] xl:right-[20%] 2xl:right-1/4"
           width="208"
           height="250"
           viewBox="0 0 208 250"
@@ -81,7 +83,7 @@
         </svg>
         <svg
           id="arrowleft"
-          class="absolute md:top-[52%] md:right-[7%] lg:top-[52%] lg:right-[8%] xl:top-[58%] xl:right-[17%] 2xl:right-[19%]"
+          class="absolute hidden md:block md:top-[52%] md:right-[7%] lg:top-[52%] lg:right-[8%] xl:top-[58%] xl:right-[17%] 2xl:right-[19%]"
           width="58"
           height="56"
           viewBox="0 0 58 56"
@@ -105,7 +107,7 @@
         </svg>
         <svg
           id="squiggleleft"
-          class="absolute md:top-[13%] md:left-[10%] lg:top-[13%] lg:left-[14%] xl:top-[13%] xl:left-[18%] 2xl:left-1/4"
+          class="absolute hidden md:block md:top-[13%] md:left-[10%] lg:top-[13%] lg:left-[14%] xl:top-[13%] xl:left-[18%] 2xl:left-1/4"
           width="224"
           height="237"
           viewBox="0 0 224 237"
@@ -122,7 +124,7 @@
         </svg>
         <svg
           id="star"
-          class="absolute md:top-[14%] md:left-[5%] lg:top-[16%] lg:left-[7%] xl:top-[18%] xl:left-[10%] 2xl:left-[16%]"
+          class="absolute hidden md:block md:top-[14%] md:left-[5%] lg:top-[16%] lg:left-[7%] xl:top-[18%] xl:left-[10%] 2xl:left-[16%]"
           width="82"
           height="59"
           viewBox="0 0 82 59"
@@ -174,7 +176,7 @@
         </svg>
         <svg
           id="tridentright"
-          class="absolute md:top-[10%] md:right-[15%] xl:top-[10%] lg:top-[10%] lg:right-[17%] xl:right-[23%]"
+          class="absolute hidden md:block md:top-[10%] md:right-[15%] xl:top-[10%] lg:top-[10%] lg:right-[17%] xl:right-[23%]"
           width="69"
           height="69"
           viewBox="0 0 69 69"
@@ -196,11 +198,14 @@
         </svg>
       </div>
 
-      <div class="hidden md:block lg:hidden">
+      <div class="block lg:hidden">
         <img src="/Group 48 1.png" alt />
       </div>
+      <div class="hidden lg:block">
+        <img src="/Frame 2245.png" alt />
+      </div>
     </div>
-    <div
+    <!-- <div
       class="lg:flex !mx-0 hidden gap-x-[60px] overflow-hidden lg:w-screen xl:w-[100%] 2xl:w-screen h-[100%] py-20"
     >
       <div class="relative translate-y-[70px]">
@@ -308,7 +313,7 @@
           >7K Follower</span>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 

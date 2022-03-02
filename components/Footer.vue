@@ -47,7 +47,7 @@
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
       data-aos-once="true"
-      class="xl:flex flex xl:flex-row flex-col md:hidden justify-between md:py-[79px] xl:py-[142px]"
+      class="lg:flex flex lg:flex-row flex-col md:hidden justify-between md:py-[79px] xl:py-[142px]"
     >
       <div
         class="flex flex-col mb-[72px] gap-y-[24px] md:gap-y-[42px] text-[16px] text-[#2C3A4B] font-semibold"
@@ -86,16 +86,17 @@
           >Empower People, Empower Community.</p>
         </div>
       </div>
-      <div class="flex gap-x-[125px] text-[16px] text-[#2C3A4B] w-fit">
+      <div class="flex gap-x-[125px] my-auto text-[16px] text-[#2C3A4B] w-fit">
         <div class="flex flex-col gap-y-[40px]">
-          <nuxt-link to>Why Bayn</nuxt-link>
           <nuxt-link to>For Influencers</nuxt-link>
-          <nuxt-link to>FAQ</nuxt-link>
+          <!-- <nuxt-link to>Why Bayn</nuxt-link>
+          <nuxt-link to>FAQ</nuxt-link>-->
         </div>
         <div class="flex flex-col gap-y-[40px]">
-          <nuxt-link to>About Bayn</nuxt-link>
+          <!-- <nuxt-link to>About Bayn</nuxt-link>
           <nuxt-link to>Careers</nuxt-link>
-          <nuxt-link to>Contact Us</nuxt-link>
+          <nuxt-link to>Contact Us</nuxt-link>-->
+          <nuxt-link to>For Businesses</nuxt-link>
         </div>
       </div>
       <div class="flex-col hidden md:flex gap-y-6">

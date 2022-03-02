@@ -100,12 +100,12 @@
         Keep attached to your clients through unlimited number of shoppable
         stories per day
       </p>
-      <div class="flex gap-x-[15px] mx-auto md:mx-0 mt-[15px] md:mt-[45px]">
+      <div class="flex gap-x-[15px] my-[30px] md:my-0 mx-auto md:mx-0 mt-[15px] md:mt-[45px]">
         <div
-          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+          class="px-[20px] py-[10px] mx-auto md:mx-0 bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
         >Live stream</div>
         <div
-          class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
+          class="px-[20px] py-[10px] mx-auto md:mx-0 bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
         >Live shopping</div>
       </div>
     </div>

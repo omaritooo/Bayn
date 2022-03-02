@@ -7,11 +7,9 @@
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="true"
-    class="flex flex-col lg:flex-row justify-between lg:justify-center gap-x-[6px] 2xl:gap-x-16 xl:px-[130px] 2xl:px-80 py-[150px]"
+    class="flex flex-col md:w-[820px] lg:w-screen overflow-x-hidden md:flex-row px-2 md:px-0 justify-between lg:justify-center gap-x-[6px] 2xl:gap-x-16 xl:px-[130px] 2xl:px-80 py-[150px]"
   >
-    <div
-      class="relative order-last mx-auto mb-[40px] lg:mb-0 lg:flex-1 md:order-first"
-    >
+    <div class="relative order-last mx-auto mb-[40px] -translate-x-12 lg:mb-0 md:order-first">
       <div
         data-aos="fade-left"
         data-aos-offset="200"
@@ -20,7 +18,7 @@
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="true"
-        class="lg:w-[575.1px] md:w-[464.84px] md:h-[370.38px] lg:h-[551.47px]"
+        class="lg:w-[645.1px] md:w-[464.84px] md:h-[370.38px] lg:h-[551.47px]"
       >
         <img class="object-cover" src="/Bayn Website/Frame 2247.png" alt />
       </div>
@@ -39,17 +37,17 @@
       </div>
       <div class="absolute px-10 py-14 bg-white top-[29%] z-10 left-[20%]"></div>-->
     </div>
-    <div class="flex flex-col gap-y-[50px] md:mx-auto md:flex-1">
-      <div class="pb-12 pt-6 flex flex-col gap-y-[40px]">
+    <div
+      class="flex flex-col gap-y-[30px] xl:gap-y-[50px] translate-x-0 md:-translate-x-12 lg:translate-x-0 mx-auto lg:mx-0 md:flex-1"
+    >
+      <div class="lg: flex flex-col gap-y-[40px]">
         <!-- <h1 class="font-[600] w-fit text-[28px] text-[#D8315B] uppercase">for Business Owner</h1> -->
-        <div class="flex flex-col gap-y-[30px] lg:gap-y-[50px]">
+        <div class="flex flex-col gap-y-[30px] xl:gap-y-[50px]">
           <p
-            class="font-[600] max-w-[356.61px] md:max-w-[503.02px] text-[38px] text-center lg:text-left lg:text-[48px] text-[#0A2533] leading-45 lg:leading-[60px]"
-          >
-            Instant sales from livestream & shoppable videos
-          </p>
+            class="font-[600] max-w-[356.61px] mx-auto md:mx-0 md:max-w-[503.02px] text-[38px] text-center md:text-left xl:text-[48px] text-[#0A2533] leading-[45px] lg:leading-[60px]"
+          >Instant sales from livestream & shoppable videos</p>
           <p
-            class="font-[500] leading-[24px] lg:leading-[32px] mx-auto lg:mx-0 md:max-w-[347.44px] lg:max-w-[497.85px] max-w-fit text-[18px] lg:text-[24px] text-[#394452]"
+            class="font-[500] leading-[24px] text-center md:text-left lg:leading-[32px] mx-auto lg:mx-0 max-w-[347.44px] lg:max-w-[497.85px] text-[18px] xl:text-[24px] text-[#394452]"
           >
             Integrating with bayn gives you the ability to do something you’ve
             never done before: bring in products to your store promotions (video
@@ -59,7 +57,7 @@
         <!-- <button
                     class="bg-black font-semibold rounded-[8px] text-[14px] px-[20px] py-[15px] text-white w-fit"
         >Start a campaign</button>-->
-        <div class="flex mx-auto lg:mx-0">
+        <div class="max-w-[361px] md:max-w-full flex mx-auto md:mx-0">
           <div>
             <svg
               width="18"

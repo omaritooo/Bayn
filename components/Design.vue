@@ -7,9 +7,9 @@
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="true"
-    class="px-[13px] lg:px-[110px] 2xl:px-80 py-[180px] xl:justify-center flex flex-col md:flex-row md:gap-x-4 lg:gap-x-[72px]"
+    class="px-[13px] md:pr-[20px] lg:pr-[50px] 2xl:px-80 py-[180px] md:justify-start lg:justify-center flex flex-col md:flex-row md:gap-x-2 lg:gap-x-[22px]"
   >
-    <div class="relative flex order-last md:my-auto lg:my-none md:order-first">
+    <div class="relative flex flex-1 order-last md:my-auto lg:my-0 md:order-first">
       <div
         data-aos="fade-right"
         data-aos-offset="200"
@@ -18,7 +18,7 @@
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="true"
-        class="md:w-[432.1px] md:h-[534.49px] lg:w-[708.72px] lg:h-[876.9px]"
+        class="md:w-[432.1px] md:h-[534.49px] lg:w-[594.72px] lg:h-[793.9px]"
       >
         <img class="object-cover" src="/Frame 2250.png" />
       </div>
@@ -56,7 +56,7 @@
         class="absolute w-1/2 md:-top-14 md:left-1/2 lg:left-[35%]"
       />-->
     </div>
-    <div class="flex md:h-[90%] lg:h-full flex-col my-auto gap-y-[30px] xl:gap-y-[50px]">
+    <div class="flex flex-col flex-1 my-auto gap-y-[20px] xl:gap-y-[50px]">
       <h1
         data-aos="fade-left"
         data-aos-offset="200"
@@ -65,7 +65,7 @@
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="true"
-        class="text-[38px] mx-auto md:mx-0 text-center md:text-left xl:text-[48px] leading-[60px] max-w-[269px] xl:max-w-[340px] font-[600] text-[#0A2533]"
+        class="text-[38px] mx-auto md:mx-0 text-center md:text-left lg:text-[48px] leading-[60px] max-w-[269px] lg:max-w-[340px] font-[600] text-[#0A2533]"
       >Getting started is quick and easy</h1>
       <span
         data-aos="fade-left"
@@ -75,7 +75,7 @@
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="true"
-        class="text-[24px] mx-auto md:mx-0 text-center md:text-left xl:text-[36px] leading-[44px] text-[#0A2533] font-[600] max-w-[311.78px] xl:max-w-[600px]"
+        class="text-[24px] mx-auto md:mx-0 text-center md:text-left lg:text-[36px] leading-[44px] text-[#0A2533] font-[600] max-w-[311.78px] lg:max-w-[600px]"
       >We’ve designed Bayn so that anyone can do it. Literally anyone.</span>
       <div
         class="flex flex-col gap-y-[15px]"
@@ -120,7 +120,7 @@
           </svg>
 
           <span
-            class="md:max-w-[284.89px] lg:max-w-[557px] leading-[32px] md:text-[14px] xl:text-[18px] font-[500]"
+            class="md:max-w-[284.89px] lg:max-w-[557px] leading-[18px] lg:leading-[32px] md:text-[14px] xl:text-[18px] font-[500]"
           >
             No experience needed — you’ll be doing work that’s basic to you but
             vital to the business
@@ -159,7 +159,7 @@
           </svg>
 
           <span
-            class="md:max-w-[284.89px] lg:max-w-[557px] leading-[32px] md:text-[14px] xl:text-[18px] font-[500]"
+            class="md:max-w-[284.89px] lg:max-w-[557px] leading-[18px] lg:leading-[32px] md:text-[14px] xl:text-[18px] font-[500]"
           >
             No application process — No CV or interview — there’s no need to
             tell your life story to get your first live with us
@@ -198,7 +198,7 @@
           </svg>
 
           <span
-            class="md:max-w-[285px] lg:max-w-[557px] leading-[32px] md:text-[14px] xl:text-[18px] font-[500]"
+            class="md:max-w-[285px] lg:max-w-[557px] leading-[18px] lg:leading-[32px] md:text-[14px] xl:text-[18px] font-[500]"
           >
             Quick onboarding — it takes less than 10 minutes to create your
             business account and get accepted by Bayn’s Team

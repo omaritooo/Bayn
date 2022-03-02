@@ -45,17 +45,15 @@
     <div class="block md:hidden">
       <img src="/Group 49 1.png" alt />
     </div>
-    <div class="flex flex-col gap-y-[50px] w-fit lg:mx-auto order-first">
-      <div class="pb-12 pt-6 flex flex-col gap-y-[40px]">
+    <div class="flex flex-col gap-y-[30px] lg:gap-y-[50px] w-fit lg:mx-auto order-first">
+      <div class="lg:pb-12 lg:pt-6 flex flex-col gap-y-[40px]">
         <!-- <h1 class="font-[600] w-fit text-[28px] text-[#D8315B] uppercase">for Business Owner</h1> -->
-        <div class="flex flex-col gap-y-[50px]">
+        <div class="flex flex-col gap-y-[30px] lg:gap-y-[50px]">
           <p
-            class="font-[600] w-fit md:max-w-[503.02px] md:text-[38px] md:leading-[45px] lg:text-[48px] text-[#0A2533] lg:leading-[60px]"
-          >
-            Improve your product appearance
-          </p>
+            class="font-[600] w-fit md:max-w-[503.02px] text-center md:text-left text-[38px] leading-[45px] lg:text-[48px] text-[#0A2533] lg:leading-[60px]"
+          >Improve your product appearance</p>
           <p
-            class="font-[500] leading-[24px] text-[18px] lg:leading-[32px] md:max-w-[372.9px] lg:max-w-[497.85px] w-fit lg:text-[24px] text-[#394452]"
+            class="font-[500] leading-[24px] text-[18px] lg:leading-[32px] mx-auto md:mx-0 text-center md:text-left max-w-[372.9px] lg:max-w-[497.85px] w lg:text-[24px] text-[#394452]"
           >
             Bayn gives you the ability to add your products easily, manage stock
             and sales through direct promotions (video review - livestream -
@@ -114,4 +112,5 @@
 export default {}
 </script>
 
-<style></style>
+<style>
+</style>

@@ -95,7 +95,7 @@
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
           data-aos-once="true"
-          class="absolute hidden md:flex xl:right-4 md:right-6 -top-2"
+          class="absolute hidden xl:right-4 md:right-6 -top-2"
           width="40"
           height="31"
           viewBox="0 0 40 31"
