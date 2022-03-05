@@ -7,7 +7,7 @@
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="true"
-    class="flex flex-col md:flex-row lg:justify-center px-[31px] lg:gap-x-16 2xl:px-80 xl:px-[110px] pt-[300px]"
+    class="flex flex-col md:flex-row lg:justify-center lg:gap-x-16 pt-[300px]"
   >
     <div class="relative hidden md:block">
       <img
@@ -18,7 +18,7 @@
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="true"
-        class="lg:w-[575.1px] w-[346.26px] h-[332.67px] lg:h-[551.47px]"
+        class="lg:w-[580.93px] w-[346.26px] h-[332.67px] lg:h-[557.06px]"
         src="/Bayn Website/Frame 2246.png"
         alt
       />
@@ -45,7 +45,7 @@
     <div class="block md:hidden">
       <img src="/Group 49 1.png" alt />
     </div>
-    <div class="flex flex-col gap-y-[30px] lg:gap-y-[50px] w-fit lg:mx-auto order-first">
+    <div class="flex flex-col gap-y-[30px] lg:gap-y-[50px] w-fit lg:mx-0 mx-auto order-first">
       <div class="lg:pb-12 lg:pt-6 flex flex-col gap-y-[40px]">
         <!-- <h1 class="font-[600] w-fit text-[28px] text-[#D8315B] uppercase">for Business Owner</h1> -->
         <div class="flex flex-col gap-y-[30px] lg:gap-y-[50px]">

@@ -1,6 +1,8 @@
 <template>
   <div class>
-    <div class="flex flex-col md:flex-row justify-between md:px-[22px] xl:px-[103px] 2xl:px-80">
+    <div
+      class="container flex flex-col my-auto justify-center lg:gap-x-[100px] mx-auto md:flex-row"
+    >
       <div class="relative my-auto">
         <h1
           data-aos="fade-right"
@@ -20,7 +22,7 @@
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
           data-aos-once="true"
-          class="text-[18px] leading-[30px] font-[500] my-5 max-w-[285.37px] text-center md:text-left mx-auto md:mx-0 lg:max-h-[151.89px] text-[#394452] lg:max-w-[342.38px]"
+          class="text-[18px] leading-[30px] font-[500] my-5 max-w-[285.37px] text-center md:text-left mx-auto md:mx-0 text-[#394452] lg:max-w-[393px]"
         >
           Bayn provides one-stop-shop to manage your business and scale up you
           sales
@@ -72,7 +74,7 @@
           />
         </svg>
       </div>
-      <div class="relative hidden mt-[15px] md:mt-0 xl:max-w-[498.48px] lg:flex">
+      <div class="relative hidden mt-[15px] md:mt-0 lg:w-[581.49px] lg:h-[478px] lg:flex">
         <img
           data-aos="fade-up"
           data-aos-offset="200"
@@ -81,7 +83,7 @@
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
           data-aos-once="true"
-          class="object-cover lg:w-max-w-[480px]"
+          class="object-cover"
           src="/Frame 2225.png"
           alt
         />

@@ -7,7 +7,7 @@
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="true"
-    class="flex flex-col md:w-[820px] lg:w-screen overflow-x-hidden md:flex-row px-2 md:px-0 justify-between lg:justify-center gap-x-[6px] 2xl:gap-x-16 xl:px-[130px] 2xl:px-80 py-[150px]"
+    class="flex flex-col md:w-[820px] lg:w-screen overflow-x-hidden container mx-auto md:flex-row px-2 md:px-0 justify-between lg:justify-center gap-x-[6px] 2xl:gap-x-16 xl:px-[130px] py-[150px]"
   >
     <div class="relative order-last mx-auto mb-[40px] -translate-x-12 lg:mb-0 md:order-first">
       <div
@@ -18,7 +18,7 @@
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="true"
-        class="lg:w-[645.1px] md:w-[464.84px] md:h-[370.38px] lg:h-[551.47px]"
+        class="lg:w-[753.88px] md:w-[464.84px] md:h-[370.38px] lg:h-[551.47px]"
       >
         <img class="object-cover" src="/Bayn Website/Frame 2247.png" alt />
       </div>

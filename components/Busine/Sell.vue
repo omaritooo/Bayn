@@ -7,23 +7,22 @@
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="true"
-    class="py-[89px] relative flex flex-col md:flex-row gap-x-[62px] mx-auto container md:gap-x-[14px] justify-center"
+    class="my-[89px] container relative flex flex-col md:flex-row gap-x-[62px] lg:gap-x-[104px] mx-auto md:gap-x-[14px] justify-center"
   >
     <!-- <div class="gradi"></div> -->
-    <div class="relative z-30 order-last mx-auto my-auto md:order-first md:mx-0">
-      <div
-        data-aos="fade-right"
-        data-aos-offset="200"
-        data-aos-delay="350"
-        data-aos-duration="500"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="true"
-        class="w-[277px] h-[430px] lg:h-[613.15px]"
-      >
-        <img class="object-cover" src="/Bayn Website/Frame 2221.png" alt />
-      </div>
-      <!-- <img
+    <div
+      data-aos="fade-right"
+      data-aos-offset="200"
+      data-aos-delay="350"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="true"
+      class="w-[277px] lg:w-[283.31px] lg:h-full h-[613.15px]"
+    >
+      <img class="object-cover" src="/Bayn Website/Frame 2221.png" alt />
+    </div>
+    <!-- <img
         data-aos="fade-up"
         data-aos-offset="200"
         data-aos-delay="400"
@@ -56,8 +55,7 @@
           stroke-miterlimit="10"
           stroke-linecap="round"
         />
-      </svg>-->
-    </div>
+    </svg>-->
     <div class="relative z-30 mx-auto md:my-auto md:mt-0 mt-7 md:mx-0">
       <svg
         class="mx-auto md:mx-0"
