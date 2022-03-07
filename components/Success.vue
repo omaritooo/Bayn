@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-[30px] overflow-x-hidden">
+  <div class="mt-[30px] overflow-hidden">
     <div
       data-aos="fade-up"
       data-aos-offset="200"
@@ -8,7 +8,7 @@
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
       data-aos-once="true"
-      class="relative overflow-x-hidden flex flex-col w-[100%] lg:test py-[30px] md:py-[180px] xl:px-[350px]"
+      class="relative overflow-x-hidden flex flex-col w-[100%] lg:test my-[30px] md:my-[180px]"
     >
       <div class="relative hidden py-12 md:block">
         <h1
@@ -335,9 +335,9 @@
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
       data-aos-once="true"
-      class="flex flex-col md:flex-row xl:w-[100%] md:w-[120%] mt-10 px-[16px] justify-center mx-auto"
+      class="container flex flex-col justify-center mx-auto mt-10 md:flex-row"
     >
-      <div class="flex relative flex-col gap-y-[24px]">
+      <div class="flex relative mx-auto md:mx-0 flex-col gap-y-[24px]">
         <img class="max-w-[124px]" src="/handup.png" alt />
         <h1
           class="font-[600] text-[38px] xl:text-[48px] leading-[73px] text-[#0A2533]"
@@ -350,231 +350,14 @@
           <span>Manage your schedule and campaigns with ease</span>
           <span>Provide shoppable videos that can be accessed anytime</span>
           <span>Go live with clear content and Instrcutions</span>
-          <!-- <svg
-            class="absolute block top-8 left-20 md:hidden"
-            width="29"
-            height="31"
-            viewBox="0 0 29 31"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M20.5732 14.3652C20.3024 17.4278 19.9859 23.9586 20.8864 25.581"
-              stroke="#1E1E27"
-              stroke-width="2"
-              stroke-linecap="round"
-            />
-            <path
-              d="M20.8854 25.6224C18.1844 22.643 15.9793 20.7562 11.5686 19.886"
-              stroke="#1E1E27"
-              stroke-width="2"
-              stroke-linecap="round"
-            />
-            <path
-              d="M2.20331 6.50671C1.68277 6.32215 1.11118 6.59451 0.926627 7.11505C0.742071 7.63559 1.01444 8.20718 1.53497 8.39173L2.20331 6.50671ZM18.6305 23.7647C18.87 24.2623 19.4677 24.4714 19.9653 24.2319C20.4629 23.9923 20.6721 23.3947 20.4325 22.8971L18.6305 23.7647ZM1.53497 8.39173C5.40907 9.76529 14.3152 14.8016 18.6305 23.7647L20.4325 22.8971C15.8124 13.3009 6.38101 7.98791 2.20331 6.50671L1.53497 8.39173Z"
-              fill="#1E1E27"
-            />
-          </svg>
-          <svg
-            class="absolute block top-20 right-20 md:hidden"
-            width="29"
-            height="31"
-            viewBox="0 0 29 31"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M20.5732 14.3652C20.3024 17.4278 19.9859 23.9586 20.8864 25.581"
-              stroke="#1E1E27"
-              stroke-width="2"
-              stroke-linecap="round"
-            />
-            <path
-              d="M20.8854 25.6224C18.1844 22.643 15.9793 20.7562 11.5686 19.886"
-              stroke="#1E1E27"
-              stroke-width="2"
-              stroke-linecap="round"
-            />
-            <path
-              d="M2.20331 6.50671C1.68277 6.32215 1.11118 6.59451 0.926627 7.11505C0.742071 7.63559 1.01444 8.20718 1.53497 8.39173L2.20331 6.50671ZM18.6305 23.7647C18.87 24.2623 19.4677 24.4714 19.9653 24.2319C20.4629 23.9923 20.6721 23.3947 20.4325 22.8971L18.6305 23.7647ZM1.53497 8.39173C5.40907 9.76529 14.3152 14.8016 18.6305 23.7647L20.4325 22.8971C15.8124 13.3009 6.38101 7.98791 2.20331 6.50671L1.53497 8.39173Z"
-              fill="#1E1E27"
-            />
-          </svg>
-          <svg
-            class="absolute block top-60 left-16 md:hidden"
-            width="29"
-            height="31"
-            viewBox="0 0 29 31"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M20.5732 14.3652C20.3024 17.4278 19.9859 23.9586 20.8864 25.581"
-              stroke="#1E1E27"
-              stroke-width="2"
-              stroke-linecap="round"
-            />
-            <path
-              d="M20.8854 25.6224C18.1844 22.643 15.9793 20.7562 11.5686 19.886"
-              stroke="#1E1E27"
-              stroke-width="2"
-              stroke-linecap="round"
-            />
-            <path
-              d="M2.20331 6.50671C1.68277 6.32215 1.11118 6.59451 0.926627 7.11505C0.742071 7.63559 1.01444 8.20718 1.53497 8.39173L2.20331 6.50671ZM18.6305 23.7647C18.87 24.2623 19.4677 24.4714 19.9653 24.2319C20.4629 23.9923 20.6721 23.3947 20.4325 22.8971L18.6305 23.7647ZM1.53497 8.39173C5.40907 9.76529 14.3152 14.8016 18.6305 23.7647L20.4325 22.8971C15.8124 13.3009 6.38101 7.98791 2.20331 6.50671L1.53497 8.39173Z"
-              fill="#1E1E27"
-            />
-          </svg>
-          <svg
-            class="absolute block top-40 left-12 md:hidden"
-            width="29"
-            height="31"
-            viewBox="0 0 29 31"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M20.5732 14.3652C20.3024 17.4278 19.9859 23.9586 20.8864 25.581"
-              stroke="#1E1E27"
-              stroke-width="2"
-              stroke-linecap="round"
-            />
-            <path
-              d="M20.8854 25.6224C18.1844 22.643 15.9793 20.7562 11.5686 19.886"
-              stroke="#1E1E27"
-              stroke-width="2"
-              stroke-linecap="round"
-            />
-            <path
-              d="M2.20331 6.50671C1.68277 6.32215 1.11118 6.59451 0.926627 7.11505C0.742071 7.63559 1.01444 8.20718 1.53497 8.39173L2.20331 6.50671ZM18.6305 23.7647C18.87 24.2623 19.4677 24.4714 19.9653 24.2319C20.4629 23.9923 20.6721 23.3947 20.4325 22.8971L18.6305 23.7647ZM1.53497 8.39173C5.40907 9.76529 14.3152 14.8016 18.6305 23.7647L20.4325 22.8971C15.8124 13.3009 6.38101 7.98791 2.20331 6.50671L1.53497 8.39173Z"
-              fill="#1E1E27"
-            />
-          </svg>-->
         </div>
-        <!-- <svg
-          class="absolute hidden md:block top-[53%] left-[82%] 2xl:left-[82%] xl:top-[47%] 2xl:top-[53%]"
-          width="69"
-          height="59"
-          viewBox="0 0 69 59"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M34.1333 43.3765C27.1475 41.8268 12.1721 39.1245 8.15627 40.7126"
-            stroke="#1E1E27"
-            stroke-width="3"
-            stroke-linecap="round"
-          />
-          <path
-            d="M8.06097 40.696C15.7521 35.3624 20.7719 30.8435 24.1118 20.9278"
-            stroke="#1E1E27"
-            stroke-width="3"
-            stroke-linecap="round"
-          />
-          <path
-            d="M57.078 2.98195C57.4538 2.24366 57.1599 1.34052 56.4216 0.964722C55.6834 0.58893 54.7802 0.882791 54.4044 1.62108L57.078 2.98195ZM13.2886 36.8407C12.5019 37.1002 12.0745 37.9483 12.334 38.7351C12.5935 39.5218 13.4416 39.9492 14.2283 39.6897L13.2886 36.8407ZM54.4044 1.62108C50.0045 10.2653 35.5515 29.4976 13.2886 36.8407L14.2283 39.6897C37.4921 32.0165 52.4589 12.0568 57.078 2.98195L54.4044 1.62108Z"
-            fill="#1E1E27"
-          />
-        </svg>
-        <svg
-          class="absolute hidden md:block xl:top-[53%] xl:left-[66%] top-[59%] left-[63%] 2xl:top-[59%] 2xl:left-[63%]"
-          width="69"
-          height="71"
-          viewBox="0 0 69 71"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M47.567 31.5983C48.324 38.7137 50.5344 53.7696 53.3194 57.07"
-            stroke="#1E1E27"
-            stroke-width="3"
-            stroke-linecap="round"
-          />
-          <path
-            d="M53.3339 57.1657C45.8276 51.5749 39.9448 48.2567 29.4817 48.2504"
-            stroke="#1E1E27"
-            stroke-width="3"
-            stroke-linecap="round"
-          />
-          <path
-            d="M1.96693 22.7209C1.14738 22.6 0.384953 23.1663 0.263999 23.9858C0.143045 24.8054 0.709368 25.5678 1.52892 25.6888L1.96693 22.7209ZM48.014 53.4389C48.5106 54.102 49.4507 54.2369 50.1138 53.7402C50.7768 53.2436 50.9117 52.3034 50.415 51.6404L48.014 53.4389ZM1.52892 25.6888C11.1245 27.1049 33.9598 34.6764 48.014 53.4389L50.415 51.6404C35.729 32.0342 12.0406 24.2076 1.96693 22.7209L1.52892 25.6888Z"
-            fill="#1E1E27"
-          />
-        </svg>
-        <svg
-          class="absolute hidden md:block 2xl:top-[70%] xl:top-[65%] 2xl:left-[78%] top-[70%] left-[78%]"
-          width="70"
-          height="72"
-          viewBox="0 0 70 72"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M48.1592 31.8556C48.9162 38.971 51.1266 54.0269 53.9116 57.3273"
-            stroke="#1E1E27"
-            stroke-width="3"
-            stroke-linecap="round"
-          />
-          <path
-            d="M53.9261 57.423C46.4198 51.8322 40.537 48.514 30.0739 48.5078"
-            stroke="#1E1E27"
-            stroke-width="3"
-            stroke-linecap="round"
-          />
-          <path
-            d="M2.55913 22.9782C1.73958 22.8573 0.977147 23.4236 0.856193 24.2432C0.735238 25.0627 1.30156 25.8251 2.12111 25.9461L2.55913 22.9782ZM48.6061 53.6963C49.1028 54.3593 50.0429 54.4942 50.706 53.9975C51.369 53.5009 51.5039 52.5608 51.0072 51.8977L48.6061 53.6963ZM2.12111 25.9461C11.7167 27.3623 34.5519 34.9337 48.6061 53.6963L51.0072 51.8977C36.3212 32.2916 12.6328 24.465 2.55913 22.9782L2.12111 25.9461Z"
-            fill="#1E1E27"
-          />
-        </svg>
-        <svg
-          class="absolute hidden md:block top-[81%] left-[92%]"
-          width="70"
-          height="71"
-          viewBox="0 0 70 71"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M48.1394 31.5536C48.8964 38.669 51.1068 53.7249 53.8918 57.0253"
-            stroke="#1E1E27"
-            stroke-width="3"
-            stroke-linecap="round"
-          />
-          <path
-            d="M53.9063 57.121C46.4 51.5302 40.5172 48.212 30.0541 48.2058"
-            stroke="#1E1E27"
-            stroke-width="3"
-            stroke-linecap="round"
-          />
-          <path
-            d="M2.53932 22.6762C1.71977 22.5553 0.957341 23.1216 0.836387 23.9411C0.715432 24.7607 1.28176 25.5231 2.10131 25.6441L2.53932 22.6762ZM48.5863 53.3943C49.083 54.0573 50.0231 54.1922 50.6862 53.6955C51.3492 53.1989 51.4841 52.2588 50.9874 51.5957L48.5863 53.3943ZM2.10131 25.6441C11.6969 27.0603 34.5321 34.6317 48.5863 53.3943L50.9874 51.5957C36.3014 31.9896 12.613 24.163 2.53932 22.6762L2.10131 25.6441Z"
-            fill="#1E1E27"
-          />
-        </svg>-->
       </div>
-      <div
-        class="flex flex-col md:-translate-x-20 xl:-translate-x-0 lg:-translate-x-40 mt-10 md:mt-auto gap-y-[74px]"
-      >
-        <div class="flex md:gap-x-[10px] lg:gap-x-[44px]">
-          <div class="translate-y-[50px] lg:translate-y-[103px]">
-            <img class="xl:w-[150.86px] xl:h-[150.86px] md:w-[104px] md:h-[104px]" src="/woman.png" />
-          </div>
-          <div>
-            <img
-              class="xl:w-[150.86px] xl:h-[150.86px] md:w-[104px] md:h-[104px]"
-              src="/unsplash_ruWf1KGPPsY.png"
-            />
-          </div>
-          <div class="translate-y-[100px] lg:translate-y-[200px]">
-            <img
-              class="xl:w-[150.86px] xl:h-[150.86px] md:w-[104px] md:h-[104px]"
-              src="/unsplash_SH1WBCu9f88.png"
-            />
-          </div>
-        </div>
-        <div>
-          <img class="mx-auto scale-75 md:scale-50 lg:scale-100" src="/trophy.png" alt />
-        </div>
+      <div class="flex flex-col mx-auto md:mx-0 mt-10 md:my-auto gap-y-[74px]">
+        <img
+          class="object-cover lg:w-[533.12px] md:w-[318.73px] w-[318.73px]"
+          src="/Frame 2249.png"
+          alt
+        />
       </div>
     </div>
   </div>

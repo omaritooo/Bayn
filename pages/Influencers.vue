@@ -18,9 +18,9 @@
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="true"
-            class="flex lg:flex-row flex-col justify-center gap-x-12 lg:gap-x-[10px] xl:gap-x-12 mx-auto container"
+            class="flex md:flex-row flex-col justify-center gap-x-12 lg:gap-x-[10px] xl:gap-x-12 mx-auto container"
         >
-            <div class="grad"></div>
+            <!-- <div class="grad"></div> -->
             <div class="relative z-50 flex flex-col my-auto text-center h-fit w-fit md:text-left">
                 <!-- <h1 class="font-[600] md:text-[18px] w-full xl:text-[28px] text-[#D8315B]">FOR INFLUENCER</h1> -->
                 <h2
@@ -101,9 +101,13 @@
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
                 data-aos-once="true"
-                class="relative w-[277.06px] h-[460.16px] mx-auto md:mx-0 mt-[52px] md:mt-0 xl:w-[350.31px] xl:h-[613.15px] z-50"
+                class="relative mx-auto md:mx-0 mt-[52px] md:mt-0 z-50"
             >
-                <img src="/Rectangle 12.png" class="object-cover mx-auto md:mx-0 md:mt-0" alt />
+                <img
+                    src="/Rectangle 12.png"
+                    class="object-cover lg:w-[350.31px] lg:h-[613.15px] w-[277.06px] h-[460.16px] mx-auto md:mx-0 md:mt-0"
+                    alt
+                />
             </div>
         </div>
         <footer-2 />
