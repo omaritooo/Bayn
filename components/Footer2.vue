@@ -72,14 +72,10 @@
       </div>
       <div class="flex gap-x-[125px] text-[16px] text-[#2C3A4B] w-fit">
         <div class="flex flex-col gap-y-[40px]">
-          <nuxt-link to>Why Bayn</nuxt-link>
           <nuxt-link to>For Influencers</nuxt-link>
-          <nuxt-link to>FAQ</nuxt-link>
         </div>
         <div class="flex flex-col gap-y-[40px]">
-          <nuxt-link to>About Bayn</nuxt-link>
-          <nuxt-link to>Careers</nuxt-link>
-          <nuxt-link to>Contact Us</nuxt-link>
+          <nuxt-link to>For Businesses</nuxt-link>
         </div>
       </div>
       <div class="flex-col hidden md:flex gap-y-6">
@@ -408,14 +404,10 @@
       </div>
       <div class="flex gap-x-[96px] text-[16px] font-[600] text-[#2C3A4B]">
         <div class="flex flex-col gap-y-[64px]">
-          <nuxt-link to>Why Bayn</nuxt-link>
           <nuxt-link to>For Influencers</nuxt-link>
-          <nuxt-link to>FAQ</nuxt-link>
         </div>
         <div class="flex flex-col gap-y-[64px]">
-          <nuxt-link to>About Bayn</nuxt-link>
-          <nuxt-link to>Careers</nuxt-link>
-          <nuxt-link to>Contact Us</nuxt-link>
+          <nuxt-link to>For Businesses</nuxt-link>
         </div>
       </div>
     </div>

@@ -18,10 +18,10 @@
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="true"
-            class="flex justify-start w-full px-2 md:flex-row flex-col md:gap-x-[59.8px] xl:gap-x-[92.7px] md:px-[34px] relative xl:px-[231px] py-[7.75rem] 2xl:px-[470px]"
+            class="flex lg:flex-row flex-col justify-center gap-x-12 lg:gap-x-[10px] xl:gap-x-12 mx-auto container"
         >
             <div class="grad"></div>
-            <div class="relative z-50 flex flex-col text-center h-fit w-fit md:text-left">
+            <div class="relative z-50 flex flex-col my-auto text-center h-fit w-fit md:text-left">
                 <!-- <h1 class="font-[600] md:text-[18px] w-full xl:text-[28px] text-[#D8315B]">FOR INFLUENCER</h1> -->
                 <h2
                     data-aos="fade-right"

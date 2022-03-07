@@ -7,10 +7,10 @@
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="true"
-    class="pt-[89px] pb-[160px] relative flex flex-col md:flex-row md:gap-x-[71px] xl:gap-x-[90px] 2xl:gap-x-[114px] justify-center"
+    class="pt-[89px] pb-[160px] container mx-auto relative flex flex-col md:flex-row md:gap-x-[71px] xl:gap-x-[90px] 2xl:gap-x-[114px] justify-center"
   >
     <!-- <div class="gradi"></div> -->
-    <div class="relative z-30 mt-[15px] md:mt-0 mx-auto md:mx-0">
+    <div class="relative z-30 mt-[15px] lg:w-[540px] md:mt-0 mx-auto md:mx-0">
       <div
         data-aos="fade-left"
         data-aos-offset="200"
@@ -19,10 +19,12 @@
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="true"
-        class="w-[277px] h-[441px] lg:w-full lg:h-full"
+        class="w-[277px] h-[441px] flex-1 relative z-20 lg:w-[421px] lg:h-[654px]"
       >
         <img class="mx-auto md:mx-0" src="/Bayn Website/Frame 2223.png" />
       </div>
+
+      <Gradient />
       <!-- <img
         data-aos="fade-right"
         data-aos-offset="200"

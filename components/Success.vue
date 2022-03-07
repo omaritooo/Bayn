@@ -13,308 +13,10 @@
       <div class="relative hidden py-12 md:block">
         <h1
           class="text-[48px] leading-[73px] font-[600] text-center text-[#0A2533]"
-        >
-          We’re here for you
-        </h1>
+        >We’re here for you</h1>
         <p
           class="text-[24px] leading-[32px] max-w-[497.85px] mx-auto font-[500] mt-[11.79px] text-center text-[#394452]"
-        >
-          it is designed to give you all the support to achieve success.
-        </p>
-        <!-- <div
-          class="absolute scale-75 -top-[25%] -right-[10%] lg:scale-100 lg:-top-[15%] lg:right-0 xl:-top-[30%] xl:-right-32 2xl:-top-[40%] 2xl:-right-2"
-        >
-          <img
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-delay="350"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="true"
-            src="/Ellipse 1.png"
-          />
-          <img
-            data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-delay="400"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="true"
-            class="absolute top-2 right-2"
-            src="/Frame 18.png"
-          />
-        </div>
-        <div
-          class="absolute scale-75 lg:scale-100 -bottom-[105%] -left-[7%] lg:-bottom-[95%] xl:-bottom-[96%] xl:-left-[19%] 2xl:-bottom-[87%] 2xl:left-[5%]"
-        >
-          <img
-            data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-delay="350"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="true"
-            src="/Ellipse 2.png"
-            alt
-          />
-          <img
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-delay="400"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="true"
-            class="absolute -left-4 bottom-3"
-            src="/Frame 19.png"
-          />
-        </div>-->
-        <!-- <svg
-          class="absolute -top-[56%] left-1/3"
-          width="240"
-          height="87"
-          viewBox="0 0 240 87"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M2.30664 53.7601C20.7666 59.4517 50.0166 65.2969 82.3066 58.0267C96.3066 54.878 125.647 48.2563 130.307 30.7206C132.997 20.5918 127.637 6.07693 115.307 2.56128C104.937 -0.399722 91.7466 5.01882 87.3066 12.801C79.3966 26.6503 96.9666 52.0535 121.307 58.0267C146.127 64.145 175.757 49.5874 177.307 36.6938C178.027 30.7206 172.937 23.1432 168.307 23.0408C164.487 22.947 160.387 27.9218 159.307 32.4273C155.787 47.0616 182.607 63.0698 191.307 68.2665C205.452 76.6204 221.444 82.4273 238.307 85.3328"
-            stroke="black"
-            stroke-width="3"
-            stroke-miterlimit="10"
-            stroke-linecap="round"
-          />
-        </svg>
-        <svg
-          id="squiggleleft"
-          class="absolute -top-12 lg:-top-16 xl:-top-16 xl:-left-20 2xl:-top-12 2xl:left-[10%]"
-          width="224"
-          height="236"
-          viewBox="0 0 224 236"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M222.307 3.40018C206.727 1.29249 170.927 -1.60024 132.307 13.64C124.247 16.8143 83.7765 33.5136 62.3065 70.812C48.7665 94.3294 52.1065 109.211 53.3065 113.478C55.7965 122.327 62.8165 135.664 71.3065 135.664C80.3065 135.621 87.5065 120.543 89.3065 110.064C89.9365 106.387 92.7265 86.7434 76.3065 73.372C62.6765 62.2789 40.0065 58.8656 25.3065 65.6921C-4.97346 79.7035 -1.09346 136.347 13.3065 172.356C25.4665 202.777 46.9665 223.043 60.3065 233.795"
-            stroke="black"
-            stroke-width="3"
-            stroke-miterlimit="10"
-            stroke-linecap="round"
-          />
-        </svg>
-        <svg
-          id="trident right"
-          data-aos="fade-down"
-          data-aos-offset="200"
-          data-aos-delay="500"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
-          class="absolute -top-[30%] md:right-20 lg:-top-[35%] xl:-top-[50%] xl:right-5 2xl:-top-[60%] right-44"
-          width="58"
-          height="59"
-          viewBox="0 0 58 59"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M17.1359 36.1771C16.4456 35.7191 15.5147 35.9074 15.0567 36.5978C14.5987 37.2881 14.7871 38.219 15.4774 38.6769L17.1359 36.1771ZM27.3066 45.9602L26.3001 47.0724L26.301 47.0731L27.3066 45.9602ZM15.4774 38.6769C19.3343 41.2358 22.9524 44.0427 26.3001 47.0724L28.3131 44.848C24.8517 41.7154 21.1147 38.8168 17.1359 36.1771L15.4774 38.6769ZM26.301 47.0731C30.317 50.702 33.9352 54.6321 37.1122 58.814L39.5011 56.9992C36.2081 52.6646 32.4627 48.5975 28.3123 44.8472L26.301 47.0731Z"
-            fill="black"
-          />
-          <path
-            d="M3.35554 0.515601C2.76333 -0.0636914 1.81364 -0.0532205 1.23435 0.538989C0.655059 1.1312 0.665529 2.08089 1.25774 2.66018L3.35554 0.515601ZM26.3066 27.1873L27.4451 26.2106L27.4446 26.21L26.3066 27.1873ZM1.25774 2.66018C9.01915 10.2523 17.0791 18.7453 25.1687 28.1646L27.4446 26.21C19.2941 16.7199 11.1741 8.16366 3.35554 0.515601L1.25774 2.66018ZM25.1682 28.164C33.5264 37.9059 40.788 47.3325 47.0828 56.214L49.5304 54.4793C43.1852 45.5266 35.8669 36.0267 27.4451 26.2106L25.1682 28.164Z"
-            fill="black"
-          />
-          <path
-            d="M32.4413 7.4335C31.8995 6.80682 30.9523 6.73803 30.3256 7.27986C29.6989 7.82168 29.6301 8.76893 30.1719 9.39561L32.4413 7.4335ZM30.1719 9.39561C40.6642 21.531 49.0015 34.909 54.9223 49.0979L57.691 47.9426C51.6425 33.4477 43.1329 19.7995 32.4413 7.4335L30.1719 9.39561Z"
-            fill="black"
-          />
-        </svg>
-        <svg
-          id="bottom trident right"
-          data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-delay="500"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
-          class="absolute top-1/2 right-2 lg:top-[57%] lg:right-0 xl:top-[55%] xl:-right-[14%] 2xl:top-[55%] 2xl:right-2"
-          width="42"
-          height="68"
-          viewBox="0 0 42 68"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.78869 17.6172C3.6609 16.7987 2.89377 16.2388 2.07526 16.3666C1.25675 16.4944 0.696804 17.2615 0.824594 18.08L3.78869 17.6172ZM5.30669 49.4213L6.80584 49.3707L6.8058 49.3697L5.30669 49.4213ZM0.824594 18.08C2.45046 28.4939 3.44609 38.9721 3.80758 49.4729L6.8058 49.3697C6.44015 38.7481 5.43308 28.1498 3.78869 17.6172L0.824594 18.08ZM3.80755 49.4719C4.01635 55.657 3.99648 61.6051 3.80752 67.2911L6.80586 67.3908C6.9969 61.6423 7.01704 55.627 6.80584 49.3707L3.80755 49.4719Z"
-            fill="black"
-          />
-          <path
-            d="M19.8058 1.58665C19.7787 0.758668 19.0855 0.109434 18.2575 0.136546C17.4296 0.163658 16.7803 0.85685 16.8074 1.68483L19.8058 1.58665ZM16.8074 1.68483C17.1931 13.4633 19.586 25.1273 23.9075 36.3089L26.7058 35.2274C22.5035 24.3543 20.1803 13.0223 19.8058 1.58665L16.8074 1.68483Z"
-            fill="black"
-          />
-          <path
-            d="M31.4259 0.637097C30.8743 0.0189556 29.9261 -0.0350387 29.308 0.516498C28.6899 1.06803 28.6359 2.01625 29.1874 2.63439L31.4259 0.637097ZM29.1874 2.63439C33.792 7.79509 37.0811 13.6976 38.8639 19.9657L41.7494 19.1449C39.8357 12.4168 36.3152 6.11686 31.4259 0.637097L29.1874 2.63439Z"
-            fill="black"
-          />
-        </svg>
-        <svg
-          id="right curve"
-          class="absolute right-[15%] top-1/4 lg:top-1/2 lg:right-[18%] xl:top-1/2 xl:right-[8%] 2xl:top-[17%] 2xl:right-[20%]"
-          width="68"
-          height="55"
-          viewBox="0 0 68 55"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M2.50299 0.157647C1.72252 -0.120145 0.864639 0.28735 0.586846 1.06781C0.309054 1.84828 0.716549 2.70616 1.49701 2.98395L2.50299 0.157647ZM1.49701 2.98395C29.3271 12.8896 51.8156 31.2087 64.6891 54.3522L67.3109 52.8939C54.0429 29.0413 30.9383 10.2787 2.50299 0.157647L1.49701 2.98395Z"
-            fill="black"
-          />
-        </svg>
-        <svg
-          id="star left"
-          class="absolute hidden xl:top-20 xl:-left-[25%] 2xl:-left-[6%]"
-          width="82"
-          height="58"
-          viewBox="0 0 82 58"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M43.3066 28.0662C44.7166 24.9345 46.0766 21.5212 47.3066 17.8263C49.0753 12.5069 50.4118 7.08969 51.3066 1.61328"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M57.3066 27.2125C61.557 25.8562 65.8979 24.7165 70.3066 23.7994C73.8266 23.057 77.1766 22.5024 80.3066 22.0928"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M49.3066 36.5991C51.8915 40.1771 54.2289 43.8812 56.3066 47.6922C57.4133 49.7402 58.4133 51.7312 59.3066 53.6654"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M29.3066 40.8657C28.3435 44.3763 27.0046 47.804 25.3066 51.1056C24.3066 52.9659 23.3066 54.6725 22.3066 56.2256"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M20.3066 29.7725C16.6139 29.7007 12.9236 29.987 9.30664 30.6259C6.92511 31.0394 4.58475 31.61 2.30664 32.3325"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M37.3066 30.6259C34.2937 26.7257 30.9515 23.0182 27.3066 19.5328C22.7437 15.169 17.7228 11.1702 12.3066 7.58643"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-        <svg
-          id="arrow right"
-          data-aos="fade-right-up"
-          data-aos-offset="200"
-          data-aos-delay="500"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
-          class="absolute -bottom-[10%] right-32 lg:-bottom-[40%] lg:right-[12%] xl:right-[6%] xl:-bottom-[40%] 2xl:right-[18%]"
-          width="47"
-          height="67"
-          viewBox="0 0 47 67"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M44.8066 64.6842C39.5733 56.3558 33.9066 47.8227 27.8066 39.0847C19.4866 27.215 11.1066 16.1219 2.80664 5.8053"
-            stroke="black"
-            stroke-width="3"
-            stroke-miterlimit="10"
-            stroke-linecap="round"
-          />
-          <path
-            d="M7.80664 37.3781C7.41208 25.5563 5.3984 13.8145 1.80664 2.39197C10.9256 8.23064 21.0443 12.8357 31.8066 16.0451"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-        <svg
-          id="pickaxe right"
-          class="absolute hidden xl:-bottom-[86%] xl:-right-[3%] 2xl:right-[6%]"
-          width="62"
-          height="33"
-          viewBox="0 0 62 33"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M59.3066 2.35071C59.8277 7.48523 59.491 12.6569 58.3066 17.7106"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M2.30664 10.0306C19.1342 19.1289 37.2895 26.3012 56.3066 31.3636"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-        <svg
-          id="trident left"
-          class="absolute hidden xl:-left-[28%] 2xl:-left-[2%] xl:-bottom-[63%]"
-          width="68"
-          height="41"
-          viewBox="0 0 68 41"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M52.3066 9.2578C35.1466 10.3553 17.9412 7.71254 2.30664 1.57776"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M53.3066 17.7909C43.9566 18.6442 33.9366 19.25 23.3066 19.4975C16.3666 19.6511 9.69997 19.6511 3.30664 19.4975"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M66.3066 28.0306C58.8041 29.5355 51.4489 31.5325 44.3066 34.0038C39.5666 35.6336 35.2366 37.417 31.3066 39.1237"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>-->
+        >it is designed to give you all the support to achieve success.</p>
       </div>
       <div class="flex flex-col md:hidden">
         <div class="relative">
@@ -366,14 +68,10 @@
         </div>
         <h1
           class="max-w-[410px] text-[38px] mx-auto text-center md:text-left font-[600]"
-        >
-          We’re here for you
-        </h1>
+        >We’re here for you</h1>
         <p
           class="text-[20px] leading-[32px] max-w-[358.15px] mx-auto mb-[10px] text-center font-[500]"
-        >
-          it is designed to give you all the support to achieve success.
-        </p>
+        >it is designed to give you all the support to achieve success.</p>
         <div
           class="flex md:hidden mx-auto max-w-[264px] md:max-w-[427px] lg:max-w-[570px] flex-wrap gap-x-[15px] gap-y-[15px]"
         >
@@ -397,19 +95,13 @@
               </g>
               <defs>
                 <clipPath id="clip0_1_1371">
-                  <rect
-                    width="18"
-                    height="18"
-                    fill="white"
-                    transform="translate(0 0.244629)"
-                  />
+                  <rect width="18" height="18" fill="white" transform="translate(0 0.244629)" />
                 </clipPath>
               </defs>
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-              >Time Management</span
-            >
+            >Time Management</span>
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -430,8 +122,7 @@
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-              >Direct connection with store owners</span
-            >
+            >Direct connection with store owners</span>
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -449,20 +140,14 @@
               </g>
               <defs>
                 <clipPath id="clip0_1_1382">
-                  <rect
-                    width="18.6"
-                    height="16"
-                    fill="white"
-                    transform="translate(0 0.244629)"
-                  />
+                  <rect width="18.6" height="16" fill="white" transform="translate(0 0.244629)" />
                 </clipPath>
               </defs>
             </svg>
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-              >Documented requirements</span
-            >
+            >Documented requirements</span>
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -480,8 +165,7 @@
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-              >Long term relationships</span
-            >
+            >Long term relationships</span>
           </div>
         </div>
 
@@ -521,9 +205,7 @@
           <img class="absolute right-32 bottom-2" src="/Frame 19.png" />
         </div>
       </div>
-      <div
-        class="flex flex-col mx-auto mt-[15px] text-center justify-center gap-y-[18px]"
-      >
+      <div class="flex flex-col mx-auto mt-[15px] text-center justify-center gap-y-[18px]">
         <div
           class="hidden md:flex max-w-[264px] md:max-w-[427px] lg:max-w-[570px] flex-wrap gap-x-[15px] gap-y-[15px]"
         >
@@ -547,19 +229,13 @@
               </g>
               <defs>
                 <clipPath id="clip0_1_1371">
-                  <rect
-                    width="18"
-                    height="18"
-                    fill="white"
-                    transform="translate(0 0.244629)"
-                  />
+                  <rect width="18" height="18" fill="white" transform="translate(0 0.244629)" />
                 </clipPath>
               </defs>
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-              >Time Management</span
-            >
+            >Time Management</span>
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -580,8 +256,7 @@
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-              >Direct connection with store owners</span
-            >
+            >Direct connection with store owners</span>
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -599,20 +274,14 @@
               </g>
               <defs>
                 <clipPath id="clip0_1_1382">
-                  <rect
-                    width="18.6"
-                    height="16"
-                    fill="white"
-                    transform="translate(0 0.244629)"
-                  />
+                  <rect width="18.6" height="16" fill="white" transform="translate(0 0.244629)" />
                 </clipPath>
               </defs>
             </svg>
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-              >Documented requirements</span
-            >
+            >Documented requirements</span>
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -630,8 +299,7 @@
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-              >Long term relationships</span
-            >
+            >Long term relationships</span>
           </div>
         </div>
         <svg
@@ -667,15 +335,13 @@
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
       data-aos-once="true"
-      class="flex flex-col md:flex-row xl:w-[100%] md:w-[120%] mt-10 px-[16px] md:px-[38px] xl:px-[110px] 2xl:px-[350px] justify-between"
+      class="flex flex-col md:flex-row xl:w-[100%] md:w-[120%] mt-10 px-[16px] justify-center mx-auto"
     >
       <div class="flex relative flex-col gap-y-[24px]">
         <img class="max-w-[124px]" src="/handup.png" alt />
         <h1
           class="font-[600] text-[38px] xl:text-[48px] leading-[73px] text-[#0A2533]"
-        >
-          Flow of success
-        </h1>
+        >Flow of success</h1>
         <div
           class="flex relative flex-col text-[#0A2533] gap-y-[20px] leading-[28px] font-[500] md:leading-[52px] xl:leading-[58px] max-w-[358.36px] md:max-w-[632px] md:text-[18px] xl:text-[24px]"
         >
@@ -891,10 +557,7 @@
       >
         <div class="flex md:gap-x-[10px] lg:gap-x-[44px]">
           <div class="translate-y-[50px] lg:translate-y-[103px]">
-            <img
-              class="xl:w-[150.86px] xl:h-[150.86px] md:w-[104px] md:h-[104px]"
-              src="/woman.png"
-            />
+            <img class="xl:w-[150.86px] xl:h-[150.86px] md:w-[104px] md:h-[104px]" src="/woman.png" />
           </div>
           <div>
             <img
@@ -910,11 +573,7 @@
           </div>
         </div>
         <div>
-          <img
-            class="mx-auto scale-75 md:scale-50 lg:scale-100"
-            src="/trophy.png"
-            alt
-          />
+          <img class="mx-auto scale-75 md:scale-50 lg:scale-100" src="/trophy.png" alt />
         </div>
       </div>
     </div>
@@ -927,7 +586,7 @@ export default {}
 
 <style>
 .test {
-  background-image: url('/Frame 43.png');
+  background-image: url("/Frame 43.png");
   background-size: auto;
   width: 100%;
   background-repeat: no-repeat;
@@ -936,7 +595,7 @@ export default {}
 
 @media screen and (max-width: 1280px) {
   .test {
-    background-image: url('/Frame 43.png');
+    background-image: url("/Frame 43.png");
     background-size: contain;
     width: 900px;
     background-repeat: no-repeat;
@@ -947,7 +606,7 @@ export default {}
 
 @media screen and (max-width: 1024px) {
   .test {
-    background-image: url('/Frame 43.png');
+    background-image: url("/Frame 43.png");
     background-size: contain;
     width: 800px;
     background-repeat: no-repeat;

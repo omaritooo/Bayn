@@ -244,7 +244,18 @@ module.exports = {
       150: '1.5',
       200: '2',
     },
-    container: {},
+    container: {
+      center: true,
+      padding: '',
+      screens: {
+        sm: '358px',
+        md: '713px',
+        lg: '1000px',
+        xl: '1220px',
+        '2xl': '1220px'
+
+      },
+    },
     content: {
       none: 'none',
     },

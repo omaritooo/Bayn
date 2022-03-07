@@ -198,10 +198,10 @@
         </svg>
       </div>
 
-      <div class="block lg:hidden">
+      <div class="block mx-auto lg:hidden">
         <img src="/Group 48 1.png" alt />
       </div>
-      <div class="hidden lg:block">
+      <div class="hidden mx-auto lg:block">
         <img src="/Frame 2245.png" alt />
       </div>
     </div>

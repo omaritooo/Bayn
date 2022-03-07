@@ -11,14 +11,11 @@
     >
       <span
         class="text-[60px] md:text-[100px] lg:text-[160px] text-[#0A2533] w-[2159.4px] overflow-x-hidden h-[179.81px] py-4 leading-[73px]"
-        >Bayn For Influencers, Bayn for Influencer,</span
-      >
+      >Bayn For Influencers, Bayn for Influencer,</span>
     </Marquee>
-    <div
-      class="2xl:px-[350px] md:px-[34px] lg:px-[114px] relative z-30 flex flex-col gap-y-[96px] pt-[14px] pb-[142px]"
-    >
+    <div class="container mx-auto relative z-30 flex flex-col gap-y-[96px] mt-[14px] mb-[142px]">
       <div
-        class="flex flex-col mt-[130px] md:mt-0 md:flex-row lg: xl:gap-x-[202px] pt-[20px] pb-[64px]"
+        class="flex justify-center mx-auto flex-col mt-[130px] md:mt-0 md:flex-row lg: xl:gap-x-[202px] pmt-[20px] mb-[64px]"
       >
         <div class="flex md:my-auto xl:mb-[85px] relative flex-col lg:my-auto">
           <p
@@ -31,14 +28,10 @@
           <div class="flex gap-x-[17px] mt-[27px] relative z-40">
             <button
               class="text-[14px] relative z-40 leading-[16.44px] font-[500] py-[12px] px-[15px] lg:px-[20px] lg:py-[15px] text-white bg-black rounded-[8px]"
-            >
-              Get Bayn for Android
-            </button>
+            >Get Bayn for Android</button>
             <button
               class="text-[14px] relative z-40 leading-[16.44px] font-[500] py-[12px] px-[15px] lg:px-[20px] lg:py-[15px] text-black bg-white border-[1px] border-black rounded-[8px]"
-            >
-              Get Bayn for Iphone
-            </button>
+            >Get Bayn for Iphone</button>
           </div>
           <!-- <svg
             data-aos="fade-right"
@@ -73,7 +66,7 @@
               stroke-width="3"
               stroke-linecap="round"
             />
-          </svg> -->
+          </svg>-->
         </div>
         <div class="relative self-end hidden ml-auto xl:flex">
           <div
@@ -120,9 +113,7 @@
             </div>
             <div
               class="font-[600] mt-[13px] text-[14px] leading-[16.94px] text-black"
-            >
-              New Live Stream Request
-            </div>
+            >New Live Stream Request</div>
             <div
               class="font-[400] max-w-[324.36px] mt-[4px] text-[14px] leading-[16.94px] text-black"
             >
@@ -174,9 +165,7 @@
             </div>
             <div
               class="font-[600] mt-[13px] text-[14px] leading-[16.94px] text-black"
-            >
-              New Live Stream Request
-            </div>
+            >New Live Stream Request</div>
             <div
               class="font-[400] max-w-[324.36px] mt-[4px] text-[14px] leading-[16.94px] text-black"
             >
@@ -220,13 +209,9 @@
         data-aos-mirror="true"
         data-aos-once="true"
         class="font-[600] text-[60px] md:text-[90px] lg:leading-[120px] leading-[77px] lg:max-w-[751px] max-w-[357.66px] text-center md:text-left px-2 text-[#0A2533]"
-      >
-        Work that fits into your lifestyle
-      </h1>
+      >Work that fits into your lifestyle</h1>
     </div>
-    <div
-      class="flex flex-col md:flex-row relative justify-center md:gap-x-[48px] lg:gap-x-[120px]"
-    >
+    <div class="flex flex-col md:flex-row relative justify-center md:gap-x-[48px] lg:gap-x-[120px]">
       <div class="gradie"></div>
 
       <div
@@ -335,14 +320,10 @@
         <div class="flex gap-x-[17px] mt-[27px]">
           <button
             class="text-[14px] leading-[16.44px] font-[500] px-[20px] py-[15px] text-white bg-black rounded-[8px]"
-          >
-            Get Bayn for Android
-          </button>
+          >Get Bayn for Android</button>
           <button
             class="text-[14px] leading-[16.44px] font-[500] px-[20px] py-[15px] text-black bg-transparent border-[1px] border-black rounded-[8px]"
-          >
-            Get Bayn for Iphone
-          </button>
+          >Get Bayn for Iphone</button>
         </div>
       </div>
     </div>

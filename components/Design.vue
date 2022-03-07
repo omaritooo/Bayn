@@ -7,9 +7,9 @@
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="true"
-    class="px-[13px] md:pr-[20px] lg:pr-[50px] 2xl:px-80 py-[180px] md:justify-start lg:justify-center flex flex-col md:flex-row md:gap-x-2 lg:gap-x-[22px]"
+    class="mx-auto container my-[180px] md:justify-start lg:justify-center flex flex-col md:flex-row md:gap-x-2 lg:gap-x-[22px]"
   >
-    <div class="relative flex flex-1 order-last md:my-auto lg:my-0 md:order-first">
+    <div class="relative flex order-last md:my-auto lg:my-0 md:order-first">
       <div
         data-aos="fade-right"
         data-aos-offset="200"
@@ -56,7 +56,7 @@
         class="absolute w-1/2 md:-top-14 md:left-1/2 lg:left-[35%]"
       />-->
     </div>
-    <div class="flex flex-col flex-1 my-auto gap-y-[20px] xl:gap-y-[50px]">
+    <div class="flex flex-col my-auto gap-y-[20px] xl:gap-y-[50px]">
       <h1
         data-aos="fade-left"
         data-aos-offset="200"
@@ -120,7 +120,7 @@
           </svg>
 
           <span
-            class="md:max-w-[284.89px] lg:max-w-[557px] leading-[18px] lg:leading-[32px] md:text-[14px] xl:text-[18px] font-[500]"
+            class="md:max-w-[284.89px] lg:max-w-[557px] leading-[18px] lg:leading-[32px] md:text-[14px] xl:text-[18px] font-[500] flex-1"
           >
             No experience needed — you’ll be doing work that’s basic to you but
             vital to the business
@@ -159,7 +159,7 @@
           </svg>
 
           <span
-            class="md:max-w-[284.89px] lg:max-w-[557px] leading-[18px] lg:leading-[32px] md:text-[14px] xl:text-[18px] font-[500]"
+            class="md:max-w-[284.89px] lg:max-w-[557px] leading-[18px] lg:leading-[32px] md:text-[14px] xl:text-[18px] font-[500] flex-1"
           >
             No application process — No CV or interview — there’s no need to
             tell your life story to get your first live with us
@@ -198,7 +198,7 @@
           </svg>
 
           <span
-            class="md:max-w-[285px] lg:max-w-[557px] leading-[18px] lg:leading-[32px] md:text-[14px] xl:text-[18px] font-[500]"
+            class="md:max-w-[285px] lg:max-w-[557px] leading-[18px] lg:leading-[32px] md:text-[14px] xl:text-[18px] font-[500] flex-1"
           >
             Quick onboarding — it takes less than 10 minutes to create your
             business account and get accepted by Bayn’s Team

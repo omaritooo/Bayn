@@ -7,11 +7,9 @@
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="true"
-    class="flex lg:flex-row flex-col justify-center gap-x-12 lg:gap-x-[10px] xl:gap-x-12 px-[17px] md:px-[58px] lg:px-0 xl:px-[114px] 2xl:px-80"
+    class="flex lg:flex-row flex-col justify-center gap-x-12 lg:gap-x-[10px] xl:gap-x-12 mx-auto container"
   >
-    <div
-      class="relative mx-auto lg:mx-0 md:w-[725.8px] lg:translate-x-0 -translate-x-12 md:-translate-x-32 md:h-[532.01px] lg:w-[739.58px] lg:h-[584.9px]"
-    >
+    <div class="relative mx-auto lg:mx-0 w-fit">
       <!-- <img
         data-aos="fade-left"
         data-aos-offset="200"
@@ -42,7 +40,11 @@
         </div>
       </div>
       <div class="absolute px-10 py-14 bg-white top-[29%] z-10 left-[20%]"></div>-->
-      <img class="object-cover" src="/Group 43.png" alt />
+      <img
+        class="object-cover w-[399.09px] h-[292.53px] md:w-[725.8px] md:h-[532.01px] lg:w-[739.58px] lg:h-[584.9px]"
+        src="/Group 43.png"
+        alt
+      />
     </div>
     <div class="flex flex-col mx-auto lg:mx-0">
       <div class="flex flex-col">

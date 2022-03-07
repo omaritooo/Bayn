@@ -1,7 +1,7 @@
 <template>
   <div class>
     <div
-      class="container flex flex-col my-auto justify-center lg:gap-x-[100px] mx-auto md:flex-row"
+      class="container flex flex-col my-auto justify-center mt-[70px] md:gap-x-[10px] lg:gap-x-[100px] mx-auto md:flex-row"
     >
       <div class="relative my-auto">
         <h1
@@ -12,7 +12,7 @@
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
           data-aos-once="true"
-          class="text-center md:text-left text-[30px] lg:text-[80px] mx-auto md:mx-0 leading-[45px] lg:leading-[100px] font-[500] text-[#2C3A4B] max-w-[204px] lg:max-w-[542px]"
+          class="text-center md:text-left text-[30px] lg:text-[80px] mx-auto md:mx-0 leading-[45px] lg:leading-[100px] font-[600] text-[#0A2533] max-w-[204px] lg:max-w-[542px]"
         >Sell more with Confidence</h1>
         <p
           data-aos="fade-right"
@@ -27,7 +27,7 @@
           Bayn provides one-stop-shop to manage your business and scale up you
           sales
         </p>
-        <div class="flex gap-x-[12px]">
+        <div class="flex">
           <button
             data-aos="fade-right"
             data-aos-offset="200"
@@ -47,7 +47,7 @@
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
           data-aos-once="true"
-          class="absolute bottom-0 hidden lg:flex lg:left-1/3"
+          class="absolute bottom-0 hidden xl:flex lg:left-1/2"
           width="259"
           height="64"
           viewBox="0 0 259 64"
@@ -74,7 +74,9 @@
           />
         </svg>
       </div>
-      <div class="relative hidden mt-[15px] md:mt-0 lg:w-[581.49px] lg:h-[478px] lg:flex">
+      <div
+        class="relative hidden md:w-[425.68px] md:h-[349.31px] mt-[15px] md:mt-0 lg:w-[581.49px] lg:h-[478px] lg:flex"
+      >
         <img
           data-aos="fade-up"
           data-aos-offset="200"

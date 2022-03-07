@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex justify-start w-full px-[14px] md:flex-row flex-col md:gap-x-[59.8px] xl:gap-x-[92.7px] md:px-[34px] relative xl:px-[231px] py-[7.75rem] 2xl:px-[470px]"
+    class="flex justify-center mx-auto container md:flex-row flex-col md:gap-x-[59.8px] xl:gap-x-[92.7px] relative my-[7.75rem]"
   >
     <div class="grad"></div>
     <div class="relative z-50 flex flex-col text-center h-fit w-fit md:text-left">
@@ -31,17 +31,12 @@
         >Get Bayn for Iphone</button>
       </div>
     </div>
-    <div
-      data-aos="fade-left"
-      data-aos-offset="200"
-      data-aos-delay="200"
-      data-aos-duration="1000"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
-      data-aos-once="true"
-      class="relative w-[277.06px] h-[460.16px] mx-auto md:mx-0 mt-[52px] md:mt-0 xl:w-[350.31px] xl:h-[613.15px] z-50"
-    >
-      <img src="/Rectangle 12.png" class="object-cover mx-auto md:mx-0 md:mt-0" alt />
+    <div class="relative mx-auto md:mx-0 mt-[52px] md:mt-0 z-50">
+      <img
+        src="/Rectangle 12.png"
+        class="object-cover mx-auto md:mx-0 md:mt-0 w-[277.06px] h-[460.16px] lg:w-[350.31px] lg:h-[613.15px]"
+        alt
+      />
     </div>
   </div>
 </template>

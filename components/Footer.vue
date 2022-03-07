@@ -11,7 +11,7 @@
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="true"
-        class="bg-[#FFFAFF] z-50 relative px-[16px] lg:px-[105px] py-[30px] lg:py-[90px] rounded-xl lg:flex-row flex-col flex justify-between self-center"
+        class="bg-[#FFFAFF] z-50 relative px-[16px] lg:px-[105px] my-[30px] lg:py-[90px] rounded-xl lg:flex-row flex-col flex justify-between self-center"
       >
         <div class="gap-y-[25px] my-auto xl:gap-y-4 text-[#394452] z-50">
           <h3
@@ -21,11 +21,9 @@
             class="font-[500] text-center lg:text-left lg:text-[24px] text-[18px]"
           >Can’t wait to start join us as a merchant</div>
         </div>
-        <div class="z-50 mx-auto lg:mt-0 mt-[20px] lg:mx-0 lg:my-auto">
-          <button
-            class="px-[20px] lg:mx-0 mx-auto text-white bg-black rounded-lg text-[13px] xl:text-[24px] py-[12px] xl:py-[12px]"
-          >Start your campaign</button>
-        </div>
+        <button
+          class="px-[20px] mx-auto lg:mx-0 mt-[25px] lg:mt-0 my-auto text-white bg-black rounded-lg text-[13px] lg:text-[16px] py-[12px] xl:py-[12px]"
+        >Start your campaign</button>
       </div>
       <div
         data-aos="fade-right"
@@ -424,15 +422,11 @@
         </div>
       </div>
       <div class="flex gap-x-[96px] text-[16px] font-[600] text-[#2C3A4B]">
-        <div class="flex flex-col gap-y-[64px]">
-          <nuxt-link to>Why Bayn</nuxt-link>
-          <nuxt-link to>For Influencers</nuxt-link>
-          <nuxt-link to>FAQ</nuxt-link>
+        <div class="flex flex-col my-auto gap-y-[64px]">
+          <nuxt-link to="/influencers">For Influencers</nuxt-link>
         </div>
-        <div class="flex flex-col gap-y-[64px]">
-          <nuxt-link to>About Bayn</nuxt-link>
-          <nuxt-link to>Careers</nuxt-link>
-          <nuxt-link to>Contact Us</nuxt-link>
+        <div class="flex flex-col my-auto gap-y-[64px]">
+          <nuxt-link to="/business">For Businesses</nuxt-link>
         </div>
       </div>
     </div>

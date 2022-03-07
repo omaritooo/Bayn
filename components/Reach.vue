@@ -1,10 +1,12 @@
 <template>
-  <div class="px-[3px] md:px-[34px] lg:mt-72 2xl:px-80 xl:px-[173px] pt-[130px] pb-[14px] relative">
-    <div class="grad"></div>
-    <div class="flex flex-col relative md:flex-row justify-start md:gap-x-[26px] xl:gap-x-[66px]">
-      <div class="relative z-30 flex-1 my-auto">
+  <div class="px-[3px] lg:mt-72 mx-auto container mt-[130px] mb-[14px] relative">
+    <!-- <div class="grad"></div> -->
+    <div
+      class="flex flex-col relative md:flex-row justify-center mx-auto md:gap-x-[26px] xl:gap-x-[66px]"
+    >
+      <div class="relative z-30 my-auto">
         <h1
-          class="font-[600] text-[#2C3A4B] mx-auto lg:mx-0 text-[38px] xl:text-[55px] xl:leading-[73px] leading-[55px] lg:max-w-[600px] md:max-w-[373.04px] max-w-[373.04px]"
+          class="font-[600] text-[#2C3A4B] mx-auto lg:mx-0 text-[38px] lg:text-[55px] lg:leading-[73px] leading-[55px] lg:max-w-[600px] md:max-w-[373.04px] max-w-[373.04px]"
         >Do more to reach higher engagement</h1>
         <div
           data-aos="fade-right"
@@ -14,7 +16,7 @@
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
           data-aos-once="true"
-          class="flex gap-x-[10px] xl:gap-x-[19px] mt-[40px] mb-[45px]"
+          class="flex gap-x-[10px] max-w-[382.35px] xl:gap-x-[19px] mt-[40px] mb-[45px]"
         >
           <img
             class="lg:w-[72px] lg:h-[72px] w-[46.05px] h-[46.05px]"
@@ -66,8 +68,10 @@
           >Live Advertisments</div>
         </div>
       </div>
-      <div class="relative z-30 mx-auto my-auto md:mx-0 f">
-        <div class="md:w-[283.31px] lg:h-[613.15px] w-[297.05px] h-[461.71px]">
+      <div class="relative z-30 mx-auto my-auto md:mx-0">
+        <div
+          class="md:w-[297.05px] md:h-[461.71px] lg:w-[421.97px] lg:h-[653.03px] w-[297.05px] h-[461.71px]"
+        >
           <!-- <div
             data-aos="fade-left"
             data-aos-offset="200"
@@ -217,3 +221,4 @@ export default {}
   }
 }
 </style>
+

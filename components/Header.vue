@@ -1,9 +1,11 @@
 <template>
-  <div class="px-[14px] md:px-[34px] 2xl:px-80 xl:px-[112px]">
-    <div class="flex flex-col md:flex-row lg:gap-x-[120px] md:gap-x-[50px] 2xl:gap-x-[219px]">
-      <div class="relative flex flex-col my-auto">
+  <div class="container mx-auto">
+    <div
+      class="flex justify-around flex-col md:flex-row xl:gap-x-[120px] md:gap-x-[50px] 2xl:gap-x-[219px]"
+    >
+      <div class="relative flex flex-col mx-auto my-auto md:mx-0">
         <h1
-          class="xl:text-[48px] text-center md:text-left text-[30px] xl:leading-[73px] md:mx-0 leading-[45px] font-[600] text-[#2C3A4B] 2xl:max-w-[660px] xl:max-w-[660px] xl:w-[660px] md:max-w-[381px]"
+          class="lg:text-[48px] text-center md:text-left text-[30px] xl:leading-[73px] md:mx-0 leading-[45px] font-[600] text-[#2C3A4B] 2xl:max-w-[610px] lg:max-w-[610px] md:max-w-[381px]"
         >A livestreaming commerce Platform that transforms your business</h1>
         <p
           class="text-[18px] mt-[20px] mx-auto md:mx-0 text-center md:text-left md:mt-0 leading-[30px] font-[500] my-2 xl:max-h-[151.89px] text-[#394452] xl:max-w-[342.38px] max-w-[360.37px] md:max-w-[342.38px]"
@@ -11,120 +13,50 @@
           Bayn connects people to their needs for saving time & effort to reach
           maximum entertainment
         </p>
-        <div class="flex md:mt-[15px] gap-x-[12px]">
+        <div class="flex mx-auto md:mx-0 md:mt-[15px] gap-x-[12px]">
           <nuxt-link
             to="/business"
-            class="bg-black font-[500] leading-[18.78px] rounded-[8px] text-[16px] px-[20px] py-[15px] text-white w-fit"
+            class="bg-black font-[500] leading-[15px] my-auto lg:leading-[18.78px] rounded-[8px] text-[13px] lg:text-[16px] px-[20px] py-[12px] lg:py-[15px] text-white"
           >I’m a business owner</nuxt-link>
           <nuxt-link
             to="/influencers"
-            class="bg-transparent font-[500] leading-[16.44px] rounded-[8px] text-[16px] px-[20px] py-[15px] text-black border-[1px] border-black w-fit"
+            class="bg-transparent font-[500] leading-[15px] my-auto lg:leading-[18.78px] rounded-[8px] text-[13px] lg:text-[16px] px-[20px] py-[12px] lg:py-[15px] text-black border-[1px] border-black"
           >I’m an influencer</nuxt-link>
         </div>
         <svg
-          data-aos="fade-right"
-          data-aos-offset="200"
-          data-aos-delay="200"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
-          class="absolute hidden xl:flex top-[39%] left-[65%]"
-          width="253"
-          height="60"
-          viewBox="0 0 253 60"
+          class="absolute hidden lg:block xl:bottom-[47%] xl:scale-100 lg:scale-75 lg:bottom-1/3 right-0 xl:right-2"
+          width="259"
+          height="64"
+          viewBox="0 0 259 64"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M1.84106 33.4949C12.5284 45.4042 41.1143 59.1848 66.8373 57.3443C105.641 54.568 139.708 31.6401 141.502 18.6951C143.297 5.75007 128.107 0.947548 124.1 11.3275C119.167 24.1058 145.312 45.6464 199.82 27.7567C199.82 27.7567 242.344 10.9081 251.224 2.43786"
+            d="M2.3916 37.4949C13.079 49.4042 41.6648 63.1848 67.3878 61.3443C106.192 58.568 140.258 35.6401 142.053 22.6951C143.848 9.75007 128.658 4.94755 124.651 15.3275C119.718 28.1058 145.862 49.6464 200.371 31.7567C200.371 31.7567 242.895 14.9081 251.774 6.43786"
             stroke="#1E1E27"
             stroke-width="3"
             stroke-linecap="round"
           />
-        </svg>
-        <svg
-          data-aos="fade-right"
-          data-aos-offset="500"
-          data-aos-delay="200"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
-          class="absolute hidden xl:flex top-[38.5%] -right-6"
-          width="29"
-          height="8"
-          viewBox="0 0 29 8"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
           <path
-            d="M27.3574 4.27857C18.2216 6.10815 11.515 6.58541 2.09985 2.1308"
+            d="M240.821 24.82C244.536 18.7418 252.942 6.13992 256.854 4.35806"
             stroke="#1E1E27"
             stroke-width="3"
             stroke-linecap="round"
           />
-        </svg>
-        <svg
-          data-aos="fade-right"
-          data-aos-offset="200"
-          data-aos-delay="200"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
-          class="absolute hidden xl:flex top-[39.5%] -right-6"
-          width="20"
-          height="25"
-          viewBox="0 0 20 25"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
           <path
-            d="M2.27051 22.8201C5.98473 16.7419 14.3912 4.14001 18.3035 2.35816"
+            d="M256.908 4.27852C247.772 6.10809 241.066 6.58536 231.65 2.13074"
             stroke="#1E1E27"
             stroke-width="3"
             stroke-linecap="round"
-          />
-        </svg>
-        <svg
-          data-aos="fade-down"
-          data-aos-offset="200"
-          data-aos-delay="100"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
-          class="absolute hidden xl:right-4 md:right-6 -top-2"
-          width="40"
-          height="31"
-          viewBox="0 0 40 31"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.79592 19.6136C5.19786 17.2673 6.84226 10.936 2.20435 4.3811M15.0938 20.0323C18.485 13.0784 22.5431 6.17448 26.5114 2.83466"
-            stroke="#1E1E27"
-            stroke-width="3"
-          />
-          <path
-            d="M23.064 28.343C24.4092 25.4527 29.3919 19.5425 38.5616 19.0243"
-            stroke="#1E1E27"
-            stroke-width="3"
           />
         </svg>
       </div>
-      <div
-        data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-delay="200"
-        data-aos-duration="500"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="true"
-        class="lg:h-[613.15px] mt-[22px] md:mt-0 lg:my-auto lg:w-[333.31px] mx-auto lg:mx-0 w-[267.04px] h-[443.36px]"
-      >
-        <img class="object-cover" src="/phoneright.png" alt />
+      <div class="mt-[22px] md:mt-0 lg:my-0 mx-auto md:mx-0 w-fit lg:mx-0">
+        <img
+          class="object-cover lg:h-[613.15px] lg:w-[343.31px] w-[267.04px] h-[443.36px]"
+          src="/phoneright.png"
+          alt
+        />
       </div>
     </div>
   </div>

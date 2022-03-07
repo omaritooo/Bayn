@@ -7,7 +7,7 @@
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="true"
-    class="md:pr-[58px] max-w-screen xl:pr-[185px] 2xl:pr-80 overflow-x-hidden lg:overflow-visible"
+    class="overflow-hidden md:overflow-auto"
   >
     <div class="flex flex-col md:flex-row md:gap-x-[17px] xl:gap-x-[58px]">
       <div
@@ -18,21 +18,24 @@
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="true"
-        class="flex lg::max-w-full -translate-x-28 w-[676.6px] md:w-auto order-last md:order-first lg::max-h-auto 2xl:translate-x-0 lg::-translate-x-60"
+        class="flex order-last md:order-first"
       >
-        <div class="max-w-[676.6px] lg:max-w-full max-h-[443.36px] max-h-auto">
-          <img class="flex object-cover md:hidden lg:flex" src="/Rectangle 20.png" alt />
+        <div class="hidden w-[283.31px] lg:max-w-full max-h-[443.36px]">
+          <img class="block object-cover md:hidden lg:block" src="/Rectangle 20.png" alt />
         </div>
-        <div class="max-w-[676.6px] lg:max-w-full max-h-[443.36px] max-h-auto">
-          <img class="object-fit" src="/Rectangle 8.png" alt />
+        <div class="xl:hidden md:w-[225px] lg:w-[283.31px] lg:max-w-full max-h-[443.36px]">
+          <img class="object-cover" src="/Rectangle 8.png" alt />
         </div>
-        <div class="max-w-[676.6px] lg:max-w-full max-h-[443.36px] max-h-auto">
-          <img class="object-fit" src="/Rectangle 14.png" alt />
+        <div
+          class="xl:hidden lg:block md:w-[225px] lg:w-[283.31px] lg:max-w-full max-h-[443.36px] -rotate-[20deg] max-h-auto"
+        >
+          <img class="object-cover" src="/Rectangle 14.png" alt />
         </div>
+        <img class="xl:block hidden object-cover h-[653.03px] w-full" src="/Frame 2182.png" alt />
       </div>
-      <div class="my-auto">
+      <div class="my-auto lg:w-[419px] md:w-[590px]">
         <p
-          class="font-semibold mx-auto lg:mx-0 text-[38px] text-center md:text-left max-w-[337.52px] xl:text-[55px] md:leading-[45px] xl:leading-[73px] text-[#2C3A4B] xl:max-w-[419px] md:max-w-[590px] flex-1"
+          class="font-[600] mx-auto lg:mx-0 text-[38px] text-center md:text-left max-w-[337.52px] lg:text-[55px] md:leading-[45px] xl:leading-[73px] text-[#2C3A4B]"
         >Give your customers the experience they deserve</p>
       </div>
     </div>

@@ -7,7 +7,7 @@
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="true"
-    class="py-[120px] md:py-[178px] px-[16px] md:px-[64px] lg:px-[103px] 2xl:px-80"
+    class="py-[120px] md:my-[178px] mx-auto container"
   >
     <h1
       class="font-semibold max-h-[95px] w-full md:max-w-full leading-[45px] md:leading-[53px] text-[38px] lg:text-[55px] text-center text-[#0A2533]"
@@ -16,7 +16,7 @@
       class="font-[500] mt-[29px] md:leading-[22px] lg:leading-[40px] md:text-[18px] md:max-w-[509.24px] lg:max-w-full lg:text-[24px] text-center text-[#394452] md:mx-auto lg:mx-none"
     >You will be able to market your businesses through the different solutions</h2>
     <div
-      class="flex flex-col md:flex-row xl:justify-center gap-x-[95px] mx-auto lg:mx-0 lg:gap-x-[117px] xl:gap-x-[222.5px] mt-[59px] xl:ml-20"
+      class="flex flex-col md:flex-row lg:justify-center gap-x-[95px] mx-auto lg:mx-auto lg:gap-x-[117px] xl:gap-x-[222.5px] mt-[59px] xl:ml-20"
     >
       <div class="flex flex-col gap-y-[22.6px]">
         <svg
