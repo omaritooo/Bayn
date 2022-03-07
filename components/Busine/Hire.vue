@@ -7,7 +7,7 @@
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="true"
-    class="container max-w-screen"
+    class
   >
     <div class="flex flex-col w-screen mx-auto">
       <div class="md:flex relative flex-col overflow-x-hidden justify-center gap-y-[19px]">
