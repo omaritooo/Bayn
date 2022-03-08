@@ -10,7 +10,7 @@
       :repeat="3"
     >
       <span
-        class="text-[60px] md:text-[100px] lg:text-[160px] text-[#0A2533] w-[2159.4px] overflow-x-hidden h-[179.81px] py-4 leading-[73px]"
+        class="text-[60px] md:text-[100px] font-[600] lg:text-[160px] text-[#0A2533] w-[2159.4px] overflow-x-hidden h-[179.81px] py-4 leading-[73px]"
       >Bayn For Influencers, Bayn for Influencer,</span>
     </Marquee>
     <div class="container mx-auto relative z-30 flex flex-col gap-y-[96px] mt-[14px] mb-[142px]">
@@ -34,59 +34,24 @@
             >Get Bayn for Iphone</button>
           </div>
         </div>
-        <div class="relative self-end hidden ml-auto xl:flex">
-          <div
-            data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-delay="200"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="true"
-            class="hidden xl:flex"
-          >
-            <img
-              class="object-cover w-[353.31px] lg:w-[549.76px] lg:h-[613.15px] h-[444.44px]"
-              src="/Rectangle 1.png"
-            />
-          </div>
+        <div class="relative hidden mx-auto lg:block">
+          <img
+            class="object-cover w-[353.31px] mx-auto lg:w-[599.76px] lg:h-[613.15px] h-[444.44px]"
+            src="/Frame 17.png"
+          />
         </div>
-        <div
-          data-aos="fade-left"
-          data-aos-offset="200"
-          data-aos-delay="200"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
-        >
-          <img class="block xl:hidden" src="/Frame 17 1.png" alt />
+        <div>
+          <img class="block lg:hidden" src="/Frame 17 1.png" alt />
         </div>
       </div>
       <h1
-        data-aos="fade-right"
-        data-aos-offset="200"
-        data-aos-delay="550"
-        data-aos-duration="500"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="true"
         class="font-[600] text-[60px] md:text-[90px] lg:leading-[120px] leading-[77px] lg:max-w-[751px] max-w-[357.66px] text-center md:text-left px-2 text-[#0A2533]"
       >Work that fits into your lifestyle</h1>
     </div>
     <div class="flex flex-col md:flex-row relative justify-center md:gap-x-[48px] lg:gap-x-[120px]">
       <div class="gradie"></div>
 
-      <div
-        data-aos="fade-right"
-        data-aos-offset="200"
-        data-aos-delay="650"
-        data-aos-duration="500"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="true"
-        class="relative z-30"
-      >
+      <div class="relative z-30">
         <img class="relative z-30" src="/Rectangle 8.png" alt />
       </div>
       <div

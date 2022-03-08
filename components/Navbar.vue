@@ -87,7 +87,7 @@
               leave-to-class="transform scale-95 opacity-0"
             >
               <ul
-                class="flex flex-col ml-auto list-none lg:ml-auto md:gap-y-4 lg:gap-x-[40px] lg:flex-row"
+                class="flex flex-col ml-auto list-none lg:ml-auto gap-y-[20px] lg:gap-x-[40px] lg:flex-row"
               >
                 <!-- <li class="nav-item lg:py-[14px]">
                   <nuxt-link
@@ -95,37 +95,20 @@
                     to
                   >Why bayn?</nuxt-link>
                 </li>-->
-                <li class="nav-item lg:py-[14px]">
+                <li class="nav-item my-4 lg:my-0 lg:py-[14px]">
                   <nuxt-link
                     class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
                     to="/influencers"
                   >For Influencers</nuxt-link>
                 </li>
-                <li class="nav-item lg:py-[14px]">
+                <li class="nav-item my-4 lg:my-0 lg:py-[14px]">
                   <nuxt-link
                     class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
                     to="/business"
                   >For Businesses</nuxt-link>
                 </li>
-                <!-- <li class="nav-item lg:py-[14px]">
-                  <nuxt-link
-                    class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
-                    to
-                  >About</nuxt-link>
-                </li>-->
-                <!-- <li class="nav-item lg:py-[14px]">
-                  <nuxt-link
-                    class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
-                    to
-                  >FAQ</nuxt-link>
-                </li>-->
-                <!-- <li class="nav-item lg:py-[14px]">
-                  <nuxt-link
-                    class="font-semibold text-[14px] ] text-[#394452] leading-[16.44px]"
-                    to
-                  >Contact Us</nuxt-link>
-                </li>-->
-                <li class="my-auto nav-item">
+
+                <li class="my-6 lg:my-auto nav-item">
                   <a
                     href="https://bayn.io/"
                     class="bg-black font-semibold my-auto leading-[16.44px] rounded-[8px] text-[12px] px-[20px] py-[15px] text-white w-fit"

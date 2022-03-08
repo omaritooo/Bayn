@@ -7,19 +7,10 @@
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="true"
-    class="overflow-hidden md:overflow-auto"
+    class="overflow-hidden md:overflow-visible"
   >
     <div class="flex flex-col md:flex-row md:gap-x-[17px] xl:gap-x-[58px]">
-      <div
-        data-aos="fade-right"
-        data-aos-offset="100"
-        data-aos-delay="300"
-        data-aos-duration="500"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="true"
-        class="flex order-last md:order-first"
-      >
+      <div class="flex order-last md:order-first">
         <div class="hidden w-[283.31px] lg:max-w-full max-h-[443.36px]">
           <img class="block object-cover md:hidden lg:block" src="/Rectangle 20.png" alt />
         </div>
@@ -35,7 +26,7 @@
       </div>
       <div class="my-auto lg:w-[419px] md:w-[590px]">
         <p
-          class="font-[600] mx-auto lg:mx-0 text-[38px] text-center md:text-left max-w-[337.52px] lg:text-[55px] md:leading-[45px] xl:leading-[73px] text-[#2C3A4B]"
+          class="font-[600] mx-auto lg:mx-0 text-[38px] text-center md:text-left max-w-[437.52px] lg:text-[55px] md:leading-[45px] xl:leading-[73px] text-[#2C3A4B]"
         >Give your customers the experience they deserve</p>
       </div>
     </div>

@@ -1,5 +1,14 @@
 <template>
-  <div class="px-[3px] lg:mt-72 mx-auto container mt-[130px] mb-[14px] relative">
+  <div
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="200"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    class="px-[3px] lg:mt-72 mx-auto container mt-[130px] mb-[14px] relative"
+  >
     <!-- <div class="grad"></div> -->
     <div
       class="flex flex-col relative md:flex-row justify-center mx-auto md:gap-x-[26px] xl:gap-x-[66px]"
@@ -8,16 +17,7 @@
         <h1
           class="font-[600] text-[#2C3A4B] mx-auto lg:mx-0 text-[38px] lg:text-[55px] lg:leading-[73px] leading-[55px] lg:max-w-[600px] md:max-w-[373.04px] max-w-[373.04px]"
         >Do more to reach higher engagement</h1>
-        <div
-          data-aos="fade-right"
-          data-aos-offset="200"
-          data-aos-delay="200"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
-          class="flex gap-x-[10px] max-w-[382.35px] xl:gap-x-[19px] mt-[40px] mb-[45px]"
-        >
+        <div class="flex gap-x-[10px] max-w-[382.35px] xl:gap-x-[19px] mt-[40px] mb-[45px]">
           <img
             class="lg:w-[72px] lg:h-[72px] w-[46.05px] h-[46.05px]"
             src="/badge/Ellipse 3.png"

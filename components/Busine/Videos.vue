@@ -11,16 +11,7 @@
       class="my-[89px] py-8 relative container mx-auto flex flex-col md:flex-row lg:gap-x-[93px] justify-center"
     >
       <div class="relative z-30 mt-[15px] lg:w-fit md:mt-0 mx-auto md:mx-0 order-last">
-        <div
-          data-aos="fade-left"
-          data-aos-offset="200"
-          data-aos-delay="350"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
-          class="w-[277px] relative z-20 h-[441px] lg:w-[421px] lg:h-[654px]"
-        >
+        <div class="w-[277px] relative z-20 h-[441px] lg:w-[421px] lg:h-[654px]">
           <img class="mx-auto md:mx-0" src="/Bayn Website/Frame 2222.png" />
         </div>
         <Gradient />

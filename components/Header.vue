@@ -11,7 +11,7 @@
           class="text-[18px] mt-[20px] mx-auto md:mx-0 text-center md:text-left md:mt-0 leading-[30px] font-[500] my-2 xl:max-h-[151.89px] text-[#394452] xl:max-w-[342.38px] max-w-[360.37px] md:max-w-[342.38px]"
         >
           Bayn connects people to their needs for saving time & effort to reach
-          maximum entertainment
+          maximum entertainment``
         </p>
         <div class="flex mx-auto md:mx-0 md:mt-[15px] gap-x-[12px]">
           <nuxt-link

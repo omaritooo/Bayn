@@ -11,16 +11,7 @@
       >
             <!-- <div class="gradi"></div> -->
             <div class="relative z-30 mt-[15px] md:mt-0 mx-auto md:mx-0 order-last md:order-last">
-                  <div
-                        data-aos="fade-left"
-                        data-aos-offset="200"
-                        data-aos-delay="350"
-                        data-aos-duration="500"
-                        data-aos-easing="ease-in-out"
-                        data-aos-mirror="true"
-                        data-aos-once="true"
-                        class="w-[277px] h-[441px] z-20 relative lg:w-[421px] lg:h-[654px]"
-                  >
+                  <div class="w-[277px] h-[441px] z-20 relative lg:w-[421px] lg:h-[654px]">
                         <img class="mx-auto md:mx-auto" src="/Rectangle 14.png" />
                   </div>
                   <!-- <Gradient /> -->

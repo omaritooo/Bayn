@@ -11,13 +11,6 @@
   >
     <div class="relative hidden md:block">
       <img
-        data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-delay="350"
-        data-aos-duration="500"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="true"
         class="object cover lg:w-[580.93px] w-[346.26px] h-[332.67px] lg:h-[557.06px]"
         src="/Bayn Website/Frame 2246.png"
         alt

@@ -11,16 +11,7 @@
   >
     <!-- <div class="gradi"></div> -->
     <div class="relative z-30 mt-[15px] lg:w-[540px] md:mt-0 mx-auto md:mx-0">
-      <div
-        data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-delay="350"
-        data-aos-duration="500"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="true"
-        class="w-[277px] h-[441px] flex-1 relative z-20 lg:w-[421px] lg:h-[654px]"
-      >
+      <div class="w-[277px] h-[441px] flex-1 relative z-20 lg:w-[421px] lg:h-[654px]">
         <img class="mx-auto md:mx-0" src="/Bayn Website/Frame 2223.png" />
       </div>
 
@@ -94,7 +85,7 @@
       </svg>
 
       <h1
-        class="mt-[14px] max-w-[330px] lg:max-w-[284px] text-[38px] text-center md:text-left mx-auto md:mx-0 lg:text-[55px] leading-[73px] font-[600] text-[#0A2533]"
+        class="mt-[14px] max-w-[330px] lg:max-w-[494px] text-[38px] text-center md:text-left mx-auto md:mx-0 lg:text-[55px] leading-[73px] font-[600] text-[#0A2533]"
       >Shoppable Stories</h1>
       <p
         class="text-[18px] lg:text-[24px] lg:leading-[32px] text-center md:text-left mx-auto md:mx-0 leading-[24px] font-[500] max-w-[335.74px] lg:max-w-[497.85px] text-[#394452] mt-[15px]"

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex justify-center md:flex-row flex-col md:gap-x-[59.8px] xl:gap-x-[92.7px] relative my-[7.75rem]"
+    class="flex justify-center mx-auto container md:flex-row flex-col md:gap-x-[59.8px] xl:gap-x-[92.7px] relative my-[7.75rem]"
   >
     <div class="grad"></div>
     <div class="relative z-50 flex flex-col text-center h-fit w-fit md:text-left">

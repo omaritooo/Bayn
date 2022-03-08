@@ -58,35 +58,12 @@
     </div>
     <div class="flex flex-col my-auto gap-y-[20px] xl:gap-y-[50px]">
       <h1
-        data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-delay="450"
-        data-aos-duration="500"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="true"
         class="text-[38px] mx-auto md:mx-0 text-center md:text-left lg:text-[48px] leading-[60px] max-w-[269px] lg:max-w-[340px] font-[600] text-[#0A2533]"
       >Getting started is quick and easy</h1>
       <span
-        data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-delay="500"
-        data-aos-duration="500"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="true"
         class="text-[24px] mx-auto md:mx-0 text-center md:text-left lg:text-[36px] leading-[44px] text-[#0A2533] font-[600] max-w-[311.78px] lg:max-w-[600px]"
       >We’ve designed Bayn so that anyone can do it. Literally anyone.</span>
-      <div
-        class="flex flex-col gap-y-[15px]"
-        data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-delay="550"
-        data-aos-duration="500"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="true"
-      >
+      <div class="flex flex-col gap-y-[15px]">
         <div class="flex gap-x-[20px]">
           <svg
             width="18"

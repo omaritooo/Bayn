@@ -55,7 +55,7 @@
           Livestreams or shoppable videos
         </p>
         <div
-          class="flex justify-center flex-wrap max-w-[340px] mx-auto my-[10px] gap-y-[10px] gap-x-[15px]"
+          class="flex justify-center flex-wrap max-w-[340px] lg:max-w-[530px] mx-auto my-[10px] gap-y-[10px] gap-x-[15px]"
         >
           <div
             class="font-[600] max-w-[178px] text-center px-[10px] rounded-[8px] border-[1px] border-[#F1F1F1] py-[10px] text-[14px] leading-[16.44px]"

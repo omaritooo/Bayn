@@ -1,27 +1,22 @@
 <template>
-  <div class>
+  <div
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="200"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+    class
+  >
     <div
       class="container flex flex-col my-auto justify-center mt-[70px] md:gap-x-[10px] lg:gap-x-[100px] mx-auto md:flex-row"
     >
       <div class="relative my-auto">
         <h1
-          data-aos="fade-right"
-          data-aos-offset="200"
-          data-aos-delay="200"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
-          class="text-center md:text-left text-[30px] lg:text-[80px] mx-auto md:mx-0 leading-[45px] lg:leading-[100px] font-[600] text-[#0A2533] max-w-[204px] lg:max-w-[542px]"
+          class="text-center md:text-left text-[30px] lg:text-[80px] mx-auto md:mx-0 leading-[45px] lg:leading-[100px] font-[600] text-[#0A2533] max-w-[204px] lg:max-w-[592px]"
         >Sell more with Confidence</h1>
         <p
-          data-aos="fade-right"
-          data-aos-offset="200"
-          data-aos-delay="200"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
           class="text-[18px] leading-[30px] font-[500] my-5 max-w-[285.37px] text-center md:text-left mx-auto md:mx-0 text-[#394452] lg:max-w-[393px]"
         >
           Bayn provides one-stop-shop to manage your business and scale up you
@@ -29,24 +24,10 @@
         </p>
         <div class="flex">
           <button
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-delay="200"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="true"
             class="mx-auto md:mx-0 bg-black font-[500] leading-[18.78px] rounded-[8px] text-[16px] px-[20px] py-[15px] text-white w-fit"
           >Start a campaign</button>
         </div>
         <svg
-          data-aos="fade-left"
-          data-aos-offset="200"
-          data-aos-delay="300"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
           class="absolute bottom-0 hidden xl:flex lg:left-1/2"
           width="259"
           height="64"
@@ -77,18 +58,7 @@
       <div
         class="relative hidden md:w-[425.68px] md:h-[349.31px] mt-[15px] md:mt-0 lg:w-[581.49px] lg:h-[478px] lg:flex"
       >
-        <img
-          data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-delay="200"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
-          class="object-cover"
-          src="/Frame 2225.png"
-          alt
-        />
+        <img class="object-cover" src="/Frame 2225.png" alt />
         <!-- <div class="absolute lg:w-[467px] flex top-[30%] -left-20">
           <img
             data-aos="fade-up"
@@ -130,27 +100,11 @@
           />
         </div>-->
       </div>
-      <div
-        data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-delay="200"
-        data-aos-duration="500"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="true"
-        class="flex lg:hidden"
-      >
+      <div class="flex lg:hidden">
         <img src="/Group 44 1.png" alt />
       </div>
     </div>
     <div
-      data-aos="fade-right"
-      data-aos-offset="200"
-      data-aos-delay="600"
-      data-aos-duration="500"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
-      data-aos-once="true"
       class="pt-[87px] flex-col md:flex-row px-2 gap-y-[30px] md:gap-y-0 flex md:justify-between lg:justify-center text-center lg:gap-x-[150px] pb-[163px]"
     >
       <div class="mx-auto w-fit md:mx-0">

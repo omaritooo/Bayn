@@ -138,7 +138,7 @@
         </svg>
         <p
           class="text-[#0A2533] lg:text-[22px] text-[18px] leading-[40px] font-semibold text-center"
-        >Live Commerce</p>
+        >Shoppable Stories</p>
       </div>
     </div>
     <!-- <div class="flex justify-around mt-[22px] pl-[20px] ml-16">
