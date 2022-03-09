@@ -7,7 +7,7 @@
         </div>
         <Success />
         <Shoppable />
-        <Commerce />
+        <Seller />
         <Paid />
         <Design />
         <div
@@ -41,8 +41,8 @@
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="true"
-                    class="xl:mt-[20px] font-[500] md:mt-[10px] leading-[44px] md:text-[22px] xl:text-[29px] text-[#0A2533] xl:max-w-[497.92px] md:max-w-[366.56px]"
-                >We’ve designed Bayn so that anyone can do it. Literally anyone.</p>
+                    class="xl:mt-[20px] font-[500] md:mt-[10px] leading-[44px] md:text-[22px] xl:text-[29px] text-[#0A2533] xl:max-w-[600px] md:max-w-[366.56px]"
+                >We have made earning money from ecommerce is as easy as ordering a taxi or takeaway</p>
                 <div class="flex flex-col w-fit md:gap-y-[7px] xl:gap-y-[10px] mt-[20px]">
                     <p
                         data-aos="fade-right"
@@ -120,8 +120,9 @@ import Footer2 from '~/components/Footer2.vue'
 import Paid from '~/components/Paid.vue'
 import Design from '~/components/Design.vue'
 import Infhead from '~/components/Infhead.vue'
+import Seller from '~/components/Seller.vue'
 export default {
-    components: { Footer2, Design, Paid, Infhead },
+    components: { Footer2, Design, Paid, Infhead, Seller },
     mixins: [AOS],
     data() {
         return {

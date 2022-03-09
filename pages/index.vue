@@ -5,18 +5,30 @@
       <Navbar class="relative z-30" />
       <Header class="relative z-30" />
     </div>
-    <Live />
-    <Customers class="relative z-40" />
-    <Reach class="relative z-30" />
+    <!-- <Live /> -->
+    <Commerce />
+    <Videos />
+    <Shoppable />
+    <Hire />
+    <!-- <Customers class="relative z-40" /> -->
+    <!-- <Reach class="relative z-30" /> -->
     <Platform />
-    <Business />
-    <Influencer />
+    <!-- <Business />
+    <Influencer />-->
+    <Improve />
+    <Business2 />
     <Footer />
   </div>
 </template>
 
 <script>
-export default {}
+import Commerce from "~/components/Commerce.vue";
+import Videos from "~/components/Busine/Videos.vue";
+import Shoppable from "~/components/Busine/Shoppable.vue";
+import Hire from "~/components/Busine/Hire.vue";
+import Improve from "~/components/Busine/Improve.vue";
+import Business2 from "~/components/Busine/Business2.vue";
+export default { components: { Commerce, Videos, Shoppable, Hire, Improve, Business2 } }
 </script>
 <style >
 html {

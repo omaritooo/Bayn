@@ -4,7 +4,7 @@
             <div class="track">Bayn For Influencers, Bayn for Influencer,</div>
             <div class="track2">Bayn for Influencer, Bayn for Influencer,</div> 
     </div>-->
-    <Marquee
+    <!-- <Marquee
       class="absolute z-10 top-[0%] md:-top-[0%] xl:top-[0%] text-[60px] md:text-[100px] xl:text-[160px] h-[279.81px]"
       :duration="25"
       :repeat="3"
@@ -13,14 +13,61 @@
         class="text-[60px] md:text-[100px] font-[600] lg:text-[160px] text-[#0A2533] w-[2159.4px] overflow-x-hidden h-[179.81px] py-4 leading-[73px]"
         >Bayn For Influencers, Bayn for Influencer,
       </span>
-    </Marquee>
-    <div
-      class="container mx-auto relative z-30 flex flex-col gap-y-[96px] mt-[14px] mb-[142px]"
-    >
+    </Marquee>-->
+    <div class="container mx-auto relative z-30 flex flex-col gap-y-[96px] mt-[14px] mb-[142px]">
       <div
-        class="flex justify-center mx-auto flex-col md:mt-0 md:flex-row lg: xl:gap-x-[202px] mt-[20px] mb-[64px]"
+        class="flex relative justify-center mx-auto flex-col md:mt-0 md:flex-row lg:gap-x-[64px] xl:gap-x-[101px] mt-[20px] mb-[64px]"
       >
+        <svg
+          class="absolute top-[39%] left-[31.5%]"
+          width="39"
+          height="30"
+          viewBox="0 0 39 30"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M3.0151 18.9731C4.41703 16.6268 6.06143 10.2955 1.42352 3.7406M14.3129 19.3918C17.7042 12.4379 21.7623 5.53398 25.7306 2.19415"
+            stroke="#1E1E27"
+            stroke-width="3"
+          />
+          <path
+            d="M22.2832 27.7024C23.6283 24.8121 28.6111 18.9019 37.7807 18.3838"
+            stroke="#1E1E27"
+            stroke-width="3"
+          />
+        </svg>
+
+        <svg
+          class="absolute xl:right-1/2 xl:bottom-[15%]"
+          width="187"
+          height="75"
+          viewBox="0 0 187 75"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.88215 68.1085C3.61438 77.4761 148.372 62.3051 112.593 37.8993C54.4308 -1.77393 143.742 18.7644 176.218 9.57715"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+          <path
+            d="M164.38 19.5645C168.315 16.4607 176.94 10.1979 179.957 9.97757"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+          <path
+            d="M180.012 9.93828C173.537 8.91429 168.995 7.59122 163.87 2.35207"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+        </svg>
+
         <div class="flex md:my-auto xl:mb-[85px] relative flex-col lg:my-auto">
+          <h1 class="text-[80px] leading-[100px] font-[600] text-[#0A2533]">Bayn For Influencers</h1>
           <p
             class="max-w-[357.97px] text-center md:text-left mx-auto md:mx-0 md:max-w-[410.27px] lg:max-w-[541.68px] font-[500] text-[#394452] text-[18px] leading-[35px]"
           >
@@ -31,19 +78,17 @@
           <div class="flex gap-x-[17px] mt-[27px] relative z-40">
             <button
               class="text-[14px] relative z-40 leading-[16.44px] font-[500] py-[12px] px-[15px] lg:px-[20px] lg:py-[15px] text-white bg-black rounded-[8px]"
-            >
-              Get Bayn for Android
-            </button>
+            >Get Bayn for Android</button>
             <button
               class="text-[14px] relative z-40 leading-[16.44px] font-[500] py-[12px] px-[15px] lg:px-[20px] lg:py-[15px] text-black bg-white border-[1px] border-black rounded-[8px]"
-            >
-              Get Bayn for Iphone
-            </button>
+            >Get Bayn for Iphone</button>
           </div>
         </div>
-        <div class="relative hidden mx-auto lg:block">
+        <div
+          class="relative hidden mx-auto lg:block w-[353.31px] lg:w-[679.76px] lg:h-[613.15px] h-[444.44px]"
+        >
           <img
-            class="object-contain w-[353.31px] mx-auto lg:w-[599.76px] lg:h-[613.15px] h-[444.44px]"
+            class="object-cover mx-auto w-[353.31px] lg:w-[679.76px] lg:h-[613.15px] h-[444.44px]"
             src="/Frame 17.png"
           />
         </div>
@@ -52,14 +97,10 @@
         </div>
       </div>
       <h1
-        class="font-[600] text-[60px] md:text-[90px] lg:leading-[120px] leading-[77px] lg:max-w-[751px] max-w-[357.66px] text-center md:text-left px-2 text-[#0A2533]"
-      >
-        Work that fits into your lifestyle
-      </h1>
+        class="font-[600] text-[60px] md:text-[50px] mx-auto lg:leading-[120px] leading-[77px] lg:max-w-[751px] max-w-[357.66px] text-center md:text-left px-2 text-[#0A2533]"
+      >Work that fits into your lifestyle</h1>
     </div>
-    <div
-      class="flex flex-col md:flex-row relative justify-center md:gap-x-[48px] lg:gap-x-[120px]"
-    >
+    <div class="flex flex-col md:flex-row relative justify-center md:gap-x-[48px] lg:gap-x-[120px]">
       <div class="gradie"></div>
 
       <div class="relative z-30">
@@ -159,14 +200,10 @@
         <div class="flex gap-x-[17px] mt-[27px]">
           <button
             class="text-[14px] leading-[16.44px] font-[500] px-[20px] py-[15px] text-white bg-black rounded-[8px]"
-          >
-            Get Bayn for Android
-          </button>
+          >Get Bayn for Android</button>
           <button
             class="text-[14px] leading-[16.44px] font-[500] px-[20px] py-[15px] text-black bg-transparent border-[1px] border-black rounded-[8px]"
-          >
-            Get Bayn for Iphone
-          </button>
+          >Get Bayn for Iphone</button>
         </div>
       </div>
     </div>

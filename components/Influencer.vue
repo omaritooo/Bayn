@@ -1,5 +1,11 @@
 <template>
-  <div
+  <div data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="200"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
     class="flex justify-center mx-auto container md:flex-row flex-col md:gap-x-[59.8px] xl:gap-x-[92.7px] relative my-[7.75rem]"
   >
     <div class="grad"></div>

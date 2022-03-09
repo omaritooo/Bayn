@@ -100,6 +100,9 @@
         <h1
           class="mx-auto md:mx-0 mt-[17px] lg:mt-[27px] lg:max-w-[473px] max-w-[196px] text-[38px] leading-[45px] lg:text-[55px] lg:leading-[72px] font-[600] text-[#0A2533] text-center md:text-left"
         >Shoppable Videos</h1>
+        <p
+          class="text-[24px] leading-[32px] font-[500] text-[#394452] max-w-[497.85px] mt-[14px]"
+        >An immersive shoppaple video experience that transforms an audience into a community. Enjoy the interactive content</p>
         <div
           class="mt-[24px] md:mx-0 flex gap-x-[15px] gap-y-[15px] flex-wrap md:max-w-[300px] lg:max-w-[437px]"
         >

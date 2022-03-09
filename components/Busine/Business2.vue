@@ -11,13 +11,7 @@
   >
     <div class="relative order-last mx-auto md:mx-0 mb-[40px] lg:mb-0 md:order-first">
       <div
-        data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-delay="400"
-        data-aos-duration="500"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="true"
+       
         class
       >
         <img
