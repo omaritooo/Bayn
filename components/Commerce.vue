@@ -14,6 +14,7 @@
       <div class="w-[277px] h-[441px] z-20 relative lg:w-[421px] lg:h-[654px]">
         <img class="mx-auto md:mx-auto" src="/Rectangle 16.png" />
       </div>
+      <Gradient />
       <!-- <Gradient /> -->
       <!-- <img
         data-aos="fade-right"
@@ -142,10 +143,10 @@
 </template>
 
 <script>
+import Gradient from "./Gradient.vue";
 // import Gradient from "../Gradient.vue";
 export default {
-
-  // components: { Gradient } 
+  components: { Gradient }
 }
 </script>
 

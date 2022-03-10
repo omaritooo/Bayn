@@ -95,12 +95,12 @@
                     to
                   >Why bayn?</nuxt-link>
                 </li>-->
-                <li class="nav-item my-4 lg:my-0 lg:py-[14px]">
+                <!-- <li class="nav-item my-4 lg:my-0 lg:py-[14px]">
                   <nuxt-link
                     class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
                     to="/influencers"
                   >For Influencers</nuxt-link>
-                </li>
+                </li>-->
                 <li class="nav-item my-4 lg:my-0 lg:py-[14px]">
                   <nuxt-link
                     class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"

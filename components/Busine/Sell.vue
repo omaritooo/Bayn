@@ -14,7 +14,9 @@
       <div class="w-[277px] h-[441px] z-20 relative lg:w-[421px] lg:h-[654px]">
         <img class="mx-auto md:mx-auto" src="/Bayn Website/Frame 2221.png" />
       </div>
-      <Gradient />
+      <div class="mx-auto">
+        <Gradient />
+      </div>
       <!-- <img
         data-aos="fade-right"
         data-aos-offset="200"

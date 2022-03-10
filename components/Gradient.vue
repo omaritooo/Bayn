@@ -10,18 +10,15 @@ export default {
 
 <style scoped>
 .gradiento {
-    @import mx-auto;
-    width: 600px;
+    width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
-    left: 0;
-    background: rgb(255, 255, 255);
-    background: radial-gradient(
-        21.73% 46.26% at 66% 52.48%,
-        #d5e6ff 0%,
-        #ffffff 100%
-    );
+    right: 0;
+    filter: blur(14px);
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #d5e6ff 0%, #ffffff 100%);
+    background-position: left;
     z-index: 10;
 }
 </style>

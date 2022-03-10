@@ -20,7 +20,7 @@
           >Start Live Selling</nuxt-link>
         </div>
         <svg
-          class="absolute xl:top-1/2 xl:-right-32"
+          class="absolute hidden lg:flex lg:bottom-10 lg:-right-28 xl:top-1/2 xl:-right-32"
           width="232"
           height="125"
           viewBox="0 0 232 125"
@@ -47,7 +47,7 @@
           />
         </svg>
         <svg
-          class="absolute top-0 right-0"
+          class="absolute top-0 right-0 hidden lg:flex"
           width="40"
           height="30"
           viewBox="0 0 40 30"
