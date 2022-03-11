@@ -48,7 +48,18 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxt/postcss8',
+    '@nuxtjs/i18n',
+
   ],
+
+  i18n:
+  {
+    locales: [{ code: 'en', iso: 'en-US', file: 'en.json', dir: 'ltr' },
+    { code: 'ar', iso: 'ar-EG', file: 'ar.json', dir: 'rtl' },],
+    langDir: './locales/',
+    vueI18nLoader: true,
+
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},

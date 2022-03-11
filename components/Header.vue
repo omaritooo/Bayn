@@ -6,18 +6,15 @@
       <div class="relative flex flex-col mx-auto my-auto md:mx-0">
         <h1
           class="lg:text-[80px] text-center md:text-left text-[30px] lg:leading-[73px] md:mx-0 leading-[45px] font-[600] text-[#2C3A4B] 2xl:max-w-[610px] lg:max-w-[516px] md:max-w-[381px]"
-        >
-          E-commerce has become
-          more exciting
-        </h1>
+        >{{ $t('Ecommerce') }}</h1>
         <p
           class="text-[18px] mt-[20px] xl:mt-[20px] mx-auto md:mx-0 text-center md:text-left md:mt-0 leading-[30px] font-[500] my-2 xl:max-h-[151.89px] text-[#394452] xl:max-w-[342.38px] max-w-[360.37px] md:max-w-[342.38px]"
-        >Start Live selling and double the profits of your store!</p>
+        >{{ $t('StartLive') }}</p>
         <div class="flex mx-auto md:mx-0 md:mt-[34px] gap-x-[12px]">
           <nuxt-link
             to="/business"
             class="bg-black font-[500] leading-[15px] my-auto lg:leading-[18.78px] rounded-[8px] text-[13px] lg:text-[16px] px-[20px] py-[12px] lg:py-[15px] text-white"
-          >Start Live Selling</nuxt-link>
+          >{{ $t('StartLiveButton') }}</nuxt-link>
         </div>
         <svg
           class="absolute hidden lg:flex lg:bottom-10 lg:-right-28 xl:top-1/2 xl:-right-32"
@@ -122,10 +119,10 @@
         </svg>
         <span
           class="text-[#0A2533] text-[18px] lg:text-[22px] leading-[40px] md:max-w-[197px] lg:max-w-[241px] font-[600] mt-[25.9px] mb-[12px]"
-        >Products under control</span>
+        >{{ $t('Products') }}</span>
         <p
           class="text-center max-w-[219px] lg:max-w-[281px] font-[500] md:text-[14px] lg:text-[18px] leading-[24px] text-[#394452]"
-        >keep your products & promotions all in one place</p>
+        >{{ $t('ProductsInfo') }}</p>
       </div>
       <div class="mx-auto w-fit md:mx-0">
         <svg
@@ -157,10 +154,10 @@
 
         <span
           class="text-[#0A2533] text-[18px] lg:text-[22px] leading-[40px] md:max-w-[177px] lg:max-w-[241px] font-[600] mt-[25.9px] mb-[12px]"
-        >Influencer Marketing</span>
+        >{{ $t('InfluencerMarketing') }}</span>
         <p
           class="text-center max-w-[172px] lg:max-w-[220px] font-[500] text-[14px] lg:text-[18px] leading-[24px] text-[#394452]"
-        >don’t search for audience, we bring them to you</p>
+        >{{ $t('InfluencerInfo') }}</p>
       </div>
       <div class="mx-auto w-fit md:mx-0">
         <svg
@@ -202,13 +199,10 @@
 
         <span
           class="text-[#0A2533] text-[18px] lg:text-[22px] leading-[40px] md:max-w-[117px] lg:max-w-[241px] font-[600] mt-[25.9px] mb-[12px]"
-        >Happy clients</span>
+        >{{ $t('HappyClients') }}</span>
         <p
           class="text-center max-w-[196.39px] lg:max-w-[333px] font-[500] text-[14px] lg:text-[18px] leading-[24px] text-[#394452]"
-        >
-          clients get the experience they deserve They'll never search anywhere
-          else
-        </p>
+        >{{ $t('Clientsinfox`') }}</p>
       </div>
     </div>
   </div>

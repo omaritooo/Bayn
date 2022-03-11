@@ -117,26 +117,26 @@
       </svg>
       <h1
         class="mx-auto md:mx-0 text-center md:text-left mt-[19px] lg:mt-[24px] max-w-[348.04px] lg:max-w-[512px] text-[38px] lg:text-[55px] leading-[45px] lg:leading-[72px] font-[600] text-[#0A2533]"
-      >Sell live to many customers instantly</h1>
+      >{{ $t('SellLive') }}</h1>
 
       <p
         class="mt-[14px] text-[#394452] text-[24px] leading-[32px] max-w-[497.85px]"
-      >A Live shopping solution with instant checkout and product feed sync, enjoy seamless connection to your e-commerce platform and payment solutions.</p>
+      >{{ $t('SellLiveInfo') }}</p>
       <div
         class="flex mx-auto md:mx-0 gap-x-[15px] mt-[20px] gap-y-[15px] flex-wrap max-w-[300px] lg:max-w-[473px]"
       >
         <div
           class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-        >Live stream</div>
+        >{{ $t('LiveStream') }}</div>
         <div
           class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-        >Live shopping</div>
+        >{{ $t('LiveShop') }}</div>
         <div
           class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-        >Live Products</div>
+        >{{ $t('LiveProduct') }}</div>
         <div
           class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-        >Live Commerce</div>
+        >{{ $t('LiveCom') }}</div>
       </div>
     </div>
   </div>

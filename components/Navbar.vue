@@ -105,14 +105,14 @@
                   <nuxt-link
                     class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
                     to="/business"
-                  >For Businesses</nuxt-link>
+                  >{{ $t('ForBusiness') }}</nuxt-link>
                 </li>
 
                 <li class="my-6 lg:my-auto nav-item">
                   <a
                     href="https://bayn.io/"
                     class="bg-black font-semibold my-auto leading-[16.44px] rounded-[8px] text-[12px] px-[20px] py-[15px] text-white w-fit"
-                  >Start a campaign</a>
+                  >{{ $t('Campaign') }}</a>
                 </li>
               </ul>
             </transition>
