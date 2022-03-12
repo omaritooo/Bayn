@@ -104,8 +104,8 @@
                 <li class="nav-item my-4 lg:my-0 lg:py-[14px]">
                   <nuxt-link
                     class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
-                    to="/business"
-                  >{{ $t('ForBusiness') }}</nuxt-link>
+                    to="/influencers"
+                  >{{ $t('ForInf') }}</nuxt-link>
                 </li>
 
                 <li class="my-6 lg:my-auto nav-item">

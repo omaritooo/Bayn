@@ -44,14 +44,10 @@
         <div class="flex flex-col gap-y-[30px] lg:gap-y-[50px]">
           <p
             class="font-[600] lg:max-w-[503.02px] md:max-w-[372.9px] text-center md:text-left text-[38px] leading-[45px] lg:text-[48px] text-[#0A2533] lg:leading-[60px]"
-          >Improve your product appearance</p>
+          >{{ $t('ImproveAppearance') }}</p>
           <p
             class="font-[500] leading-[24px] text-[18px] lg:leading-[32px] mx-auto md:mx-0 text-center md:text-left max-w-[372.9px] lg:max-w-[497.85px] w lg:text-[24px] text-[#394452]"
-          >
-            Bayn gives you the ability to add your products easily, manage stock
-            and sales through direct promotions (video review - livestream -
-            live stories) in no time
-          </p>
+          >{{ $t('ImproveInfo') }}</p>
         </div>
         <!-- <button
                     class="bg-black font-semibold rounded-[8px] text-[14px] px-[20px] py-[15px] text-white w-fit"
@@ -91,10 +87,7 @@
           </div>
           <div
             class="md:text-[14px] lg:text-[18px] ml-[20px] leading-[18px] max-w-[284.89px] lg:leading-[32px] font-[500] text-[#0A2533] lg:max-w-[464px]"
-          >
-            Better client experience — now you can focus more on your clients
-            and speed up selling
-          </div>
+          >{{ $t('ClientExp') }}</div>
         </div>
       </div>
     </div>

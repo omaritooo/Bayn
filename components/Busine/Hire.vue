@@ -47,25 +47,22 @@
         </svg>
         <h1
           class="text-center font-[600] text-[38px] lg:text-[55px] leading-[73px] text-black"
-        >Hire Influencers</h1>
+        >{{ $t('HireInfluencers') }}</h1>
         <p
           class="text-center font-[500] text-[18px] lg:text-[24px] leading-[32px] text-[#394452] max-w-[324.4px] md:max-w-[522px] lg:max-w-[710.04px] mx-auto"
-        >
-          Let influencers promote and sell your items during set of events -
-          Livestreams or shoppable videos
-        </p>
+        >{{ $t('LetInfluencers') }}</p>
         <div
           class="flex justify-center flex-wrap max-w-[340px] lg:max-w-[530px] mx-auto my-[10px] gap-y-[10px] gap-x-[15px]"
         >
           <div
             class="font-[600] max-w-[178px] text-center px-[10px] rounded-[8px] border-[1px] border-[#F1F1F1] py-[10px] text-[14px] leading-[16.44px]"
-          >Influencer marketing</div>
+          >{{ $t('InfluencerMarket') }}</div>
           <div
             class="font-[600] px-[10px] max-w-[147px] rounded-[8px] border-[1px] border-[#F1F1F1] py-[10px] text-[14px] leading-[16.44px]"
-          >Live Promotions</div>
+          >{{ $t('LivePromotions') }}</div>
           <div
             class="font-[600] px-[10px] max-w-[167px] rounded-[8px] border-[1px] border-[#F1F1F1] py-[10px] text-[14px] leading-[16.44px]"
-          >Live Advertisments</div>
+          >{{ $t('LiveAdvertisment') }}</div>
         </div>
         <svg
           id="squiggleleft"

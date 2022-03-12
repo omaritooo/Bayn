@@ -133,22 +133,22 @@
 
                   <h1
                         class="mx-auto md:mx-0 text-center md:text-left mt-[19px] lg:mt-[36px] max-w-[348.04px] lg:max-w-[464px] text-[38px] lg:text-[90px] leading-[45px] lg:leading-[104px] font-[600] text-[#0A2533]"
-                  >Shoppable Videos</h1>
+                  >{{ $t('ShoppableVideos') }}</h1>
                   <div
                         class="flex mx-auto md:mx-0 gap-x-[15px] mt-[20px] gap-y-[15px] flex-wrap max-w-[300px] lg:max-w-[473px]"
                   >
                         <div
                               class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-                        >Video Shopping</div>
+                        >{{ $t('VideoShopping') }}</div>
                         <div
                               class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-                        >Unboxing</div>
+                        >{{ $t('Unboxing') }}</div>
                         <div
                               class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-                        >Shoppable Videos</div>
+                        >{{ $t('ShoppableVideos') }}</div>
                         <div
                               class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-                        >Reviews</div>
+                        >{{ $t('Reviews') }}</div>
                   </div>
             </div>
       </div>

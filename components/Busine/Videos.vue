@@ -99,25 +99,25 @@
         </svg>
         <h1
           class="mx-auto md:mx-0 mt-[17px] lg:mt-[27px] lg:max-w-[473px] max-w-[196px] text-[38px] leading-[45px] lg:text-[55px] lg:leading-[72px] font-[600] text-[#0A2533] text-center md:text-left"
-        >Shoppable Videos</h1>
+        >{{ $t('ShoppableVideos') }}</h1>
         <p
           class="text-[24px] leading-[32px] font-[500] text-[#394452] max-w-[497.85px] mt-[14px]"
-        >An immersive shoppaple video experience that transforms an audience into a community. Enjoy the interactive content</p>
+        >{{ $t('ShoppableVideosInfo') }}</p>
         <div
           class="mt-[24px] md:mx-0 flex gap-x-[15px] gap-y-[15px] flex-wrap md:max-w-[300px] lg:max-w-[437px]"
         >
           <div
             class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-          >Video shopping</div>
+          >{{ $t('VideoShopping') }}</div>
           <div
             class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-          >Unboxing</div>
+          >{{ $t('Unboxing') }}</div>
           <div
             class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-          >Reviews</div>
+          >{{ $t('Reviews') }}</div>
           <div
             class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-          >Shoppable videos</div>
+          >{{ $t('ShoppableVideos') }}</div>
         </div>
       </div>
     </div>

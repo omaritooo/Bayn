@@ -16,14 +16,14 @@
           <div class="gap-y-[25px] my-auto xl:gap-y-4 text-[#394452] z-50">
             <h3
               class="lg:text-left text-[38px] text-center lg:text-[58px] lg:leading-[45px] text-[#0A2533] font-[600]"
-            >It is free</h3>
+            >{{ $t('Free') }}</h3>
             <div
               class="font-[500] text-center lg:text-left lg:text-[24px] text-[18px]"
-            >Can’t wait to start join us as a merchant</div>
+            >{{ $t('Wait') }}</div>
           </div>
           <button
             class="px-[20px] mx-auto lg:mx-0 mt-[25px] lg:mt-0 my-auto text-white bg-black rounded-lg text-[13px] lg:text-[16px] py-[12px] xl:py-[12px]"
-          >Start your campaign</button>
+          >{{ $t('Campaign') }}</button>
         </div>
         <div
           data-aos="fade-right"
@@ -80,7 +80,7 @@
           <div>
             <p
               class="max-w-[209px] font-[600] text-[16px] leading-[25px] text-[#2C3A4B]"
-            >Empower People, Empower Community.</p>
+            >{{ $t('Empower') }}</p>
           </div>
         </div>
         <div class="flex gap-x-[125px] my-auto text-[16px] text-[#2C3A4B] w-fit">
@@ -431,15 +431,13 @@
       <div
         class="pb-[47px] mt-[63px] md:mt-0 md:pb-[35px] xl:pb-[80px] flex md:flex-row gap-y-[20px] flex-col text-center md:text-left justify-between font-[600] leading-[32px] text-[14px] text-[#2C3A4B]"
       >
-        <div
-          class="order-last md:order-first"
-        >{{ new Date().getFullYear() }} Bayn Limited. All Rights Reserved</div>
+        <div class="order-last md:order-first">{{ $t('LTD') }}</div>
         <div>
           <div
             class="flex justify-center order-first mx-auto md:order-last md:justify-end md:mx-0 gap-x-4"
           >
-            <nuxt-link to>Terms and Conditions</nuxt-link>
-            <nuxt-link to>Privacy Policy</nuxt-link>
+            <nuxt-link to>{{ $t('Terms') }}</nuxt-link>
+            <nuxt-link to>{{ $t('Policy') }}</nuxt-link>
           </div>
         </div>
       </div>

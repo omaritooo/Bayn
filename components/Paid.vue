@@ -12,10 +12,7 @@
     <div class="mx-auto text-center">
       <h1
         class="text-[60px] leading-[80px] lg:text-[90px] mx-auto lg:leading-[120px] font-[700] max-w-[527px] text-center text-[#0A2533]"
-      >
-        Can’t wait to
-        get paid?
-      </h1>
+      >{{ $t('GetPaid') }}</h1>
 
       <p
         data-aos="fade-right"
@@ -26,16 +23,16 @@
         data-aos-mirror="true"
         data-aos-once="true"
         class="text-[60px] leading-[80px] lg:text-[90px] mx-auto lg:leading-[120px] mt-[74px] md:mt-[103px] font-[700] max-w-[456px] text-center text-[#0A2533]"
-      >we gotchu</p>
+      >{{ $t('WeG') }}</p>
       <div
         class="mx-auto md:justify-center flex-col md:flex-row text-center flex md:gap-x-[12px] lg:gap-x-[21.71px] max-w-[947.71px]"
       >
         <span
           class="text-[60px] mx-auto md:mx-0 whitespace-nowrap leading-[80px] lg:text-[90px] lg:leading-[120px] flex font-[700] text-center text-[#0A2533]"
-        >Let’s see</span>
+        >{{ $t('lets') }}</span>
         <span
           class="text-center text-[60px] leading-[80px] whitespace-nowrap lg:text-[90px] lg:leading-[120px] font-[700] text-white text-shadow"
-        >how it works</span>
+        >{{ $t('itworks') }}</span>
       </div>
       <svg
         class="mx-auto w-[330.48px] h-[17.43px] md:w-[573.48px] md:h-[30.24px] lg:w-[716px] lg:h-[41px] mt-[26px]"

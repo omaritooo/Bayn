@@ -59,10 +59,10 @@
     <div class="flex flex-col my-auto gap-y-[20px] xl:gap-y-[50px]">
       <h1
         class="text-[38px] mx-auto md:mx-0 text-center md:text-left lg:text-[48px] leading-[60px] max-w-[269px] lg:max-w-[340px] font-[600] text-[#0A2533]"
-      >Getting started is quick and easy</h1>
+      >{{ $t('GettingStarted') }}</h1>
       <span
         class="text-[24px] mx-auto md:mx-0 text-center md:text-left lg:text-[36px] leading-[44px] text-[#0A2533] font-[600] max-w-[311.78px] lg:max-w-[600px]"
-      >We’ve designed Bayn so that anyone can do it. Literally anyone.</span>
+      >{{ $t('designedBayn') }}</span>
       <div class="flex flex-col gap-y-[15px]">
         <div class="flex gap-x-[20px]">
           <svg
@@ -98,10 +98,7 @@
 
           <span
             class="md:max-w-[284.89px] lg:max-w-[557px] leading-[18px] lg:leading-[32px] md:text-[14px] xl:text-[18px] font-[500] flex-1"
-          >
-            No experience needed — you’ll be doing work that’s basic to you but
-            vital to the business
-          </span>
+          >{{ $t('ExpNeeded') }}</span>
         </div>
         <div class="flex gap-x-[20px]">
           <svg
@@ -137,10 +134,7 @@
 
           <span
             class="md:max-w-[284.89px] lg:max-w-[557px] leading-[18px] lg:leading-[32px] md:text-[14px] xl:text-[18px] font-[500] flex-1"
-          >
-            No application process — No CV or interview — there’s no need to
-            tell your life story to get your first live with us
-          </span>
+          >{{ $t('process') }}</span>
         </div>
         <div class="flex gap-x-[20px]">
           <svg
@@ -176,10 +170,7 @@
 
           <span
             class="md:max-w-[285px] lg:max-w-[557px] leading-[18px] lg:leading-[32px] md:text-[14px] xl:text-[18px] font-[500] flex-1"
-          >
-            Quick onboarding — it takes less than 10 minutes to create your
-            business account and get accepted by Bayn’s Team
-          </span>
+          >{{ $t('onboarding') }}</span>
         </div>
       </div>
     </div>
