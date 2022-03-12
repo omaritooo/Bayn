@@ -11,12 +11,10 @@
       class="relative overflow-x-hidden flex flex-col w-[100%] lg:test my-[30px] md:my-[180px]"
     >
       <div class="relative hidden py-12 md:block">
-        <h1
-          class="text-[48px] leading-[73px] font-[600] text-center text-[#0A2533]"
-        >We’re here for you</h1>
+        <h1 class="text-[48px] leading-[73px] font-[600] text-center text-[#0A2533]">{{ $t('Here') }}</h1>
         <p
           class="text-[24px] leading-[32px] max-w-[497.85px] mx-auto font-[500] mt-[11.79px] text-center text-[#394452]"
-        >it is designed to give you all the support to achieve success.</p>
+        >{{ $t('designed') }}</p>
       </div>
       <div class="flex flex-col md:hidden">
         <div class="relative">
@@ -68,10 +66,10 @@
         </div>
         <h1
           class="max-w-[410px] text-[38px] mx-auto text-center md:text-left font-[600]"
-        >We’re here for you</h1>
+        >{{ $t('Here') }}</h1>
         <p
           class="text-[20px] leading-[32px] max-w-[358.15px] mx-auto mb-[10px] text-center font-[500]"
-        >it is designed to give you all the support to achieve success.</p>
+        >{{ $t('designed') }}</p>
         <div
           class="flex md:hidden mx-auto max-w-[264px] md:max-w-[427px] lg:max-w-[570px] flex-wrap gap-x-[15px] gap-y-[15px]"
         >
@@ -101,7 +99,7 @@
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Time Management</span>
+            >{{ $t('Time') }}</span>
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -122,7 +120,7 @@
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Direct connection with store owners</span>
+            >{{ $t('Connect') }}</span>
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -147,7 +145,7 @@
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Documented requirements</span>
+            >{{ $t('Document') }}</span>
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -165,7 +163,7 @@
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Long term relationships</span>
+            >{{ $t('Long') }}</span>
           </div>
         </div>
 
@@ -235,7 +233,7 @@
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Time Management</span>
+            >{{ $t('Time') }}</span>
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -256,7 +254,7 @@
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Direct connection with store owners</span>
+            >{{ $t('Connect') }}</span>
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -281,7 +279,7 @@
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Documented requirements</span>
+            >{{ $t('Document') }}</span>
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -299,7 +297,7 @@
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >Long term relationships</span>
+            >{{ $t('Long') }}</span>
           </div>
         </div>
         <svg
@@ -341,15 +339,15 @@
         <img class="max-w-[124px]" src="/handup.png" alt />
         <h1
           class="font-[600] text-[38px] xl:text-[48px] leading-[73px] text-[#0A2533]"
-        >Flow of success</h1>
+        >{{ $t('Flow') }}</h1>
         <div
           class="flex relative flex-col text-[#0A2533] gap-y-[20px] leading-[28px] font-[500] md:leading-[52px] xl:leading-[58px] max-w-[358.36px] md:max-w-[632px] md:text-[18px] xl:text-[24px]"
         >
-          <span>Setup your profile and cusomize your categories</span>
-          <span>Get Hired by hundreads of stroes</span>
-          <span>Manage your schedule and campaigns with ease</span>
-          <span>Provide shoppable videos that can be accessed anytime</span>
-          <span>Go live with clear content and Instrcutions</span>
+          <span>{{ $t('Setup') }}</span>
+          <span>{{ $t('GetHired') }}</span>
+          <span>{{ $t('Manage') }}</span>
+          <span>{{ $t('Provide') }}</span>
+          <span>{{ $t('GoLive') }}</span>
         </div>
       </div>
       <div class="flex flex-col mx-auto md:mx-0 mt-10 md:my-auto gap-y-[74px]">

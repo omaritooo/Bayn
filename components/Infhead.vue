@@ -67,21 +67,17 @@
         </svg>
 
         <div class="flex md:my-auto xl:mb-[85px] relative flex-col lg:my-auto">
-          <h1 class="text-[80px] leading-[100px] font-[600] text-[#0A2533]">Bayn For Influencers</h1>
+          <h1 class="text-[80px] leading-[100px] font-[600] text-[#0A2533]">{{ $t('BaynInf') }}</h1>
           <p
             class="max-w-[357.97px] text-center md:text-left mx-auto md:mx-0 md:max-w-[410.27px] lg:max-w-[541.68px] font-[500] text-[#394452] text-[18px] leading-[35px]"
-          >
-            Join our network of live commerce influencers , Receive requests
-            from stores and earn rewards while presenting the products you
-            promote
-          </p>
+          >{{ $t('BaynInfInfo') }}</p>
           <div class="flex gap-x-[17px] mt-[27px] relative z-40">
             <button
               class="text-[14px] relative z-40 leading-[16.44px] font-[500] py-[12px] px-[15px] lg:px-[20px] lg:py-[15px] text-white bg-black rounded-[8px]"
-            >Get Bayn for Android</button>
+            >{{ $t('Android') }}</button>
             <button
               class="text-[14px] relative z-40 leading-[16.44px] font-[500] py-[12px] px-[15px] lg:px-[20px] lg:py-[15px] text-black bg-white border-[1px] border-black rounded-[8px]"
-            >Get Bayn for Iphone</button>
+            >{{ $t('Iphone') }}</button>
           </div>
         </div>
         <div
@@ -98,7 +94,7 @@
       </div>
       <h1
         class="font-[600] text-[60px] md:text-[50px] mx-auto lg:leading-[120px] leading-[77px] lg:max-w-[751px] max-w-[357.66px] text-center md:text-left px-2 text-[#0A2533]"
-      >Work that fits into your lifestyle</h1>
+      >{{ $t('Work') }}</h1>
     </div>
     <div class="flex flex-col md:flex-row relative justify-center md:gap-x-[48px] lg:gap-x-[120px]">
       <div class="gradie"></div>
@@ -184,26 +180,26 @@
         </svg>-->
 
         <span>
-          Your remarkable content
+          {{ $t('Remark') }}
           <span class="text-[40px] font-[600]">+</span>
         </span>
         <span>
-          World-famous products
+          {{ $t('Famous') }}
           <span class="text-[40px] font-[600]">+</span>
         </span>
         <span>
-          Our leading live commerce platform
+          {{ $t('Leading') }}
           <span class="text-[40px] font-[600]">=</span>
         </span>
-        <span>The future of ecommerce and influence</span>
+        <span>{{ $t('ecom') }}</span>
 
         <div class="flex gap-x-[17px] mt-[27px]">
           <button
             class="text-[14px] leading-[16.44px] font-[500] px-[20px] py-[15px] text-white bg-black rounded-[8px]"
-          >Get Bayn for Android</button>
+          >{{ $t('Android') }}</button>
           <button
             class="text-[14px] leading-[16.44px] font-[500] px-[20px] py-[15px] text-black bg-transparent border-[1px] border-black rounded-[8px]"
-          >Get Bayn for Iphone</button>
+          >{{ $t('Iphone') }}</button>
         </div>
       </div>
     </div>

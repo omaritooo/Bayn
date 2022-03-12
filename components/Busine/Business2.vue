@@ -10,10 +10,7 @@
     class="flex flex-col overflow-x-hidden container mx-auto md:flex-row md:px-0 justify-center lg:justify-center gap-x-[6px] 2xl:gap-x-[140px] my-[150px]"
   >
     <div class="relative order-last mx-auto md:mx-0 mb-[40px] lg:mb-0 md:order-first">
-      <div
-       
-        class
-      >
+      <div class>
         <img
           class="object-cover xl:w-[753.88px] md:-mx-6 md:w-[424.84px] md:h-[370.38px] lg:w-[575.1px] lg:h-[551.47px] xl:h-[551.47px]"
           src="/Bayn Website/Frame 2247.png"
@@ -43,14 +40,10 @@
         <div class="flex flex-col gap-y-[30px] xl:gap-y-[50px]">
           <p
             class="font-[600] max-w-[347.44px] mx-auto md:mx-0 lg:max-w-[503.02px] text-[38px] text-center md:text-left xl:text-[48px] text-[#0A2533] leading-[45px] lg:leading-[60px]"
-          >Instant sales from livestream & shoppable videos</p>
+          >{{ $t('InstantSales') }}</p>
           <p
             class="font-[500] leading-[24px] text-center md:text-left lg:leading-[32px] mx-auto lg:mx-0 max-w-[347.44px] lg:max-w-[497.85px] text-[18px] xl:text-[24px] text-[#394452]"
-          >
-            Integrating with bayn gives you the ability to do something you’ve
-            never done before: bring in products to your store promotions (video
-            review - livestream - live stories) in no time
-          </p>
+          >{{ $t('Integrate') }}</p>
         </div>
         <!-- <button
                     class="bg-black font-semibold rounded-[8px] text-[14px] px-[20px] py-[15px] text-white w-fit"
@@ -90,10 +83,7 @@
           </div>
           <div
             class="lg:text-[18px] text-[14px] leading-[18px] ml-[20px] lg:leading-[32px] font-[500] text-[#0A2533] md:max-w-[284.89px] lg:max-w-[464px]"
-          >
-            Quick Purchase — no more clicking on attached links or additional
-            steps, we do all in one place
-          </div>
+          >{{ $t('QuickPurchase') }}</div>
         </div>
       </div>
     </div>

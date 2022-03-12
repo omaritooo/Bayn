@@ -116,25 +116,22 @@
             </svg>
             <h1
                 class="mx-auto md:mx-0 text-center md:text-left mt-[19px] lg:mt-[36px] max-w-[348.04px] lg:max-w-[512px] text-[38px] lg:text-[90px] leading-[45px] lg:leading-[103px] font-[600] text-[#0A2533]"
-            >
-                Live
-                Commerce
-            </h1>
+            >{{ $t('LiveCom') }}</h1>
             <div
                 class="flex mx-auto md:mx-0 gap-x-[15px] mt-[20px] gap-y-[15px] flex-wrap max-w-[300px] lg:max-w-[473px]"
             >
                 <div
                     class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-                >Live stream</div>
+                >{{ $t('LiveStream') }}</div>
                 <div
                     class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-                >Live shopping</div>
+                >{{ $t('LiveShop') }}</div>
                 <div
                     class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-                >Live Products</div>
+                >{{ $t('LiveProduct') }}</div>
                 <div
                     class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-                >Live Commerce</div>
+                >{{ $t('LiveCom') }}</div>
             </div>
         </div>
     </div>

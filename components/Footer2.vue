@@ -67,7 +67,7 @@
         <div>
           <p
             class="max-w-[209px] font-[600] text-[16px] leading-[25px] text-[#2C3A4B]"
-          >Empower People, Empower Community.</p>
+          >{{ $t('Empower') }}</p>
         </div>
       </div>
       <div class="flex gap-x-[125px] text-[16px] text-[#2C3A4B] w-fit">
@@ -304,7 +304,7 @@
         <div>
           <p
             class="max-w-[209px] font-[600] text-[16px] leading-[25px] text-[#2C3A4B]"
-          >Empower People, Empower Community.</p>
+          >{{ $t('Empower') }}</p>
         </div>
 
         <div class="flex gap-x-[35px]">
@@ -416,13 +416,13 @@
     >
       <div
         class="order-last md:order-first"
-      >{{ new Date().getFullYear() }} Bayn Limited. All Rights Reserved</div>
+      >{{ $t('LTD') }}</div>
       <div>
         <div
           class="flex justify-center order-first mx-auto md:order-last md:justify-end md:mx-0 gap-x-4"
         >
-          <nuxt-link to>Terms and Conditions</nuxt-link>
-          <nuxt-link to>Privacy Policy</nuxt-link>
+          <nuxt-link to>{{ $t('Terms') }}</nuxt-link>
+          <nuxt-link to>{{ $t('Policy') }}</nuxt-link>
         </div>
       </div>
     </div>

@@ -32,7 +32,7 @@
                     data-aos-mirror="true"
                     data-aos-once="true"
                     class="xl: font-[600] md:leading-[45px] xl:leading-[60px] md:text-[38px] xl:text-[48px] text-[#0A2533]"
-                >Using bayn is Easy</h2>
+                >{{ $t('usingBayn') }}</h2>
                 <p
                     data-aos="fade-right"
                     data-aos-offset="200"
@@ -42,7 +42,7 @@
                     data-aos-mirror="true"
                     data-aos-once="true"
                     class="xl:mt-[20px] font-[500] md:mt-[10px] leading-[44px] md:text-[22px] xl:text-[29px] text-[#0A2533] xl:max-w-[600px] md:max-w-[366.56px]"
-                >We have made earning money from ecommerce is as easy as ordering a taxi or takeaway</p>
+                >{{ $t('usingBaynInfo') }}</p>
                 <div class="flex flex-col w-fit md:gap-y-[7px] xl:gap-y-[10px] mt-[20px]">
                     <p
                         data-aos="fade-right"
@@ -53,7 +53,7 @@
                         data-aos-mirror="true"
                         data-aos-once="true"
                         class="font-[500] md:leading-[32px] xl:leading-[32px] md:max-w-[364.57px] lg:max-w-[479px] text-[18px] text-[#0A2533]"
-                    >1 - Download the app & request your business account</p>
+                    >{{ $t('Download') }}</p>
                     <p
                         data-aos="fade-right"
                         data-aos-offset="200"
@@ -63,7 +63,7 @@
                         data-aos-mirror="true"
                         data-aos-once="true"
                         class="font-[500] leading-[32px] md:max-w-[300px] xl:max-w-[300px] text-[18px] text-[#0A2533]"
-                    >2 - Get approved by bayn in no time</p>
+                    >{{ $t('Approved') }}</p>
                     <p
                         data-aos="fade-right"
                         data-aos-offset="200"
@@ -73,7 +73,7 @@
                         data-aos-mirror="true"
                         data-aos-once="true"
                         class="font-[500] leading-[32px] md:max-w-[364.57px] xl:max-w-[438px] text-[18px] text-[#0A2533]"
-                    >3 - Start receiving requests from stores and get paid</p>
+                    >{{ $t('Request') }}</p>
                 </div>
                 <div
                     data-aos="fade-right"
@@ -87,10 +87,10 @@
                 >
                     <button
                         class="text-[14px] leading-[15.26px] md:leading-[16.44px] font-semibold px-[20px] md:py-[12px] xl:py-[15px] text-white bg-black rounded-[8px]"
-                    >Get Bayn for Android</button>
+                    >{{ $t('Android') }}</button>
                     <button
                         class="text-[14px] leading-[16.44px] font-semibold px-[20px] py-[12px] xl:py-[15px] text-black bg-transparent border-[1px] border-black rounded-[8px]"
-                    >Get Bayn for Iphone</button>
+                    >{{ $t('Iphone') }}</button>
                 </div>
             </div>
             <div

@@ -86,20 +86,17 @@
 
       <h1
         class="mt-[14px] max-w-[330px] lg:max-w-[494px] text-[38px] text-center md:text-left mx-auto md:mx-0 lg:text-[55px] leading-[73px] font-[600] text-[#0A2533]"
-      >Shoppable Stories</h1>
+      >{{ $t('ShoppableStories') }}</h1>
       <p
         class="text-[18px] lg:text-[24px] lg:leading-[32px] text-center md:text-left mx-auto md:mx-0 leading-[24px] font-[500] max-w-[335.74px] lg:max-w-[497.85px] text-[#394452] mt-[15px]"
-      >
-        Keep attached to your clients through unlimited number of shoppable
-        stories per day
-      </p>
+      >{{ $t('ShoppableStoriesInfo') }}</p>
       <div class="flex gap-x-[15px] my-[30px] md:my-0 mx-auto md:mx-0 mt-[15px] md:mt-[45px]">
         <div
           class="px-[20px] py-[10px] mx-auto md:mx-0 bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-        >Live stream</div>
+        >{{ $t('LiveStream') }}</div>
         <div
           class="px-[20px] py-[10px] mx-auto md:mx-0 bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
-        >Live shopping</div>
+        >{{ $t('LiveShop') }}g</div>
       </div>
     </div>
   </div>

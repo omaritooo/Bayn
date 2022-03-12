@@ -11,10 +11,10 @@
   >
     <h1
       class="font-semibold max-h-[95px] w-full md:max-w-full leading-[45px] md:leading-[53px] text-[38px] lg:text-[55px] text-center text-[#0A2533]"
-    >Million Businesses in 1 Platform</h1>
+    >{{ $t('Million') }}</h1>
     <h2
       class="font-[500] mt-[29px] md:leading-[22px] lg:leading-[40px] md:text-[18px] md:max-w-[509.24px] lg:max-w-full lg:text-[24px] text-center text-[#394452] md:mx-auto lg:mx-none"
-    >You will be able to market your businesses through the different solutions</h2>
+    >{{ $t('MillionInfo') }}</h2>
     <div
       class="flex flex-col md:flex-row lg:justify-center gap-x-[95px] mx-auto lg:mx-auto lg:gap-x-[117px] xl:gap-x-[222.5px] mt-[59px] xl:ml-20"
     >
@@ -51,7 +51,7 @@
         >Live Commerce</p>-->
         <p
           class="text-[#0A2533] lg:text-[22px] text-[18px] leading-[40px] font-semibold text-center"
-        >Live Commerce</p>
+        >{{ $t('LiveCom') }}</p>
       </div>
       <div class="flex flex-col my-auto gap-y-[23px]">
         <svg
@@ -100,7 +100,7 @@
         </svg>
         <p
           class="text-[#0A2533] lg:text-[22px] text-[18px] leading-[40px] font-semibold text-center"
-        >Shoppable Videos</p>
+        >{{ $t('ShoppableVideos') }}</p>
         <!-- <p
                     class="mx-auto text-[#0A2533] text-[22px] leading-[40px] font-bold text-center"
         >Live Commerce</p>-->
@@ -138,7 +138,7 @@
         </svg>
         <p
           class="text-[#0A2533] lg:text-[22px] text-[18px] leading-[40px] font-semibold text-center"
-        >Shoppable Stories</p>
+        >{{ $t('ShoppableStories') }}</p>
       </div>
     </div>
     <!-- <div class="flex justify-around mt-[22px] pl-[20px] ml-16">
@@ -366,7 +366,7 @@
         </svg>
         <p
           class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold"
-        >Electronics & Mobiles</p>
+        >{{ $t('Electronics') }}</p>
       </div>
       <div
         class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
@@ -386,7 +386,9 @@
           />
         </svg>
 
-        <p class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold">Fashion</p>
+        <p
+          class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold"
+        >{{ $t('Fashion') }}</p>
       </div>
       <div
         class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
@@ -408,7 +410,7 @@
 
         <p
           class="text-[#56545D] text-[16px] md:text-[18px]leading-[21.13px] font-semibold"
-        >Beauty & Health</p>
+        >{{ $t('Beauty & Health') }}</p>
       </div>
       <div
         class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
@@ -428,7 +430,7 @@
 
         <p
           class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold"
-        >Toys & games</p>
+        >{{ $t('Toys & Games') }}</p>
       </div>
       <div
         class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
@@ -449,7 +451,9 @@
           />
         </svg>
 
-        <p class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold">Books</p>
+        <p
+          class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold"
+        >{{ $t('Books') }}</p>
       </div>
       <div
         class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
@@ -478,7 +482,7 @@
 
         <p
           class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold"
-        >Sports & Fitness</p>
+        >{{ $t('Sports & Fitness') }}</p>
       </div>
       <div
         class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
@@ -500,7 +504,7 @@
 
         <p
           class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold"
-        >Automotive</p>
+        >{{ $t('Automotive') }}</p>
       </div>
       <div
         class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
@@ -522,7 +526,7 @@
 
         <p
           class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold"
-        >Tools & Home Improvement</p>
+        >{{ $t('Tools & Home Improvement') }}</p>
       </div>
       <div
         class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
@@ -544,7 +548,7 @@
 
         <p
           class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold"
-        >Office Supplies</p>
+        >{{ $t('Office Supplies') }}</p>
       </div>
       <div
         class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
@@ -564,7 +568,7 @@
 
         <p
           class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold"
-        >Baby Products</p>
+        >{{ $t('Baby Products') }}</p>
       </div>
     </div>
     <!-- <div class="flex justify-center gap-x-[65px]">
