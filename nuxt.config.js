@@ -41,21 +41,27 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-  ],
+    '@nuxt/image',
 
+  ],
+  image: {
+    // Options
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxt/postcss8',
     '@nuxtjs/i18n',
+    '@nuxt/image',
+
 
   ],
 
   i18n:
   {
-    locales: [{ code: 'en', iso: 'en-US', file: 'en.json', dir: 'ltr' },
-    { code: 'ar', iso: 'ar-EG', file: 'ar.json', dir: 'rtl' },],
+    locales: [{ code: 'en', iso: 'en-US', name: 'english', file: 'en.json', dir: 'ltr' },
+    { code: 'ar', iso: 'ar-EG', file: 'ar.json', name: 'arabic', dir: 'rtl' },],
     langDir: './locales/',
     vueI18nLoader: true,
 

@@ -196,17 +196,17 @@
       </div>
 
       <div class="block mx-auto lg:hidden">
-        <img src="/Group 48 1.png" alt />
+        <nuxt-img src="/Group 48 1.png" alt />
       </div>
       <div class="hidden mx-auto lg:block">
-        <img src="/Frame 2245.png" alt />
+        <nuxt-img src="/Frame 2245.png" alt />
       </div>
     </div>
     <!-- <div
       class="lg:flex !mx-0 hidden gap-x-[60px] overflow-hidden lg:w-screen xl:w-[100%] 2xl:w-screen h-[100%] py-20"
     >
       <div class="relative translate-y-[70px]">
-        <img class="relative z-20" src="/Ellipse 4.png" />
+        <nuxt-img class="relative z-20" src="/Ellipse 4.png" />
         <div class="w-[140px]">
           <span
             data-aos="fade-right"
@@ -221,7 +221,7 @@
         </div>
       </div>
       <div class="relative">
-        <img class="relative z-20" src="/Ellipse 3.png" />
+        <nuxt-img class="relative z-20" src="/Ellipse 3.png" />
         <div class="w-[140px]">
           <span
             data-aos="fade-right"
@@ -236,7 +236,7 @@
         </div>
       </div>
       <div class="relative translate-y-[70px]">
-        <img class="relative z-20" src="/Ellipse 4.png" />
+        <nuxt-img class="relative z-20" src="/Ellipse 4.png" />
         <div class="w-[140px]">
           <span
             data-aos="fade-right"
@@ -251,7 +251,7 @@
         </div>
       </div>
       <div class="relative">
-        <img class="relative z-20" src="/Ellipse 5.png" />
+        <nuxt-img class="relative z-20" src="/Ellipse 5.png" />
         <div class="w-[140px]">
           <span
             data-aos="fade-right"
@@ -266,7 +266,7 @@
         </div>
       </div>
       <div class="relative translate-y-[70px]">
-        <img class="relative z-20" src="/Ellipse 6.png" />
+        <nuxt-img class="relative z-20" src="/Ellipse 6.png" />
         <div class="w-[140px]">
           <span
             data-aos="fade-right"
@@ -281,7 +281,7 @@
         </div>
       </div>
       <div class="relative">
-        <img class="relative z-20" src="/Ellipse 7.png" />
+        <nuxt-img class="relative z-20" src="/Ellipse 7.png" />
         <div class="w-[140px]">
           <span
             data-aos="fade-right"
@@ -296,7 +296,7 @@
         </div>
       </div>
       <div class="relative translate-y-[70px] overflow-hidden">
-        <img class="relative z-20" src="/unsplash_nmpCzYJmocg.png" />
+        <nuxt-img class="relative z-20" src="/unsplash_nmpCzYJmocg.png" />
         <div class="w-[140px] overflow-hidden">
           <span
             data-aos="fade-right"

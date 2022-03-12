@@ -10,16 +10,16 @@
     class="flex flex-col mx-auto container md:flex-row md:justify-center lg:gap-x-[40px] xl:gap-x-[140px] mt-[100px]"
   >
     <div class="relative hidden md:block">
-      <img
+      <nuxt-img
         class="object cover lg:w-[580.93px] w-[346.26px] h-[332.67px] lg:h-[557.06px]"
         src="/Bayn Website/Frame 2246.png"
         alt
       />
       <!-- <div class="h-fit w-fit">
-                    <img class src="01.png" alt />
+                    <nuxt-img class src="01.png" alt />
                 </div>
                 <div>
-                    <img src="02.png" alt />
+                    <nuxt-img src="02.png" alt />
       </div>-->
       <!-- <div
         class="absolute flex z-20 md:-left-[14%] md:top-[24%] lg:left-[15.5%] lg:h-fit lg:top-[27%]"
@@ -31,12 +31,12 @@
         data-aos-mirror="true"
         data-aos-once="true"
       >
-        <img src="/LIVE CARD 1.png" alt />
+        <nuxt-img src="/LIVE CARD 1.png" alt />
       </div>
       <div class="absolute md:px-32 md:py-8 lg:py-14 bg-white top-[29%] z-10 left-[1%]"></div>-->
     </div>
     <div class="block md:hidden">
-      <img src="/Group 49 1.png" alt />
+      <nuxt-img src="/Group 49 1.png" alt />
     </div>
     <div class="flex flex-col gap-y-[30px] lg:gap-y-[50px] w-fit md:mx-0 mx-auto order-first">
       <div class="lg:pb-12 lg:pt-6 flex flex-col gap-y-[40px] my-auto">

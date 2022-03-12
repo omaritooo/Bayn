@@ -11,7 +11,9 @@
       class="relative overflow-x-hidden flex flex-col w-[100%] lg:test my-[30px] md:my-[180px]"
     >
       <div class="relative hidden py-12 md:block">
-        <h1 class="text-[48px] leading-[73px] font-[600] text-center text-[#0A2533]">{{ $t('Here') }}</h1>
+        <h1
+          class="text-[48px] leading-[73px] font-[600] text-center text-[#0A2533]"
+        >{{ $t('Here') }}</h1>
         <p
           class="text-[24px] leading-[32px] max-w-[497.85px] mx-auto font-[500] mt-[11.79px] text-center text-[#394452]"
         >{{ $t('designed') }}</p>
@@ -40,8 +42,8 @@
             />
           </svg>
 
-          <img class="mr-auto px-[30px]" src="/Ellipse 1.png" />
-          <img class="absolute top-12 left-36" src="/Frame 18.png" />
+          <nuxt-img class="mr-auto px-[30px]" src="/Ellipse 1.png" />
+          <nuxt-img class="absolute top-12 left-36" src="/Frame 18.png" />
           <svg
             class="mx-auto"
             width="42"
@@ -199,8 +201,8 @@
             />
           </svg>
 
-          <img class="ml-auto px-[30px]" src="/Ellipse 2.png" alt />
-          <img class="absolute right-32 bottom-2" src="/Frame 19.png" />
+          <nuxt-img class="ml-auto px-[30px]" src="/Ellipse 2.png" alt />
+          <nuxt-img class="absolute right-32 bottom-2" src="/Frame 19.png" />
         </div>
       </div>
       <div class="flex flex-col mx-auto mt-[15px] text-center justify-center gap-y-[18px]">
@@ -336,7 +338,7 @@
       class="container flex flex-col justify-center mx-auto mt-10 md:flex-row"
     >
       <div class="flex relative mx-auto md:mx-0 flex-col gap-y-[24px]">
-        <img class="max-w-[124px]" src="/handup.png" alt />
+        <nuxt-img class="max-w-[124px]" src="/handup.png" alt />
         <h1
           class="font-[600] text-[38px] xl:text-[48px] leading-[73px] text-[#0A2533]"
         >{{ $t('Flow') }}</h1>
@@ -351,7 +353,7 @@
         </div>
       </div>
       <div class="flex flex-col mx-auto md:mx-0 mt-10 md:my-auto gap-y-[74px]">
-        <img
+        <nuxt-img
           class="object-cover lg:w-[533.12px] md:w-[318.73px] w-[318.73px]"
           src="/Frame 2249.png"
           alt

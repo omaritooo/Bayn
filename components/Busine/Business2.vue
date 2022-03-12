@@ -11,7 +11,7 @@
   >
     <div class="relative order-last mx-auto md:mx-0 mb-[40px] lg:mb-0 md:order-first">
       <div class>
-        <img
+        <nuxt-img
           class="object-cover xl:w-[753.88px] md:-mx-6 md:w-[424.84px] md:h-[370.38px] lg:w-[575.1px] lg:h-[551.47px] xl:h-[551.47px]"
           src="/Bayn Website/Frame 2247.png"
           alt
@@ -27,8 +27,8 @@
         data-aos-once="true"
         class="absolute scale-[80%] lg:scale-100 flex z-20 xl:-left-52 h-fit top-[27%] -left-[70%] lg:-left-72 lg:top-[15%] xl:top-[27%]"
       >
-        <img class src="01.png" alt />
-        <img src="02.png" alt />
+        <nuxt-img class src="01.png" alt />
+        <nuxt-img src="02.png" alt />
       </div>
       <div class="absolute px-10 py-14 bg-white top-[29%] z-10 left-[20%]"></div>-->
     </div>

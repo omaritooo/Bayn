@@ -12,10 +12,10 @@
     >
       <div class="relative z-30 mt-[15px] lg:w-fit md:mt-0 mx-auto md:mx-0 order-last">
         <div class="w-[277px] relative z-20 h-[441px] lg:w-[421px] lg:h-[654px]">
-          <img class="mx-auto md:mx-0" src="/Bayn Website/Frame 2222.png" />
+          <nuxt-img class="mx-auto md:mx-0" src="/Bayn Website/Frame 2222.png" />
         </div>
         <Gradient />
-        <!-- <img
+        <!-- <nuxt-img
         data-aos="fade-right"
         data-aos-offset="200"
         data-aos-delay="450"

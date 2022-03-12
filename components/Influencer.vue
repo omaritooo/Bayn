@@ -1,11 +1,12 @@
 <template>
-  <div data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-delay="200"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
+  <div
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="200"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
     class="flex justify-center mx-auto container md:flex-row flex-col md:gap-x-[59.8px] xl:gap-x-[92.7px] relative my-[7.75rem]"
   >
     <div class="grad"></div>
@@ -38,7 +39,7 @@
       </div>
     </div>
     <div class="relative mx-auto md:mx-0 mt-[52px] md:mt-0 z-50">
-      <img
+      <nuxt-img
         src="/Rectangle 12.png"
         class="object-cover mx-auto md:mx-0 md:mt-0 w-[277.06px] h-[460.16px] lg:w-[350.31px] lg:h-[613.15px]"
         alt

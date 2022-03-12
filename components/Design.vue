@@ -20,9 +20,9 @@
         data-aos-once="true"
         class="md:w-[432.1px] md:h-[534.49px] lg:w-[594.72px] lg:h-[793.9px]"
       >
-        <img class="object-cover" src="/Frame 2250.png" />
+        <nuxt-img class="object-cover" src="/Frame 2250.png" />
       </div>
-      <!-- <img
+      <!-- <nuxt-img
         data-aos="fade-right"
         data-aos-offset="200"
         data-aos-delay="400"
@@ -33,7 +33,7 @@
         src="/Influencer/Frame 40.png"
         class="absolute w-1/2 md:top-1/2 lg:top-[59%] -left-2 xl:-left-12"
       />
-      <img
+      <nuxt-img
         data-aos="fade-left"
         data-aos-offset="200"
         data-aos-delay="400"
@@ -44,7 +44,7 @@
         src="/Influencer/Frame 41.png"
         class="absolute w-1/2 md:-bottom-10 lg:-bottom-14 md:left-1/2 lg:left-64"
       />
-      <img
+      <nuxt-img
         data-aos="fade-left"
         data-aos-offset="200"
         data-aos-delay="400"

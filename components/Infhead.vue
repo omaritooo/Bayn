@@ -83,13 +83,13 @@
         <div
           class="relative hidden mx-auto lg:block w-[353.31px] lg:w-[679.76px] lg:h-[613.15px] h-[444.44px]"
         >
-          <img
+          <nuxt-img
             class="object-cover mx-auto w-[353.31px] lg:w-[679.76px] lg:h-[613.15px] h-[444.44px]"
             src="/Frame 17.png"
           />
         </div>
         <div>
-          <img class="block lg:hidden" src="/Frame 17 1.png" alt />
+          <nuxt-img class="block lg:hidden" src="/Frame 17 1.png" alt />
         </div>
       </div>
       <h1
@@ -100,7 +100,7 @@
       <div class="gradie"></div>
 
       <div class="relative z-30">
-        <img class="relative z-30" src="/Rectangle 8.png" alt />
+        <nuxt-img class="relative z-30" src="/Rectangle 8.png" alt />
       </div>
       <div
         class="mt-[91px] mx-auto md:mx-0 relative z-30 gap-y-[18px] max-w-[564px] flex flex-col font-[500] text-[#0A2533] md:text-[24px] lg:text-[30px] md:leading-[38px] lg:leading-[73px]"

@@ -10,7 +10,7 @@
     class="flex lg:flex-row flex-col justify-center gap-x-12 lg:gap-x-[10px] xl:gap-x-12 mx-auto container"
   >
     <div class="relative mx-auto lg:mx-0 w-fit">
-      <!-- <img
+      <!-- <nuxt-img
         data-aos="fade-left"
         data-aos-offset="200"
         data-aos-delay="200"
@@ -33,14 +33,14 @@
         class="absolute flex z-20 -left-52 h-fit top-[28%]"
       >
         <div class="h-fit w-fit">
-          <img class src="01.png" alt />
+          <nuxt-img class src="01.png" alt />
         </div>
         <div>
-          <img src="02.png" alt />
+          <nuxt-img src="02.png" alt />
         </div>
       </div>
       <div class="absolute px-10 py-14 bg-white top-[29%] z-10 left-[20%]"></div>-->
-      <img
+      <nuxt-img
         class="object-cover w-[399.09px] h-[292.53px] md:w-[725.8px] md:h-[532.01px] lg:w-[739.58px] lg:h-[584.9px]"
         src="/Group 43.png"
         alt

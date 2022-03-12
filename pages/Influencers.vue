@@ -103,7 +103,7 @@
                 data-aos-once="true"
                 class="relative mx-auto md:mx-0 mt-[52px] md:mt-0 z-50"
             >
-                <img
+                <nuxt-img
                     src="/Rectangle 12.png"
                     class="object-cover lg:w-[350.31px] lg:h-[613.15px] w-[277.06px] h-[460.16px] mx-auto md:mx-0 md:mt-0"
                     alt

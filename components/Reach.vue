@@ -18,37 +18,37 @@
           class="font-[600] text-[#2C3A4B] mx-auto lg:mx-0 text-[38px] lg:text-[55px] lg:leading-[73px] leading-[55px] lg:max-w-[600px] md:max-w-[373.04px] max-w-[373.04px]"
         >Do more to reach higher engagement</h1>
         <div class="flex gap-x-[10px] max-w-[382.35px] xl:gap-x-[19px] mt-[40px] mb-[45px]">
-          <img
+          <nuxt-img
             class="lg:w-[72px] lg:h-[72px] w-[46.05px] h-[46.05px]"
             src="/badge/Ellipse 3.png"
             alt
           />
-          <img
+          <nuxt-img
             class="lg:w-[72px] lg:h-[72px] w-[46.05px] h-[46.05px]"
             src="/badge/Ellipse 4.png"
             alt
           />
-          <img
+          <nuxt-img
             class="lg:w-[72px] lg:h-[72px] w-[46.05px] h-[46.05px]"
             src="/badge/Ellipse 5.png"
             alt
           />
-          <img
+          <nuxt-img
             class="lg:w-[72px] lg:h-[72px] w-[46.05px] h-[46.05px]"
             src="/badge/Ellipse 6.png"
             alt
           />
-          <img
+          <nuxt-img
             class="lg:w-[72px] lg:h-[72px] w-[46.05px] h-[46.05px]"
             src="/badge/Ellipse 7.png"
             alt
           />
-          <img
+          <nuxt-img
             class="lg:w-[72px] lg:h-[72px] w-[46.05px] h-[46.05px]"
             src="/badge/Ellipse 1.png"
             alt
           />
-          <img
+          <nuxt-img
             class="lg:w-[72px] lg:h-[72px] w-[46.05px] h-[46.05px]"
             src="/badge/Ellipse 2.png"
             alt
@@ -82,9 +82,9 @@
             data-aos-once="true"
             class="xl:w-[283.31px] xl:h-[613.15px] w-[297.05px] h-[461.71px]"
           >
-            <img class="object-cover" src="/phone.png" alt />
+            <nuxt-img class="object-cover" src="/phone.png" alt />
           </div>
-          <img
+          <nuxt-img
             data-aos="fade-left"
             data-aos-offset="200"
             data-aos-delay="200"
@@ -118,7 +118,7 @@
               stroke-linecap="round"
             />
           </svg>-->
-          <img class="object-cover" src="/phonenotif.png" alt />
+          <nuxt-img class="object-cover" src="/phonenotif.png" alt />
         </div>
       </div>
     </div>

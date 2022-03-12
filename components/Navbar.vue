@@ -6,7 +6,7 @@
           <div
             class="relative flex justify-between w-full lg:w-auto lg:static lg:block lg:justify-around"
           >
-            <nuxt-link class="my-auto" to="/">
+            <nuxt-link class="my-auto" :to="`/${$i18n.locale}`">
               <svg
                 width="69"
                 height="26"
@@ -104,10 +104,17 @@
                 <li class="nav-item my-4 lg:my-0 lg:py-[14px]">
                   <nuxt-link
                     class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
-                    to="/influencers"
+                    :to="`${$i18n.locale}/influencers`"
                   >{{ $t('ForInf') }}</nuxt-link>
                 </li>
-
+                <li class="my-auto nav-item">
+                  <nuxt-link
+                    v-for="locale in availableLocales"
+                    :key="locale.code"
+                    :to="switchLocalePath(locale.code)"
+                    class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
+                  >{{ locale.name }}</nuxt-link>
+                </li>
                 <li class="my-6 lg:my-auto nav-item">
                   <a
                     href="https://bayn.io/"
@@ -128,6 +135,11 @@ export default {
   data() {
     return {
       showMenu: false,
+    }
+  },
+  computed: {
+    availableLocales() {
+      return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
     }
   },
   mounted() {

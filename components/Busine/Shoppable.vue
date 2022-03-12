@@ -12,11 +12,11 @@
     <!-- <div class="gradi"></div> -->
     <div class="relative z-30 mt-[15px] lg:w-[540px] md:mt-0 mx-auto md:mx-0">
       <div class="w-[277px] h-[441px] flex-1 relative z-20 lg:w-[421px] lg:h-[654px]">
-        <img class="mx-auto lg:mx-0" src="/Bayn Website/Frame 2223.png" />
+        <nuxt-img class="mx-auto lg:mx-0" src="/Bayn Website/Frame 2223.png" />
       </div>
 
       <Gradient />
-      <!-- <img
+      <!-- <nuxt-img
         data-aos="fade-right"
         data-aos-offset="200"
         data-aos-delay="450"

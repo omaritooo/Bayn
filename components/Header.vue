@@ -64,7 +64,7 @@
         </svg>
       </div>
       <div class="mt-[22px] md:mt-0 lg:my-0 mx-auto md:mx-0 w-fit lg:mx-0">
-        <img
+        <nuxt-img
           class="object-cover lg:h-[613.15px] lg:w-[343.31px] w-[267.04px] h-[443.36px]"
           src="/phoneright.png"
           alt

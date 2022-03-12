@@ -58,9 +58,9 @@
       <div
         class="relative hidden md:w-[425.68px] md:h-[349.31px] mt-[15px] md:mt-0 lg:w-[581.49px] lg:h-[478px] lg:flex"
       >
-        <img class="object-cover" src="/Frame 2225.png" alt />
+        <nuxt-img class="object-cover" src="/Frame 2225.png" alt />
         <!-- <div class="absolute lg:w-[467px] flex top-[30%] -left-20">
-          <img
+          <nuxt-img
             data-aos="fade-up"
             data-aos-offset="200"
             data-aos-delay="400"
@@ -72,7 +72,7 @@
             src="/Bayn Website (1)/1923.png"
             alt
           />
-          <img
+          <nuxt-img
             data-aos="fade-up"
             data-aos-offset="200"
             data-aos-delay="400"
@@ -86,7 +86,7 @@
           />
         </div>
         <div class="lg:w-[467px] absolute top-[46%] scale-x-[102%] -left-[4.6rem]">
-          <img
+          <nuxt-img
             data-aos="fade-up"
             data-aos-offset="200"
             data-aos-delay="400"
@@ -101,7 +101,7 @@
         </div>-->
       </div>
       <div class="flex lg:hidden">
-        <img src="/Group 44 1.png" alt />
+        <nuxt-img src="/Group 44 1.png" alt />
       </div>
     </div>
     <div
