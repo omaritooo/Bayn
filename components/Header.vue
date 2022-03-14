@@ -5,10 +5,12 @@
     >
       <div class="relative flex flex-col mx-auto my-auto md:mx-0">
         <h1
-          class="lg:text-[80px] text-center md:text-left text-[30px] lg:leading-[73px] md:mx-0 leading-[45px] font-[600] text-[#2C3A4B] 2xl:max-w-[610px] lg:max-w-[516px] md:max-w-[381px]"
+          :class="$i18n.locale == 'ar' ? 'md:text-right lg:leading-[103px] lg:text-[70px]' : 'lg:text-[80px] md:text-left lg:leading-[73px]'"
+          class="text-center text-[30px] md:mx-0 leading-[45px] font-[600] text-[#2C3A4B] 2xl:max-w-[610px] lg:max-w-[516px] md:max-w-[381px]"
         >{{ $t('Ecommerce') }}</h1>
         <p
-          class="text-[18px] mt-[20px] xl:mt-[20px] mx-auto md:mx-0 text-center md:text-left md:mt-0 leading-[30px] font-[500] my-2 xl:max-h-[151.89px] text-[#394452] xl:max-w-[342.38px] max-w-[360.37px] md:max-w-[342.38px]"
+          :class="$i18n.locale == 'ar' ? 'md:text-right lg:leading-[52.47px] lg:text-[28px]' : 'lg:text-[18px] md:text-left lg:leading-[21.13px]'"
+          class="text-[18px] mt-[20px] xl:mt-[20px] mx-auto md:mx-0 text-center md:mt-0 leading-[30px] font-[500] my-2 xl:max-h-[151.89px] text-[#394452] xl:max-w-[342.38px] max-w-[360.37px] md:max-w-[342.38px]"
         >{{ $t('StartLive') }}</p>
         <div class="flex mx-auto md:mx-0 md:mt-[34px] gap-x-[12px]">
           <nuxt-link
@@ -17,6 +19,7 @@
           >{{ $t('StartLiveButton') }}</nuxt-link>
         </div>
         <svg
+          v-if="$i18n.locale == 'en'"
           class="absolute hidden lg:flex lg:bottom-10 lg:-right-28 xl:top-1/2 xl:-right-32"
           width="232"
           height="125"
@@ -44,6 +47,7 @@
           />
         </svg>
         <svg
+          v-if="$i18n.locale == 'en'"
           class="absolute top-0 right-0 hidden lg:flex"
           width="40"
           height="30"
@@ -62,9 +66,58 @@
             stroke-width="3"
           />
         </svg>
+        <svg
+          v-if="$i18n.locale == 'ar'"
+          class="absolute hidden lg:flex lg:bottom-10 lg:-left-28 xl:top-1/2 xl:-left-32"
+          width="226"
+          height="67"
+          viewBox="0 0 226 67"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M224.009 44.9053C214.063 54.8894 188.382 65.6248 165.998 62.7022C132.232 58.2934 103.632 36.3181 102.723 24.7898C101.815 13.2615 115.333 9.7837 118.305 19.1571C121.965 30.6962 98.0211 48.4112 51.3014 29.8572C51.3014 29.8572 15.0016 12.827 7.67427 4.89549"
+            stroke="#1E1E27"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+          <path
+            d="M16.3086 21.6899C13.3728 16.1322 6.66913 4.57392 3.34131 2.80235"
+            stroke="#1E1E27"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+          <path
+            d="M3.2995 2.72828C11.1894 4.80528 17.0255 5.56499 25.4797 2.10354"
+            stroke="#1E1E27"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+        </svg>
+        <svg
+          v-if="$i18n.locale == 'ar'"
+          class="absolute top-0 left-0 hidden lg:flex"
+          width="39"
+          height="30"
+          viewBox="0 0 39 30"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M35.8772 19.3551C34.4752 17.0087 32.8308 10.6774 37.4688 4.12256M24.5793 19.7737C21.1881 12.8199 17.13 5.91593 13.1617 2.57611"
+            stroke="#1E1E27"
+            stroke-width="3"
+          />
+          <path
+            d="M16.6098 28.0842C15.2646 25.1939 10.2819 19.2837 1.11226 18.7656"
+            stroke="#1E1E27"
+            stroke-width="3"
+          />
+        </svg>
       </div>
       <div class="mt-[22px] md:mt-0 lg:my-0 mx-auto md:mx-0 w-fit lg:mx-0">
         <nuxt-img
+          :class="$i18n.locale == 'ar' ? '-rotate-[20deg]' : ''"
           class="object-cover lg:h-[613.15px] lg:w-[343.31px] w-[267.04px] h-[443.36px]"
           src="/phoneright.png"
           alt

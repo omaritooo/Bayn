@@ -43,16 +43,18 @@
         <!-- <h1 class="font-[600] w-fit text-[28px] text-[#D8315B] uppercase">for Business Owner</h1> -->
         <div class="flex flex-col gap-y-[30px] lg:gap-y-[50px]">
           <p
+            :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
             class="font-[600] lg:max-w-[503.02px] md:max-w-[372.9px] text-center md:text-left text-[38px] leading-[45px] lg:text-[48px] text-[#0A2533] lg:leading-[60px]"
           >{{ $t('ImproveAppearance') }}</p>
           <p
+            :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
             class="font-[500] leading-[24px] text-[18px] lg:leading-[32px] mx-auto md:mx-0 text-center md:text-left max-w-[372.9px] lg:max-w-[497.85px] w lg:text-[24px] text-[#394452]"
           >{{ $t('ImproveInfo') }}</p>
         </div>
         <!-- <button
                     class="bg-black font-semibold rounded-[8px] text-[14px] px-[20px] py-[15px] text-white w-fit"
         >Start a campaign</button>-->
-        <div class="flex">
+        <div class="flex gap-x-2">
           <div>
             <svg
               width="18"
@@ -86,6 +88,7 @@
             </svg>
           </div>
           <div
+            :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
             class="md:text-[14px] lg:text-[18px] ml-[20px] leading-[18px] max-w-[284.89px] lg:leading-[32px] font-[500] text-[#0A2533] lg:max-w-[464px]"
           >{{ $t('ClientExp') }}</div>
         </div>

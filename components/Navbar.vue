@@ -6,7 +6,7 @@
           <div
             class="relative flex justify-between w-full lg:w-auto lg:static lg:block lg:justify-around"
           >
-            <nuxt-link class="my-auto" :to="`/${$i18n.locale}`">
+            <nuxt-link class="my-auto" to="/">
               <svg
                 width="69"
                 height="26"
@@ -87,7 +87,8 @@
               leave-to-class="transform scale-95 opacity-0"
             >
               <ul
-                class="flex flex-col ml-auto list-none lg:ml-auto gap-y-[20px] lg:gap-x-[40px] lg:flex-row"
+                :class="$i18n.locale == 'ar' ? 'mr-auto' : 'ml-auto'"
+                class="flex flex-col list-none gap-y-[20px] lg:gap-x-[40px] lg:flex-row"
               >
                 <!-- <li class="nav-item lg:py-[14px]">
                   <nuxt-link
@@ -104,7 +105,7 @@
                 <li class="nav-item my-4 lg:my-0 lg:py-[14px]">
                   <nuxt-link
                     class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
-                    :to="`${$i18n.locale}/influencers`"
+                    to="/influencers/"
                   >{{ $t('ForInf') }}</nuxt-link>
                 </li>
                 <li class="my-auto nav-item">

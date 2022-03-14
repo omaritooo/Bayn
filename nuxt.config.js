@@ -60,6 +60,8 @@ export default {
 
   i18n:
   {
+    // strategy: 'no_prefix',
+    defaultLocale: 'en',
     locales: [{ code: 'en', iso: 'en-US', name: 'english', file: 'en.json', dir: 'ltr' },
     { code: 'ar', iso: 'ar-EG', file: 'ar.json', name: 'arabic', dir: 'rtl' },],
     langDir: './locales/',

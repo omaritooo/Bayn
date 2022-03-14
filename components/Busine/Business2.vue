@@ -39,17 +39,22 @@
         <!-- <h1 class="font-[600] w-fit text-[28px] text-[#D8315B] uppercase">for Business Owner</h1> -->
         <div class="flex flex-col gap-y-[30px] xl:gap-y-[50px]">
           <p
+            :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
             class="font-[600] max-w-[347.44px] mx-auto md:mx-0 lg:max-w-[503.02px] text-[38px] text-center md:text-left xl:text-[48px] text-[#0A2533] leading-[45px] lg:leading-[60px]"
           >{{ $t('InstantSales') }}</p>
           <p
+            :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
             class="font-[500] leading-[24px] text-center md:text-left lg:leading-[32px] mx-auto lg:mx-0 max-w-[347.44px] lg:max-w-[497.85px] text-[18px] xl:text-[24px] text-[#394452]"
           >{{ $t('Integrate') }}</p>
         </div>
         <!-- <button
                     class="bg-black font-semibold rounded-[8px] text-[14px] px-[20px] py-[15px] text-white w-fit"
         >Start a campaign</button>-->
-        <div class="max-w-[361px] md:max-w-full flex mx-auto md:mx-0">
-          <div>
+        <div
+          :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
+          class="max-w-[361px] md:max-w-full gap-x-2 flex mx-auto md:mx-0"
+        >
+          <div class="flex gap-x-2">
             <svg
               width="18"
               height="25"

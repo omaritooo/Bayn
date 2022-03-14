@@ -58,9 +58,11 @@
     </div>
     <div class="flex flex-col my-auto gap-y-[20px] xl:gap-y-[50px]">
       <h1
+        :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
         class="text-[38px] mx-auto md:mx-0 text-center md:text-left lg:text-[48px] leading-[60px] max-w-[269px] lg:max-w-[340px] font-[600] text-[#0A2533]"
       >{{ $t('GettingStarted') }}</h1>
       <span
+        :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
         class="text-[24px] mx-auto md:mx-0 text-center md:text-left lg:text-[36px] leading-[44px] text-[#0A2533] font-[600] max-w-[311.78px] lg:max-w-[600px]"
       >{{ $t('designedBayn') }}</span>
       <div class="flex flex-col gap-y-[15px]">
@@ -97,6 +99,7 @@
           </svg>
 
           <span
+            :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
             class="md:max-w-[284.89px] lg:max-w-[557px] leading-[18px] lg:leading-[32px] md:text-[14px] xl:text-[18px] font-[500] flex-1"
           >{{ $t('ExpNeeded') }}</span>
         </div>

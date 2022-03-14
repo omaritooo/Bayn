@@ -226,7 +226,7 @@
 
         <p
           class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold"
-        >{{ $t('Toys & Games') }}</p>
+        >{{ $t('Toys') }}</p>
       </div>
       <div
         class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
@@ -278,7 +278,7 @@
 
         <p
           class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold"
-        >{{ $t('Sports & Fitness') }}</p>
+        >{{ $t('Sports') }}</p>
       </div>
       <div
         class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
@@ -322,7 +322,7 @@
 
         <p
           class="text-[#56545D] text-[16px] md:text-[18px] leading-[21.13px] font-semibold"
-        >{{ $t('Tools & Home Improvement') }}</p>
+        >{{ $t('Tools') }}</p>
       </div>
       <div
         class="flex border-[1px] border-[#F1F1F1] rounded-[8px] gap-x-[10px] px-[13px] py-[12px] md:px-[20px] mx-auto md:mx-0"
@@ -369,8 +369,23 @@
     </div>
 
     <div
-      class="mx-auto text-white mt-[34px] w-fit rounded-[8px] bg-black lg:px-[25px] lg:py-[18px] flex gap-x-[16px] text-[18px] font-[500]"
-    >Bayn for influencers</div>
+      class="mx-auto text-white mt-[34px] w-fit rounded-[8px] bg-black lg:px-[54px] lg:py-[18px] flex gap-x-[16px] text-[18px] font-[500]"
+    >
+      {{ $t('BaynInf') }}
+      <svg
+        :class="$i18n.locale == 'en' ? 'rotate-180' : ''"
+        width="26"
+        height="27"
+        viewBox="0 0 26 27"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M21.8756 12.5462C21.8756 13.0206 21.4906 13.4056 21.0163 13.4056H6.89708L12.0066 18.6499C12.0888 18.7299 12.1542 18.8256 12.1988 18.9314C12.2435 19.0371 12.2665 19.1507 12.2665 19.2655C12.2665 19.3802 12.2435 19.4938 12.1989 19.5996C12.1544 19.7053 12.089 19.8011 12.0068 19.8812C11.9246 19.9612 11.8272 20.0241 11.7203 20.0659C11.6135 20.1077 11.4993 20.1277 11.3846 20.1247C11.2698 20.1217 11.1569 20.0957 11.0524 20.0484C10.9478 20.001 10.8538 19.9332 10.776 19.8489L4.24677 13.1478C4.08865 12.9875 4 12.7714 4 12.5462C4 12.3211 4.08865 12.105 4.24677 11.9447L10.776 5.24361C10.9364 5.08737 11.1516 4.99996 11.3756 5C11.5996 5.00004 11.8147 5.08754 11.9751 5.24385C12.1356 5.40016 12.2286 5.61293 12.2345 5.83684C12.2404 6.06075 12.1586 6.2781 12.0066 6.44261L6.89708 11.6869H21.0163C21.4906 11.6869 21.8756 12.0719 21.8756 12.5462Z"
+          fill="white"
+        />
+      </svg>
+    </div>
   </div>
 </template>
 

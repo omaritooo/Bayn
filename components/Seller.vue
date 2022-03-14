@@ -115,6 +115,7 @@
                 />
             </svg>
             <h1
+                :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
                 class="mx-auto md:mx-0 text-center md:text-left mt-[19px] lg:mt-[36px] max-w-[348.04px] lg:max-w-[512px] text-[38px] lg:text-[90px] leading-[45px] lg:leading-[103px] font-[600] text-[#0A2533]"
             >{{ $t('LiveCom') }}</h1>
             <div

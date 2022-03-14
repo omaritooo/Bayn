@@ -1,5 +1,8 @@
 <template>
-    <div>
+    <div
+        :class="$i18n.locale == 'ar' ? 'font-arabic' : ''"
+        :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'"
+    >
         <div class="relative">
             <div class="gradient"></div>
             <Navbar class="relative z-30" />
@@ -24,6 +27,7 @@
             <div class="relative z-50 flex flex-col my-auto text-center h-fit w-fit md:text-left">
                 <!-- <h1 class="font-[600] md:text-[18px] w-full xl:text-[28px] text-[#D8315B]">FOR INFLUENCER</h1> -->
                 <h2
+                    :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
                     data-aos="fade-right"
                     data-aos-offset="200"
                     data-aos-delay="400"
@@ -34,6 +38,7 @@
                     class="xl: font-[600] md:leading-[45px] xl:leading-[60px] md:text-[38px] xl:text-[48px] text-[#0A2533]"
                 >{{ $t('usingBayn') }}</h2>
                 <p
+                    :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
                     data-aos="fade-right"
                     data-aos-offset="200"
                     data-aos-delay="450"
@@ -45,6 +50,7 @@
                 >{{ $t('usingBaynInfo') }}</p>
                 <div class="flex flex-col w-fit md:gap-y-[7px] xl:gap-y-[10px] mt-[20px]">
                     <p
+                        :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
                         data-aos="fade-right"
                         data-aos-offset="200"
                         data-aos-delay="500"

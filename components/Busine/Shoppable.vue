@@ -12,7 +12,11 @@
     <!-- <div class="gradi"></div> -->
     <div class="relative z-30 mt-[15px] lg:w-[540px] md:mt-0 mx-auto md:mx-0">
       <div class="w-[277px] h-[441px] flex-1 relative z-20 lg:w-[421px] lg:h-[654px]">
-        <nuxt-img class="mx-auto lg:mx-0" src="/Bayn Website/Frame 2223.png" />
+        <nuxt-img
+          :class="$i18n.locale == 'ar' ? 'rotate-[20deg]' : ' '"
+          class="mx-auto lg:mx-0"
+          src="/Bayn Website/Frame 2223.png"
+        />
       </div>
 
       <Gradient />
@@ -85,9 +89,11 @@
       </svg>
 
       <h1
+        :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
         class="mt-[14px] max-w-[330px] lg:max-w-[494px] text-[38px] text-center md:text-left mx-auto md:mx-0 lg:text-[55px] leading-[73px] font-[600] text-[#0A2533]"
       >{{ $t('ShoppableStories') }}</h1>
       <p
+        :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
         class="text-[18px] lg:text-[24px] lg:leading-[32px] text-center md:text-left mx-auto md:mx-0 leading-[24px] font-[500] max-w-[335.74px] lg:max-w-[497.85px] text-[#394452] mt-[15px]"
       >{{ $t('ShoppableStoriesInfo') }}</p>
       <div class="flex gap-x-[15px] my-[30px] md:my-0 mx-auto md:mx-0 mt-[15px] md:mt-[45px]">

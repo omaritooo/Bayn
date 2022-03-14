@@ -116,11 +116,13 @@
         />
       </svg>
       <h1
-        class="mx-auto md:mx-0 text-center md:text-left mt-[19px] lg:mt-[24px] max-w-[348.04px] lg:max-w-[512px] text-[38px] lg:text-[55px] leading-[45px] lg:leading-[72px] font-[600] text-[#0A2533]"
+        :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
+        class="mx-auto md:mx-0 text-center mt-[19px] lg:mt-[24px] max-w-[348.04px] lg:max-w-[512px] text-[38px] lg:text-[55px] leading-[45px] lg:leading-[72px] font-[600] text-[#0A2533]"
       >{{ $t('SellLive') }}</h1>
 
       <p
-        class="mt-[14px] text-[#394452] text-[24px] leading-[32px] max-w-[497.85px]"
+        :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
+        class="mt-[14px] text-center text-[#394452] text-[24px] leading-[32px] max-w-[497.85px]"
       >{{ $t('SellLiveInfo') }}</p>
       <div
         class="flex mx-auto md:mx-0 gap-x-[15px] mt-[20px] gap-y-[15px] flex-wrap max-w-[300px] lg:max-w-[473px]"

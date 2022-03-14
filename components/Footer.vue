@@ -15,10 +15,12 @@
         >
           <div class="gap-y-[25px] my-auto xl:gap-y-4 text-[#394452] z-50">
             <h3
-              class="lg:text-left text-[38px] text-center lg:text-[58px] lg:leading-[45px] text-[#0A2533] font-[600]"
+              :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
+              class="text-[38px] text-center lg:text-[58px] lg:leading-[45px] text-[#0A2533] font-[600]"
             >{{ $t('Free') }}</h3>
             <div
-              class="font-[500] text-center lg:text-left lg:text-[24px] text-[18px]"
+              :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
+              class="font-[500] text-center lg:text-[24px] text-[18px]"
             >{{ $t('Wait') }}</div>
           </div>
           <button

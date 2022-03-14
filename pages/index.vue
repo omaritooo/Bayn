@@ -1,9 +1,13 @@
-<template>
-  <div class="bg-white overflox-x-hidden">
+<template >
+  <div
+    :class="$i18n.locale == 'ar' ? 'font-arabic' : ''"
+    :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'"
+    class="bg-white !overflox-x-hidden"
+  >
     <div class="relative">
       <div class="z-10 gradient"></div>
-      <Navbar class="relative z-30" />
-      <Header class="relative z-30" />
+      <Navbar class="relative z-20" />
+      <Header class="relative z-20" />
     </div>
     <!-- <Live /> -->
     <Commerce />
@@ -37,7 +41,7 @@ html {
 .gradient {
   position: absolute;
   width: 100%;
-  height: 887.07px;
+  height: 100%;
   left: 0px;
   top: 0px;
 
