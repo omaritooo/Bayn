@@ -20,7 +20,7 @@
         </div>
         <svg
           v-if="$i18n.locale == 'en'"
-          class="absolute hidden lg:flex lg:bottom-10 lg:-right-28 xl:top-1/2 xl:-right-32"
+          class="absolute hidden lg:flex lg:bottom-10 lg:-right-28 xl:top-1/2 xl:-right-32 2xl:right-0 2xl:top-3/4"
           width="232"
           height="125"
           viewBox="0 0 232 125"
@@ -48,7 +48,7 @@
         </svg>
         <svg
           v-if="$i18n.locale == 'en'"
-          class="absolute top-0 right-0 hidden lg:flex"
+          class="absolute top-0 right-0 hidden 2xl:right-24 lg:flex"
           width="40"
           height="30"
           viewBox="0 0 40 30"
@@ -68,7 +68,7 @@
         </svg>
         <svg
           v-if="$i18n.locale == 'ar'"
-          class="absolute hidden lg:flex lg:bottom-10 lg:-left-28 xl:top-1/2 xl:-left-32"
+          class="absolute hidden lg:flex lg:bottom-10 lg:-left-20 xl:top-1/2 xl:-left-32 2xl:-left-20"
           width="226"
           height="67"
           viewBox="0 0 226 67"
@@ -96,7 +96,7 @@
         </svg>
         <svg
           v-if="$i18n.locale == 'ar'"
-          class="absolute top-0 left-0 hidden lg:flex"
+          class="absolute top-0 left-0 hidden lg:flex 2xl:left-20"
           width="39"
           height="30"
           viewBox="0 0 39 30"
@@ -115,9 +115,11 @@
           />
         </svg>
       </div>
-      <div class="mt-[22px] md:mt-0 lg:my-0 mx-auto md:mx-0 w-fit lg:mx-0">
+      <div
+        :class="$i18n.locale == 'ar' ? '-rotate-[20deg]' : ''"
+        class="mt-[22px] md:mt-0 lg:my-0 mx-auto md:mx-0 w-fit lg:mx-0"
+      >
         <nuxt-img
-          :class="$i18n.locale == 'ar' ? '-rotate-[20deg]' : ''"
           class="object-cover lg:h-[613.15px] lg:w-[343.31px] w-[267.04px] h-[443.36px]"
           src="/phoneright.png"
           alt
@@ -265,7 +267,12 @@
 <script>
 import AOS from '@/mixins/aos.js'
 export default {
-  mixins: [AOS]
+  mixins: [AOS],
+  methods: {
+    test() {
+      console.log('Test')
+    }
+  },
 }
 </script>
 

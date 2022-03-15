@@ -16,7 +16,7 @@
       class="font-[500] mt-[29px] md:leading-[22px] lg:leading-[40px] md:text-[18px] md:max-w-[509.24px] lg:max-w-full lg:text-[24px] text-center text-[#394452] md:mx-auto lg:mx-none"
     >{{ $t('MillionInfo') }}</h2>
     <div
-      class="flex flex-col md:flex-row lg:justify-center gap-x-[95px] mx-auto lg:mx-auto lg:gap-x-[117px] xl:gap-x-[222.5px] mt-[59px] xl:ml-20"
+      class="flex flex-col md:flex-row md:justify-center gap-x-[95px] mx-auto lg:mx-auto lg:gap-x-[117px] xl:gap-x-[222.5px] mt-[59px] xl:ml-20"
     >
       <div class="flex flex-col gap-y-[22.6px]">
         <svg
@@ -369,7 +369,7 @@
     </div>
 
     <div
-      class="mx-auto text-white mt-[34px] w-fit rounded-[8px] bg-black lg:px-[54px] lg:py-[18px] flex gap-x-[16px] text-[18px] font-[500]"
+      class="mx-auto text-white mt-[34px] w-fit rounded-[8px] bg-black px-[27px] py-[10px] lg:px-[54px] lg:py-[18px] flex gap-x-[16px] text-[18px] font-[500]"
     >
       {{ $t('BaynInf') }}
       <svg

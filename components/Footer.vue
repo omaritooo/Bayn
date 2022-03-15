@@ -11,7 +11,7 @@
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
           data-aos-once="true"
-          class="bg-[#FFFAFF] z-50 relative px-[16px] lg:px-[105px] my-[30px] lg:py-[90px] rounded-xl lg:flex-row flex-col flex justify-between self-center"
+          class="bg-[#FFFAFF] z-50 relative px-[16px] lg:px-[105px] py-[30px] lg:py-[90px] rounded-xl md:flex-row flex-col flex justify-between self-center"
         >
           <div class="gap-y-[25px] my-auto xl:gap-y-4 text-[#394452] z-50">
             <h3

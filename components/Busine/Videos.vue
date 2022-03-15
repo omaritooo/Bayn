@@ -11,12 +11,11 @@
       class="my-[89px] py-8 relative container mx-auto flex flex-col md:flex-row lg:gap-x-[93px] justify-center"
     >
       <div class="relative z-30 mt-[15px] lg:w-fit md:mt-0 mx-auto md:mx-0 order-last">
-        <div class="w-[277px] relative z-20 h-[441px] lg:w-[421px] lg:h-[654px]">
-          <nuxt-img
-            :class="$i18n.locale == 'ar' ? '-rotate-[20deg]' : ''"
-            class="mx-auto md:mx-0"
-            src="/Bayn Website/Frame 2222.png"
-          />
+        <div
+          class="w-[277px] relative z-20 h-[441px] lg:w-[421px] lg:h-[654px]"
+          :class="$i18n.locale == 'ar' ? '-rotate-[20deg]' : ''"
+        >
+          <nuxt-img class="mx-auto md:mx-0" src="/Bayn Website/Frame 2222.png" />
         </div>
         <Gradient />
         <!-- <nuxt-img
@@ -103,15 +102,13 @@
         </svg>
         <h1
           :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
-          class="mx-auto md:mx-0 mt-[17px] lg:mt-[27px] lg:max-w-[473px] max-w-[196px] text-[38px] leading-[45px] lg:text-[55px] lg:leading-[72px] font-[600] text-[#0A2533] text-center md:text-left"
+          class="mx-auto md:mx-0 mt-[17px] lg:mt-[27px] md:max-w-[473px] max-w-[196px] text-[38px] leading-[45px] lg:text-[55px] lg:leading-[72px] font-[600] text-[#0A2533] text-center md:text-left"
         >{{ $t('ShoppableVideos') }}</h1>
         <p
-          :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
-          class="text-[24px] text-center leading-[32px] font-[500] text-[#394452] max-w-[497.85px] mt-[14px]"
+          :class="$i18n.locale == 'ar' ? 'md:text-right max-w-[537.53px]' : 'md:text-left max-w-[497.85px]'"
+          class="text-[24px] text-center leading-[32px] font-[500] text-[#394452] mt-[14px]"
         >{{ $t('ShoppableVideosInfo') }}</p>
-        <div
-          class="mt-[24px] md:mx-0 flex gap-x-[15px] gap-y-[15px] flex-wrap md:max-w-[300px] lg:max-w-[437px]"
-        >
+        <div class="mt-[24px] md:mx-0 flex gap-x-[15px] gap-y-[15px] flex-wrap md:max-w-[437px]">
           <div
             class="px-[20px] py-[10px] bg-transparent rounded-[8px] text-[#56545D] text-[14px] leading-[16.44px] font-[600] border-[1px] border-[#F1F1F1] w-fit"
           >{{ $t('VideoShopping') }}</div>

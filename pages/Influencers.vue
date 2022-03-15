@@ -61,6 +61,7 @@
                         class="font-[500] md:leading-[32px] xl:leading-[32px] md:max-w-[364.57px] lg:max-w-[479px] text-[18px] text-[#0A2533]"
                     >{{ $t('Download') }}</p>
                     <p
+                        :class="$i18n.locale == 'ar' ? 'md:text-right md:max-w-[335px]' : 'md:text-left md:max-w-[300px]'"
                         data-aos="fade-right"
                         data-aos-offset="200"
                         data-aos-delay="550"
@@ -68,7 +69,7 @@
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="true"
-                        class="font-[500] leading-[32px] md:max-w-[300px] xl:max-w-[300px] text-[18px] text-[#0A2533]"
+                        class="font-[500] leading-[32px] text-[18px] text-[#0A2533]"
                     >{{ $t('Approved') }}</p>
                     <p
                         data-aos="fade-right"

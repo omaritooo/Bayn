@@ -97,9 +97,8 @@
       >{{ $t('Work') }}</h1>
     </div>
     <div class="flex flex-col md:flex-row relative justify-center md:gap-x-[48px] lg:gap-x-[120px]">
-      <div class="gradie"></div>
-
       <div class="relative z-30">
+        <Gradient />
         <nuxt-img class="relative z-30" src="/Rectangle 8.png" alt />
       </div>
       <div
@@ -207,9 +206,11 @@
 </template>
 
 <script>
+import Gradient from './Gradient.vue'
 import AOS from '@/mixins/aos.js'
 export default {
-  mixins: [AOS],
+  components: { Gradient },
+  mixins: [AOS]
 }
 </script>
 <style>
@@ -252,20 +253,5 @@ export default {
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 20px;
-}
-.gradie {
-  position: absolute;
-  width: 100%;
-  z-index: 20;
-  height: 100%;
-  left: 0px;
-  top: 0;
-
-  background: radial-gradient(
-    21.73% 46.26% at 66% 52.48%,
-    #d5e6ff 0%,
-    #ffffff 100%
-  );
-  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 </style>

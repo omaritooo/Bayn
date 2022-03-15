@@ -2,7 +2,7 @@
   <div
     :class="$i18n.locale == 'ar' ? 'font-arabic' : ''"
     :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'"
-    class="bg-white !overflox-x-hidden"
+    class="bg-white !overflox-x-hidden max-w-screen"
   >
     <div class="relative">
       <div class="z-10 gradient"></div>
