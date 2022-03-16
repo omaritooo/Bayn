@@ -83,17 +83,14 @@
         <div
           class="relative hidden mx-auto lg:block w-[353.31px] lg:w-[679.76px] lg:h-[613.15px] h-[444.44px]"
         >
-          <nuxt-img
-            class="object-cover mx-auto w-[353.31px] lg:w-[679.76px] lg:h-[613.15px] h-[444.44px]"
-            src="/Frame 17.png"
-          />
+          <nuxt-img class="object-cover mx-auto" src="/Frame 17.png" />
         </div>
         <div>
           <nuxt-img class="block lg:hidden" src="/Frame 17 1.png" alt />
         </div>
       </div>
       <h1
-        class="font-[600] text-[60px] md:text-[50px] mx-auto lg:leading-[120px] leading-[77px] lg:max-w-[751px] max-w-[357.66px] text-center md:text-left px-2 text-[#0A2533]"
+        class="font-[600nuxt] text-[60px] md:text-[50px] mx-auto lg:leading-[120px] leading-[77px] lg:max-w-[751px] max-w-[357.66px] text-center md:text-left px-2 text-[#0A2533]"
       >{{ $t('Work') }}</h1>
     </div>
     <div class="flex flex-col md:flex-row relative justify-center md:gap-x-[48px] lg:gap-x-[120px]">

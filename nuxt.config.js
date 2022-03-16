@@ -54,18 +54,24 @@ export default {
     '@nuxt/postcss8',
     '@nuxtjs/i18n',
     '@nuxt/image',
-
-
+    'cookie-universal-nuxt',
   ],
 
   i18n:
   {
-    // strategy: 'no_prefix',
-    defaultLocale: 'en',
+    strategy: 'no_prefix',
+    defaultLocale: 'ar',
     locales: [{ code: 'en', iso: 'en-US', name: 'english', file: 'en.json', dir: 'ltr' },
     { code: 'ar', iso: 'ar-EG', file: 'ar.json', name: 'arabic', dir: 'rtl' },],
     langDir: './locales/',
     vueI18nLoader: true,
+    vueI18n: {
+      silentTranslationWarn: true,
+      detectBrowserLanguage: {
+        useCookie: true,
+        alwaysRedirect: true,
+      },
+    },
 
   },
 

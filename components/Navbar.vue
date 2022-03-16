@@ -109,12 +109,12 @@
                   >{{ $t('ForInf') }}</nuxt-link>
                 </li>
                 <li class="my-auto nav-item">
-                  <nuxt-link
+                  <button
                     v-for="locale in availableLocales"
                     :key="locale.code"
-                    :to="switchLocalePath(locale.code)"
                     class="font-semibold text-[14px] text-[#394452] leading-[16.44px]"
-                  >{{ locale.name }}</nuxt-link>
+                    @click="toggleLocale()"
+                  >{{ locale.name }}</button>
                 </li>
                 <li class="my-6 lg:my-auto nav-item">
                   <a
@@ -147,8 +147,11 @@ export default {
     // eslint-disable-next-line dot-notation
     // this.$refs['home'].focus()
   },
-  method: {
-    meth() { },
+  methods: {
+    toggleLocale() {
+      this.$i18n.locale === 'ar' ? (this.$i18n.locale = 'en') : (this.$i18n.locale = 'ar')
+      this.$i18n.setLocaleCookie(this.$i18n.locale)
+    },
     toggleNavbar() {
       this.showMenu = !this.showMenu
       document.getElementById('myNav').style.width = '100%'
