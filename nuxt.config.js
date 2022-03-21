@@ -18,7 +18,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-
       {
         href: 'https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap',
         rel: 'stylesheet',
@@ -42,7 +41,6 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     '@nuxt/image',
-
   ],
   image: {
     // Options
@@ -56,23 +54,30 @@ export default {
     '@nuxt/image',
     'cookie-universal-nuxt',
   ],
-
-  i18n:
-  {
+  i18n: {
     strategy: 'no_prefix',
+    locales: ['en', 'ar'],
     defaultLocale: 'ar',
-    locales: [{ code: 'en', iso: 'en-US', name: 'english', file: 'en.json', dir: 'ltr' },
-    { code: 'ar', iso: 'ar-EG', file: 'ar.json', name: 'arabic', dir: 'rtl' },],
+    locales: [
+      { code: 'ar', iso: 'ar-EG', file: 'ar.json', name: 'arabic', dir: 'rtl' },
+      {
+        code: 'en',
+        iso: 'en-US',
+        name: 'english',
+        file: 'en.json',
+        dir: 'ltr',
+      },
+    ],
     langDir: './locales/',
     vueI18nLoader: true,
     vueI18n: {
+      fallbackLocale: 'ar',
       silentTranslationWarn: true,
       detectBrowserLanguage: {
         useCookie: true,
         alwaysRedirect: true,
       },
     },
-
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
