@@ -371,7 +371,7 @@
     <div
       class="mx-auto text-white mt-[34px] w-fit rounded-[8px] bg-black px-[27px] py-[10px] lg:px-[54px] lg:py-[18px] flex gap-x-[16px] text-[18px] font-[500]"
     >
-      {{ $t('BaynInf') }}
+      <nuxt-link to="/influencers">{{ $t('BaynInf') }}</nuxt-link>
       <svg
         :class="$i18n.locale == 'en' ? 'rotate-180' : ''"
         width="26"
