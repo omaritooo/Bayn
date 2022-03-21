@@ -13,10 +13,14 @@
       <div class="relative hidden py-12 md:block">
         <h1
           class="text-[48px] leading-[73px] font-[600] text-center text-[#0A2533]"
-        >{{ $t('Here') }}</h1>
+        >
+          {{ $t('Here') }}
+        </h1>
         <p
           class="text-[24px] leading-[32px] max-w-[497.85px] mx-auto font-[500] mt-[11.79px] text-center text-[#394452]"
-        >{{ $t('designed') }}</p>
+        >
+          {{ $t('designed') }}
+        </p>
       </div>
       <div class="flex flex-col md:hidden">
         <div class="relative">
@@ -68,10 +72,14 @@
         </div>
         <h1
           class="max-w-[410px] text-[38px] mx-auto text-center md:text-left font-[600]"
-        >{{ $t('Here') }}</h1>
+        >
+          {{ $t('Here') }}
+        </h1>
         <p
           class="text-[20px] leading-[32px] max-w-[358.15px] mx-auto mb-[10px] text-center font-[500]"
-        >{{ $t('designed') }}</p>
+        >
+          {{ $t('designed') }}
+        </p>
         <div
           class="flex md:hidden mx-auto max-w-[264px] md:max-w-[427px] lg:max-w-[570px] flex-wrap gap-x-[15px] gap-y-[15px]"
         >
@@ -95,13 +103,19 @@
               </g>
               <defs>
                 <clipPath id="clip0_1_1371">
-                  <rect width="18" height="18" fill="white" transform="translate(0 0.244629)" />
+                  <rect
+                    width="18"
+                    height="18"
+                    fill="white"
+                    transform="translate(0 0.244629)"
+                  />
                 </clipPath>
               </defs>
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >{{ $t('Time') }}</span>
+              >{{ $t('Time') }}</span
+            >
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -122,7 +136,8 @@
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >{{ $t('Connect') }}</span>
+              >{{ $t('Connect') }}</span
+            >
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -140,14 +155,20 @@
               </g>
               <defs>
                 <clipPath id="clip0_1_1382">
-                  <rect width="18.6" height="16" fill="white" transform="translate(0 0.244629)" />
+                  <rect
+                    width="18.6"
+                    height="16"
+                    fill="white"
+                    transform="translate(0 0.244629)"
+                  />
                 </clipPath>
               </defs>
             </svg>
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >{{ $t('Document') }}</span>
+              >{{ $t('Document') }}</span
+            >
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -165,7 +186,8 @@
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >{{ $t('Long') }}</span>
+              >{{ $t('Long') }}</span
+            >
           </div>
         </div>
 
@@ -205,7 +227,9 @@
           <nuxt-img class="absolute right-32 bottom-2" src="/Frame 19.png" />
         </div>
       </div>
-      <div class="flex flex-col mx-auto mt-[15px] text-center justify-center gap-y-[18px]">
+      <div
+        class="flex flex-col mx-auto mt-[15px] text-center justify-center gap-y-[18px]"
+      >
         <div
           class="hidden md:flex max-w-[264px] md:max-w-[427px] lg:max-w-[570px] flex-wrap gap-x-[15px] gap-y-[15px]"
         >
@@ -229,13 +253,19 @@
               </g>
               <defs>
                 <clipPath id="clip0_1_1371">
-                  <rect width="18" height="18" fill="white" transform="translate(0 0.244629)" />
+                  <rect
+                    width="18"
+                    height="18"
+                    fill="white"
+                    transform="translate(0 0.244629)"
+                  />
                 </clipPath>
               </defs>
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >{{ $t('Time') }}</span>
+              >{{ $t('Time') }}</span
+            >
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -256,7 +286,8 @@
             </svg>
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >{{ $t('Connect') }}</span>
+              >{{ $t('Connect') }}</span
+            >
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -274,14 +305,20 @@
               </g>
               <defs>
                 <clipPath id="clip0_1_1382">
-                  <rect width="18.6" height="16" fill="white" transform="translate(0 0.244629)" />
+                  <rect
+                    width="18.6"
+                    height="16"
+                    fill="white"
+                    transform="translate(0 0.244629)"
+                  />
                 </clipPath>
               </defs>
             </svg>
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >{{ $t('Document') }}</span>
+              >{{ $t('Document') }}</span
+            >
           </div>
           <div class="flex gap-x-[6px]">
             <svg
@@ -299,7 +336,8 @@
 
             <span
               class="text-[14px] lg:text-[18px] text-[#394452] leading-[24px] font-[500]"
-            >{{ $t('Long') }}</span>
+              >{{ $t('Long') }}</span
+            >
           </div>
         </div>
         <svg
@@ -341,12 +379,18 @@
         <nuxt-img class="max-w-[124px]" src="/handup.png" alt />
         <h1
           class="font-[600] text-[38px] xl:text-[48px] leading-[73px] text-[#0A2533]"
-        >{{ $t('Flow') }}</h1>
+        >
+          {{ $t('Flow') }}
+        </h1>
         <div
-          :class="$i18n.locale == 'ar' ? 'xl:text-[20px] xl:leading-[24px]' : 'xl:text-[24px]'"
+          :class="
+            $i18n.locale == 'ar'
+              ? 'xl:text-[20px] xl:leading-[24px]'
+              : 'xl:text-[24px]'
+          "
           class="flex relative flex-col text-[#0A2533] gap-y-[20px] leading-[28px] font-[500] md:leading-[52px] xl:leading-[58px] max-w-[358.36px] md:max-w-[632px] md:text-[18px]"
         >
-          <div class="flex gap-x-2">
+          <div class="flex items-start gap-x-5">
             <svg
               class="my-auto"
               width="18"
@@ -366,9 +410,9 @@
                 fill="#0A2533"
               />
             </svg>
-            {{ $t('Setup') }}
+            <span class="flex-1"> {{ $t('Setup') }}</span>
           </div>
-          <div class="flex gap-x-2">
+          <div class="flex items-start gap-x-5">
             <svg
               class="my-auto"
               width="18"
@@ -388,9 +432,9 @@
                 fill="#0A2533"
               />
             </svg>
-            {{ $t('GetHired') }}
+            <span class="flex-1"> {{ $t('GetHired') }}</span>
           </div>
-          <div class="flex gap-x-2">
+          <div class="flex items-start gap-x-5">
             <svg
               class="my-auto"
               width="18"
@@ -410,10 +454,10 @@
                 fill="#0A2533"
               />
             </svg>
-            {{ $t('Manage') }}
+            <span class="flex-1"> {{ $t('Manage') }}</span>
           </div>
 
-          <div class="flex gap-x-2">
+          <div class="flex items-start gap-x-5">
             <svg
               class="my-auto"
               width="18"
@@ -433,11 +477,13 @@
                 fill="#0A2533"
               />
             </svg>
-            {{ $t('GoLive') }}
+            <span class="flex-1">
+              {{ $t('GoLive') }}
+            </span>
           </div>
-          <div class="flex gap-x-2">
+          <div class="flex items-start gap-x-5">
             <svg
-              class
+              class="mt-5"
               width="18"
               height="18"
               viewBox="0 0 18 18"
@@ -455,7 +501,9 @@
                 fill="#0A2533"
               />
             </svg>
-            {{ $t('Provide') }}
+            <span class="flex-1">
+              {{ $t('Provide') }}
+            </span>
           </div>
         </div>
       </div>
@@ -476,7 +524,7 @@ export default {}
 
 <style>
 .test {
-  background-image: url("/Frame 43.png");
+  background-image: url('/Frame 43.png');
   background-size: auto;
   width: 100%;
   background-repeat: no-repeat;
@@ -485,7 +533,7 @@ export default {}
 
 @media screen and (max-width: 1280px) {
   .test {
-    background-image: url("/Frame 43.png");
+    background-image: url('/Frame 43.png');
     background-size: contain;
     width: 900px;
     background-repeat: no-repeat;
@@ -496,7 +544,7 @@ export default {}
 
 @media screen and (max-width: 1024px) {
   .test {
-    background-image: url("/Frame 43.png");
+    background-image: url('/Frame 43.png');
     background-size: contain;
     width: 800px;
     background-repeat: no-repeat;
