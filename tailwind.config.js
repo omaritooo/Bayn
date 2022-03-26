@@ -1,24 +1,24 @@
 module.exports = {
   content: [
-    "./components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
-    "./nuxt.config.{js,ts}",
+    './components/**/*.{js,vue,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
+    './nuxt.config.{js,ts}',
   ],
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
-    textFillColor: theme => theme('borderColor'),
-    textStrokeColor: theme => theme('borderColor'),
-    textStrokeWidth: theme => theme('borderWidth'),
+    textFillColor: (theme) => theme('borderColor'),
+    textStrokeColor: (theme) => theme('borderColor'),
+    textStrokeWidth: (theme) => theme('borderWidth'),
     paintOrder: {
-      'fsm': { paintOrder: 'fill stroke markers' },
-      'fms': { paintOrder: 'fill markers stroke' },
-      'sfm': { paintOrder: 'stroke fill markers' },
-      'smf': { paintOrder: 'stroke markers fill' },
-      'mfs': { paintOrder: 'markers fill stroke' },
-      'msf': { paintOrder: 'markers stroke fill' },
+      fsm: { paintOrder: 'fill stroke markers' },
+      fms: { paintOrder: 'fill markers stroke' },
+      sfm: { paintOrder: 'stroke fill markers' },
+      smf: { paintOrder: 'stroke markers fill' },
+      mfs: { paintOrder: 'markers fill stroke' },
+      msf: { paintOrder: 'markers stroke fill' },
     },
     screens: {
       sm: '640px',
@@ -147,13 +147,17 @@ module.exports = {
     backgroundImage: {
       none: 'none',
       'gradient-to-t': 'linear-gradient(to top, var(--tw-gradient-stops))',
-      'gradient-to-tr': 'linear-gradient(to top right, var(--tw-gradient-stops))',
+      'gradient-to-tr':
+        'linear-gradient(to top right, var(--tw-gradient-stops))',
       'gradient-to-r': 'linear-gradient(to right, var(--tw-gradient-stops))',
-      'gradient-to-br': 'linear-gradient(to bottom right, var(--tw-gradient-stops))',
+      'gradient-to-br':
+        'linear-gradient(to bottom right, var(--tw-gradient-stops))',
       'gradient-to-b': 'linear-gradient(to bottom, var(--tw-gradient-stops))',
-      'gradient-to-bl': 'linear-gradient(to bottom left, var(--tw-gradient-stops))',
+      'gradient-to-bl':
+        'linear-gradient(to bottom left, var(--tw-gradient-stops))',
       'gradient-to-l': 'linear-gradient(to left, var(--tw-gradient-stops))',
-      'gradient-to-tl': 'linear-gradient(to top left, var(--tw-gradient-stops))',
+      'gradient-to-tl':
+        'linear-gradient(to top left, var(--tw-gradient-stops))',
     },
     backgroundOpacity: ({ theme }) => theme('opacity'),
     backgroundPosition: {
@@ -252,8 +256,7 @@ module.exports = {
         md: '713px',
         lg: '1000px',
         xl: '1220px',
-        '2xl': '1220px'
-
+        '2xl': '1220px',
       },
     },
     content: {
@@ -388,7 +391,14 @@ module.exports = {
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
       ],
-      serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      serif: [
+        'ui-serif',
+        'Georgia',
+        'Cambria',
+        '"Times New Roman"',
+        'Times',
+        'serif',
+      ],
       mono: [
         'ui-monospace',
         'SFMono-Regular',
@@ -399,7 +409,7 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
-      arabic: ['Cairo', 'sans-serif']
+      arabic: ['Cairo', 'sans-serif'],
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
@@ -885,7 +895,8 @@ module.exports = {
       all: 'all',
       DEFAULT:
         'color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter',
-      colors: 'color, background-color, border-color, text-decoration-color, fill, stroke',
+      colors:
+        'color, background-color, border-color, text-decoration-color, fill, stroke',
       opacity: 'opacity',
       shadow: 'box-shadow',
       transform: 'transform',
@@ -958,7 +969,8 @@ module.exports = {
       50: '50',
     },
   },
-  variants: { // all the following default to ['responsive']
+  variants: {
+    // all the following default to ['responsive']
     textFillColor: ['responsive'],
     textStrokeColor: ['responsive'],
     textStrokeWidth: ['responsive'],
@@ -984,5 +996,6 @@ module.exports = {
   ],
   plugins: [
     require('tailwindcss-text-fill-stroke')(), // no options to configure
+    require('@tailwindcss/typography'),
   ],
 }

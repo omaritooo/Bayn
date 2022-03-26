@@ -67,7 +67,9 @@
         <div>
           <p
             class="max-w-[209px] font-[600] text-[16px] leading-[25px] text-[#2C3A4B]"
-          >{{ $t('Empower') }}</p>
+          >
+            {{ $t('Empower') }}
+          </p>
         </div>
       </div>
       <div class="flex gap-x-[125px] text-[16px] text-[#2C3A4B] w-fit">
@@ -95,7 +97,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1332">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -114,7 +121,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1334">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -137,7 +149,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1336">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -170,7 +187,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1340">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -192,7 +214,12 @@
           </g>
           <defs>
             <clipPath id="clip0_70_1332">
-              <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+              <rect
+                width="24"
+                height="24"
+                fill="white"
+                transform="translate(0.0917969)"
+              />
             </clipPath>
           </defs>
         </svg>
@@ -211,7 +238,12 @@
           </g>
           <defs>
             <clipPath id="clip0_70_1334">
-              <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+              <rect
+                width="24"
+                height="24"
+                fill="white"
+                transform="translate(0.0917969)"
+              />
             </clipPath>
           </defs>
         </svg>
@@ -234,7 +266,12 @@
           </g>
           <defs>
             <clipPath id="clip0_70_1336">
-              <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+              <rect
+                width="24"
+                height="24"
+                fill="white"
+                transform="translate(0.0917969)"
+              />
             </clipPath>
           </defs>
         </svg>
@@ -265,14 +302,21 @@
           </g>
           <defs>
             <clipPath id="clip0_70_1340">
-              <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+              <rect
+                width="24"
+                height="24"
+                fill="white"
+                transform="translate(0.0917969)"
+              />
             </clipPath>
           </defs>
         </svg>
       </div>
     </div>
     <div class="py-[79px] hidden lg:hidden md:flex gap-x-[106px]">
-      <div class="flex flex-col gap-y-[42px] text-[16px] text-[#2C3A4B] font-semibold">
+      <div
+        class="flex flex-col gap-y-[42px] text-[16px] text-[#2C3A4B] font-semibold"
+      >
         <svg
           width="69"
           height="26"
@@ -304,7 +348,9 @@
         <div>
           <p
             class="max-w-[209px] font-[600] text-[16px] leading-[25px] text-[#2C3A4B]"
-          >{{ $t('Empower') }}</p>
+          >
+            {{ $t('Empower') }}
+          </p>
         </div>
 
         <div class="flex gap-x-[35px]">
@@ -323,7 +369,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1332">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -342,7 +393,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1334">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -365,7 +421,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1336">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -396,7 +457,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1340">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -414,15 +480,13 @@
     <div
       class="pb-[47px] mt-[63px] md:mt-0 md:pb-[35px] xl:pb-[80px] flex md:flex-row gap-y-[20px] flex-col text-center md:text-left justify-between font-[600] leading-[32px] text-[14px] text-[#2C3A4B]"
     >
-      <div
-        class="order-last md:order-first"
-      >{{ $t('LTD') }}</div>
+      <div class="order-last md:order-first">{{ $t('LTD') }}</div>
       <div>
         <div
           class="flex justify-center order-first mx-auto md:order-last md:justify-end md:mx-0 gap-x-4"
         >
-          <nuxt-link to>{{ $t('Terms') }}</nuxt-link>
-          <nuxt-link to>{{ $t('Policy') }}</nuxt-link>
+          <nuxt-link to="/terms">{{ $t('Terms') }}</nuxt-link>
+          <nuxt-link to="/privacy">{{ $t('Policy') }}</nuxt-link>
         </div>
       </div>
     </div>
@@ -433,5 +497,4 @@
 export default {}
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

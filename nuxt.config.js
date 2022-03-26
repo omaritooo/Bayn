@@ -8,7 +8,7 @@ export default {
   head: {
     title: 'Bayn',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'ar',
     },
     meta: [
       { charset: 'utf-8' },

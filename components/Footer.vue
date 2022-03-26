@@ -17,15 +17,21 @@
             <h3
               :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
               class="text-[38px] text-center lg:text-[58px] lg:leading-[45px] text-[#0A2533] font-[600]"
-            >{{ $t('Free') }}</h3>
+            >
+              {{ $t('Free') }}
+            </h3>
             <div
               :class="$i18n.locale == 'ar' ? 'md:text-right' : 'md:text-left'"
               class="font-[500] text-center lg:text-[24px] text-[18px]"
-            >{{ $t('Wait') }}</div>
+            >
+              {{ $t('Wait') }}
+            </div>
           </div>
           <button
             class="px-[20px] mx-auto lg:mx-0 mt-[25px] lg:mt-0 my-auto text-white bg-black rounded-lg text-[13px] lg:text-[16px] py-[12px] xl:py-[12px]"
-          >{{ $t('Campaign') }}</button>
+          >
+            {{ $t('Campaign') }}
+          </button>
         </div>
         <div
           data-aos="fade-right"
@@ -82,10 +88,14 @@
           <div>
             <p
               class="max-w-[209px] font-[600] text-[16px] leading-[25px] text-[#2C3A4B]"
-            >{{ $t('Empower') }}</p>
+            >
+              {{ $t('Empower') }}
+            </p>
           </div>
         </div>
-        <div class="flex gap-x-[125px] my-auto text-[16px] text-[#2C3A4B] w-fit">
+        <div
+          class="flex gap-x-[125px] my-auto text-[16px] text-[#2C3A4B] w-fit"
+        >
           <div class="flex flex-col gap-y-[40px]">
             <nuxt-link to>For Influencers</nuxt-link>
             <!-- <nuxt-link to>Why Bayn</nuxt-link>
@@ -115,7 +125,12 @@
               </g>
               <defs>
                 <clipPath id="clip0_70_1332">
-                  <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                  <rect
+                    width="24"
+                    height="24"
+                    fill="white"
+                    transform="translate(0.0917969)"
+                  />
                 </clipPath>
               </defs>
             </svg>
@@ -134,7 +149,12 @@
               </g>
               <defs>
                 <clipPath id="clip0_70_1334">
-                  <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                  <rect
+                    width="24"
+                    height="24"
+                    fill="white"
+                    transform="translate(0.0917969)"
+                  />
                 </clipPath>
               </defs>
             </svg>
@@ -157,7 +177,12 @@
               </g>
               <defs>
                 <clipPath id="clip0_70_1336">
-                  <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                  <rect
+                    width="24"
+                    height="24"
+                    fill="white"
+                    transform="translate(0.0917969)"
+                  />
                 </clipPath>
               </defs>
             </svg>
@@ -190,7 +215,12 @@
               </g>
               <defs>
                 <clipPath id="clip0_70_1340">
-                  <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                  <rect
+                    width="24"
+                    height="24"
+                    fill="white"
+                    transform="translate(0.0917969)"
+                  />
                 </clipPath>
               </defs>
             </svg>
@@ -212,7 +242,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1332">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -231,7 +266,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1334">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -254,7 +294,12 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1336">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -285,14 +330,21 @@
             </g>
             <defs>
               <clipPath id="clip0_70_1340">
-                <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0.0917969)"
+                />
               </clipPath>
             </defs>
           </svg>
         </div>
       </div>
       <div class="py-[79px] hidden lg:hidden md:flex gap-x-[106px]">
-        <div class="flex flex-col gap-y-[42px] text-[16px] text-[#2C3A4B] font-semibold">
+        <div
+          class="flex flex-col gap-y-[42px] text-[16px] text-[#2C3A4B] font-semibold"
+        >
           <svg
             width="69"
             height="26"
@@ -324,7 +376,9 @@
           <div>
             <p
               class="max-w-[209px] font-[600] text-[16px] leading-[25px] text-[#2C3A4B]"
-            >Empower People, Empower Community.</p>
+            >
+              Empower People, Empower Community.
+            </p>
           </div>
           <div class="flex gap-x-[35px]">
             <svg
@@ -342,7 +396,12 @@
               </g>
               <defs>
                 <clipPath id="clip0_70_1332">
-                  <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                  <rect
+                    width="24"
+                    height="24"
+                    fill="white"
+                    transform="translate(0.0917969)"
+                  />
                 </clipPath>
               </defs>
             </svg>
@@ -361,7 +420,12 @@
               </g>
               <defs>
                 <clipPath id="clip0_70_1334">
-                  <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                  <rect
+                    width="24"
+                    height="24"
+                    fill="white"
+                    transform="translate(0.0917969)"
+                  />
                 </clipPath>
               </defs>
             </svg>
@@ -384,7 +448,12 @@
               </g>
               <defs>
                 <clipPath id="clip0_70_1336">
-                  <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                  <rect
+                    width="24"
+                    height="24"
+                    fill="white"
+                    transform="translate(0.0917969)"
+                  />
                 </clipPath>
               </defs>
             </svg>
@@ -415,7 +484,12 @@
               </g>
               <defs>
                 <clipPath id="clip0_70_1340">
-                  <rect width="24" height="24" fill="white" transform="translate(0.0917969)" />
+                  <rect
+                    width="24"
+                    height="24"
+                    fill="white"
+                    transform="translate(0.0917969)"
+                  />
                 </clipPath>
               </defs>
             </svg>
@@ -451,5 +525,4 @@
 export default {}
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
