@@ -1,19 +1,5 @@
 <template>
   <div class="relative overflow-x-hidden">
-    <!-- <div class="text-[160px] leading-[73px]">
-            <div class="track">Bayn For Influencers, Bayn for Influencer,</div>
-            <div class="track2">Bayn for Influencer, Bayn for Influencer,</div> 
-    </div>-->
-    <!-- <Marquee
-      class="absolute z-10 top-[0%] md:-top-[0%] xl:top-[0%] text-[60px] md:text-[100px] xl:text-[160px] h-[279.81px]"
-      :duration="25"
-      :repeat="3"
-    >
-      <span
-        class="text-[60px] md:text-[100px] font-[600] lg:text-[160px] text-[#0A2533] w-[2159.4px] overflow-x-hidden h-[179.81px] py-4 leading-[73px]"
-        >Bayn For Influencers, Bayn for Influencer,
-      </span>
-    </Marquee>-->
     <div
       class="container mx-auto relative z-30 flex flex-col gap-y-[96px] mt-[14px] mb-[142px]"
     >
@@ -26,7 +12,7 @@
             class="text-[40px] inline lg:text-[70px] text-center md:text-right lg:leading-[100px] font-[600] text-[#0A2533] whitespace-nowrap"
           >
             <span class="relative">
-              بين للمؤثرين
+              {{ $t('baynForInfluencers') }}
               <svg
                 class="absolute -top-2 -left-10 w-[30px] h-[22px] lg:w-10 lg:h-[30px] hidden md:flex"
                 viewBox="0 0 40 30"
@@ -50,10 +36,11 @@
             v-if="$i18n.locale == 'en'"
             class="text-[50px] inline lg:text-[80px] text-center md:text-left lg:leading-[100px] font-[600] text-[#0A2533]"
           >
-            Bayn For
-            <br />
+            {{ $t('baynFor') }}
+
+            <br class="rtl:hidden" />
             <span class="relative">
-              Influencers
+              {{ $t('forInfluencers') }}
 
               <svg
                 class="absolute -top-2 -right-5 w-[30px] h-[22px] lg:w-10 lg:h-[30px] hidden md:flex"
@@ -158,7 +145,7 @@
         </div>
       </div>
       <h1
-        class="font-[600nuxt] text-[60px] md:text-[50px] mx-auto lg:leading-[120px] leading-[77px] lg:max-w-[751px] max-w-[357.66px] text-center md:text-left px-2 text-[#0A2533]"
+        class="font-[600] text-[60px] md:text-[50px] mx-auto lg:leading-[120px] leading-[77px] lg:max-w-[751px] max-w-[357.66px] text-center md:text-left px-2 text-[#0A2533]"
       >
         {{ $t('Work') }}
       </h1>
@@ -173,80 +160,6 @@
       <div
         class="mt-[91px] mx-auto md:mx-0 relative z-30 gap-y-[18px] max-w-[564px] flex flex-col font-[500] text-[#0A2533] md:text-[24px] lg:text-[30px] md:leading-[38px] lg:leading-[73px]"
       >
-        <!-- <svg
-          class="absolute right-[26%] top-7 lg:right-[28%] md:right-[7%] md:top-6 lg:top-12"
-          width="47"
-          height="51"
-          viewBox="0 0 47 51"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M29.4226 33.5832C24.8723 35.6848 15.3806 40.5353 13.817 43.1248"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-          />
-          <path
-            d="M13.757 43.156C15.7788 36.9195 16.6579 32.2709 14.3103 25.328"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-          />
-          <path
-            d="M24.0293 1.52344C25.2769 8.37421 25.3978 25.5372 15.9004 39.3827"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-          />
-        </svg>
-        <svg
-          class="absolute top-[27%] right-[30%] md:top-[16%] md:right-[8%] lg:right-[19%]"
-          width="45"
-          height="50"
-          viewBox="0 0 45 50"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M32.5188 23.7247C32.0891 28.7185 31.5983 39.3664 33.0725 42.0078"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-          />
-          <path
-            d="M33.0698 42.0754C28.655 37.2287 25.053 34.1614 17.8592 32.7597"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-          />
-          <path
-            d="M2 12.521C8.56862 14.8325 23.5356 23.233 30.8547 38.3437"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="round"
-          />
-        </svg>
-        <svg
-          class="absolute bottom-[43%] right-[8%] md:bottom-[48%] lg:bottom-[53%] md:right-[2%] lg:-right-8"
-          width="43"
-          height="40"
-          viewBox="0 0 43 40"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M4.56232 14.9204C6.97784 13.6414 11.6674 9.08092 11.1016 1.07117M14.0048 21.1377C20.5108 16.951 27.5611 13.1528 32.6861 12.3553"
-            stroke="black"
-            stroke-width="3"
-          />
-          <path
-            d="M16.5092 32.377C19.1583 30.6034 26.4837 28.1344 34.5925 32.447"
-            stroke="black"
-            stroke-width="3"
-          />
-        </svg>-->
-
         <span>
           {{ $t('Remark') }}
           <span class="text-[40px] font-[600]">+</span>
@@ -323,8 +236,6 @@ export default {
     rgba(255, 255, 255, 0.005) 0.13%
   );
   backdrop-filter: blur(65px);
-  /* Note: backdrop-filter has minimal browser support */
-
   border-radius: 20px;
 }
 </style>

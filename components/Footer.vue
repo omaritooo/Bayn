@@ -97,7 +97,7 @@
           class="flex gap-x-[125px] my-auto text-[16px] text-[#2C3A4B] w-fit"
         >
           <div class="flex flex-col gap-y-[40px]">
-            <nuxt-link to>For Influencers</nuxt-link>
+            <nuxt-link to="/influencers">{{ $t('forInf') }}</nuxt-link>
             <!-- <nuxt-link to>Why Bayn</nuxt-link>
             <nuxt-link to>FAQ</nuxt-link>-->
           </div>
@@ -105,7 +105,7 @@
             <!-- <nuxt-link to>About Bayn</nuxt-link>
             <nuxt-link to>Careers</nuxt-link>
             <nuxt-link to>Contact Us</nuxt-link>-->
-            <nuxt-link to>For Businesses</nuxt-link>
+            <!-- <nuxt-link to>{{$t('forBusinesses')}}</nuxt-link> -->
           </div>
         </div>
         <div class="flex-col hidden md:flex gap-y-6">
@@ -377,7 +377,7 @@
             <p
               class="max-w-[209px] font-[600] text-[16px] leading-[25px] text-[#2C3A4B]"
             >
-              Empower People, Empower Community.
+              {{ $t('Empower') }}
             </p>
           </div>
           <div class="flex gap-x-[35px]">
@@ -497,11 +497,11 @@
         </div>
         <div class="flex gap-x-[96px] text-[16px] font-[600] text-[#2C3A4B]">
           <div class="flex flex-col my-auto gap-y-[64px]">
-            <nuxt-link to="/influencers">For Influencers</nuxt-link>
+            <nuxt-link to="/influencers">{{ $t('forInf') }}</nuxt-link>
           </div>
-          <div class="flex flex-col my-auto gap-y-[64px]">
-            <nuxt-link to="/business">For Businesses</nuxt-link>
-          </div>
+          <!-- <div class="flex flex-col my-auto gap-y-[64px]">
+            <nuxt-link to="/business">{{$t('forBusinesses')}}</nuxt-link>
+          </div> -->
         </div>
       </div>
       <div
@@ -512,8 +512,8 @@
           <div
             class="flex justify-center order-first mx-auto md:order-last md:justify-end md:mx-0 gap-x-4"
           >
-            <nuxt-link to>{{ $t('Terms') }}</nuxt-link>
-            <nuxt-link to>{{ $t('Policy') }}</nuxt-link>
+            <nuxt-link to="/terms">{{ $t('Terms') }}</nuxt-link>
+            <nuxt-link to="/policy">{{ $t('Policy') }}</nuxt-link>
           </div>
         </div>
       </div>

@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="flex mx-auto container py-[50px]">
-      <nav class="relative flex flex-wrap justify-around w-screen bg-blueGray-500">
+      <nav
+        class="relative flex flex-wrap justify-around w-screen bg-blueGray-500"
+      >
         <div class="container flex flex-wrap items-center justify-between">
           <div
             class="relative flex justify-between w-full lg:w-auto lg:static lg:block lg:justify-around"
@@ -41,11 +43,13 @@
                 <nuxt-link
                   class="font-semibold hover-underline-animation text-[14px] text-[#394452] leading-[16.44px]"
                   to="/"
-                >{{ $t('Home') }}</nuxt-link>
+                  >{{ $t('Home') }}</nuxt-link
+                >
                 <nuxt-link
                   class="font-semibold hover-underline-animation text-[14px] text-[#394452] leading-[16.44px]"
                   to="/influencers/"
-                >{{ $t('ForInf') }}</nuxt-link>
+                  >{{ $t('ForInf') }}</nuxt-link
+                >
               </div>
             </div>
             <button
@@ -122,14 +126,19 @@
                 </li>-->
                 <li class="my-6 lg:my-auto nav-item">
                   <a
-                    href="https://bayn.io/"
+                    href="https://dashboard.bayn.io/"
+                    rel="noopener noreferrer"
+                    target="_blank"
                     class="bg-black font-semibold my-auto leading-[16.44px] rounded-[8px] text-[12px] px-[20px] py-[15px] text-white w-fit"
-                  >{{ $t('Campaign') }}</a>
+                    >{{ $t('Campaign') }}</a
+                  >
                 </li>
                 <li class="nav-item my-4 lg:my-auto lg:py-[14px]">
-                  <nuxt-link
+                  <a
+                    href="https://dashboard.bayn.io/"
+                    rel="noopener noreferrer"
+                    target="_blank"
                     class="font-semibold flex gap-x-[5px] text-[14px] text-[#394452] leading-[16.44px]"
-                    to="/influencers/"
                   >
                     <div :class="$i18n.locale == 'ar' ? '-rotate-180' : ''">
                       <svg
@@ -146,7 +155,7 @@
                       </svg>
                     </div>
                     {{ $t('Login') }}
-                  </nuxt-link>
+                  </a>
                 </li>
 
                 <li class="my-auto nav-item">
@@ -174,14 +183,18 @@
                           />
                           <mask
                             id="mask0_500_1755"
-                            style="mask-type:alpha"
+                            style="mask-type: alpha"
                             maskUnits="userSpaceOnUse"
                             x="1"
                             y="1"
                             width="30"
                             height="30"
                           >
-                            <circle r="15" transform="matrix(-1 0 0 1 16 16)" fill="#C4C4C4" />
+                            <circle
+                              r="15"
+                              transform="matrix(-1 0 0 1 16 16)"
+                              fill="#C4C4C4"
+                            />
                           </mask>
                           <g mask="url(#mask0_500_1755)">
                             <path
@@ -238,14 +251,18 @@
                         >
                           <mask
                             id="mask0_500_4378"
-                            style="mask-type:alpha"
+                            style="mask-type: alpha"
                             maskUnits="userSpaceOnUse"
                             x="0"
                             y="0"
                             width="30"
                             height="30"
                           >
-                            <circle r="15" transform="matrix(-1 0 0 1 15 15)" fill="#C4C4C4" />
+                            <circle
+                              r="15"
+                              transform="matrix(-1 0 0 1 15 15)"
+                              fill="#C4C4C4"
+                            />
                           </mask>
                           <g mask="url(#mask0_500_4378)">
                             <path
@@ -282,8 +299,8 @@ export default {
   },
   computed: {
     availableLocales() {
-      return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
-    }
+      return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
+    },
   },
   mounted() {
     // eslint-disable-next-line dot-notation
@@ -291,7 +308,9 @@ export default {
   },
   methods: {
     toggleLocale() {
-      this.$i18n.locale === 'ar' ? (this.$i18n.locale = 'en') : (this.$i18n.locale = 'ar')
+      this.$i18n.locale === 'ar'
+        ? (this.$i18n.locale = 'en')
+        : (this.$i18n.locale = 'ar')
       this.$i18n.setLocaleCookie(this.$i18n.locale)
     },
     toggleNavbar() {
@@ -334,7 +353,7 @@ export default {
 }
 
 .hover-underline-animation:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   transform: scaleX(0);
