@@ -34,7 +34,7 @@
       title="Feedback Form"
       class="freshwidget-embedded-form"
       id="freshwidget-embedded-form"
-      src="https://bayn.freshdesk.com/widgets/feedback_widget/new?&widgetType=embedded&formTitle=%D9%83%D9%8A%D9%81+%D9%86%D9%82%D8%AF%D8%B1+%D9%86%D8%B3%D8%A7%D8%B9%D8%AF%D9%83%D8%9F&submitTitle=%D8%A5%D8%B1%D8%B3%D8%A7%D9%84&submitThanks=%D8%B4%D9%83%D8%B1%D8%A7+%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84%D9%83+%D9%85%D8%B9+%D8%A8%D9%8A%D9%86%D8%8C+%D8%B1%D8%A7%D8%AD+%D9%86%D8%AA%D9%88%D8%A7%D8%B5%D9%84+%D9%85%D8%B9%D8%A7%D9%83+%D8%AE%D9%84%D8%A7%D9%84+24+%D8%B3%D8%A7%D8%B9%D8%A9+%D8%A8%D8%AD%D9%88%D9%84+%D8%A7%D9%84%D9%84%D9%87.&searchArea=no"
+      src="https://bayn.freshdesk.com/widgets/feedback_widget/new?&widgetType=embedded&formTitle=Help+%26+support&submitTitle=Send&submitThanks=Thank+you&searchArea=no"
       scrolling="no"
       height="600px"
       width="100%"
