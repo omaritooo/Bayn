@@ -1,0 +1,10 @@
+{
+  "framework": null,
+  "buildCommand": "nuxt generate",
+  "outputDirectory": "dist",
+  "build": {
+    "env": {
+      "NODE_OPTIONS": "--openssl-legacy-provider"
+    }
+  }
+}
